@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* TournamentSchedulerAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {754, 597}}";
+			sepNavSelRange = "{812, 0}";
+			sepNavVisRange = "{0, 820}";
+			sepNavWindowFrame = "{{61, 273}, {750, 558}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* TournamentSchedulerAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1391}}";
+			sepNavSelRange = "{3247, 0}";
+			sepNavVisRange = "{2051, 1202}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* TournamentScheduler */ = {
+		activeExec = 0;
+		executables = (
+			BEABD05113359F260009CA1F /* TournamentScheduler */,
+		);
+	};
+	28216C950DB411BC00E5133A /* ProfileViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {670, 615}}";
+			sepNavSelRange = "{243, 0}";
+			sepNavVisRange = "{0, 253}";
+			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
+		};
+	};
+	28216C960DB411BC00E5133A /* ProfileViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 793}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1126}";
+		};
+	};
+	28A0AB4B0D9B1048005BE974 /* TournamentScheduler_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {782, 606}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 207}";
+			sepNavWindowFrame = "{{107, 231}, {750, 558}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = BEABD05113359F260009CA1F /* TournamentScheduler */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* TournamentScheduler */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* TournamentScheduler */,
+		);
+		breakpoints = (
+			BE09EA4F1335E12800BDF656 /* StandingsViewController.m:80 */,
+		);
+		codeSenseManager = BEABD06113359F3A0009CA1F /* Code sense */;
+		executables = (
+			BEABD05113359F260009CA1F /* TournamentScheduler */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					492,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 323371927;
+			PBXWorkspaceStateSaveDate = 323371927;
+		};
+		perUserProjectItems = {
+			BE0684D51345BEEF00F2DF6A = BE0684D51345BEEF00F2DF6A /* PBXTextBookmark */;
+			BE0781F6134643990027BC2A /* PBXTextBookmark */ = BE0781F6134643990027BC2A /* PBXTextBookmark */;
+			BE09E9341335D2AE00BDF656 = BE09E9341335D2AE00BDF656 /* PBXTextBookmark */;
+			BE09E9381335D2AE00BDF656 = BE09E9381335D2AE00BDF656 /* PBXTextBookmark */;
+			BE09E9621335D5B300BDF656 = BE09E9621335D5B300BDF656 /* PBXTextBookmark */;
+			BE126D521337BE7A0083CAA1 = BE126D521337BE7A0083CAA1 /* PBXTextBookmark */;
+			BE1B716513382464006F64A1 = BE1B716513382464006F64A1 /* PBXTextBookmark */;
+			BE1B716613382464006F64A1 = BE1B716613382464006F64A1 /* PBXTextBookmark */;
+			BE1B716713382464006F64A1 = BE1B716713382464006F64A1 /* PBXTextBookmark */;
+			BE1B716813382464006F64A1 = BE1B716813382464006F64A1 /* PBXTextBookmark */;
+			BE1B716913382464006F64A1 = BE1B716913382464006F64A1 /* PBXTextBookmark */;
+			BE1B716A13382464006F64A1 = BE1B716A13382464006F64A1 /* PBXTextBookmark */;
+			BE1B716B13382464006F64A1 = BE1B716B13382464006F64A1 /* PBXTextBookmark */;
+			BE1B716C13382464006F64A1 = BE1B716C13382464006F64A1 /* PBXTextBookmark */;
+			BE26208E13372B4C00BCE641 = BE26208E13372B4C00BCE641 /* PBXTextBookmark */;
+			BE2621031337328200BCE641 = BE2621031337328200BCE641 /* PBXTextBookmark */;
+			BE2621141337333C00BCE641 = BE2621141337333C00BCE641 /* PBXTextBookmark */;
+			BE49DDAA1346418D009CDA15 = BE49DDAA1346418D009CDA15 /* PBXTextBookmark */;
+			BE49DDAB1346418D009CDA15 = BE49DDAB1346418D009CDA15 /* PBXBookmark */;
+			BE49DDAC1346418D009CDA15 = BE49DDAC1346418D009CDA15 /* PBXBookmark */;
+			BE49DDAD1346418D009CDA15 = BE49DDAD1346418D009CDA15 /* PBXBookmark */;
+			BE49DDAE1346418D009CDA15 = BE49DDAE1346418D009CDA15 /* PBXBookmark */;
+			BE49DDAF1346418D009CDA15 = BE49DDAF1346418D009CDA15 /* PBXBookmark */;
+			BE49DDB01346418D009CDA15 = BE49DDB01346418D009CDA15 /* PBXBookmark */;
+			BE49DDB21346418D009CDA15 = BE49DDB21346418D009CDA15 /* PBXTextBookmark */;
+			BE4F1D38133807F5003883D0 = BE4F1D38133807F5003883D0 /* PBXTextBookmark */;
+			BE803E81134641EF0000A006 = BE803E81134641EF0000A006 /* PBXTextBookmark */;
+			BE906B0F1337D9BC00523831 = BE906B0F1337D9BC00523831 /* PBXTextBookmark */;
+			BE906B101337D9BC00523831 = BE906B101337D9BC00523831 /* PBXTextBookmark */;
+			BE9B0A91133801290066EAE0 = BE9B0A91133801290066EAE0 /* PBXTextBookmark */;
+			BEABD07A1335A7650009CA1F = BEABD07A1335A7650009CA1F /* PlistBookmark */;
+		};
+		sourceControlManager = BEABD06013359F3A0009CA1F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {670, 606}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 370}";
+			sepNavWindowFrame = "{{84, 252}, {750, 558}}";
+		};
+	};
+	8D1107310486CEB800E47090 /* TournamentScheduler-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{199, 147}, {750, 558}}";
+		};
+	};
+	BE0684D51345BEEF00F2DF6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE15C0A413366F7100B2170C /* DivisionStandingsViewController.m */;
+		name = "DivisionStandingsViewController.m: 82";
+		rLen = 0;
+		rLoc = 2456;
+		rType = 0;
+		vrLen = 1184;
+		vrLoc = 1813;
+	};
+	BE0781F6134643990027BC2A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C960DB411BC00E5133A /* ProfileViewController.m */;
+		name = "ProfileViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1126;
+		vrLoc = 0;
+	};
+	BE09E9341335D2AE00BDF656 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEABD0D91335B2F10009CA1F /* JSON.h */;
+		name = "JSON.h: 7";
+		rLen = 0;
+		rLoc = 222;
+		rType = 0;
+		vrLen = 2116;
+		vrLoc = 641;
+	};
+	BE09E9381335D2AE00BDF656 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEABD0E01335B2F10009CA1F /* SBJsonParser.h */;
+		name = "SBJsonParser.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1546;
+		vrLoc = 1669;
+	};
+	BE09E9621335D5B300BDF656 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEABD0E11335B2F10009CA1F /* SBJsonParser.m */;
+		name = "SBJsonParser.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1312;
+		vrLoc = 5679;
+	};
+	BE09EA4F1335E12800BDF656 /* StandingsViewController.m:80 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = BEABD0751335A73C0009CA1F /* StandingsViewController.m */;
+		functionName = "-tableView:cellForRowAtIndexPath:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 80;
+		location = TournamentScheduler;
+		modificationTime = 322298731.214404;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	BE126D521337BE7A0083CAA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEABD0E21335B2F10009CA1F /* SBJsonWriter.h */;
+		name = "SBJsonWriter.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2084;
+		vrLoc = 0;
+	};
+	BE15C0A313366F7100B2170C /* DivisionStandingsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {670, 617}}";
+			sepNavSelRange = "{459, 0}";
+			sepNavVisRange = "{0, 757}";
+			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
+		};
+	};
+	BE15C0A413366F7100B2170C /* DivisionStandingsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 2223}}";
+			sepNavSelRange = "{2456, 0}";
+			sepNavVisRange = "{1813, 1184}";
+		};
+	};
+	BE1B716513382464006F64A1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEABD06C1335A5C60009CA1F /* TeamViewController.h */;
+		name = "TeamViewController.h: 16";
+		rLen = 49;
+		rLoc = 240;
+		rType = 0;
+		vrLen = 296;
+		vrLoc = 0;
+	};
+	BE1B716613382464006F64A1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEABD0E91335B3880009CA1F /* TwitterTrends.h */;
+		name = "TwitterTrends.h: 9";
+		rLen = 265;
+		rLoc = 154;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	BE1B716713382464006F64A1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEABD0741335A73C0009CA1F /* StandingsViewController.h */;
+		name = "StandingsViewController.h: 16";
+		rLen = 64;
+		rLoc = 321;
+		rType = 0;
+		vrLen = 498;
+		vrLoc = 0;
+	};
+	BE1B716813382464006F64A1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEABD0751335A73C0009CA1F /* StandingsViewController.m */;
+		name = "StandingsViewController.m: 87";
+		rLen = 0;
+		rLoc = 2549;
+		rType = 0;
+		vrLen = 1499;
+		vrLoc = 1853;
+	};
+	BE1B716913382464006F64A1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEABD0EA1335B3880009CA1F /* TwitterTrends.m */;
+		name = "TwitterTrends.m: 57";
+		rLen = 0;
+		rLoc = 1839;
+		rType = 0;
+		vrLen = 1383;
+		vrLoc = 883;
+	};
+	BE1B716A13382464006F64A1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE906B171337DA3700523831 /* DivisionStandings.h */;
+		name = "DivisionStandings.h: 15";
+		rLen = 0;
+		rLoc = 286;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 0;
+	};
+	BE1B716B13382464006F64A1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE906B181337DA3700523831 /* DivisionStandings.m */;
+		name = "DivisionStandings.m: 68";
+		rLen = 0;
+		rLoc = 2333;
+		rType = 0;
+		vrLen = 1606;
+		vrLoc = 1217;
+	};
+	BE1B716C13382464006F64A1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE15C0A313366F7100B2170C /* DivisionStandingsViewController.h */;
+		name = "DivisionStandingsViewController.h: 18";
+		rLen = 0;
+		rLoc = 459;
+		rType = 0;
+		vrLen = 757;
+		vrLoc = 0;
+	};
+	BE26207B13372B1000BCE641 /* StandingsViewController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = StandingsViewController.m;
+		path = "/Users/pdud/Documents/Learning iPhone Programming/TournamentScheduler 2/StandingsViewController.m";
+		sourceTree = "<absolute>";
+	};
+	BE26208E13372B4C00BCE641 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE26207B13372B1000BCE641 /* StandingsViewController.m */;
+		name = "StandingsViewController.m: 9";
+		rLen = 0;
+		rLoc = 186;
+		rType = 0;
+		vrLen = 1450;
+		vrLoc = 0;
+	};
+	BE2621031337328200BCE641 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEABD0E31335B2F10009CA1F /* SBJsonWriter.m */;
+		name = "SBJsonWriter.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2022;
+		vrLoc = 0;
+	};
+	BE2621141337333C00BCE641 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C950DB411BC00E5133A /* ProfileViewController.h */;
+		name = "ProfileViewController.h: 13";
+		rLen = 0;
+		rLoc = 243;
+		rType = 0;
+		vrLen = 253;
+		vrLoc = 0;
+	};
+	BE49DDAA1346418D009CDA15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TournamentSchedulerAppDelegate.m */;
+		name = "TournamentSchedulerAppDelegate.m: 105";
+		rLen = 0;
+		rLoc = 3247;
+		rType = 0;
+		vrLen = 1202;
+		vrLoc = 2051;
+	};
+	BE49DDAB1346418D009CDA15 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BE49DD7513463F15009CDA15 /* teams3.png */;
+	};
+	BE49DDAC1346418D009CDA15 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BE49DD7613463F15009CDA15 /* teams2.png */;
+	};
+	BE49DDAD1346418D009CDA15 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BE49DD7713463F15009CDA15 /* teams1.png */;
+	};
+	BE49DDAE1346418D009CDA15 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BE49DD9713464050009CDA15 /* home.png */;
+	};
+	BE49DDAF1346418D009CDA15 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BE49DD9913464108009CDA15 /* standings4.png */;
+	};
+	BE49DDB01346418D009CDA15 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BE49DD8213463F4B009CDA15 /* fields4.png */;
+	};
+	BE49DDB21346418D009CDA15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C960DB411BC00E5133A /* ProfileViewController.m */;
+		name = "ProfileViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1164;
+		vrLoc = 0;
+	};
+	BE4F1D38133807F5003883D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* TournamentSchedulerAppDelegate.h */;
+		name = "TournamentSchedulerAppDelegate.h: 24";
+		rLen = 0;
+		rLoc = 812;
+		rType = 0;
+		vrLen = 820;
+		vrLoc = 0;
+	};
+	BE803E81134641EF0000A006 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C960DB411BC00E5133A /* ProfileViewController.m */;
+		name = "ProfileViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1130;
+		vrLoc = 0;
+	};
+	BE906B0F1337D9BC00523831 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28A0AB4B0D9B1048005BE974 /* TournamentScheduler_Prefix.pch */;
+		name = "TournamentScheduler_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 207;
+		vrLoc = 0;
+	};
+	BE906B101337D9BC00523831 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 370;
+		vrLoc = 0;
+	};
+	BE906B171337DA3700523831 /* DivisionStandings.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {670, 594}}";
+			sepNavSelRange = "{286, 0}";
+			sepNavVisRange = "{0, 444}";
+		};
+	};
+	BE906B181337DA3700523831 /* DivisionStandings.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1062, 1183}}";
+			sepNavSelRange = "{2333, 0}";
+			sepNavVisRange = "{1217, 1606}";
+		};
+	};
+	BE9B0A91133801290066EAE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEABD06D1335A5C60009CA1F /* TeamViewController.m */;
+		name = "TeamViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1284;
+		vrLoc = 0;
+	};
+	BEABD05113359F260009CA1F /* TournamentScheduler */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TournamentScheduler;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$fctrl = 1;
+			$fioff = 1;
+			$fiseg = 1;
+			$fooff = 1;
+			$fop = 1;
+			$foseg = 1;
+			$fs = 1;
+			$fstat = 1;
+			$ftag = 1;
+			$gs = 1;
+			$mxcsr = 1;
+			$ss = 1;
+		};
+	};
+	BEABD06013359F3A0009CA1F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	BEABD06113359F3A0009CA1F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	BEABD06C1335A5C60009CA1F /* TeamViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {670, 594}}";
+			sepNavSelRange = "{240, 49}";
+			sepNavVisRange = "{0, 296}";
+			sepNavWindowFrame = "{{130, 210}, {750, 558}}";
+		};
+	};
+	BEABD06D1335A5C60009CA1F /* TeamViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 858}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1284}";
+			sepNavWindowFrame = "{{153, 189}, {750, 558}}";
+		};
+	};
+	BEABD0741335A73C0009CA1F /* StandingsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {705, 594}}";
+			sepNavSelRange = "{321, 64}";
+			sepNavVisRange = "{0, 498}";
+			sepNavWindowFrame = "{{38, 294}, {750, 558}}";
+		};
+	};
+	BEABD0751335A73C0009CA1F /* StandingsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1547}}";
+			sepNavSelRange = "{2549, 0}";
+			sepNavVisRange = "{1853, 1499}";
+			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
+		};
+	};
+	BEABD07A1335A7650009CA1F /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* TournamentScheduler-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/pdud/Documents/Learning iPhone Programming/TournamentScheduler/TournamentScheduler-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	BEABD0D91335B2F10009CA1F /* JSON.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2070, 858}}";
+			sepNavSelRange = "{222, 0}";
+			sepNavVisRange = "{641, 2116}";
+		};
+	};
+	BEABD0E01335B2F10009CA1F /* SBJsonParser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {938, 1131}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1669, 1546}";
+		};
+	};
+	BEABD0E11335B2F10009CA1F /* SBJsonParser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {938, 6695}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{5679, 1312}";
+		};
+	};
+	BEABD0E21335B2F10009CA1F /* SBJsonWriter.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {670, 1534}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2084}";
+		};
+	};
+	BEABD0E31335B2F10009CA1F /* SBJsonWriter.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {670, 2990}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2022}";
+		};
+	};
+	BEABD0E91335B3880009CA1F /* TwitterTrends.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {670, 594}}";
+			sepNavSelRange = "{154, 265}";
+			sepNavVisRange = "{0, 419}";
+		};
+	};
+	BEABD0EA1335B3880009CA1F /* TwitterTrends.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1062, 1001}}";
+			sepNavSelRange = "{1839, 0}";
+			sepNavVisRange = "{883, 1383}";
+			sepNavWindowFrame = "{{176, 168}, {750, 558}}";
+		};
+	};
+}
