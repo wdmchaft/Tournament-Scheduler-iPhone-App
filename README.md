@@ -3,15 +3,13 @@ Tournament Scheduler iPhone App
 pdud
 
 
-Home
-----
+## Home
 
 ####  Home
 
 Save favorite teams for push alerts or quick viewing.
 
-Standings
-____
+## Standings
 
 #### standingsView
 
@@ -21,8 +19,7 @@ List all the divisions in a tableView for selection.
 
 Lists the standings for a certain division. Teams are ranked by points and only points at the moment. View shows team name, points, wins, and losses.
 
-Teams
-____
+## Teams
 
 #### teamView
 
@@ -36,8 +33,7 @@ Lists all the teams in selected section. Features a search box and a alphabetica
 
 Shows detailed information about the team. Features record, goals for, goals against, contact information, discipline.
 
-Games
-____
+## Games
 
 ### gamesView
 
@@ -51,8 +47,7 @@ Lists the games taking place at the current time or by division. The headers sho
 
 Shows a specific game. Shows options to view score, time, field, updates, discipline. 
 
-Fields
-____
+## Fields
 
 ### fieldsView
 
@@ -62,18 +57,17 @@ Lists the fields in a tableView. Also features a jump to site map/ location butt
 
 Lists the games taking place on a selected field. Again with a jump to site map/ location map button.
 
-About
-____
+## About
 
-## aboutView
+### aboutView
 
 Lists some general information about the MASC tournament.
 
-## rulesAboutView
+### rulesAboutView
 
 Lists the rules of the tournament.
 
-## contactAboutView
+### contactAboutView
 
 Lists the people to contact broken down by category.
 
