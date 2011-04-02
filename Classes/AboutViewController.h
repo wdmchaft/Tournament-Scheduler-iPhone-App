@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-
-@interface AboutViewController : UIViewController {
-
+@interface AboutViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>{
+	UITableView *aboutTableView;
 }
+
+@property (nonatomic, retain) IBOutlet UITableView *aboutTableView;
+@property (nonatomic, retain) NSArray *contentArray;
 
 @end
