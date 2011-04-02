@@ -10,9 +10,11 @@
 
 @interface AboutViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>{
 	UITableView *aboutTableView;
+	UITableViewCell *aboutContentCell;
 }
 
 @property (nonatomic, retain) IBOutlet UITableView *aboutTableView;
+@property (nonatomic, retain) IBOutlet UITableViewCell *aboutContentCell;
 @property (nonatomic, retain) NSArray *contentArray;
 
 @end

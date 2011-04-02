@@ -15,6 +15,7 @@
 @synthesize tabBarController;
 @synthesize standingsNavigationController;
 @synthesize tempIdHolder;
+@synthesize currentPage;
 
 
 #pragma mark -

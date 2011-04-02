@@ -20,7 +20,9 @@
 @implementation AboutViewController
 
 @synthesize aboutTableView;
+@synthesize aboutContentCell;
 @synthesize contentArray;
+
 
 #pragma mark -
 #pragma mark View lifecycle
@@ -65,19 +67,19 @@
 
 #pragma mark -
 #pragma mark Table view data source
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    
-	
-	// Return the number of sections.
-    return 3;
-}
+//
+//- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+//    
+//	
+//	// Return the number of sections.
+//    return 3;
+//}
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
 	
-	contentArray = [[NSArray arrayWithObjects:@"Home", @"Away", @"Test", @"Test2", nil] retain];
+	//contentArray = [[NSArray arrayWithObjects:@"Home", @"Away", @"Test", @"Test2", nil] retain];
 	return 1;
 }
 
@@ -85,37 +87,17 @@
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-	NSLog(@"Hello");
-	static NSString *CellIdentifier = @"Cell";
-	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-	if (cell == nil){
-		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
-	}
-	
-	int position = indexPath.section + indexPath.row + 1;
-	if (position == 1)
-	{
-		cell.textLabel.text = @"This will contain lots of text about MASC and some other fun stuff it will also contain and image a logo and a title, but for now this will do.";
 
-	}
-	
-	if (position == 2)
-	{
-		cell.textLabel.text = @"Rules";
-	}
-	
-	if (position == 3)
-	{
-		cell.textLabel.text = @"Contact";
-	}
-	
-	return cell;	
-}
+		return aboutContentCell;
 
-- (UITableViewCellAccessoryType)tableView:(UITableView *)tv accessoryTypeForRowWithIndexPath:(NSIndexPath *)indexPath
-{
-	return UITableViewCellAccessoryDisclosureIndicator;
+	
+		
 }
+//
+//- (UITableViewCellAccessoryType)tableView:(UITableView *)tv accessoryTypeForRowWithIndexPath:(NSIndexPath *)indexPath
+//{
+//	return UITableViewCellAccessoryDisclosureIndicator;
+//}
 
 /*
  // Override to support conditional editing of the table view.

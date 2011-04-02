@@ -19,6 +19,7 @@
 		BE15C0A613366F7100B2170C /* DivisionStandingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE15C0A413366F7100B2170C /* DivisionStandingsViewController.m */; };
 		BE15C0A713366F7100B2170C /* DivisionStandingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE15C0A513366F7100B2170C /* DivisionStandingsView.xib */; };
 		BE1B711D1338170E006F64A1 /* StandingsTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1B711C1338170E006F64A1 /* StandingsTableView.xib */; };
+		BE3EA73D13479ADF0075A2E5 /* masc-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BE3EA73C13479ADF0075A2E5 /* masc-logo.png */; };
 		BE49DD7813463F15009CDA15 /* teams3.png in Resources */ = {isa = PBXBuildFile; fileRef = BE49DD7513463F15009CDA15 /* teams3.png */; };
 		BE49DD7913463F15009CDA15 /* teams2.png in Resources */ = {isa = PBXBuildFile; fileRef = BE49DD7613463F15009CDA15 /* teams2.png */; };
 		BE49DD7A13463F15009CDA15 /* teams1.png in Resources */ = {isa = PBXBuildFile; fileRef = BE49DD7713463F15009CDA15 /* teams1.png */; };
@@ -80,6 +81,7 @@
 		BE15C0A413366F7100B2170C /* DivisionStandingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivisionStandingsViewController.m; sourceTree = "<group>"; };
 		BE15C0A513366F7100B2170C /* DivisionStandingsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DivisionStandingsView.xib; path = Classes/DivisionStandingsView.xib; sourceTree = "<group>"; };
 		BE1B711C1338170E006F64A1 /* StandingsTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StandingsTableView.xib; sourceTree = "<group>"; };
+		BE3EA73C13479ADF0075A2E5 /* masc-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "masc-logo.png"; sourceTree = "<group>"; };
 		BE49DD7513463F15009CDA15 /* teams3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teams3.png; sourceTree = "<group>"; };
 		BE49DD7613463F15009CDA15 /* teams2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teams2.png; sourceTree = "<group>"; };
 		BE49DD7713463F15009CDA15 /* teams1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teams1.png; sourceTree = "<group>"; };
@@ -249,6 +251,7 @@
 			children = (
 				BE64D49B13466B4D009C9073 /* masc4.png */,
 				BE64D49C13466B4D009C9073 /* masc5.png */,
+				BE3EA73C13479ADF0075A2E5 /* masc-logo.png */,
 				BE64D495134668C5009C9073 /* MASC3.png */,
 				BE64D496134668C5009C9073 /* MASC2.png */,
 				BE64D491134667BE009C9073 /* MASC.png */,
@@ -357,6 +360,7 @@
 				BEBE147A13468CF900258DFE /* GameView.xib in Resources */,
 				BEBE148D13468E1700258DFE /* FieldView.xib in Resources */,
 				BEBE149B1346900400258DFE /* AboutView.xib in Resources */,
+				BE3EA73D13479ADF0075A2E5 /* masc-logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

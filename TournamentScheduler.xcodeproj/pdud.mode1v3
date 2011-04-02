@@ -272,8 +272,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>28</integer>
-									<integer>1</integer>
+									<integer>45</integer>
+									<integer>36</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -297,7 +297,7 @@
 							<real>275</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>13 59 1028 819 0 0 1440 878 </string>
+						<string>99 59 1028 819 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -327,7 +327,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BE7BB24C1346C4A800B50C41</string>
+										<string>BE3EA7711347C3E70075A2E5</string>
 										<key>history</key>
 										<array>
 											<string>BEABD07A1335A7650009CA1F</string>
@@ -366,8 +366,9 @@
 											<string>BE7BB1DD1346B9D900B50C41</string>
 											<string>BE7BB2191346BC2000B50C41</string>
 											<string>BE7BB2211346BE6100B50C41</string>
-											<string>BE7BB2221346BE6100B50C41</string>
-											<string>BE7BB23E1346C1B000B50C41</string>
+											<string>BE3EA7401347AB550075A2E5</string>
+											<string>BE3EA7411347AB550075A2E5</string>
+											<string>BE3EA7421347AB550075A2E5</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -379,14 +380,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {731, 602}}</string>
+								<string>{{0, 0}, {731, 597}}</string>
 								<key>RubberWindowFrame</key>
-								<string>13 59 1028 819 0 0 1440 878 </string>
+								<string>99 59 1028 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>602pt</string>
+							<string>597pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -399,14 +400,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 607}, {731, 171}}</string>
+								<string>{{0, 602}, {731, 176}}</string>
 								<key>RubberWindowFrame</key>
-								<string>13 59 1028 819 0 0 1440 878 </string>
+								<string>99 59 1028 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>171pt</string>
+							<string>176pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -425,9 +426,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>BE7BB1671346B30700B50C41</string>
+				<string>BE3EA729134790840075A2E5</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>BE7BB1681346B30700B50C41</string>
+				<string>BE3EA72A134790840075A2E5</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -565,14 +566,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>BE7BB20D1346BBCB00B50C41</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>BEABD05E13359F3A0009CA1F</string>
 		<string>/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TournamentScheduler.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>13 59 1028 819 0 0 1440 878 </string>
+	<string>99 59 1028 819 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -593,7 +593,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AboutViewController.h</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -610,8 +610,6 @@
 							<string>143pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -651,7 +649,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>BEABD05E13359F3A0009CA1F</string>
-				<string>BE7BB1691346B30700B50C41</string>
+				<string>BE3EA72B134790840075A2E5</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -664,7 +662,7 @@
 			<key>WindowToolGUID</key>
 			<string>BEABD05E13359F3A0009CA1F</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -773,13 +771,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>BE7BB1731346B3A400B50C41</string>
+				<string>BE3EA72F134797900075A2E5</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>BE7BB1741346B3A400B50C41</string>
-				<string>BE7BB1751346B3A400B50C41</string>
-				<string>BE7BB1761346B3A400B50C41</string>
-				<string>BE7BB1771346B3A400B50C41</string>
-				<string>BE7BB1781346B3A400B50C41</string>
+				<string>BE3EA730134797900075A2E5</string>
+				<string>BE3EA731134797900075A2E5</string>
+				<string>BE3EA732134797900075A2E5</string>
+				<string>BE3EA733134797900075A2E5</string>
+				<string>BE3EA734134797900075A2E5</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -906,8 +904,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -943,7 +939,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>BE7BB1791346B3A400B50C41</string>
+				<string>BE3EA735134797900075A2E5</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -953,7 +949,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
