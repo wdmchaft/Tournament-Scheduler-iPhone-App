@@ -42,25 +42,36 @@
 -(void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error{
 	// Handle Error
 	NSLog(@"UHOH ERROR");
+	UIAlertView *errorAlert = [[UIAlertView alloc] initWithTitle:@"Error" message:[error localizedDescription] delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+	[errorAlert show];
+	[errorAlert release];
+	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
 }
 
 -(void)connectionDidFinishLoading:(NSURLConnection *)connection{
 	NSString *content = [[NSString alloc] initWithBytes:[responseData bytes] length:[responseData length] encoding:NSUTF8StringEncoding];
 	NSLog(@"Data = %@", content);
-	
 	SBJsonParser *parser = [[SBJsonParser alloc] init];
-	NSArray *trends = [parser objectWithString:content];
 	
-	for (NSDictionary *trend in trends) {
-		//NSLog(@"Name = %@", [trend objectForKey:@"name"]);
-		[viewController.names addObject:[trend objectForKey:@"name"]];
-		[viewController.urls addObject:[trend objectForKey:@"id"]];
+	NSError *error;
+	NSDictionary *json = [parser objectWithString:content error:&error];
+	
+	if(json == nil){
+		UIAlertView *errorAlert = [[UIAlertView alloc] initWithTitle:@"Error" message:[error localizedDescription] delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+		[errorAlert show];
+		[errorAlert release];
+	}else {
+		
+		NSArray *trends = [parser objectWithString:content];
+		
+		for (NSDictionary *trend in trends) {
+			[viewController.names addObject:[trend objectForKey:@"name"]];
+			[viewController.urls addObject:[trend objectForKey:@"id"]];
+		}
+		
 	}
-	NSLog(@"names count = %@", viewController.names);
 	[parser release];
-	NSLog(@"Parser Released");
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
-	NSLog(@"Network Indicator Disabled");
 	[viewController.serviceView reloadData];
 }
 

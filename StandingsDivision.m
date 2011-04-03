@@ -56,24 +56,32 @@
 	NSString *content = [[NSString alloc] initWithBytes:[responseData bytes] length:[responseData length] encoding:NSUTF8StringEncoding];
 	NSLog(@"Data = %@", content);
 	
+	
+	
 	SBJsonParser *parser = [[SBJsonParser alloc] init];
 	NSArray *trends = [parser objectWithString:content];
 	
-	for (NSDictionary *trend in trends) {
-		NSLog(@"Name = %@", [trend objectForKey:@"name"]);
-		NSLog(@"Points = %@", [trend objectForKey:@"points"]);
-		[viewController.names addObject:[trend objectForKey:@"name"]];
-		[viewController.pts addObject:[trend objectForKey:@"points"]];
-		[viewController.wins addObject:[trend objectForKey:@"wins"]];
-		[viewController.draws addObject:[trend objectForKey:@"ties"]];
-		[viewController.losses addObject:[trend objectForKey:@"losses"]];
+	NSError *error;
+	NSDictionary *json = [parser objectWithString:content error:&error];
+	
+	if(json == nil){
+		UIAlertView *errorAlert = [[UIAlertView alloc] initWithTitle:@"Error" message:[error localizedDescription] delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+		[errorAlert show];
+		[errorAlert release];
+	}else {
+	
+		for (NSDictionary *trend in trends) {
+			NSLog(@"Name = %@", [trend objectForKey:@"name"]);
+			NSLog(@"Points = %@", [trend objectForKey:@"points"]);
+			[viewController.names addObject:[trend objectForKey:@"name"]];
+			[viewController.pts addObject:[trend objectForKey:@"points"]];
+			[viewController.wins addObject:[trend objectForKey:@"wins"]];
+			[viewController.draws addObject:[trend objectForKey:@"ties"]];
+			[viewController.losses addObject:[trend objectForKey:@"losses"]];
+		}
+		[parser release];
 	}
-	NSLog(@"names count = %@", viewController.names);
-	NSLog(@"points count = %@", viewController.pts);
-	[parser release];
-	NSLog(@"Parser Released");
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
-	NSLog(@"Network Indicator Disabled");
 	[viewController.serviceView reloadData];
 }
 
