@@ -70,6 +70,10 @@
 		BEDDCBE31348275E00B00EA3 /* karenDudley.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDDCBDF1348275E00B00EA3 /* karenDudley.png */; };
 		BEEC23921348D808001669CC /* AboutContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEC23901348D808001669CC /* AboutContactDetailViewController.m */; };
 		BEEC23931348D808001669CC /* AboutContactDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEEC23911348D808001669CC /* AboutContactDetailView.xib */; };
+		BEEC240F1348DE94001669CC /* karenDudleyLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = BEEC240B1348DE94001669CC /* karenDudleyLarge.png */; };
+		BEEC24101348DE94001669CC /* robertThomasLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = BEEC240C1348DE94001669CC /* robertThomasLarge.png */; };
+		BEEC24111348DE94001669CC /* brianDudleyLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = BEEC240D1348DE94001669CC /* brianDudleyLarge.png */; };
+		BEEC24121348DE94001669CC /* philDudleyLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = BEEC240E1348DE94001669CC /* philDudleyLarge.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -158,6 +162,10 @@
 		BEEC238F1348D808001669CC /* AboutContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutContactDetailViewController.h; sourceTree = "<group>"; };
 		BEEC23901348D808001669CC /* AboutContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutContactDetailViewController.m; sourceTree = "<group>"; };
 		BEEC23911348D808001669CC /* AboutContactDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutContactDetailView.xib; path = Classes/AboutContactDetailView.xib; sourceTree = "<group>"; };
+		BEEC240B1348DE94001669CC /* karenDudleyLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = karenDudleyLarge.png; sourceTree = "<group>"; };
+		BEEC240C1348DE94001669CC /* robertThomasLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robertThomasLarge.png; sourceTree = "<group>"; };
+		BEEC240D1348DE94001669CC /* brianDudleyLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brianDudleyLarge.png; sourceTree = "<group>"; };
+		BEEC240E1348DE94001669CC /* philDudleyLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = philDudleyLarge.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -342,6 +350,10 @@
 		BEDDCBDB1348274600B00EA3 /* contacts */ = {
 			isa = PBXGroup;
 			children = (
+				BEEC240B1348DE94001669CC /* karenDudleyLarge.png */,
+				BEEC240C1348DE94001669CC /* robertThomasLarge.png */,
+				BEEC240D1348DE94001669CC /* brianDudleyLarge.png */,
+				BEEC240E1348DE94001669CC /* philDudleyLarge.png */,
 				BEDDCBDC1348275E00B00EA3 /* brianDudley.png */,
 				BEDDCBDD1348275E00B00EA3 /* robertThomas.png */,
 				BEDDCBDE1348275E00B00EA3 /* philDudley.png */,
@@ -484,6 +496,10 @@
 				BEDDCBE21348275E00B00EA3 /* philDudley.png in Resources */,
 				BEDDCBE31348275E00B00EA3 /* karenDudley.png in Resources */,
 				BEEC23931348D808001669CC /* AboutContactDetailView.xib in Resources */,
+				BEEC240F1348DE94001669CC /* karenDudleyLarge.png in Resources */,
+				BEEC24101348DE94001669CC /* robertThomasLarge.png in Resources */,
+				BEEC24111348DE94001669CC /* brianDudleyLarge.png in Resources */,
+				BEEC24121348DE94001669CC /* philDudleyLarge.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

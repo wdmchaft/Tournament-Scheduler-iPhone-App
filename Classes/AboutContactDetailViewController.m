@@ -11,18 +11,21 @@
 
 @implementation AboutContactDetailViewController
 
+@synthesize headerView;
+
 
 #pragma mark -
 #pragma mark View lifecycle
 
 /*
 - (void)viewDidLoad {
+	
     [super viewDidLoad];
 
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
-*/
+ */
 
 /*
 - (void)viewWillAppear:(BOOL)animated {
@@ -56,9 +59,19 @@
 #pragma mark -
 #pragma mark Table view data source
 
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+	UILabel *theLabel = (UILabel *)[headerView viewWithTag:2];
+	theLabel.text  = @"Test";
+	return headerView;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+	return 105;
+}
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
-    return 2;
+    return 1;
 }
 
 
@@ -77,11 +90,14 @@
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
+	
+
     
     // Configure the cell...
     
     return cell;
 }
+
 
 
 /*

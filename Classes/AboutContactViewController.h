@@ -10,7 +10,7 @@
 
 
 @interface AboutContactViewController : UIViewController {
-	UITableView *aboutContactTableView;
+
 	
 	
 	NSArray *categoryList;
@@ -18,14 +18,25 @@
 	NSArray *nameList;
 	NSArray *imageList;
 	
+	
+	
+	// For the detailViewController
+	NSArray *mobileList;
+	NSArray *emailList;
+	NSArray *titleList;
+	NSArray *contactImages;
 }
 
 
-@property (nonatomic, retain) IBOutlet UITableView *aboutContactTableView;
 @property (nonatomic, retain) NSArray *categoryList;
 @property (nonatomic, retain) NSArray *categoryCountList;
 @property (nonatomic, retain) NSArray *nameList;
 @property (nonatomic, retain) NSArray *imageList;
+
+@property (nonatomic, retain) NSArray *mobileList;
+@property (nonatomic, retain) NSArray *emailList;
+@property (nonatomic, retain) NSArray *titleList;
+@property (nonatomic, retain) NSArray *contactImages;
 
 
 

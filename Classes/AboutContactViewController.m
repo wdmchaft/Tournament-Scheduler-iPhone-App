@@ -12,11 +12,17 @@
 
 @implementation AboutContactViewController
 
-@synthesize aboutContactTableView;
 @synthesize categoryList;
 @synthesize categoryCountList;
 @synthesize nameList;
 @synthesize imageList;
+
+@synthesize mobileList;
+@synthesize emailList;
+@synthesize titleList;
+@synthesize contactImages;
+
+
 
 #pragma mark -
 #pragma mark View lifecycle
@@ -55,6 +61,41 @@
 	[brianDudley release];
 	[karenDudley release];
 	[philipDudley release];
+	
+	
+	///////////////// DETAIL PAGE ///////////////////
+	
+	// Mobile List
+	NSArray *mobiles = [[NSArray alloc] initWithObjects: @"781-608-5583", @"774-291-1004", @"774-291-1019", @"774-291-9375", nil];
+	self.mobileList = mobiles;
+	[mobiles release];
+	
+	// Email List
+	NSArray *emails = [[NSArray alloc] initWithObjects: @"rft@asthomas.com", @"bd8134@gmail.com", @"dudley.ekaren@gmail.com", @"pdudley89@gmail.com", nil];
+	self.emailList = emails;
+	[emails release];
+	
+	// Title List
+	NSArray *titles = [[NSArray alloc] initWithObjects: @"Site Owner and Tournament Administrator", @"Urinal Cake Maintenance", @"Angry Woman at Tent", @"iPhone App Developer Web App Developer", nil];
+	self.titleList = titles;
+	[titles release];
+	
+	// Large Images
+	UIImage *robertThomasLarge = [UIImage imageNamed:@"robertThomasLarge.png"];
+	UIImage *brianDudleyLarge = [UIImage imageNamed:@"brianDudleyLarge.png"];
+	UIImage *karenDudleyLarge = [UIImage imageNamed:@"karenDudleyLarge.png"];
+	UIImage *philipDudleyLarge = [UIImage imageNamed:@"philDudleyLarge.png"];
+	NSArray *imagesLarge = [[NSArray alloc] initWithObjects: robertThomasLarge, brianDudleyLarge, karenDudleyLarge, philipDudleyLarge, nil];
+	self.contactImages = imagesLarge;
+	
+	// Release the dummy array
+	[imagesLarge release];
+	
+	// Release the UIImage objects
+	[robertThomasLarge release];
+	[brianDudleyLarge release];
+	[karenDudleyLarge release];
+	[philipDudleyLarge release];
 	
     [super viewDidLoad];
 
@@ -200,11 +241,21 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	
     // Navigation logic may go here. Create and push another view controller.
     AboutContactDetailViewController *detailViewController = [[AboutContactDetailViewController alloc] init];
-    // ...
+	
+	
+	// Set the title for the cell
+	detailViewController.navigationItem.title = @"Info";
+	
+	
+	//detailViewController.headerView.
+	
     // Pass the selected object to the new view controller.
     [self.navigationController pushViewController:detailViewController animated:YES];
+	[tableView deselectRowAtIndexPath:indexPath animated:YES];
+	
     [detailViewController release];
 }
 

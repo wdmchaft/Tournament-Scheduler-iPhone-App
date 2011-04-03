@@ -9,8 +9,11 @@
 #import <UIKit/UIKit.h>
 
 
-@interface AboutContactDetailViewController : UITableViewController {
-
+@interface AboutContactDetailViewController : UIViewController {
+	UIView *headerView;
 }
+
+@property (nonatomic, retain) IBOutlet UIView *headerView;
+
 
 @end
