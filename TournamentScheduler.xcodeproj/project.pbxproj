@@ -60,6 +60,10 @@
 		BEBE148D13468E1700258DFE /* FieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEBE148B13468E1700258DFE /* FieldView.xib */; };
 		BEBE149A1346900400258DFE /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE14981346900400258DFE /* AboutViewController.m */; };
 		BEBE149B1346900400258DFE /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEBE14991346900400258DFE /* AboutView.xib */; };
+		BEDDC8F21347E15000B00EA3 /* AboutRulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDDC8F01347E15000B00EA3 /* AboutRulesViewController.m */; };
+		BEDDC8F31347E15000B00EA3 /* AboutRulesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEDDC8F11347E15000B00EA3 /* AboutRulesView.xib */; };
+		BEDDC9891347EC5B00B00EA3 /* AboutContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDDC9871347EC5B00B00EA3 /* AboutContactViewController.m */; };
+		BEDDC98A1347EC5B00B00EA3 /* AboutContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEDDC9881347EC5B00B00EA3 /* AboutContactViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -135,6 +139,12 @@
 		BEBE14971346900400258DFE /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		BEBE14981346900400258DFE /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		BEBE14991346900400258DFE /* AboutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutView.xib; path = Classes/AboutView.xib; sourceTree = "<group>"; };
+		BEDDC8EF1347E15000B00EA3 /* AboutRulesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutRulesViewController.h; sourceTree = "<group>"; };
+		BEDDC8F01347E15000B00EA3 /* AboutRulesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutRulesViewController.m; sourceTree = "<group>"; };
+		BEDDC8F11347E15000B00EA3 /* AboutRulesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutRulesView.xib; path = Classes/AboutRulesView.xib; sourceTree = "<group>"; };
+		BEDDC9861347EC5B00B00EA3 /* AboutContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutContactViewController.h; sourceTree = "<group>"; };
+		BEDDC9871347EC5B00B00EA3 /* AboutContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutContactViewController.m; sourceTree = "<group>"; };
+		BEDDC9881347EC5B00B00EA3 /* AboutContactViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutContactViewController.xib; path = Classes/AboutContactViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +191,10 @@
 				BEBE148A13468E1700258DFE /* FieldViewController.m */,
 				BEBE14971346900400258DFE /* AboutViewController.h */,
 				BEBE14981346900400258DFE /* AboutViewController.m */,
+				BEDDC8EF1347E15000B00EA3 /* AboutRulesViewController.h */,
+				BEDDC8F01347E15000B00EA3 /* AboutRulesViewController.m */,
+				BEDDC9861347EC5B00B00EA3 /* AboutContactViewController.h */,
+				BEDDC9871347EC5B00B00EA3 /* AboutContactViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -222,6 +236,8 @@
 			isa = PBXGroup;
 			children = (
 				BEBE14991346900400258DFE /* AboutView.xib */,
+				BEDDC8F11347E15000B00EA3 /* AboutRulesView.xib */,
+				BEDDC9881347EC5B00B00EA3 /* AboutContactViewController.xib */,
 				BEBE148B13468E1700258DFE /* FieldView.xib */,
 				BEBE147813468CF900258DFE /* GameView.xib */,
 				BEE7C69D1336BE770062373D /* tab-bar */,
@@ -361,6 +377,8 @@
 				BEBE148D13468E1700258DFE /* FieldView.xib in Resources */,
 				BEBE149B1346900400258DFE /* AboutView.xib in Resources */,
 				BE3EA73D13479ADF0075A2E5 /* masc-logo.png in Resources */,
+				BEDDC8F31347E15000B00EA3 /* AboutRulesView.xib in Resources */,
+				BEDDC98A1347EC5B00B00EA3 /* AboutContactViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +405,8 @@
 				BEBE147913468CF900258DFE /* GameViewController.m in Sources */,
 				BEBE148C13468E1700258DFE /* FieldViewController.m in Sources */,
 				BEBE149A1346900400258DFE /* AboutViewController.m in Sources */,
+				BEDDC8F21347E15000B00EA3 /* AboutRulesViewController.m in Sources */,
+				BEDDC9891347EC5B00B00EA3 /* AboutContactViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

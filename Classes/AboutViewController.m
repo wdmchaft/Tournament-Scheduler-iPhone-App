@@ -15,13 +15,14 @@
 //
 
 #import "AboutViewController.h"
+#import "AboutRulesViewController.h"
+#import "AboutContactViewController.h"
 
 
 @implementation AboutViewController
 
 @synthesize aboutTableView;
 @synthesize aboutContentCell;
-@synthesize contentArray;
 
 
 #pragma mark -
@@ -67,19 +68,26 @@
 
 #pragma mark -
 #pragma mark Table view data source
-//
-//- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-//    
-//	
-//	// Return the number of sections.
-//    return 3;
-//}
 
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    
+	
+	// Return the number of sections.
+    return 3;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{	
+	if (indexPath.section + indexPath.row + 1 == 1)
+	{
+		return 286;		
+	}
+    return 44; 
+}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
 	
-	//contentArray = [[NSArray arrayWithObjects:@"Home", @"Away", @"Test", @"Test2", nil] retain];
 	return 1;
 }
 
@@ -87,17 +95,44 @@
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-
-		return aboutContentCell;
+	static NSString *CellIdentifier = @"Cell";
+	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+	if (cell == nil){
+		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
+	}
+	
+	if (indexPath.section + indexPath.row + 1 == 1)
+	{
+		return aboutContentCell;		
+	}
+	
+	if (indexPath.section + indexPath.row + 1 == 2)
+	{
+		cell.textLabel.text = @"Rules";
+		return cell;
+	}
+	
+	if (indexPath.section + indexPath.row + 1 == 3)
+	{
+		cell.textLabel.text = @"Contact";
+		return cell;
+	}
+	
+	return cell;
 
 	
 		
 }
-//
-//- (UITableViewCellAccessoryType)tableView:(UITableView *)tv accessoryTypeForRowWithIndexPath:(NSIndexPath *)indexPath
-//{
-//	return UITableViewCellAccessoryDisclosureIndicator;
-//}
+
+// Adds selection type
+- (UITableViewCellAccessoryType)tableView:(UITableView *)tv accessoryTypeForRowWithIndexPath:(NSIndexPath *)indexPath
+{
+	if (indexPath.section + indexPath.row + 1 == 1)
+	{
+		return UITableViewCellAccessoryNone;		
+	}
+	return UITableViewCellAccessoryDisclosureIndicator;
+}
 
 /*
  // Override to support conditional editing of the table view.
@@ -144,13 +179,24 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
-    /*
-	 //<#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-	 // ...
+
+	if (indexPath.section + indexPath.row + 1 == 2){
+	 AboutRulesViewController *aboutRulesView = [[AboutRulesViewController alloc] init];
+	 aboutRulesView.navigationItem.title = (@"Rules");
 	 // Pass the selected object to the new view controller.
-	 [self.navigationController pushViewController:detailViewController animated:YES];
-	 [detailViewController release];
-	 */
+	 [self.navigationController pushViewController:aboutRulesView animated:YES];
+	 [aboutRulesView release];
+	}
+	
+	else if (indexPath.section + indexPath.row + 1 == 3){
+		AboutContactViewController *aboutContactView = [[AboutContactViewController alloc] init];
+		aboutContactView.navigationItem.title = (@"Contact");
+		// Pass the selected object to the new view controller.
+		[self.navigationController pushViewController:aboutContactView animated:YES];
+		[aboutContactView release];
+	}
+	
+	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 

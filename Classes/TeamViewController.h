@@ -13,6 +13,5 @@
 
 }
 
-- (id)initWithIndexPath:(NSIndexPath *)indexPath;
 
 @end
