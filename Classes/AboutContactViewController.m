@@ -246,10 +246,43 @@
     AboutContactDetailViewController *detailViewController = [[AboutContactDetailViewController alloc] init];
 	
 	
+	
+	
+	
+	
 	// Set the title for the cell
 	detailViewController.navigationItem.title = @"Info";
 	
 	
+	if(indexPath.section == 0){
+		detailViewController.mainTitle = [nameList objectAtIndex:0];
+		detailViewController.subTitle = [titleList objectAtIndex:0];
+		detailViewController.email = [emailList objectAtIndex:0];
+		detailViewController.mobile = [mobileList objectAtIndex:0];
+		detailViewController.imageLarge = [contactImages objectAtIndex:0];
+	}else if (indexPath.section == 1) {
+		if (indexPath.row == 0) {
+			detailViewController.mainTitle = [nameList objectAtIndex:1];
+			detailViewController.subTitle = [titleList objectAtIndex:1];
+			detailViewController.email = [emailList objectAtIndex:1];
+			detailViewController.mobile = [mobileList objectAtIndex:1];
+			detailViewController.imageLarge = [contactImages objectAtIndex:1];
+		}
+		else {
+			detailViewController.mainTitle = [nameList objectAtIndex:2];
+			detailViewController.subTitle = [titleList objectAtIndex:2];
+			detailViewController.email = [emailList objectAtIndex:2];
+			detailViewController.mobile = [mobileList objectAtIndex:2];
+			detailViewController.imageLarge = [contactImages objectAtIndex:2];
+		}
+	}
+	else {
+		detailViewController.mainTitle = [nameList objectAtIndex:3];
+		detailViewController.subTitle = [titleList objectAtIndex:3];
+		detailViewController.email = [emailList objectAtIndex:3];
+		detailViewController.mobile = [mobileList objectAtIndex:3];
+		detailViewController.imageLarge = [contactImages objectAtIndex:3];
+	}
 	//detailViewController.headerView.
 	
     // Pass the selected object to the new view controller.

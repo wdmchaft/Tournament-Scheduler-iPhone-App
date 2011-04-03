@@ -13,6 +13,12 @@
 
 @synthesize headerView;
 
+@synthesize imageLarge;
+@synthesize mainTitle;
+@synthesize subTitle;
+@synthesize mobile;
+@synthesize email;
+
 
 #pragma mark -
 #pragma mark View lifecycle
@@ -60,8 +66,17 @@
 #pragma mark Table view data source
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
-	UILabel *theLabel = (UILabel *)[headerView viewWithTag:2];
-	theLabel.text  = @"Test";
+	
+	UIImageView *imageView = (UIImageView *)[headerView viewWithTag:1];
+	imageView.image = imageLarge;
+	
+	UILabel *nameLabel = (UILabel *)[headerView viewWithTag:2];
+	nameLabel.text  = mainTitle;
+	
+	UILabel *titleLabel = (UILabel *)[headerView viewWithTag:3];
+	titleLabel.text  = subTitle;
+	
+	
 	return headerView;
 }
 
@@ -77,6 +92,10 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
+	if (mainTitle == @"Philip Dudley") {
+		return 3;
+	}
+	
     return 2;
 }
 
@@ -88,9 +107,24 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:CellIdentifier] autorelease];
     }
 	
+	if (indexPath.row == 0) {
+		cell.textLabel.text = @"mobile";
+		cell.detailTextLabel.text = mobile;
+	}
+	else if(indexPath.row == 1){
+		cell.textLabel.text = @"email";
+		cell.detailTextLabel.text = email;
+	}
+	
+	else if (indexPath.row == 2) {
+		cell.textLabel.text = @"site";
+		cell.detailTextLabel.text = @"www.phildudley.com";
+	}
+	
+		
 
     
     // Configure the cell...
@@ -144,7 +178,27 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here. Create and push another view controller.
+    
+	if (indexPath.row == 0) {
+		NSString *prefix = @"tel://";
+		NSString *theUrl =[prefix stringByAppendingString:mobile];
+		[[UIApplication sharedApplication] openURL:[NSURL URLWithString: theUrl]];
+	}
+	else if(indexPath.row == 1){
+		NSString *prefix = @"mailto:";
+		NSString *theUrl =[prefix stringByAppendingString:email];
+		[[UIApplication sharedApplication] openURL:[NSURL URLWithString: theUrl]];
+		//cell.textLabel.text = @"email";
+		//cell.detailTextLabel.text = email;
+	}
+	
+	else if (indexPath.row == 2) {
+		[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"http://www.phildudley.com"]];
+	}
+	
+	[tableView deselectRowAtIndexPath:indexPath animated:YES];
+	
+	// Navigation logic may go here. Create and push another view controller.
     /*
     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
     // ...
