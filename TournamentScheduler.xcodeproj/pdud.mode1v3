@@ -274,7 +274,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>14</integer>
+									<integer>8</integer>
 									<integer>6</integer>
 									<integer>1</integer>
 									<integer>0</integer>
@@ -318,7 +318,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AboutContactDetailViewController.m</string>
+								<string>AboutViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,11 +326,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>AboutContactDetailViewController.m</string>
+										<string>AboutViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BEEC258F13492758001669CC</string>
+										<string>BEEC25AA13492A90001669CC</string>
 										<key>history</key>
 										<array>
 											<string>BE09E9381335D2AE00BDF656</string>
@@ -368,17 +368,17 @@
 											<string>BEDDCB501348150D00B00EA3</string>
 											<string>BEDDCCCE13484C8E00B00EA3</string>
 											<string>BEEC23C11348DADD001669CC</string>
-											<string>BEEC23C21348DADD001669CC</string>
-											<string>BEEC23D01348DB7C001669CC</string>
-											<string>BEEC241E1348E0EE001669CC</string>
 											<string>BEEC24831348F7C1001669CC</string>
 											<string>BEEC24E21348FF09001669CC</string>
-											<string>BEEC24FD13490298001669CC</string>
-											<string>BEEC254E1349225A001669CC</string>
 											<string>BEEC25551349234E001669CC</string>
 											<string>BEEC257313492485001669CC</string>
-											<string>BEEC25891349271F001669CC</string>
-											<string>BEEC258A1349271F001669CC</string>
+											<string>BEEC259C13492A2A001669CC</string>
+											<string>BEEC259D13492A2A001669CC</string>
+											<string>BEEC259E13492A2A001669CC</string>
+											<string>BEEC259F13492A2A001669CC</string>
+											<string>BEEC25A013492A2A001669CC</string>
+											<string>BEEC25A113492A2A001669CC</string>
+											<string>BEEC23D01348DB7C001669CC</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -674,7 +674,7 @@
 			<key>WindowToolGUID</key>
 			<string>BEABD05E13359F3A0009CA1F</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

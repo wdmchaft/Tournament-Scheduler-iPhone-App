@@ -257,6 +257,16 @@
 
 
 - (void)dealloc {
+	
+	[headerView release];
+	[footerView release];
+	
+	[imageLarge release];
+	[mainTitle release];
+	[subTitle release];
+	[mobile release];
+	[email release];
+	
     [super dealloc];
 }
 

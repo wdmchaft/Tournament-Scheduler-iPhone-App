@@ -109,12 +109,14 @@
 	
 	if (indexPath.section + indexPath.row + 1 == 2)
 	{
+		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 		cell.textLabel.text = @"Rules";
 		return cell;
 	}
 	
 	if (indexPath.section + indexPath.row + 1 == 3)
 	{
+		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 		cell.textLabel.text = @"Contact";
 		return cell;
 	}
@@ -123,16 +125,6 @@
 
 	
 		
-}
-
-// Adds selection type
-- (UITableViewCellAccessoryType)tableView:(UITableView *)tv accessoryTypeForRowWithIndexPath:(NSIndexPath *)indexPath
-{
-	if (indexPath.section + indexPath.row + 1 == 1)
-	{
-		return UITableViewCellAccessoryNone;		
-	}
-	return UITableViewCellAccessoryDisclosureIndicator;
 }
 
 /*
