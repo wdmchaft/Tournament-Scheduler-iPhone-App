@@ -8,7 +8,7 @@
 
 #import "StandingsViewController.h"
 #import "TwitterTrends.h"
-#import "DivisionStandingsViewController.h"
+#import "StandingsDivisionViewController.h"
 #import "TournamentSchedulerAppDelegate.h"
 
 @implementation StandingsViewController
@@ -107,7 +107,7 @@
 	
 	
 	
-	DivisionStandingsViewController *divisionStandingsView = [[DivisionStandingsViewController alloc] init];
+	StandingsDivisionViewController *divisionStandingsView = [[StandingsDivisionViewController alloc] init];
 	divisionStandingsView.navigationItem.title = (@"%@", divName);
 	[delegate.standingsNavigationController pushViewController:divisionStandingsView animated:YES];
 	[divisionStandingsView release];

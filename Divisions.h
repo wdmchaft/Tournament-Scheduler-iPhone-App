@@ -1,18 +1,17 @@
 //
-//  DivisionStandings.h
+//  Divisions.h
 //  TournamentScheduler
 //
-//  Created by Philip Dudley on 3/21/11.
+//  Created by Philip Dudley on 3/20/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@class StandingsDivisionViewController;
+@class StandingsViewController;
 
-
-@interface DivisionStandings : NSObject {
-	StandingsDivisionViewController *viewController;
+@interface Divisions : NSObject {
+	StandingsViewController *standingsViewController;
 	NSMutableData *responseData;
 	NSURL *theURL;
 }

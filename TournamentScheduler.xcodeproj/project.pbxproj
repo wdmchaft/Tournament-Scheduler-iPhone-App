@@ -11,13 +11,13 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		28216C970DB411BC00E5133A /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* ProfileViewController.m */; };
-		282CCBFE0DB6C98000C4EA27 /* TeamView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* TeamView.xib */; };
-		2840D7CE1179279E00D7F93C /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2840D7CD1179279E00D7F93C /* ProfileView.xib */; };
+		28216C970DB411BC00E5133A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* HomeViewController.m */; };
+		282CCBFE0DB6C98000C4EA27 /* TeamsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* TeamsView.xib */; };
+		2840D7CE1179279E00D7F93C /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2840D7CD1179279E00D7F93C /* HomeView.xib */; };
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
 		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
-		BE15C0A613366F7100B2170C /* DivisionStandingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE15C0A413366F7100B2170C /* DivisionStandingsViewController.m */; };
-		BE15C0A713366F7100B2170C /* DivisionStandingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE15C0A513366F7100B2170C /* DivisionStandingsView.xib */; };
+		BE15C0A613366F7100B2170C /* StandingsDivisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE15C0A413366F7100B2170C /* StandingsDivisionViewController.m */; };
+		BE15C0A713366F7100B2170C /* StandingsDivisionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE15C0A513366F7100B2170C /* StandingsDivisionView.xib */; };
 		BE1B711D1338170E006F64A1 /* StandingsTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1B711C1338170E006F64A1 /* StandingsTableView.xib */; };
 		BE3EA73D13479ADF0075A2E5 /* masc-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BE3EA73C13479ADF0075A2E5 /* masc-logo.png */; };
 		BE49DD7813463F15009CDA15 /* teams3.png in Resources */ = {isa = PBXBuildFile; fileRef = BE49DD7513463F15009CDA15 /* teams3.png */; };
@@ -45,7 +45,7 @@
 		BE64D49D13466B4D009C9073 /* masc4.png in Resources */ = {isa = PBXBuildFile; fileRef = BE64D49B13466B4D009C9073 /* masc4.png */; };
 		BE64D49E13466B4D009C9073 /* masc5.png in Resources */ = {isa = PBXBuildFile; fileRef = BE64D49C13466B4D009C9073 /* masc5.png */; };
 		BE906B191337DA3700523831 /* DivisionStandings.m in Sources */ = {isa = PBXBuildFile; fileRef = BE906B181337DA3700523831 /* DivisionStandings.m */; };
-		BEABD06E1335A5C60009CA1F /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEABD06D1335A5C60009CA1F /* TeamViewController.m */; };
+		BEABD06E1335A5C60009CA1F /* TeamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEABD06D1335A5C60009CA1F /* TeamsViewController.m */; };
 		BEABD0771335A73C0009CA1F /* StandingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEABD0751335A73C0009CA1F /* StandingsViewController.m */; };
 		BEABD0781335A73C0009CA1F /* StandingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEABD0761335A73C0009CA1F /* StandingsView.xib */; };
 		BEABD0E41335B2F10009CA1F /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = BEABD0DB1335B2F10009CA1F /* NSObject+SBJSON.m */; };
@@ -54,10 +54,10 @@
 		BEABD0E71335B2F10009CA1F /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BEABD0E11335B2F10009CA1F /* SBJsonParser.m */; };
 		BEABD0E81335B2F10009CA1F /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = BEABD0E31335B2F10009CA1F /* SBJsonWriter.m */; };
 		BEABD0EB1335B3880009CA1F /* TwitterTrends.m in Sources */ = {isa = PBXBuildFile; fileRef = BEABD0EA1335B3880009CA1F /* TwitterTrends.m */; };
-		BEBE147913468CF900258DFE /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE147713468CF900258DFE /* GameViewController.m */; };
-		BEBE147A13468CF900258DFE /* GameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEBE147813468CF900258DFE /* GameView.xib */; };
-		BEBE148C13468E1700258DFE /* FieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE148A13468E1700258DFE /* FieldViewController.m */; };
-		BEBE148D13468E1700258DFE /* FieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEBE148B13468E1700258DFE /* FieldView.xib */; };
+		BEBE147913468CF900258DFE /* GamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE147713468CF900258DFE /* GamesViewController.m */; };
+		BEBE147A13468CF900258DFE /* GamesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEBE147813468CF900258DFE /* GamesView.xib */; };
+		BEBE148C13468E1700258DFE /* FieldsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE148A13468E1700258DFE /* FieldsViewController.m */; };
+		BEBE148D13468E1700258DFE /* FieldsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEBE148B13468E1700258DFE /* FieldsView.xib */; };
 		BEBE149A1346900400258DFE /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE14981346900400258DFE /* AboutViewController.m */; };
 		BEBE149B1346900400258DFE /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEBE14991346900400258DFE /* AboutView.xib */; };
 		BEDDC8F21347E15000B00EA3 /* AboutRulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDDC8F01347E15000B00EA3 /* AboutRulesViewController.m */; };
@@ -72,18 +72,18 @@
 		1D3623250D0F684500981E51 /* TournamentSchedulerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TournamentSchedulerAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* TournamentScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TournamentScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		28216C950DB411BC00E5133A /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
-		28216C960DB411BC00E5133A /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
-		282CCBFD0DB6C98000C4EA27 /* TeamView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamView.xib; sourceTree = "<group>"; };
-		2840D7CD1179279E00D7F93C /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		28216C950DB411BC00E5133A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		28216C960DB411BC00E5133A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		282CCBFD0DB6C98000C4EA27 /* TeamsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamsView.xib; sourceTree = "<group>"; };
+		2840D7CD1179279E00D7F93C /* HomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
 		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28A0AB4B0D9B1048005BE974 /* TournamentScheduler_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TournamentScheduler_Prefix.pch; sourceTree = "<group>"; };
 		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* TournamentScheduler-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TournamentScheduler-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		BE15C0A313366F7100B2170C /* DivisionStandingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivisionStandingsViewController.h; sourceTree = "<group>"; };
-		BE15C0A413366F7100B2170C /* DivisionStandingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivisionStandingsViewController.m; sourceTree = "<group>"; };
-		BE15C0A513366F7100B2170C /* DivisionStandingsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DivisionStandingsView.xib; path = Classes/DivisionStandingsView.xib; sourceTree = "<group>"; };
+		BE15C0A313366F7100B2170C /* StandingsDivisionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandingsDivisionViewController.h; sourceTree = "<group>"; };
+		BE15C0A413366F7100B2170C /* StandingsDivisionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandingsDivisionViewController.m; sourceTree = "<group>"; };
+		BE15C0A513366F7100B2170C /* StandingsDivisionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StandingsDivisionView.xib; path = Classes/StandingsDivisionView.xib; sourceTree = "<group>"; };
 		BE1B711C1338170E006F64A1 /* StandingsTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StandingsTableView.xib; sourceTree = "<group>"; };
 		BE3EA73C13479ADF0075A2E5 /* masc-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "masc-logo.png"; sourceTree = "<group>"; };
 		BE49DD7513463F15009CDA15 /* teams3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teams3.png; sourceTree = "<group>"; };
@@ -112,8 +112,8 @@
 		BE64D49C13466B4D009C9073 /* masc5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = masc5.png; sourceTree = "<group>"; };
 		BE906B171337DA3700523831 /* DivisionStandings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivisionStandings.h; sourceTree = "<group>"; };
 		BE906B181337DA3700523831 /* DivisionStandings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivisionStandings.m; sourceTree = "<group>"; };
-		BEABD06C1335A5C60009CA1F /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
-		BEABD06D1335A5C60009CA1F /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
+		BEABD06C1335A5C60009CA1F /* TeamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamsViewController.h; sourceTree = "<group>"; };
+		BEABD06D1335A5C60009CA1F /* TeamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamsViewController.m; sourceTree = "<group>"; };
 		BEABD0741335A73C0009CA1F /* StandingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StandingsViewController.h; path = ../StandingsViewController.h; sourceTree = "<group>"; };
 		BEABD0751335A73C0009CA1F /* StandingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StandingsViewController.m; path = ../StandingsViewController.m; sourceTree = "<group>"; };
 		BEABD0761335A73C0009CA1F /* StandingsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StandingsView.xib; sourceTree = "<group>"; };
@@ -130,12 +130,12 @@
 		BEABD0E31335B2F10009CA1F /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		BEABD0E91335B3880009CA1F /* TwitterTrends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterTrends.h; sourceTree = "<group>"; };
 		BEABD0EA1335B3880009CA1F /* TwitterTrends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterTrends.m; sourceTree = "<group>"; };
-		BEBE147613468CF900258DFE /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		BEBE147713468CF900258DFE /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
-		BEBE147813468CF900258DFE /* GameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GameView.xib; path = Classes/GameView.xib; sourceTree = "<group>"; };
-		BEBE148913468E1700258DFE /* FieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldViewController.h; sourceTree = "<group>"; };
-		BEBE148A13468E1700258DFE /* FieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldViewController.m; sourceTree = "<group>"; };
-		BEBE148B13468E1700258DFE /* FieldView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FieldView.xib; path = Classes/FieldView.xib; sourceTree = "<group>"; };
+		BEBE147613468CF900258DFE /* GamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamesViewController.h; sourceTree = "<group>"; };
+		BEBE147713468CF900258DFE /* GamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamesViewController.m; sourceTree = "<group>"; };
+		BEBE147813468CF900258DFE /* GamesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GamesView.xib; path = Classes/GamesView.xib; sourceTree = "<group>"; };
+		BEBE148913468E1700258DFE /* FieldsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldsViewController.h; sourceTree = "<group>"; };
+		BEBE148A13468E1700258DFE /* FieldsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldsViewController.m; sourceTree = "<group>"; };
+		BEBE148B13468E1700258DFE /* FieldsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FieldsView.xib; path = Classes/FieldsView.xib; sourceTree = "<group>"; };
 		BEBE14971346900400258DFE /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		BEBE14981346900400258DFE /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		BEBE14991346900400258DFE /* AboutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutView.xib; path = Classes/AboutView.xib; sourceTree = "<group>"; };
@@ -164,37 +164,15 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BEABD0D91335B2F10009CA1F /* JSON.h */,
-				BEABD0DA1335B2F10009CA1F /* NSObject+SBJSON.h */,
-				BEABD0DB1335B2F10009CA1F /* NSObject+SBJSON.m */,
-				BEABD0DC1335B2F10009CA1F /* NSString+SBJSON.h */,
-				BEABD0DD1335B2F10009CA1F /* NSString+SBJSON.m */,
-				BEABD0DE1335B2F10009CA1F /* SBJsonBase.h */,
-				BEABD0DF1335B2F10009CA1F /* SBJsonBase.m */,
-				BEABD0E01335B2F10009CA1F /* SBJsonParser.h */,
-				BEABD0E11335B2F10009CA1F /* SBJsonParser.m */,
-				BEABD0E21335B2F10009CA1F /* SBJsonWriter.h */,
-				BEABD0E31335B2F10009CA1F /* SBJsonWriter.m */,
-				28216C950DB411BC00E5133A /* ProfileViewController.h */,
-				28216C960DB411BC00E5133A /* ProfileViewController.m */,
+				BEDDCAB7134807A600B00EA3 /* JSON */,
 				1D3623240D0F684500981E51 /* TournamentSchedulerAppDelegate.h */,
 				1D3623250D0F684500981E51 /* TournamentSchedulerAppDelegate.m */,
-				BEABD06C1335A5C60009CA1F /* TeamViewController.h */,
-				BEABD06D1335A5C60009CA1F /* TeamViewController.m */,
-				BEABD0741335A73C0009CA1F /* StandingsViewController.h */,
-				BEABD0751335A73C0009CA1F /* StandingsViewController.m */,
-				BE15C0A313366F7100B2170C /* DivisionStandingsViewController.h */,
-				BE15C0A413366F7100B2170C /* DivisionStandingsViewController.m */,
-				BEBE147613468CF900258DFE /* GameViewController.h */,
-				BEBE147713468CF900258DFE /* GameViewController.m */,
-				BEBE148913468E1700258DFE /* FieldViewController.h */,
-				BEBE148A13468E1700258DFE /* FieldViewController.m */,
-				BEBE14971346900400258DFE /* AboutViewController.h */,
-				BEBE14981346900400258DFE /* AboutViewController.m */,
-				BEDDC8EF1347E15000B00EA3 /* AboutRulesViewController.h */,
-				BEDDC8F01347E15000B00EA3 /* AboutRulesViewController.m */,
-				BEDDC9861347EC5B00B00EA3 /* AboutContactViewController.h */,
-				BEDDC9871347EC5B00B00EA3 /* AboutContactViewController.m */,
+				BEDDCAD31348080200B00EA3 /* Home */,
+				BEDDCAD1134807EB00B00EA3 /* About */,
+				BEDDCAD2134807F700B00EA3 /* Teams */,
+				BEDDCAC8134807C200B00EA3 /* Standings */,
+				BEDDCACF134807D800B00EA3 /* Games */,
+				BEDDCAD0134807E200B00EA3 /* Fields */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -238,12 +216,12 @@
 				BEBE14991346900400258DFE /* AboutView.xib */,
 				BEDDC8F11347E15000B00EA3 /* AboutRulesView.xib */,
 				BEDDC9881347EC5B00B00EA3 /* AboutContactView.xib */,
-				BEBE148B13468E1700258DFE /* FieldView.xib */,
-				BEBE147813468CF900258DFE /* GameView.xib */,
+				BEBE148B13468E1700258DFE /* FieldsView.xib */,
+				BEBE147813468CF900258DFE /* GamesView.xib */,
 				BEE7C69D1336BE770062373D /* tab-bar */,
-				BE15C0A513366F7100B2170C /* DivisionStandingsView.xib */,
-				2840D7CD1179279E00D7F93C /* ProfileView.xib */,
-				282CCBFD0DB6C98000C4EA27 /* TeamView.xib */,
+				BE15C0A513366F7100B2170C /* StandingsDivisionView.xib */,
+				2840D7CD1179279E00D7F93C /* HomeView.xib */,
+				282CCBFD0DB6C98000C4EA27 /* TeamsView.xib */,
 				BEABD0761335A73C0009CA1F /* StandingsView.xib */,
 				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* TournamentScheduler-Info.plist */,
@@ -260,6 +238,84 @@
 				288765070DF74369002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEDDCAB7134807A600B00EA3 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				BEABD0DE1335B2F10009CA1F /* SBJsonBase.h */,
+				BEABD0DF1335B2F10009CA1F /* SBJsonBase.m */,
+				BEABD0E01335B2F10009CA1F /* SBJsonParser.h */,
+				BEABD0E11335B2F10009CA1F /* SBJsonParser.m */,
+				BEABD0E21335B2F10009CA1F /* SBJsonWriter.h */,
+				BEABD0E31335B2F10009CA1F /* SBJsonWriter.m */,
+				BEABD0D91335B2F10009CA1F /* JSON.h */,
+				BEABD0DA1335B2F10009CA1F /* NSObject+SBJSON.h */,
+				BEABD0DB1335B2F10009CA1F /* NSObject+SBJSON.m */,
+				BEABD0DC1335B2F10009CA1F /* NSString+SBJSON.h */,
+				BEABD0DD1335B2F10009CA1F /* NSString+SBJSON.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		BEDDCAC8134807C200B00EA3 /* Standings */ = {
+			isa = PBXGroup;
+			children = (
+				BEABD0741335A73C0009CA1F /* StandingsViewController.h */,
+				BEABD0751335A73C0009CA1F /* StandingsViewController.m */,
+				BE15C0A313366F7100B2170C /* StandingsDivisionViewController.h */,
+				BE15C0A413366F7100B2170C /* StandingsDivisionViewController.m */,
+			);
+			name = Standings;
+			sourceTree = "<group>";
+		};
+		BEDDCACF134807D800B00EA3 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE147613468CF900258DFE /* GamesViewController.h */,
+				BEBE147713468CF900258DFE /* GamesViewController.m */,
+			);
+			name = Games;
+			sourceTree = "<group>";
+		};
+		BEDDCAD0134807E200B00EA3 /* Fields */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE148913468E1700258DFE /* FieldsViewController.h */,
+				BEBE148A13468E1700258DFE /* FieldsViewController.m */,
+			);
+			name = Fields;
+			sourceTree = "<group>";
+		};
+		BEDDCAD1134807EB00B00EA3 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE14971346900400258DFE /* AboutViewController.h */,
+				BEBE14981346900400258DFE /* AboutViewController.m */,
+				BEDDC8EF1347E15000B00EA3 /* AboutRulesViewController.h */,
+				BEDDC8F01347E15000B00EA3 /* AboutRulesViewController.m */,
+				BEDDC9861347EC5B00B00EA3 /* AboutContactViewController.h */,
+				BEDDC9871347EC5B00B00EA3 /* AboutContactViewController.m */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		BEDDCAD2134807F700B00EA3 /* Teams */ = {
+			isa = PBXGroup;
+			children = (
+				BEABD06C1335A5C60009CA1F /* TeamsViewController.h */,
+				BEABD06D1335A5C60009CA1F /* TeamsViewController.m */,
+			);
+			name = Teams;
+			sourceTree = "<group>";
+		};
+		BEDDCAD31348080200B00EA3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				28216C950DB411BC00E5133A /* HomeViewController.h */,
+				28216C960DB411BC00E5133A /* HomeViewController.m */,
+			);
+			name = Home;
 			sourceTree = "<group>";
 		};
 		BEE7C69D1336BE770062373D /* tab-bar */ = {
@@ -344,10 +400,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
-				282CCBFE0DB6C98000C4EA27 /* TeamView.xib in Resources */,
-				2840D7CE1179279E00D7F93C /* ProfileView.xib in Resources */,
+				282CCBFE0DB6C98000C4EA27 /* TeamsView.xib in Resources */,
+				2840D7CE1179279E00D7F93C /* HomeView.xib in Resources */,
 				BEABD0781335A73C0009CA1F /* StandingsView.xib in Resources */,
-				BE15C0A713366F7100B2170C /* DivisionStandingsView.xib in Resources */,
+				BE15C0A713366F7100B2170C /* StandingsDivisionView.xib in Resources */,
 				BE1B711D1338170E006F64A1 /* StandingsTableView.xib in Resources */,
 				BE49DD7813463F15009CDA15 /* teams3.png in Resources */,
 				BE49DD7913463F15009CDA15 /* teams2.png in Resources */,
@@ -373,8 +429,8 @@
 				BE64D498134668C5009C9073 /* MASC2.png in Resources */,
 				BE64D49D13466B4D009C9073 /* masc4.png in Resources */,
 				BE64D49E13466B4D009C9073 /* masc5.png in Resources */,
-				BEBE147A13468CF900258DFE /* GameView.xib in Resources */,
-				BEBE148D13468E1700258DFE /* FieldView.xib in Resources */,
+				BEBE147A13468CF900258DFE /* GamesView.xib in Resources */,
+				BEBE148D13468E1700258DFE /* FieldsView.xib in Resources */,
 				BEBE149B1346900400258DFE /* AboutView.xib in Resources */,
 				BE3EA73D13479ADF0075A2E5 /* masc-logo.png in Resources */,
 				BEDDC8F31347E15000B00EA3 /* AboutRulesView.xib in Resources */,
@@ -391,8 +447,8 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* TournamentSchedulerAppDelegate.m in Sources */,
-				28216C970DB411BC00E5133A /* ProfileViewController.m in Sources */,
-				BEABD06E1335A5C60009CA1F /* TeamViewController.m in Sources */,
+				28216C970DB411BC00E5133A /* HomeViewController.m in Sources */,
+				BEABD06E1335A5C60009CA1F /* TeamsViewController.m in Sources */,
 				BEABD0771335A73C0009CA1F /* StandingsViewController.m in Sources */,
 				BEABD0E41335B2F10009CA1F /* NSObject+SBJSON.m in Sources */,
 				BEABD0E51335B2F10009CA1F /* NSString+SBJSON.m in Sources */,
@@ -400,10 +456,10 @@
 				BEABD0E71335B2F10009CA1F /* SBJsonParser.m in Sources */,
 				BEABD0E81335B2F10009CA1F /* SBJsonWriter.m in Sources */,
 				BEABD0EB1335B3880009CA1F /* TwitterTrends.m in Sources */,
-				BE15C0A613366F7100B2170C /* DivisionStandingsViewController.m in Sources */,
+				BE15C0A613366F7100B2170C /* StandingsDivisionViewController.m in Sources */,
 				BE906B191337DA3700523831 /* DivisionStandings.m in Sources */,
-				BEBE147913468CF900258DFE /* GameViewController.m in Sources */,
-				BEBE148C13468E1700258DFE /* FieldViewController.m in Sources */,
+				BEBE147913468CF900258DFE /* GamesViewController.m in Sources */,
+				BEBE148C13468E1700258DFE /* FieldsViewController.m in Sources */,
 				BEBE149A1346900400258DFE /* AboutViewController.m in Sources */,
 				BEDDC8F21347E15000B00EA3 /* AboutRulesViewController.m in Sources */,
 				BEDDC9891347EC5B00B00EA3 /* AboutContactViewController.m in Sources */,

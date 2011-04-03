@@ -1,0 +1,8 @@
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Divisions.m: In function '-[Divisions queryServiceWithParent:]':
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Divisions.m:17: error: 'viewController' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Divisions.m:17: error: (Each undeclared identifier is reported only once
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Divisions.m:17: error: for each function it appears in.)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Divisions.m: In function '-[Divisions connectionDidFinishLoading:]':
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Divisions.m:56: error: 'viewController' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Divisions.m: In function '-[Divisions dealloc]':
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Divisions.m:68: error: 'viewController' undeclared (first use in this function)

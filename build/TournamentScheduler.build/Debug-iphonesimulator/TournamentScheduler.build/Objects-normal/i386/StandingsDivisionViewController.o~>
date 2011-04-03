@@ -1,0 +1,37 @@
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:16: warning: cannot find interface declaration for 'StandingsDivisionViewController'
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:16: error: no declaration of property 'names' found in the interface
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:17: error: no declaration of property 'pts' found in the interface
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:18: error: no declaration of property 'wins' found in the interface
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:19: error: no declaration of property 'draws' found in the interface
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:20: error: no declaration of property 'losses' found in the interface
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:23: error: no declaration of property 'serviceView' found in the interface
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:25: error: no declaration of property 'myCell' found in the interface
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m: In function '-[StandingsDivisionViewController viewDidLoad]':
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:49: error: 'names' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:49: error: (Each undeclared identifier is reported only once
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:49: error: for each function it appears in.)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:50: error: 'pts' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:51: error: 'wins' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:52: error: 'draws' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:53: error: 'losses' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:59: warning: incompatible Objective-C types 'struct StandingsDivisionViewController *', expected 'struct UIViewController *' when passing argument 1 of 'queryServiceWithParent:' from distinct Objective-C type
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:62: error: no super class declared in @interface for 'StandingsDivisionViewController'
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m: In function '-[StandingsDivisionViewController didReceiveMemoryWarning]':
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:75: error: no super class declared in @interface for 'StandingsDivisionViewController'
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m: In function '-[StandingsDivisionViewController viewDidUnload]':
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:87: error: no super class declared in @interface for 'StandingsDivisionViewController'
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m: In function '-[StandingsDivisionViewController dealloc]':
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:94: error: no super class declared in @interface for 'StandingsDivisionViewController'
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m: In function '-[StandingsDivisionViewController tableView:numberOfRowsInSection:]':
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:99: error: 'names' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:101: warning: control reaches end of non-void function
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m: In function '-[StandingsDivisionViewController tableView:cellForRowAtIndexPath:]':
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:117: error: 'myCell' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:118: error: request for member 'myCell' in something not a structure or union
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:124: error: 'names' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:127: error: 'pts' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:130: error: 'wins' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:133: error: 'draws' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:136: error: 'losses' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m: In function '-[StandingsDivisionViewController tableView:didSelectRowAtIndexPath:]':
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/StandingsDivisionViewController.m:148: error: 'names' undeclared (first use in this function)

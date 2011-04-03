@@ -1,31 +1,23 @@
 //
-//  DivisionStandings.m
+//  TeamsDivisions.m
 //  TournamentScheduler
 //
-//  Created by Philip Dudley on 3/21/11.
+//  Created by Philip Dudley on 4/2/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "DivisionStandings.h"
 #import "JSON.h"
-#import "StandingsDivisionViewController.h"
-#import "TournamentSchedulerAppDelegate.h"
+#import "TeamsDivisions.h"
+#import "TeamViewController.h"
 
 
-@implementation DivisionStandings
-
-
-
-
+@implementation TeamDivisions
 
 - (void)queryServiceWithParent:(UIViewController *)controller {
-	viewController = (StandingsDivisionViewController *)controller;
+	viewController = (TeamViewController *)controller;
 	responseData = [[NSMutableData data] retain];
 	
-	TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
-	NSString *tempId= delegate.tempIdHolder;
-	
-	NSString *url = [NSString stringWithFormat:@"http://localhost:4567/api/standings/division/%@",tempId];
+	NSString *url = [NSString stringWithFormat:@"http://localhost:4567/api/divisions/"];
 	theURL = [[NSURL URLWithString:url] retain];
 	NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
 	[[NSURLConnection alloc] initWithRequest:request delegate:self];
@@ -60,16 +52,11 @@
 	NSArray *trends = [parser objectWithString:content];
 	
 	for (NSDictionary *trend in trends) {
-		NSLog(@"Name = %@", [trend objectForKey:@"name"]);
-		NSLog(@"Points = %@", [trend objectForKey:@"points"]);
+		//NSLog(@"Name = %@", [trend objectForKey:@"name"]);
 		[viewController.names addObject:[trend objectForKey:@"name"]];
-		[viewController.pts addObject:[trend objectForKey:@"points"]];
-		[viewController.wins addObject:[trend objectForKey:@"wins"]];
-		[viewController.draws addObject:[trend objectForKey:@"ties"]];
-		[viewController.losses addObject:[trend objectForKey:@"losses"]];
+		[viewController.urls addObject:[trend objectForKey:@"id"]];
 	}
 	NSLog(@"names count = %@", viewController.names);
-	NSLog(@"points count = %@", viewController.pts);
 	[parser release];
 	NSLog(@"Parser Released");
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
@@ -87,4 +74,3 @@
 
 
 @end
-

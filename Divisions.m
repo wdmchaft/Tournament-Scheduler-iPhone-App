@@ -1,35 +1,27 @@
 //
-//  DivisionStandings.m
+//  TwitterTrends.m
 //  TournamentScheduler
 //
-//  Created by Philip Dudley on 3/21/11.
+//  Created by Philip Dudley on 3/20/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "DivisionStandings.h"
 #import "JSON.h"
-#import "StandingsDivisionViewController.h"
-#import "TournamentSchedulerAppDelegate.h"
+#import "Divisions.h"
+#import "StandingsViewController.h"
 
 
-@implementation DivisionStandings
+@implementation Divisions
 
-
-
-
-
-- (void)queryServiceWithParent:(UIViewController *)controller {
-	viewController = (StandingsDivisionViewController *)controller;
-	responseData = [[NSMutableData data] retain];
-	
-	TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
-	NSString *tempId= delegate.tempIdHolder;
-	
-	NSString *url = [NSString stringWithFormat:@"http://localhost:4567/api/standings/division/%@",tempId];
-	theURL = [[NSURL URLWithString:url] retain];
-	NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
-	[[NSURLConnection alloc] initWithRequest:request delegate:self];
-}
+	- (void)queryServiceWithParent:(UIViewController *)controller {
+		viewController = (StandingsViewController *)controller;
+		responseData = [[NSMutableData data] retain];
+		
+		NSString *url = [NSString stringWithFormat:@"http://localhost:4567/api/divisions/"];
+		theURL = [[NSURL URLWithString:url] retain];
+		NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
+		[[NSURLConnection alloc] initWithRequest:request delegate:self];
+	}
 
 -(NSURLRequest *)connection:(NSURLConnection *)connection willSendRequest:(NSURLRequest *)request redirectResponse:(NSURLResponse *)redirectResponse {
 	[theURL autorelease];
@@ -60,16 +52,11 @@
 	NSArray *trends = [parser objectWithString:content];
 	
 	for (NSDictionary *trend in trends) {
-		NSLog(@"Name = %@", [trend objectForKey:@"name"]);
-		NSLog(@"Points = %@", [trend objectForKey:@"points"]);
+		//NSLog(@"Name = %@", [trend objectForKey:@"name"]);
 		[viewController.names addObject:[trend objectForKey:@"name"]];
-		[viewController.pts addObject:[trend objectForKey:@"points"]];
-		[viewController.wins addObject:[trend objectForKey:@"wins"]];
-		[viewController.draws addObject:[trend objectForKey:@"ties"]];
-		[viewController.losses addObject:[trend objectForKey:@"losses"]];
+		[viewController.urls addObject:[trend objectForKey:@"id"]];
 	}
 	NSLog(@"names count = %@", viewController.names);
-	NSLog(@"points count = %@", viewController.pts);
 	[parser release];
 	NSLog(@"Parser Released");
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
@@ -83,8 +70,7 @@
 	[theURL release];
 	[super dealloc];
 }
-
+	
 
 
 @end
-
