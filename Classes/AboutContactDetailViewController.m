@@ -12,12 +12,14 @@
 @implementation AboutContactDetailViewController
 
 @synthesize headerView;
+@synthesize footerView;
 
 @synthesize imageLarge;
 @synthesize mainTitle;
 @synthesize subTitle;
 @synthesize mobile;
 @synthesize email;
+
 
 
 #pragma mark -
@@ -77,11 +79,27 @@
 	titleLabel.text  = subTitle;
 	
 	
+	
+	
 	return headerView;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
 	return 105;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section{
+
+	
+	
+	
+	
+	
+	return footerView;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
+	return 92;
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -131,6 +149,19 @@
     
     return cell;
 }
+
+- (IBAction) addContact:(id) sender
+{
+	NSLog(@"TEST");
+}
+
+- (IBAction) textMessage:(id) sender
+{	
+	NSString *prefix = @"sms://";
+	NSString *theUrl =[prefix stringByAppendingString:mobile];
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString: theUrl]];
+}
+
 
 
 
@@ -228,6 +259,7 @@
 - (void)dealloc {
     [super dealloc];
 }
+
 
 
 @end

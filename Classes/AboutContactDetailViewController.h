@@ -11,6 +11,7 @@
 
 @interface AboutContactDetailViewController : UIViewController {
 	UIView *headerView;
+	UIView *footerView;
 	
 	UIImage *imageLarge;
 	NSString *mainTitle;
@@ -20,12 +21,16 @@
 }
 
 @property (nonatomic, retain) IBOutlet UIView *headerView;
+@property (nonatomic, retain) IBOutlet UIView *footerView;
 
 @property (nonatomic, retain) UIImage *imageLarge;
 @property (nonatomic, retain) NSString *mainTitle;
 @property (nonatomic, retain) NSString *subTitle;
 @property (nonatomic, retain) NSString *mobile;
 @property (nonatomic, retain) NSString *email;
+
+-(IBAction)addContact:(id) sender;
+-(IBAction)textMessage:(id) sender;
 
 
 @end
