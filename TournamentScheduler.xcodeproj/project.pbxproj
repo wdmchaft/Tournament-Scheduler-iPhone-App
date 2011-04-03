@@ -68,6 +68,8 @@
 		BEDDCBE11348275E00B00EA3 /* robertThomas.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDDCBDD1348275E00B00EA3 /* robertThomas.png */; };
 		BEDDCBE21348275E00B00EA3 /* philDudley.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDDCBDE1348275E00B00EA3 /* philDudley.png */; };
 		BEDDCBE31348275E00B00EA3 /* karenDudley.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDDCBDF1348275E00B00EA3 /* karenDudley.png */; };
+		BEEC23921348D808001669CC /* AboutContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEC23901348D808001669CC /* AboutContactDetailViewController.m */; };
+		BEEC23931348D808001669CC /* AboutContactDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEEC23911348D808001669CC /* AboutContactDetailView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -153,6 +155,9 @@
 		BEDDCBDD1348275E00B00EA3 /* robertThomas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robertThomas.png; sourceTree = "<group>"; };
 		BEDDCBDE1348275E00B00EA3 /* philDudley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = philDudley.png; sourceTree = "<group>"; };
 		BEDDCBDF1348275E00B00EA3 /* karenDudley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = karenDudley.png; sourceTree = "<group>"; };
+		BEEC238F1348D808001669CC /* AboutContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutContactDetailViewController.h; sourceTree = "<group>"; };
+		BEEC23901348D808001669CC /* AboutContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutContactDetailViewController.m; sourceTree = "<group>"; };
+		BEEC23911348D808001669CC /* AboutContactDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutContactDetailView.xib; path = Classes/AboutContactDetailView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,16 +223,13 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BEBE14991346900400258DFE /* AboutView.xib */,
-				BEDDC8F11347E15000B00EA3 /* AboutRulesView.xib */,
-				BEDDC9881347EC5B00B00EA3 /* AboutContactView.xib */,
+				BEEC23941348D81D001669CC /* About */,
 				BEBE148B13468E1700258DFE /* FieldsView.xib */,
 				BEBE147813468CF900258DFE /* GamesView.xib */,
 				BEE7C69D1336BE770062373D /* tab-bar */,
 				BE15C0A513366F7100B2170C /* StandingsDivisionView.xib */,
 				2840D7CD1179279E00D7F93C /* HomeView.xib */,
 				282CCBFD0DB6C98000C4EA27 /* TeamsView.xib */,
-				BEDDCBDB1348274600B00EA3 /* contacts */,
 				BEABD0761335A73C0009CA1F /* StandingsView.xib */,
 				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* TournamentScheduler-Info.plist */,
@@ -302,6 +304,8 @@
 				BEDDC8F01347E15000B00EA3 /* AboutRulesViewController.m */,
 				BEDDC9861347EC5B00B00EA3 /* AboutContactViewController.h */,
 				BEDDC9871347EC5B00B00EA3 /* AboutContactViewController.m */,
+				BEEC238F1348D808001669CC /* AboutContactDetailViewController.h */,
+				BEEC23901348D808001669CC /* AboutContactDetailViewController.m */,
 			);
 			name = About;
 			sourceTree = "<group>";
@@ -376,6 +380,18 @@
 				BE49DD7713463F15009CDA15 /* teams1.png */,
 			);
 			name = "tab-bar";
+			sourceTree = "<group>";
+		};
+		BEEC23941348D81D001669CC /* About */ = {
+			isa = PBXGroup;
+			children = (
+				BEDDCBDB1348274600B00EA3 /* contacts */,
+				BEBE14991346900400258DFE /* AboutView.xib */,
+				BEEC23911348D808001669CC /* AboutContactDetailView.xib */,
+				BEDDC8F11347E15000B00EA3 /* AboutRulesView.xib */,
+				BEDDC9881347EC5B00B00EA3 /* AboutContactView.xib */,
+			);
+			name = About;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -467,6 +483,7 @@
 				BEDDCBE11348275E00B00EA3 /* robertThomas.png in Resources */,
 				BEDDCBE21348275E00B00EA3 /* philDudley.png in Resources */,
 				BEDDCBE31348275E00B00EA3 /* karenDudley.png in Resources */,
+				BEEC23931348D808001669CC /* AboutContactDetailView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +512,7 @@
 				BEBE149A1346900400258DFE /* AboutViewController.m in Sources */,
 				BEDDC8F21347E15000B00EA3 /* AboutRulesViewController.m in Sources */,
 				BEDDC9891347EC5B00B00EA3 /* AboutContactViewController.m in Sources */,
+				BEEC23921348D808001669CC /* AboutContactDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

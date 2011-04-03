@@ -268,20 +268,20 @@
 								<string>BEDDCAD1134807EB00B00EA3</string>
 								<string>BEDDCAC8134807C200B00EA3</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
-								<string>BEDDCBDB1348274600B00EA3</string>
+								<string>BEEC23941348D81D001669CC</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>11</integer>
+									<integer>12</integer>
 									<integer>6</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {275, 760}}</string>
+							<string>{{0, 9}, {275, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -330,7 +330,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BE4DA7FB13484CE900230685</string>
+										<string>BEEC23BA1348D978001669CC</string>
 										<key>history</key>
 										<array>
 											<string>BE09E9381335D2AE00BDF656</string>
@@ -375,8 +375,10 @@
 											<string>BEDDCCD413484C8E00B00EA3</string>
 											<string>BEDDCCD513484C8E00B00EA3</string>
 											<string>BEDDCCD613484C8E00B00EA3</string>
-											<string>BE4DA7EF13484CD200230685</string>
-											<string>BE4DA7F013484CD200230685</string>
+											<string>BEEC23B61348D978001669CC</string>
+											<string>BEEC23B71348D978001669CC</string>
+											<string>BEEC23B81348D978001669CC</string>
+											<string>BEEC23B91348D978001669CC</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -388,14 +390,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {731, 572}}</string>
+								<string>{{0, 0}, {731, 567}}</string>
 								<key>RubberWindowFrame</key>
 								<string>314 59 1028 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>572pt</string>
+							<string>567pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -408,14 +410,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 577}, {731, 201}}</string>
+								<string>{{0, 572}, {731, 206}}</string>
 								<key>RubberWindowFrame</key>
 								<string>314 59 1028 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>201pt</string>
+							<string>206pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -434,9 +436,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>BE4DA7F213484CD200230685</string>
+				<string>BEEC238B1348D745001669CC</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>BE4DA7F313484CD200230685</string>
+				<string>BEEC238C1348D745001669CC</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -576,8 +578,8 @@
 	<array>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TournamentScheduler.xcodeproj</string>
 		<string>BEABD05E13359F3A0009CA1F</string>
+		<string>/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TournamentScheduler.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>314 59 1028 819 0 0 1440 878 </string>
@@ -596,14 +598,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AboutContactViewController.m</string>
+								<string>AboutContactDetailViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -620,6 +620,8 @@
 							<string>143pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -659,7 +661,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>BEABD05E13359F3A0009CA1F</string>
-				<string>BE4DA7EC13484CC500230685</string>
+				<string>BEEC238D1348D745001669CC</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -672,7 +674,7 @@
 			<key>WindowToolGUID</key>
 			<string>BEABD05E13359F3A0009CA1F</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -781,13 +783,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>BE4DA7F413484CD200230685</string>
+				<string>BEEC23A61348D8E3001669CC</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>BE4DA7F513484CD200230685</string>
-				<string>BE4DA7F613484CD200230685</string>
-				<string>BE4DA7F713484CD200230685</string>
-				<string>BE4DA7F813484CD200230685</string>
-				<string>BE4DA7F913484CD200230685</string>
+				<string>BEEC23A71348D8E3001669CC</string>
+				<string>BEEC23A81348D8E3001669CC</string>
+				<string>BEEC23A91348D8E3001669CC</string>
+				<string>BEEC23AA1348D8E3001669CC</string>
+				<string>BEEC23AB1348D8E3001669CC</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -949,7 +951,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>BE4DA7FA13484CD200230685</string>
+				<string>BEEC23AC1348D8E3001669CC</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
