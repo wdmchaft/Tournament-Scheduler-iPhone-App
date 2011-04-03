@@ -53,7 +53,7 @@
 		BEABD0E61335B2F10009CA1F /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = BEABD0DF1335B2F10009CA1F /* SBJsonBase.m */; };
 		BEABD0E71335B2F10009CA1F /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BEABD0E11335B2F10009CA1F /* SBJsonParser.m */; };
 		BEABD0E81335B2F10009CA1F /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = BEABD0E31335B2F10009CA1F /* SBJsonWriter.m */; };
-		BEABD0EB1335B3880009CA1F /* TwitterTrends.m in Sources */ = {isa = PBXBuildFile; fileRef = BEABD0EA1335B3880009CA1F /* TwitterTrends.m */; };
+		BEABD0EB1335B3880009CA1F /* Standings.m in Sources */ = {isa = PBXBuildFile; fileRef = BEABD0EA1335B3880009CA1F /* Standings.m */; };
 		BEBE147913468CF900258DFE /* GamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE147713468CF900258DFE /* GamesViewController.m */; };
 		BEBE147A13468CF900258DFE /* GamesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEBE147813468CF900258DFE /* GamesView.xib */; };
 		BEBE148C13468E1700258DFE /* FieldsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE148A13468E1700258DFE /* FieldsViewController.m */; };
@@ -128,8 +128,8 @@
 		BEABD0E11335B2F10009CA1F /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
 		BEABD0E21335B2F10009CA1F /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		BEABD0E31335B2F10009CA1F /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
-		BEABD0E91335B3880009CA1F /* TwitterTrends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterTrends.h; sourceTree = "<group>"; };
-		BEABD0EA1335B3880009CA1F /* TwitterTrends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterTrends.m; sourceTree = "<group>"; };
+		BEABD0E91335B3880009CA1F /* Standings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Standings.h; sourceTree = "<group>"; };
+		BEABD0EA1335B3880009CA1F /* Standings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Standings.m; sourceTree = "<group>"; };
 		BEBE147613468CF900258DFE /* GamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamesViewController.h; sourceTree = "<group>"; };
 		BEBE147713468CF900258DFE /* GamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamesViewController.m; sourceTree = "<group>"; };
 		BEBE147813468CF900258DFE /* GamesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GamesView.xib; path = Classes/GamesView.xib; sourceTree = "<group>"; };
@@ -202,10 +202,7 @@
 			children = (
 				28A0AB4B0D9B1048005BE974 /* TournamentScheduler_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
-				BEABD0E91335B3880009CA1F /* TwitterTrends.h */,
-				BEABD0EA1335B3880009CA1F /* TwitterTrends.m */,
-				BE906B171337DA3700523831 /* DivisionStandings.h */,
-				BE906B181337DA3700523831 /* DivisionStandings.m */,
+				BEDDCB0113480A2200B00EA3 /* Standings */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -316,6 +313,17 @@
 				28216C960DB411BC00E5133A /* HomeViewController.m */,
 			);
 			name = Home;
+			sourceTree = "<group>";
+		};
+		BEDDCB0113480A2200B00EA3 /* Standings */ = {
+			isa = PBXGroup;
+			children = (
+				BEABD0E91335B3880009CA1F /* Standings.h */,
+				BEABD0EA1335B3880009CA1F /* Standings.m */,
+				BE906B171337DA3700523831 /* DivisionStandings.h */,
+				BE906B181337DA3700523831 /* DivisionStandings.m */,
+			);
+			name = Standings;
 			sourceTree = "<group>";
 		};
 		BEE7C69D1336BE770062373D /* tab-bar */ = {
@@ -455,7 +463,7 @@
 				BEABD0E61335B2F10009CA1F /* SBJsonBase.m in Sources */,
 				BEABD0E71335B2F10009CA1F /* SBJsonParser.m in Sources */,
 				BEABD0E81335B2F10009CA1F /* SBJsonWriter.m in Sources */,
-				BEABD0EB1335B3880009CA1F /* TwitterTrends.m in Sources */,
+				BEABD0EB1335B3880009CA1F /* Standings.m in Sources */,
 				BE15C0A613366F7100B2170C /* StandingsDivisionViewController.m in Sources */,
 				BE906B191337DA3700523831 /* DivisionStandings.m in Sources */,
 				BEBE147913468CF900258DFE /* GamesViewController.m in Sources */,

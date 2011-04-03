@@ -7,7 +7,7 @@
 //
 
 #import "StandingsViewController.h"
-#import "TwitterTrends.h"
+#import "Standings.h"
 #import "StandingsDivisionViewController.h"
 #import "TournamentSchedulerAppDelegate.h"
 
@@ -35,8 +35,8 @@
 	urls = [[NSMutableArray alloc] init];
 	NSLog(@"names = %@", names);
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
-	TwitterTrends *trends = [[TwitterTrends alloc] init];
-	[trends queryServiceWithParent:self];
+	Standings *standings = [[Standings alloc] init];
+	[standings queryServiceWithParent:self];
 	
     [super viewDidLoad];
 

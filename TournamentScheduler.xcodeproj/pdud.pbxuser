@@ -200,6 +200,18 @@
 			BEDDCAFA1348096A00B00EA3 /* PBXTextBookmark */ = BEDDCAFA1348096A00B00EA3 /* PBXTextBookmark */;
 			BEDDCAFB1348096A00B00EA3 /* PBXTextBookmark */ = BEDDCAFB1348096A00B00EA3 /* PBXTextBookmark */;
 			BEDDCAFE1348098B00B00EA3 /* PBXTextBookmark */ = BEDDCAFE1348098B00B00EA3 /* PBXTextBookmark */;
+			BEDDCB0413480A3800B00EA3 /* PBXTextBookmark */ = BEDDCB0413480A3800B00EA3 /* PBXTextBookmark */;
+			BEDDCB0513480A3800B00EA3 /* PBXTextBookmark */ = BEDDCB0513480A3800B00EA3 /* PBXTextBookmark */;
+			BEDDCB0613480A3800B00EA3 /* PBXTextBookmark */ = BEDDCB0613480A3800B00EA3 /* PBXTextBookmark */;
+			BEDDCB0713480A3800B00EA3 /* PBXBookmark */ = BEDDCB0713480A3800B00EA3 /* PBXBookmark */;
+			BEDDCB0813480A3800B00EA3 /* PBXTextBookmark */ = BEDDCB0813480A3800B00EA3 /* PBXTextBookmark */;
+			BEDDCB1113480BC100B00EA3 /* PBXTextBookmark */ = BEDDCB1113480BC100B00EA3 /* PBXTextBookmark */;
+			BEDDCB1213480BC100B00EA3 /* PBXTextBookmark */ = BEDDCB1213480BC100B00EA3 /* PBXTextBookmark */;
+			BEDDCB1313480BC100B00EA3 /* PBXTextBookmark */ = BEDDCB1313480BC100B00EA3 /* PBXTextBookmark */;
+			BEDDCB1413480BC100B00EA3 /* PBXTextBookmark */ = BEDDCB1413480BC100B00EA3 /* PBXTextBookmark */;
+			BEDDCB1513480BC100B00EA3 /* PBXTextBookmark */ = BEDDCB1513480BC100B00EA3 /* PBXTextBookmark */;
+			BEDDCB1613480BC100B00EA3 /* PBXTextBookmark */ = BEDDCB1613480BC100B00EA3 /* PBXTextBookmark */;
+			BEDDCB1713480BD100B00EA3 /* PBXTextBookmark */ = BEDDCB1713480BD100B00EA3 /* PBXTextBookmark */;
 		};
 		sourceControlManager = BEABD06013359F3A0009CA1F /* Source Control */;
 		userBuildSettings = {
@@ -207,7 +219,7 @@
 	};
 	29B97316FDCFA39411CA2CEA /* main.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {670, 606}}";
+			sepNavIntBoundsRect = "{{0, 0}, {670, 550}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 370}";
 			sepNavWindowFrame = "{{84, 252}, {750, 558}}";
@@ -293,20 +305,20 @@
 	};
 	BE1B716613382464006F64A1 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = BEABD0E91335B3880009CA1F /* TwitterTrends.h */;
+		fRef = BEABD0E91335B3880009CA1F /* Standings.h */;
 		name = "TwitterTrends.h: 9";
-		rLen = 265;
-		rLoc = 154;
+		rLen = 261;
+		rLoc = 150;
 		rType = 0;
 		vrLen = 419;
 		vrLoc = 0;
 	};
 	BE1B716913382464006F64A1 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = BEABD0EA1335B3880009CA1F /* TwitterTrends.m */;
+		fRef = BEABD0EA1335B3880009CA1F /* Standings.m */;
 		name = "TwitterTrends.m: 57";
 		rLen = 0;
-		rLoc = 1839;
+		rLoc = 1831;
 		rType = 0;
 		vrLen = 1383;
 		vrLoc = 883;
@@ -428,8 +440,8 @@
 	BE906B181337DA3700523831 /* DivisionStandings.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1062, 1183}}";
-			sepNavSelRange = "{231, 0}";
-			sepNavVisRange = "{1461, 1369}";
+			sepNavSelRange = "{1955, 0}";
+			sepNavVisRange = "{0, 1312}";
 			sepNavWindowFrame = "{{38, 294}, {750, 558}}";
 		};
 	};
@@ -530,9 +542,9 @@
 	};
 	BEABD0751335A73C0009CA1F /* StandingsViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1139, 1677}}";
-			sepNavSelRange = "{325, 0}";
-			sepNavVisRange = "{0, 1240}";
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1638}}";
+			sepNavSelRange = "{1173, 0}";
+			sepNavVisRange = "{60, 1259}";
 			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
 		};
 	};
@@ -578,18 +590,18 @@
 			sepNavVisRange = "{0, 2022}";
 		};
 	};
-	BEABD0E91335B3880009CA1F /* TwitterTrends.h */ = {
+	BEABD0E91335B3880009CA1F /* Standings.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {670, 550}}";
-			sepNavSelRange = "{333, 0}";
-			sepNavVisRange = "{0, 419}";
+			sepNavSelRange = "{238, 0}";
+			sepNavVisRange = "{0, 411}";
 		};
 	};
-	BEABD0EA1335B3880009CA1F /* TwitterTrends.m */ = {
+	BEABD0EA1335B3880009CA1F /* Standings.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1062, 1001}}";
-			sepNavSelRange = "{1839, 0}";
-			sepNavVisRange = "{963, 1303}";
+			sepNavIntBoundsRect = "{{0, 0}, {1062, 1027}}";
+			sepNavSelRange = "{256, 0}";
+			sepNavVisRange = "{0, 1302}";
 			sepNavWindowFrame = "{{176, 168}, {750, 558}}";
 		};
 	};
@@ -802,7 +814,7 @@
 		fRef = BEABD0751335A73C0009CA1F /* StandingsViewController.m */;
 		name = "StandingsViewController.m: 118";
 		rLen = 58;
-		rLoc = 3662;
+		rLoc = 3656;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 0;
@@ -936,7 +948,7 @@
 		fRef = BEABD0751335A73C0009CA1F /* StandingsViewController.m */;
 		name = "StandingsViewController.m: 15";
 		rLen = 0;
-		rLoc = 354;
+		rLoc = 350;
 		rType = 0;
 		vrLen = 1483;
 		vrLoc = 2247;
@@ -946,17 +958,17 @@
 		fRef = BEABD0751335A73C0009CA1F /* StandingsViewController.m */;
 		name = "StandingsViewController.m: 15";
 		rLen = 0;
-		rLoc = 354;
+		rLoc = 350;
 		rType = 0;
 		vrLen = 1483;
 		vrLoc = 2247;
 	};
 	BEDDCABB134807B600B00EA3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = BEABD0E91335B3880009CA1F /* TwitterTrends.h */;
+		fRef = BEABD0E91335B3880009CA1F /* Standings.h */;
 		name = "TwitterTrends.h: 16";
 		rLen = 0;
-		rLoc = 333;
+		rLoc = 325;
 		rType = 0;
 		vrLen = 419;
 		vrLoc = 0;
@@ -1100,7 +1112,7 @@
 		fRef = BEABD0751335A73C0009CA1F /* StandingsViewController.m */;
 		name = "StandingsViewController.m: 15";
 		rLen = 0;
-		rLoc = 354;
+		rLoc = 350;
 		rType = 0;
 		vrLen = 1478;
 		vrLoc = 2247;
@@ -1110,7 +1122,7 @@
 		fRef = BEABD0751335A73C0009CA1F /* StandingsViewController.m */;
 		name = "StandingsViewController.m: 15";
 		rLen = 0;
-		rLoc = 354;
+		rLoc = 350;
 		rType = 0;
 		vrLen = 1478;
 		vrLoc = 2247;
@@ -1220,7 +1232,7 @@
 		fRef = BEABD0751335A73C0009CA1F /* StandingsViewController.m */;
 		name = "StandingsViewController.m: 15";
 		rLen = 0;
-		rLoc = 354;
+		rLoc = 350;
 		rType = 0;
 		vrLen = 1478;
 		vrLoc = 2247;
@@ -1230,17 +1242,17 @@
 		fRef = BEABD0751335A73C0009CA1F /* StandingsViewController.m */;
 		name = "StandingsViewController.m: 11";
 		rLen = 0;
-		rLoc = 266;
+		rLoc = 262;
 		rType = 0;
 		vrLen = 1237;
 		vrLoc = 0;
 	};
 	BEDDCAF31348096A00B00EA3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = BEABD0E91335B3880009CA1F /* TwitterTrends.h */;
+		fRef = BEABD0E91335B3880009CA1F /* Standings.h */;
 		name = "TwitterTrends.h: 16";
 		rLen = 0;
-		rLoc = 333;
+		rLoc = 325;
 		rType = 0;
 		vrLen = 419;
 		vrLoc = 0;
@@ -1250,7 +1262,7 @@
 		fRef = BEABD0751335A73C0009CA1F /* StandingsViewController.m */;
 		name = "StandingsViewController.m: 14";
 		rLen = 0;
-		rLoc = 325;
+		rLoc = 321;
 		rType = 0;
 		vrLen = 1240;
 		vrLoc = 0;
@@ -1287,10 +1299,10 @@
 	};
 	BEDDCAF81348096A00B00EA3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = BEABD0EA1335B3880009CA1F /* TwitterTrends.m */;
+		fRef = BEABD0EA1335B3880009CA1F /* Standings.m */;
 		name = "TwitterTrends.m: 57";
 		rLen = 0;
-		rLoc = 1839;
+		rLoc = 1831;
 		rType = 0;
 		vrLen = 1303;
 		vrLoc = 963;
@@ -1334,5 +1346,119 @@
 		rType = 0;
 		vrLen = 1369;
 		vrLoc = 1461;
+	};
+	BEDDCB0413480A3800B00EA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE906B181337DA3700523831 /* DivisionStandings.m */;
+		name = "DivisionStandings.m: 62";
+		rLen = 0;
+		rLoc = 1955;
+		rType = 0;
+		vrLen = 1312;
+		vrLoc = 0;
+	};
+	BEDDCB0513480A3800B00EA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEABD0EA1335B3880009CA1F /* Standings.m */;
+		name = "TwitterTrends.m: 57";
+		rLen = 0;
+		rLoc = 1831;
+		rType = 0;
+		vrLen = 1300;
+		vrLoc = 966;
+	};
+	BEDDCB0613480A3800B00EA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEABD0E91335B3880009CA1F /* Standings.h */;
+		name = "TwitterTrends.h: 16";
+		rLen = 0;
+		rLoc = 325;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	BEDDCB0713480A3800B00EA3 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+	};
+	BEDDCB0813480A3800B00EA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 370;
+		vrLoc = 0;
+	};
+	BEDDCB1113480BC100B00EA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 370;
+		vrLoc = 0;
+	};
+	BEDDCB1213480BC100B00EA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE906B171337DA3700523831 /* DivisionStandings.h */;
+		name = "DivisionStandings.h: 11";
+		rLen = 0;
+		rLoc = 231;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 0;
+	};
+	BEDDCB1313480BC100B00EA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEABD0E91335B3880009CA1F /* Standings.h */;
+		name = "Standings.h: 13";
+		rLen = 0;
+		rLoc = 238;
+		rType = 0;
+		vrLen = 411;
+		vrLoc = 0;
+	};
+	BEDDCB1413480BC100B00EA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEABD0EA1335B3880009CA1F /* Standings.m */;
+		name = "Standings.m: 14";
+		rLen = 0;
+		rLoc = 256;
+		rType = 0;
+		vrLen = 1302;
+		vrLoc = 0;
+	};
+	BEDDCB1513480BC100B00EA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEABD0741335A73C0009CA1F /* StandingsViewController.h */;
+		name = "StandingsViewController.h: 9";
+		rLen = 332;
+		rLoc = 164;
+		rType = 0;
+		vrLen = 498;
+		vrLoc = 0;
+	};
+	BEDDCB1613480BC100B00EA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEABD0751335A73C0009CA1F /* StandingsViewController.m */;
+		name = "StandingsViewController.m: 39";
+		rLen = 0;
+		rLoc = 1173;
+		rType = 0;
+		vrLen = 1177;
+		vrLoc = 60;
+	};
+	BEDDCB1713480BD100B00EA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEABD0751335A73C0009CA1F /* StandingsViewController.m */;
+		name = "StandingsViewController.m: 39";
+		rLen = 0;
+		rLoc = 1173;
+		rType = 0;
+		vrLen = 1259;
+		vrLoc = 60;
 	};
 }
