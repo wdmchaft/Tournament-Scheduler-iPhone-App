@@ -63,7 +63,7 @@
 		BEDDC8F21347E15000B00EA3 /* AboutRulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDDC8F01347E15000B00EA3 /* AboutRulesViewController.m */; };
 		BEDDC8F31347E15000B00EA3 /* AboutRulesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEDDC8F11347E15000B00EA3 /* AboutRulesView.xib */; };
 		BEDDC9891347EC5B00B00EA3 /* AboutContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDDC9871347EC5B00B00EA3 /* AboutContactViewController.m */; };
-		BEDDC98A1347EC5B00B00EA3 /* AboutContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEDDC9881347EC5B00B00EA3 /* AboutContactViewController.xib */; };
+		BEDDC98A1347EC5B00B00EA3 /* AboutContactView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEDDC9881347EC5B00B00EA3 /* AboutContactView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -144,7 +144,7 @@
 		BEDDC8F11347E15000B00EA3 /* AboutRulesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutRulesView.xib; path = Classes/AboutRulesView.xib; sourceTree = "<group>"; };
 		BEDDC9861347EC5B00B00EA3 /* AboutContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutContactViewController.h; sourceTree = "<group>"; };
 		BEDDC9871347EC5B00B00EA3 /* AboutContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutContactViewController.m; sourceTree = "<group>"; };
-		BEDDC9881347EC5B00B00EA3 /* AboutContactViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutContactViewController.xib; path = Classes/AboutContactViewController.xib; sourceTree = "<group>"; };
+		BEDDC9881347EC5B00B00EA3 /* AboutContactView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutContactView.xib; path = Classes/AboutContactView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,7 +237,7 @@
 			children = (
 				BEBE14991346900400258DFE /* AboutView.xib */,
 				BEDDC8F11347E15000B00EA3 /* AboutRulesView.xib */,
-				BEDDC9881347EC5B00B00EA3 /* AboutContactViewController.xib */,
+				BEDDC9881347EC5B00B00EA3 /* AboutContactView.xib */,
 				BEBE148B13468E1700258DFE /* FieldView.xib */,
 				BEBE147813468CF900258DFE /* GameView.xib */,
 				BEE7C69D1336BE770062373D /* tab-bar */,
@@ -378,7 +378,7 @@
 				BEBE149B1346900400258DFE /* AboutView.xib in Resources */,
 				BE3EA73D13479ADF0075A2E5 /* masc-logo.png in Resources */,
 				BEDDC8F31347E15000B00EA3 /* AboutRulesView.xib in Resources */,
-				BEDDC98A1347EC5B00B00EA3 /* AboutContactViewController.xib in Resources */,
+				BEDDC98A1347EC5B00B00EA3 /* AboutContactView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

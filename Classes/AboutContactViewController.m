@@ -10,6 +10,7 @@
 
 
 @implementation AboutContactViewController
+@synthesize aboutContactTableView;
 
 
 #pragma mark -

@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 
 
-@interface AboutContactViewController : UITableViewController {
-
+@interface AboutContactViewController : UIViewController {
+	UITableView *aboutContactTableView;
 }
+
+@property (nonatomic, retain) IBOutlet UITableView *aboutContactTableView;
 
 @end
