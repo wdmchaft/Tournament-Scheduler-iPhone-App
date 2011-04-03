@@ -267,7 +267,6 @@
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>BEDDCAC8134807C200B00EA3</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
-								<string>BEDDCB0113480A2200B00EA3</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
@@ -330,7 +329,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BEDDCB1713480BD100B00EA3</string>
+										<string>BEDDCB2513480C5800B00EA3</string>
 										<key>history</key>
 										<array>
 											<string>BE09E9381335D2AE00BDF656</string>
@@ -364,15 +363,15 @@
 											<string>BEDDCADB1348087600B00EA3</string>
 											<string>BEDDCADC1348087600B00EA3</string>
 											<string>BEDDCADD1348087600B00EA3</string>
-											<string>BEDDCAF61348096A00B00EA3</string>
-											<string>BEDDCAF71348096A00B00EA3</string>
-											<string>BEDDCB0413480A3800B00EA3</string>
 											<string>BEDDCB1113480BC100B00EA3</string>
-											<string>BEDDCB1213480BC100B00EA3</string>
 											<string>BEDDCB1313480BC100B00EA3</string>
 											<string>BEDDCB1413480BC100B00EA3</string>
 											<string>BEDDCB1513480BC100B00EA3</string>
-											<string>BEDDCAF41348096A00B00EA3</string>
+											<string>BEDDCB1B13480C2400B00EA3</string>
+											<string>BEDDCB1C13480C2400B00EA3</string>
+											<string>BEDDCB1D13480C2400B00EA3</string>
+											<string>BEDDCB2213480C3F00B00EA3</string>
+											<string>BEDDCB2313480C3F00B00EA3</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -597,7 +596,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>DivisionStandings.m</string>
+								<string>StandingsDivision.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>

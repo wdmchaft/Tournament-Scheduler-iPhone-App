@@ -8,7 +8,7 @@
 
 #import "StandingsDivisionViewController.h"
 #import "TournamentSchedulerAppDelegate.h"
-#import "DivisionStandings.h"
+#import "StandingsDivision.h"
 
 @implementation StandingsDivisionViewController
 
@@ -55,7 +55,7 @@
 	NSLog(@"points = %@", pts);
 	
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
-	DivisionStandings *standings = [[DivisionStandings alloc] init];
+	StandingsDivision *standings = [[StandingsDivision alloc] init];
 	[standings queryServiceWithParent:self];
 	
 	

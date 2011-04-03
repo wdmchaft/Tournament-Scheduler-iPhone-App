@@ -44,7 +44,7 @@
 		BE64D498134668C5009C9073 /* MASC2.png in Resources */ = {isa = PBXBuildFile; fileRef = BE64D496134668C5009C9073 /* MASC2.png */; };
 		BE64D49D13466B4D009C9073 /* masc4.png in Resources */ = {isa = PBXBuildFile; fileRef = BE64D49B13466B4D009C9073 /* masc4.png */; };
 		BE64D49E13466B4D009C9073 /* masc5.png in Resources */ = {isa = PBXBuildFile; fileRef = BE64D49C13466B4D009C9073 /* masc5.png */; };
-		BE906B191337DA3700523831 /* DivisionStandings.m in Sources */ = {isa = PBXBuildFile; fileRef = BE906B181337DA3700523831 /* DivisionStandings.m */; };
+		BE906B191337DA3700523831 /* StandingsDivision.m in Sources */ = {isa = PBXBuildFile; fileRef = BE906B181337DA3700523831 /* StandingsDivision.m */; };
 		BEABD06E1335A5C60009CA1F /* TeamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEABD06D1335A5C60009CA1F /* TeamsViewController.m */; };
 		BEABD0771335A73C0009CA1F /* StandingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEABD0751335A73C0009CA1F /* StandingsViewController.m */; };
 		BEABD0781335A73C0009CA1F /* StandingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEABD0761335A73C0009CA1F /* StandingsView.xib */; };
@@ -110,8 +110,8 @@
 		BE64D496134668C5009C9073 /* MASC2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MASC2.png; sourceTree = "<group>"; };
 		BE64D49B13466B4D009C9073 /* masc4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = masc4.png; sourceTree = "<group>"; };
 		BE64D49C13466B4D009C9073 /* masc5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = masc5.png; sourceTree = "<group>"; };
-		BE906B171337DA3700523831 /* DivisionStandings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivisionStandings.h; sourceTree = "<group>"; };
-		BE906B181337DA3700523831 /* DivisionStandings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivisionStandings.m; sourceTree = "<group>"; };
+		BE906B171337DA3700523831 /* StandingsDivision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandingsDivision.h; sourceTree = "<group>"; };
+		BE906B181337DA3700523831 /* StandingsDivision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandingsDivision.m; sourceTree = "<group>"; };
 		BEABD06C1335A5C60009CA1F /* TeamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamsViewController.h; sourceTree = "<group>"; };
 		BEABD06D1335A5C60009CA1F /* TeamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamsViewController.m; sourceTree = "<group>"; };
 		BEABD0741335A73C0009CA1F /* StandingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StandingsViewController.h; path = ../StandingsViewController.h; sourceTree = "<group>"; };
@@ -320,8 +320,8 @@
 			children = (
 				BEABD0E91335B3880009CA1F /* Standings.h */,
 				BEABD0EA1335B3880009CA1F /* Standings.m */,
-				BE906B171337DA3700523831 /* DivisionStandings.h */,
-				BE906B181337DA3700523831 /* DivisionStandings.m */,
+				BE906B171337DA3700523831 /* StandingsDivision.h */,
+				BE906B181337DA3700523831 /* StandingsDivision.m */,
 			);
 			name = Standings;
 			sourceTree = "<group>";
@@ -465,7 +465,7 @@
 				BEABD0E81335B2F10009CA1F /* SBJsonWriter.m in Sources */,
 				BEABD0EB1335B3880009CA1F /* Standings.m in Sources */,
 				BE15C0A613366F7100B2170C /* StandingsDivisionViewController.m in Sources */,
-				BE906B191337DA3700523831 /* DivisionStandings.m in Sources */,
+				BE906B191337DA3700523831 /* StandingsDivision.m in Sources */,
 				BEBE147913468CF900258DFE /* GamesViewController.m in Sources */,
 				BEBE148C13468E1700258DFE /* FieldsViewController.m in Sources */,
 				BEBE149A1346900400258DFE /* AboutViewController.m in Sources */,
