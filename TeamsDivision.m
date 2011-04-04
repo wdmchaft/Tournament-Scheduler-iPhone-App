@@ -77,7 +77,7 @@
 		[parser release];
 	}
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
-	[viewController.tableView reloadData];
+	[viewController.teamsDivisionTableView reloadData];
 }
 
 -(void)dealloc{

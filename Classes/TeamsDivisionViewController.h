@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface TeamsDivisionViewController : UITableViewController {
+@interface TeamsDivisionViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>{
 	UITableView *teamsDivisionTableView;
 }
 
