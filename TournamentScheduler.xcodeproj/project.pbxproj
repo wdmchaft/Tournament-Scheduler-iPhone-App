@@ -47,6 +47,7 @@
 		BE81C8531349778200CF8784 /* Teams.m in Sources */ = {isa = PBXBuildFile; fileRef = BE81C8521349778200CF8784 /* Teams.m */; };
 		BE81C89213497BC400CF8784 /* TeamsDivisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE81C89013497BC400CF8784 /* TeamsDivisionViewController.m */; };
 		BE81C89313497BC400CF8784 /* TeamsDivisionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE81C89113497BC400CF8784 /* TeamsDivisionView.xib */; };
+		BE81C8C713497F6100CF8784 /* TeamsDivision.m in Sources */ = {isa = PBXBuildFile; fileRef = BE81C8C613497F6100CF8784 /* TeamsDivision.m */; };
 		BE906B191337DA3700523831 /* StandingsDivision.m in Sources */ = {isa = PBXBuildFile; fileRef = BE906B181337DA3700523831 /* StandingsDivision.m */; };
 		BEABD06E1335A5C60009CA1F /* TeamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEABD06D1335A5C60009CA1F /* TeamsViewController.m */; };
 		BEABD0771335A73C0009CA1F /* StandingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEABD0751335A73C0009CA1F /* StandingsViewController.m */; };
@@ -128,6 +129,8 @@
 		BE81C88F13497BC400CF8784 /* TeamsDivisionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamsDivisionViewController.h; sourceTree = "<group>"; };
 		BE81C89013497BC400CF8784 /* TeamsDivisionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamsDivisionViewController.m; sourceTree = "<group>"; };
 		BE81C89113497BC400CF8784 /* TeamsDivisionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TeamsDivisionView.xib; path = Classes/TeamsDivisionView.xib; sourceTree = "<group>"; };
+		BE81C8C513497F6100CF8784 /* TeamsDivision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamsDivision.h; sourceTree = "<group>"; };
+		BE81C8C613497F6100CF8784 /* TeamsDivision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamsDivision.m; sourceTree = "<group>"; };
 		BE906B171337DA3700523831 /* StandingsDivision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandingsDivision.h; sourceTree = "<group>"; };
 		BE906B181337DA3700523831 /* StandingsDivision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandingsDivision.m; sourceTree = "<group>"; };
 		BEABD06C1335A5C60009CA1F /* TeamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamsViewController.h; sourceTree = "<group>"; };
@@ -311,6 +314,8 @@
 			children = (
 				BE81C8511349778200CF8784 /* Teams.h */,
 				BE81C8521349778200CF8784 /* Teams.m */,
+				BE81C8C513497F6100CF8784 /* TeamsDivision.h */,
+				BE81C8C613497F6100CF8784 /* TeamsDivision.m */,
 			);
 			name = Teams;
 			sourceTree = "<group>";
@@ -593,6 +598,7 @@
 				BEEC23921348D808001669CC /* AboutContactDetailViewController.m in Sources */,
 				BE81C8531349778200CF8784 /* Teams.m in Sources */,
 				BE81C89213497BC400CF8784 /* TeamsDivisionViewController.m in Sources */,
+				BE81C8C713497F6100CF8784 /* TeamsDivision.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

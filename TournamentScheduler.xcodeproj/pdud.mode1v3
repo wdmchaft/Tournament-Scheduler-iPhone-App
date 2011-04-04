@@ -278,14 +278,14 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>22</integer>
-									<integer>20</integer>
-									<integer>1</integer>
+									<integer>39</integer>
+									<integer>35</integer>
+									<integer>27</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 28}, {275, 760}}</string>
+							<string>{{0, 226}, {275, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -322,7 +322,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TeamsViewController.m</string>
+								<string>TeamsDivision.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -330,11 +330,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TeamsViewController.m</string>
+										<string>TeamsDivision.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BE81C8C413497EEA00CF8784</string>
+										<string>BE81C930134989EF00CF8784</string>
 										<key>history</key>
 										<array>
 											<string>BE09E9381335D2AE00BDF656</string>
@@ -369,24 +369,26 @@
 											<string>BEEC25A113492A2A001669CC</string>
 											<string>BE81C82D134974EC00CF8784</string>
 											<string>BE81C861134978CC00CF8784</string>
-											<string>BE81C862134978CC00CF8784</string>
 											<string>BE81C863134978CC00CF8784</string>
-											<string>BE81C864134978CC00CF8784</string>
-											<string>BE81C865134978CC00CF8784</string>
 											<string>BE81C866134978CC00CF8784</string>
-											<string>BE81C867134978CC00CF8784</string>
-											<string>BE81C869134978CC00CF8784</string>
-											<string>BE81C86B134978CC00CF8784</string>
 											<string>BE81C8A413497C9A00CF8784</string>
-											<string>BE81C8B713497E5D00CF8784</string>
-											<string>BE81C8B813497E5D00CF8784</string>
-											<string>BE81C8BD13497ED900CF8784</string>
-											<string>BE81C8BE13497ED900CF8784</string>
 											<string>BE81C8BF13497ED900CF8784</string>
 											<string>BE81C8C013497ED900CF8784</string>
-											<string>BE81C8C113497ED900CF8784</string>
-											<string>BE81C8C213497ED900CF8784</string>
-											<string>BE81C8B513497E5D00CF8784</string>
+											<string>BE81C8C91349807400CF8784</string>
+											<string>BE81C8CA1349807400CF8784</string>
+											<string>BE81C8CC1349807400CF8784</string>
+											<string>BE81C8EC134981AF00CF8784</string>
+											<string>BE81C8ED134981AF00CF8784</string>
+											<string>BE81C8F91349836200CF8784</string>
+											<string>BE81C8FA1349836200CF8784</string>
+											<string>BE81C9081349845500CF8784</string>
+											<string>BE81C90A1349845500CF8784</string>
+											<string>BE81C9161349855900CF8784</string>
+											<string>BE81C9171349855900CF8784</string>
+											<string>BE81C9181349855900CF8784</string>
+											<string>BE81C9191349855900CF8784</string>
+											<string>BE81C91A1349855900CF8784</string>
+											<string>BE81C9071349845500CF8784</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -586,9 +588,9 @@
 	<array>
 		<string>BE81C8A913497C9A00CF8784</string>
 		<string>BE81C8AA13497C9A00CF8784</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>BEABD05E13359F3A0009CA1F</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TournamentScheduler.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -613,7 +615,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TeamsViewController.m</string>
+								<string>TeamsDivision.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -622,7 +624,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1048, 143}}</string>
 								<key>RubberWindowFrame</key>
-								<string>347 252 1048 524 0 0 1440 878 </string>
+								<string>316 105 1048 524 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -648,7 +650,7 @@
 								<key>Frame</key>
 								<string>{{0, 148}, {1048, 335}}</string>
 								<key>RubberWindowFrame</key>
-								<string>347 252 1048 524 0 0 1440 878 </string>
+								<string>316 105 1048 524 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXBuildResultsModule</string>
@@ -680,7 +682,7 @@
 			<key>WindowContentMinSize</key>
 			<string>486 300</string>
 			<key>WindowString</key>
-			<string>347 252 1048 524 0 0 1440 878 </string>
+			<string>316 105 1048 524 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>BEABD05E13359F3A0009CA1F</string>
 			<key>WindowToolIsVisible</key>
@@ -926,6 +928,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -971,7 +975,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
