@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -267,10 +265,10 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
-								<string>BEDDCAC8134807C200B00EA3</string>
-								<string>BEDDCAD2134807F700B00EA3</string>
+								<string>BEDDCAD0134807E200B00EA3</string>
+								<string>BEDDCACF134807D800B00EA3</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
-								<string>BEDDCB0113480A2200B00EA3</string>
+								<string>BE18EF91134A516C00BFB985</string>
 								<string>BE81C8501349776A00CF8784</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>BE81C84C1349770600CF8784</string>
@@ -279,13 +277,14 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>45</integer>
-									<integer>34</integer>
+									<integer>6</integer>
+									<integer>4</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 123}, {275, 760}}</string>
+							<string>{{0, 59}, {275, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -315,12 +314,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TeamsDivisionViewController.m</string>
+								<string>FieldsViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -328,11 +329,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TeamsDivisionViewController.m</string>
+										<string>FieldsViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BE18EF79134A4C5200BFB985</string>
+										<string>BE18EFF7134A551D00BFB985</string>
 										<key>history</key>
 										<array>
 											<string>BE09E9381335D2AE00BDF656</string>
@@ -353,11 +354,6 @@
 											<string>BEDDCAC4134807B600B00EA3</string>
 											<string>BEDDCAC5134807B600B00EA3</string>
 											<string>BEDDCACB134807CD00B00EA3</string>
-											<string>BEDDCAD61348087600B00EA3</string>
-											<string>BEDDCAD71348087600B00EA3</string>
-											<string>BEDDCAD81348087600B00EA3</string>
-											<string>BEDDCAD91348087600B00EA3</string>
-											<string>BEDDCADC1348087600B00EA3</string>
 											<string>BEDDCADD1348087600B00EA3</string>
 											<string>BEEC23C11348DADD001669CC</string>
 											<string>BEEC259C13492A2A001669CC</string>
@@ -371,18 +367,28 @@
 											<string>BE81C8C013497ED900CF8784</string>
 											<string>BE81C8C91349807400CF8784</string>
 											<string>BE81C8CC1349807400CF8784</string>
-											<string>BE81C8F91349836200CF8784</string>
 											<string>BEE866F51349AFD30019B0C7</string>
-											<string>BEE866F71349AFD30019B0C7</string>
-											<string>BEE867591349B4770019B0C7</string>
-											<string>BEE8675B1349B4770019B0C7</string>
 											<string>BEE8675C1349B4770019B0C7</string>
 											<string>BEE8675D1349B4770019B0C7</string>
 											<string>BEE8675E1349B4770019B0C7</string>
-											<string>BEE8675F1349B4770019B0C7</string>
 											<string>BEE867741349B54A0019B0C7</string>
 											<string>BEE867751349B54A0019B0C7</string>
-											<string>BEE8677B1349B9060019B0C7</string>
+											<string>BE18EF9F134A51FE00BFB985</string>
+											<string>BE18EFA0134A51FE00BFB985</string>
+											<string>BE18EFA1134A51FE00BFB985</string>
+											<string>BE18EFA2134A51FE00BFB985</string>
+											<string>BE18EFA3134A51FE00BFB985</string>
+											<string>BE18EFA4134A51FE00BFB985</string>
+											<string>BE18EFA7134A51FE00BFB985</string>
+											<string>BE18EFA8134A51FE00BFB985</string>
+											<string>BE18EFB7134A524F00BFB985</string>
+											<string>BE18EFD7134A540200BFB985</string>
+											<string>BE18EFD8134A540200BFB985</string>
+											<string>BE18EFD9134A540200BFB985</string>
+											<string>BE18EFDA134A540200BFB985</string>
+											<string>BE18EFDB134A540200BFB985</string>
+											<string>BE18EFDC134A540200BFB985</string>
+											<string>BE18EFDD134A540200BFB985</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -580,9 +586,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>BEABD05E13359F3A0009CA1F</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TournamentScheduler.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -607,7 +613,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>Fields.h</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -624,6 +630,8 @@
 							<string>143pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -918,6 +926,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -963,7 +973,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

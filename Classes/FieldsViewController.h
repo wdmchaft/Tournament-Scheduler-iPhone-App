@@ -9,8 +9,14 @@
 #import <UIKit/UIKit.h>
 
 
-@interface FieldsViewController : UIViewController {
-
+@interface FieldsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>{
+	UITableView *fieldsTableView;
 }
+
+@property (nonatomic, retain) IBOutlet UITableView *fieldsTableView;
+
+@property (nonatomic, retain) NSMutableArray *names;
+@property (nonatomic, retain) NSMutableArray *ids;
+
 
 @end
