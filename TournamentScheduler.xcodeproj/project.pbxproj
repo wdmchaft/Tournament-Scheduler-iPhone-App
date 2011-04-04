@@ -72,6 +72,8 @@
 		BEDDCBE11348275E00B00EA3 /* robertThomas.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDDCBDD1348275E00B00EA3 /* robertThomas.png */; };
 		BEDDCBE21348275E00B00EA3 /* philDudley.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDDCBDE1348275E00B00EA3 /* philDudley.png */; };
 		BEDDCBE31348275E00B00EA3 /* karenDudley.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDDCBDF1348275E00B00EA3 /* karenDudley.png */; };
+		BEE866F21349AFCD0019B0C7 /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE866F01349AFCD0019B0C7 /* OverlayViewController.m */; };
+		BEE866F31349AFCD0019B0C7 /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEE866F11349AFCD0019B0C7 /* OverlayView.xib */; };
 		BEEC23921348D808001669CC /* AboutContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEC23901348D808001669CC /* AboutContactDetailViewController.m */; };
 		BEEC23931348D808001669CC /* AboutContactDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEEC23911348D808001669CC /* AboutContactDetailView.xib */; };
 		BEEC240F1348DE94001669CC /* karenDudleyLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = BEEC240B1348DE94001669CC /* karenDudleyLarge.png */; };
@@ -170,6 +172,9 @@
 		BEDDCBDD1348275E00B00EA3 /* robertThomas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robertThomas.png; sourceTree = "<group>"; };
 		BEDDCBDE1348275E00B00EA3 /* philDudley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = philDudley.png; sourceTree = "<group>"; };
 		BEDDCBDF1348275E00B00EA3 /* karenDudley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = karenDudley.png; sourceTree = "<group>"; };
+		BEE866EF1349AFCD0019B0C7 /* OverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayViewController.h; sourceTree = "<group>"; };
+		BEE866F01349AFCD0019B0C7 /* OverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayViewController.m; sourceTree = "<group>"; };
+		BEE866F11349AFCD0019B0C7 /* OverlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = OverlayView.xib; path = Classes/OverlayView.xib; sourceTree = "<group>"; };
 		BEEC238F1348D808001669CC /* AboutContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutContactDetailViewController.h; sourceTree = "<group>"; };
 		BEEC23901348D808001669CC /* AboutContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutContactDetailViewController.m; sourceTree = "<group>"; };
 		BEEC23911348D808001669CC /* AboutContactDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutContactDetailView.xib; path = Classes/AboutContactDetailView.xib; sourceTree = "<group>"; };
@@ -279,6 +284,7 @@
 		BE81C84C1349770600CF8784 /* Teams */ = {
 			isa = PBXGroup;
 			children = (
+				BEE866F11349AFCD0019B0C7 /* OverlayView.xib */,
 				BE81C89113497BC400CF8784 /* TeamsDivisionView.xib */,
 				282CCBFD0DB6C98000C4EA27 /* TeamsView.xib */,
 			);
@@ -389,6 +395,8 @@
 				BEABD06D1335A5C60009CA1F /* TeamsViewController.m */,
 				BE81C88F13497BC400CF8784 /* TeamsDivisionViewController.h */,
 				BE81C89013497BC400CF8784 /* TeamsDivisionViewController.m */,
+				BEE866EF1349AFCD0019B0C7 /* OverlayViewController.h */,
+				BEE866F01349AFCD0019B0C7 /* OverlayViewController.m */,
 			);
 			name = Teams;
 			sourceTree = "<group>";
@@ -567,6 +575,7 @@
 				BEEC24111348DE94001669CC /* brianDudleyLarge.png in Resources */,
 				BEEC24121348DE94001669CC /* philDudleyLarge.png in Resources */,
 				BE81C89313497BC400CF8784 /* TeamsDivisionView.xib in Resources */,
+				BEE866F31349AFCD0019B0C7 /* OverlayView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,6 +608,7 @@
 				BE81C8531349778200CF8784 /* Teams.m in Sources */,
 				BE81C89213497BC400CF8784 /* TeamsDivisionViewController.m in Sources */,
 				BE81C8C713497F6100CF8784 /* TeamsDivision.m in Sources */,
+				BEE866F21349AFCD0019B0C7 /* OverlayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
