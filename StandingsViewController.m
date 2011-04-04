@@ -106,10 +106,9 @@
 	//delegate.currentPage = title;
 	
 	
-	
 	StandingsDivisionViewController *divisionStandingsView = [[StandingsDivisionViewController alloc] init];
 	divisionStandingsView.navigationItem.title = (@"%@", divName);
-	[delegate.standingsNavigationController pushViewController:divisionStandingsView animated:YES];
+	[self.navigationController pushViewController:divisionStandingsView animated:YES];
 	[divisionStandingsView release];
 	
 	
