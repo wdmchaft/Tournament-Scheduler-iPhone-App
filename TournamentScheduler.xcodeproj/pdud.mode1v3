@@ -267,6 +267,8 @@
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>BEDDCAD0134807E200B00EA3</string>
 								<string>BEDDCACF134807D800B00EA3</string>
+								<string>BEDDCAC8134807C200B00EA3</string>
+								<string>BEDDCAD2134807F700B00EA3</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>BE18EF91134A516C00BFB985</string>
 								<string>BE81C8501349776A00CF8784</string>
@@ -284,7 +286,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 59}, {275, 760}}</string>
+							<string>{{0, 32}, {275, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -333,7 +335,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BE21D6B2134A61DF00B41B0D</string>
+										<string>BE21D6CD134A663600B41B0D</string>
 										<key>history</key>
 										<array>
 											<string>BE09E9381335D2AE00BDF656</string>
@@ -374,7 +376,6 @@
 											<string>BEE867741349B54A0019B0C7</string>
 											<string>BEE867751349B54A0019B0C7</string>
 											<string>BE18EF9F134A51FE00BFB985</string>
-											<string>BE18EFA0134A51FE00BFB985</string>
 											<string>BE18EFA1134A51FE00BFB985</string>
 											<string>BE18EFA2134A51FE00BFB985</string>
 											<string>BE18EFA3134A51FE00BFB985</string>
@@ -388,7 +389,10 @@
 											<string>BE18EFDA134A540200BFB985</string>
 											<string>BE18EFDB134A540200BFB985</string>
 											<string>BE18EFDC134A540200BFB985</string>
-											<string>BE18EFF7134A551D00BFB985</string>
+											<string>BE21D6C1134A65C900B41B0D</string>
+											<string>BE21D6C2134A65C900B41B0D</string>
+											<string>BE21D6C3134A65C900B41B0D</string>
+											<string>BE21D6C4134A65C900B41B0D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -586,7 +590,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>BEABD05E13359F3A0009CA1F</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TournamentScheduler.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -789,13 +795,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>BE18EF71134A4C3200BFB985</string>
+				<string>BE21D6C6134A65C900B41B0D</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>BE18EF72134A4C3200BFB985</string>
-				<string>BE18EF73134A4C3200BFB985</string>
-				<string>BE18EF74134A4C3200BFB985</string>
-				<string>BE18EF75134A4C3200BFB985</string>
-				<string>BE18EF76134A4C3200BFB985</string>
+				<string>BE21D6C7134A65C900B41B0D</string>
+				<string>BE21D6C8134A65C900B41B0D</string>
+				<string>BE21D6C9134A65C900B41B0D</string>
+				<string>BE21D6CA134A65C900B41B0D</string>
+				<string>BE21D6CB134A65C900B41B0D</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -959,7 +965,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>BE18EF77134A4C3200BFB985</string>
+				<string>BE21D6CC134A65C900B41B0D</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

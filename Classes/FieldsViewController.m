@@ -86,7 +86,7 @@
 		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
 	}
 	NSLog(@"Create Cell = %@", [ids objectAtIndex:indexPath.row]);
-	cell.textLabel.text = [NSString stringWithFormat:@"%@", [ids objectAtIndex:indexPath.row]];
+	cell.textLabel.text = [NSString stringWithFormat:@"Field %@", [ids objectAtIndex:indexPath.row]];
 	return cell;
 }
 
