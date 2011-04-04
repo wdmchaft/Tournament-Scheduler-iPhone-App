@@ -265,21 +265,27 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
-								<string>BEDDCAD2134807F700B00EA3</string>
+								<string>BEDDCAD1134807EB00B00EA3</string>
 								<string>BEDDCAC8134807C200B00EA3</string>
+								<string>BEDDCAD2134807F700B00EA3</string>
+								<string>29B97315FDCFA39411CA2CEA</string>
+								<string>BEDDCB0113480A2200B00EA3</string>
+								<string>BE81C8501349776A00CF8784</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
+								<string>BE81C84C1349770600CF8784</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>26</integer>
-									<integer>18</integer>
+									<integer>22</integer>
+									<integer>20</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {275, 760}}</string>
+							<string>{{0, 28}, {275, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -316,7 +322,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>StandingsViewController.m</string>
+								<string>TeamsViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,11 +330,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>StandingsViewController.m</string>
+										<string>TeamsViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BE81C841134975C000CF8784</string>
+										<string>BE81C8C413497EEA00CF8784</string>
 										<key>history</key>
 										<array>
 											<string>BE09E9381335D2AE00BDF656</string>
@@ -347,36 +353,40 @@
 											<string>BE64D4A513466CA6009C9073</string>
 											<string>BE64D4A613466CA6009C9073</string>
 											<string>BE3EA7401347AB550075A2E5</string>
-											<string>BEDDC8D11347E05200B00EA3</string>
 											<string>BEDDCAC4134807B600B00EA3</string>
 											<string>BEDDCAC5134807B600B00EA3</string>
 											<string>BEDDCACB134807CD00B00EA3</string>
-											<string>BEDDCACC134807CD00B00EA3</string>
 											<string>BEDDCAD61348087600B00EA3</string>
 											<string>BEDDCAD71348087600B00EA3</string>
 											<string>BEDDCAD81348087600B00EA3</string>
 											<string>BEDDCAD91348087600B00EA3</string>
 											<string>BEDDCADC1348087600B00EA3</string>
 											<string>BEDDCADD1348087600B00EA3</string>
-											<string>BEDDCB1113480BC100B00EA3</string>
-											<string>BEDDCB2713480FCE00B00EA3</string>
-											<string>BEDDCB47134814D200B00EA3</string>
-											<string>BEDDCB501348150D00B00EA3</string>
-											<string>BEDDCCCE13484C8E00B00EA3</string>
 											<string>BEEC23C11348DADD001669CC</string>
-											<string>BEEC24831348F7C1001669CC</string>
-											<string>BEEC25551349234E001669CC</string>
 											<string>BEEC259C13492A2A001669CC</string>
-											<string>BEEC259D13492A2A001669CC</string>
-											<string>BEEC259E13492A2A001669CC</string>
 											<string>BEEC259F13492A2A001669CC</string>
 											<string>BEEC25A013492A2A001669CC</string>
 											<string>BEEC25A113492A2A001669CC</string>
 											<string>BE81C82D134974EC00CF8784</string>
-											<string>BE81C82E134974EC00CF8784</string>
-											<string>BE81C82F134974EC00CF8784</string>
-											<string>BE81C830134974EC00CF8784</string>
-											<string>BE81C831134974EC00CF8784</string>
+											<string>BE81C861134978CC00CF8784</string>
+											<string>BE81C862134978CC00CF8784</string>
+											<string>BE81C863134978CC00CF8784</string>
+											<string>BE81C864134978CC00CF8784</string>
+											<string>BE81C865134978CC00CF8784</string>
+											<string>BE81C866134978CC00CF8784</string>
+											<string>BE81C867134978CC00CF8784</string>
+											<string>BE81C869134978CC00CF8784</string>
+											<string>BE81C86B134978CC00CF8784</string>
+											<string>BE81C8A413497C9A00CF8784</string>
+											<string>BE81C8B713497E5D00CF8784</string>
+											<string>BE81C8B813497E5D00CF8784</string>
+											<string>BE81C8BD13497ED900CF8784</string>
+											<string>BE81C8BE13497ED900CF8784</string>
+											<string>BE81C8BF13497ED900CF8784</string>
+											<string>BE81C8C013497ED900CF8784</string>
+											<string>BE81C8C113497ED900CF8784</string>
+											<string>BE81C8C213497ED900CF8784</string>
+											<string>BE81C8B513497E5D00CF8784</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -574,6 +584,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>BE81C8A913497C9A00CF8784</string>
+		<string>BE81C8AA13497C9A00CF8784</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>BEABD05E13359F3A0009CA1F</string>
@@ -601,7 +613,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>TeamsViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -618,6 +630,8 @@
 							<string>143pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>

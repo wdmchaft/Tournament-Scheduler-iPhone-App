@@ -44,6 +44,9 @@
 		BE64D498134668C5009C9073 /* MASC2.png in Resources */ = {isa = PBXBuildFile; fileRef = BE64D496134668C5009C9073 /* MASC2.png */; };
 		BE64D49D13466B4D009C9073 /* masc4.png in Resources */ = {isa = PBXBuildFile; fileRef = BE64D49B13466B4D009C9073 /* masc4.png */; };
 		BE64D49E13466B4D009C9073 /* masc5.png in Resources */ = {isa = PBXBuildFile; fileRef = BE64D49C13466B4D009C9073 /* masc5.png */; };
+		BE81C8531349778200CF8784 /* Teams.m in Sources */ = {isa = PBXBuildFile; fileRef = BE81C8521349778200CF8784 /* Teams.m */; };
+		BE81C89213497BC400CF8784 /* TeamsDivisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE81C89013497BC400CF8784 /* TeamsDivisionViewController.m */; };
+		BE81C89313497BC400CF8784 /* TeamsDivisionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE81C89113497BC400CF8784 /* TeamsDivisionView.xib */; };
 		BE906B191337DA3700523831 /* StandingsDivision.m in Sources */ = {isa = PBXBuildFile; fileRef = BE906B181337DA3700523831 /* StandingsDivision.m */; };
 		BEABD06E1335A5C60009CA1F /* TeamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEABD06D1335A5C60009CA1F /* TeamsViewController.m */; };
 		BEABD0771335A73C0009CA1F /* StandingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEABD0751335A73C0009CA1F /* StandingsViewController.m */; };
@@ -120,6 +123,11 @@
 		BE64D496134668C5009C9073 /* MASC2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MASC2.png; sourceTree = "<group>"; };
 		BE64D49B13466B4D009C9073 /* masc4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = masc4.png; sourceTree = "<group>"; };
 		BE64D49C13466B4D009C9073 /* masc5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = masc5.png; sourceTree = "<group>"; };
+		BE81C8511349778200CF8784 /* Teams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teams.h; sourceTree = "<group>"; };
+		BE81C8521349778200CF8784 /* Teams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teams.m; sourceTree = "<group>"; };
+		BE81C88F13497BC400CF8784 /* TeamsDivisionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamsDivisionViewController.h; sourceTree = "<group>"; };
+		BE81C89013497BC400CF8784 /* TeamsDivisionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamsDivisionViewController.m; sourceTree = "<group>"; };
+		BE81C89113497BC400CF8784 /* TeamsDivisionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TeamsDivisionView.xib; path = Classes/TeamsDivisionView.xib; sourceTree = "<group>"; };
 		BE906B171337DA3700523831 /* StandingsDivision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandingsDivision.h; sourceTree = "<group>"; };
 		BE906B181337DA3700523831 /* StandingsDivision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandingsDivision.m; sourceTree = "<group>"; };
 		BEABD06C1335A5C60009CA1F /* TeamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamsViewController.h; sourceTree = "<group>"; };
@@ -186,14 +194,14 @@
 			isa = PBXGroup;
 			children = (
 				BEDDCAB7134807A600B00EA3 /* JSON */,
+				BEDDCAD1134807EB00B00EA3 /* About */,
+				BEDDCAD0134807E200B00EA3 /* Fields */,
+				BEDDCACF134807D800B00EA3 /* Games */,
+				BEDDCAD31348080200B00EA3 /* Home */,
+				BEDDCAC8134807C200B00EA3 /* Standings */,
+				BEDDCAD2134807F700B00EA3 /* Teams */,
 				1D3623240D0F684500981E51 /* TournamentSchedulerAppDelegate.h */,
 				1D3623250D0F684500981E51 /* TournamentSchedulerAppDelegate.m */,
-				BEDDCAD31348080200B00EA3 /* Home */,
-				BEDDCAD1134807EB00B00EA3 /* About */,
-				BEDDCAD2134807F700B00EA3 /* Teams */,
-				BEDDCAC8134807C200B00EA3 /* Standings */,
-				BEDDCACF134807D800B00EA3 /* Games */,
-				BEDDCAD0134807E200B00EA3 /* Fields */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -224,6 +232,7 @@
 				28A0AB4B0D9B1048005BE974 /* TournamentScheduler_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 				BEDDCB0113480A2200B00EA3 /* Standings */,
+				BE81C8501349776A00CF8784 /* Teams */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -232,16 +241,14 @@
 			isa = PBXGroup;
 			children = (
 				BEEC23941348D81D001669CC /* About */,
-				BEBE148B13468E1700258DFE /* FieldsView.xib */,
-				BEBE147813468CF900258DFE /* GamesView.xib */,
+				BE81C84E1349771800CF8784 /* Fields */,
+				BE81C84D1349770E00CF8784 /* Games */,
+				BE81C84F1349772400CF8784 /* Home */,
+				BE81C845134976E500CF8784 /* Standings */,
+				BE81C84C1349770600CF8784 /* Teams */,
 				BEE7C69D1336BE770062373D /* tab-bar */,
-				BE15C0A513366F7100B2170C /* StandingsDivisionView.xib */,
-				2840D7CD1179279E00D7F93C /* HomeView.xib */,
-				282CCBFD0DB6C98000C4EA27 /* TeamsView.xib */,
-				BEABD0761335A73C0009CA1F /* StandingsView.xib */,
 				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* TournamentScheduler-Info.plist */,
-				BE1B711C1338170E006F64A1 /* StandingsTableView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -254,6 +261,58 @@
 				288765070DF74369002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE81C845134976E500CF8784 /* Standings */ = {
+			isa = PBXGroup;
+			children = (
+				BE15C0A513366F7100B2170C /* StandingsDivisionView.xib */,
+				BEABD0761335A73C0009CA1F /* StandingsView.xib */,
+				BE1B711C1338170E006F64A1 /* StandingsTableView.xib */,
+			);
+			name = Standings;
+			sourceTree = "<group>";
+		};
+		BE81C84C1349770600CF8784 /* Teams */ = {
+			isa = PBXGroup;
+			children = (
+				BE81C89113497BC400CF8784 /* TeamsDivisionView.xib */,
+				282CCBFD0DB6C98000C4EA27 /* TeamsView.xib */,
+			);
+			name = Teams;
+			sourceTree = "<group>";
+		};
+		BE81C84D1349770E00CF8784 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE147813468CF900258DFE /* GamesView.xib */,
+			);
+			name = Games;
+			sourceTree = "<group>";
+		};
+		BE81C84E1349771800CF8784 /* Fields */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE148B13468E1700258DFE /* FieldsView.xib */,
+			);
+			name = Fields;
+			sourceTree = "<group>";
+		};
+		BE81C84F1349772400CF8784 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2840D7CD1179279E00D7F93C /* HomeView.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		BE81C8501349776A00CF8784 /* Teams */ = {
+			isa = PBXGroup;
+			children = (
+				BE81C8511349778200CF8784 /* Teams.h */,
+				BE81C8521349778200CF8784 /* Teams.m */,
+			);
+			name = Teams;
 			sourceTree = "<group>";
 		};
 		BEDDCAB7134807A600B00EA3 /* JSON */ = {
@@ -323,6 +382,8 @@
 			children = (
 				BEABD06C1335A5C60009CA1F /* TeamsViewController.h */,
 				BEABD06D1335A5C60009CA1F /* TeamsViewController.m */,
+				BE81C88F13497BC400CF8784 /* TeamsDivisionViewController.h */,
+				BE81C89013497BC400CF8784 /* TeamsDivisionViewController.m */,
 			);
 			name = Teams;
 			sourceTree = "<group>";
@@ -500,6 +561,7 @@
 				BEEC24101348DE94001669CC /* robertThomasLarge.png in Resources */,
 				BEEC24111348DE94001669CC /* brianDudleyLarge.png in Resources */,
 				BEEC24121348DE94001669CC /* philDudleyLarge.png in Resources */,
+				BE81C89313497BC400CF8784 /* TeamsDivisionView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +591,8 @@
 				BEDDC8F21347E15000B00EA3 /* AboutRulesViewController.m in Sources */,
 				BEDDC9891347EC5B00B00EA3 /* AboutContactViewController.m in Sources */,
 				BEEC23921348D808001669CC /* AboutContactDetailViewController.m in Sources */,
+				BE81C8531349778200CF8784 /* Teams.m in Sources */,
+				BE81C89213497BC400CF8784 /* TeamsDivisionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

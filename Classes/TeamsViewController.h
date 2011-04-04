@@ -15,5 +15,8 @@
 
 @property (nonatomic, retain) IBOutlet UITableView *teamsView;
 
+@property (nonatomic, retain) NSMutableArray *names;
+@property (nonatomic, retain) NSMutableArray *ids;
+
 
 @end

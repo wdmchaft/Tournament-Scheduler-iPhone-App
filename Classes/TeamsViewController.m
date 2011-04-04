@@ -1,4 +1,4 @@
-    //
+//
 //  TeamsViewController.m
 //  TournamentScheduler
 //
@@ -7,11 +7,16 @@
 //
 
 #import "TeamsViewController.h"
+#import "Teams.h"
+#import "TournamentSchedulerAppDelegate.h"
+#import "TeamsDivisionViewController.h"
 
 
 @implementation TeamsViewController
 
 @synthesize teamsView;
+@synthesize names;
+@synthesize ids;
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
@@ -27,12 +32,12 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	
-	//names = [[NSMutableArray alloc] init];
-//	urls = [[NSMutableArray alloc] init];
-//	NSLog(@"names = %@", names);
-//	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
-//	Standings *standings = [[Standings alloc] init];
-//	[standings queryServiceWithParent:self];
+	names = [[NSMutableArray alloc] init];
+	ids = [[NSMutableArray alloc] init];
+	//	NSLog(@"names = %@", names);
+	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
+	Teams *teams = [[Teams alloc] init];
+	[teams queryServiceWithParent:self];
 	
     [super viewDidLoad];
 	
@@ -62,17 +67,15 @@
 
 
 - (void)dealloc {
-	//[names dealloc];
-	//	[urls dealloc];
+	[names dealloc];
+	[ids dealloc];
     [super dealloc];
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
 	
 //	NSLog(@"Table View - namescount = %d", names.count);
-//	return names.count;
-	
-	return 2;
+	return names.count+1;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -83,37 +86,48 @@
 		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
 	}
 //	NSLog(@"Create Cell = %@", [names objectAtIndex:indexPath.row]);
-//	cell.textLabel.text = [names objectAtIndex:indexPath.row];
+	if (indexPath.row == 0)
+		cell.textLabel.text = @"All Teams";
+	else
+		cell.textLabel.text = [names objectAtIndex:indexPath.row-1];
 	return cell;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 	//Add code to handle selection here
-//	NSString *divName = [names objectAtIndex:indexPath.row];
-//	NSString *divId = [urls objectAtIndex:indexPath.row];
+	
+	NSString *divName = @"";
+	NSString *divId = @"";
+	if (indexPath.row == 0){
+		divName = @"All Teams";
+		divId = @"0";	
+	}else{
+		divName = [names objectAtIndex:indexPath.row-1];
+		divId = [ids objectAtIndex:indexPath.row-1];
+	}
+	
+	
 //	
 //	NSLog(@"Title is %@ with ID %@", divName, divId);
 //	
-//	//UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:@"HELLO" delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
-//	//	[alert show];
-//	//	[alert autorelease];
+	//UIAlertView *alert = [[UIAlertView alloc] initWithTitle:divName message:@"HELLO" delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+//	[alert show];
+//	[alert autorelease];
 //	
-//	TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
+	TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
 //	
-//	delegate.tempIdHolder= divId;
-//	//delegate.currentPage = title;
-//	
-//	
-//	
-//	StandingsDivisionViewController *divisionStandingsView = [[StandingsDivisionViewController alloc] init];
-//	divisionStandingsView.navigationItem.title = (@"%@", divName);
-//	[delegate.standingsNavigationController pushViewController:divisionStandingsView animated:YES];
-//	[divisionStandingsView release];
+	delegate.tempIdHolder= divId;
+	delegate.currentPage = divName;
 //	
 //	
 //	
-//	
-//	[tableView deselectRowAtIndexPath:indexPath animated:YES];
+	TeamsDivisionViewController *teamsDivisionView = [[TeamsDivisionViewController alloc] init];
+	teamsDivisionView.navigationItem.title = (@"%@", divName);
+	[self.navigationController pushViewController:teamsDivisionView animated:YES];
+	[teamsDivisionView release];
+
+
+	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 
