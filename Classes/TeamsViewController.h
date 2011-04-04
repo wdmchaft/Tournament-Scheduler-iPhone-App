@@ -9,9 +9,11 @@
 #import <UIKit/UIKit.h>
 
 
-@interface TeamsViewController : UIViewController {
-
+@interface TeamsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>{
+	UITableView *teamsView;
 }
+
+@property (nonatomic, retain) IBOutlet UITableView *teamsView;
 
 
 @end
