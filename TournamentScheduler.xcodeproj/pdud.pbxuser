@@ -257,6 +257,17 @@
 			BE607260134AA00C0037AC10 /* PBXTextBookmark */ = BE607260134AA00C0037AC10 /* PBXTextBookmark */;
 			BE607261134AA00C0037AC10 /* PBXTextBookmark */ = BE607261134AA00C0037AC10 /* PBXTextBookmark */;
 			BE607262134AA00C0037AC10 /* PBXTextBookmark */ = BE607262134AA00C0037AC10 /* PBXTextBookmark */;
+			BE60726B134AA4410037AC10 /* PBXTextBookmark */ = BE60726B134AA4410037AC10 /* PBXTextBookmark */;
+			BE60726C134AA4410037AC10 /* PBXBookmark */ = BE60726C134AA4410037AC10 /* PBXBookmark */;
+			BE60726D134AA4410037AC10 /* PBXTextBookmark */ = BE60726D134AA4410037AC10 /* PBXTextBookmark */;
+			BE607272134AA4670037AC10 /* PBXTextBookmark */ = BE607272134AA4670037AC10 /* PBXTextBookmark */;
+			BE607277134AA50F0037AC10 /* PBXTextBookmark */ = BE607277134AA50F0037AC10 /* PBXTextBookmark */;
+			BE607278134AA50F0037AC10 /* PBXTextBookmark */ = BE607278134AA50F0037AC10 /* PBXTextBookmark */;
+			BE607279134AA50F0037AC10 /* PBXTextBookmark */ = BE607279134AA50F0037AC10 /* PBXTextBookmark */;
+			BE60727A134AA50F0037AC10 /* PBXTextBookmark */ = BE60727A134AA50F0037AC10 /* PBXTextBookmark */;
+			BE60727B134AA50F0037AC10 /* PBXTextBookmark */ = BE60727B134AA50F0037AC10 /* PBXTextBookmark */;
+			BE607280134AA5940037AC10 /* PBXTextBookmark */ = BE607280134AA5940037AC10 /* PBXTextBookmark */;
+			BE607281134AA6350037AC10 /* PBXTextBookmark */ = BE607281134AA6350037AC10 /* PBXTextBookmark */;
 			BE64D4A313466CA6009C9073 = BE64D4A313466CA6009C9073 /* PBXBookmark */;
 			BE64D4A413466CA6009C9073 = BE64D4A413466CA6009C9073 /* PBXBookmark */;
 			BE64D4A513466CA6009C9073 = BE64D4A513466CA6009C9073 /* PBXBookmark */;
@@ -626,10 +637,10 @@
 	};
 	BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{4641, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{4692, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{4742, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 5443}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {887, 2704}}";
-			sepNavSelRange = "{649, 0}";
-			sepNavVisRange = "{309, 789}";
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{4628, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{4679, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{4729, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 5490}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {908, 2665}}";
+			sepNavSelRange = "{4958, 0}";
+			sepNavVisRange = "{1482, 834}";
 		};
 	};
 	BE6071C3134A8EBD0037AC10 /* XCBuildMessageTextBookmark */ = {
@@ -936,7 +947,7 @@
 		fRef = BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */;
 		name = "TeamsSpecificViewController.m: 84";
 		rLen = 0;
-		rLoc = 2832;
+		rLoc = 2820;
 		rType = 0;
 		vrLen = 950;
 		vrLoc = 1357;
@@ -946,7 +957,7 @@
 		fRef = BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */;
 		name = "TeamsSpecificViewController.m: 84";
 		rLen = 0;
-		rLoc = 2832;
+		rLoc = 2820;
 		rType = 0;
 		vrLen = 915;
 		vrLoc = 1235;
@@ -956,7 +967,7 @@
 		fRef = BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */;
 		name = "TeamsSpecificViewController.m: 89";
 		rLen = 0;
-		rLoc = 3043;
+		rLoc = 3030;
 		rType = 0;
 		vrLen = 1015;
 		vrLoc = 1411;
@@ -966,7 +977,7 @@
 		fRef = BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */;
 		name = "TeamsSpecificViewController.m: 91";
 		rLen = 0;
-		rLoc = 3062;
+		rLoc = 3049;
 		rType = 0;
 		vrLen = 1045;
 		vrLoc = 1289;
@@ -1035,7 +1046,7 @@
 		isa = PBXTextBookmark;
 		fRef = BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */;
 		name = "TeamsSpecificViewController.m: 81";
-		rLen = 3;
+		rLen = 2;
 		rLoc = 2288;
 		rType = 0;
 		vrLen = 965;
@@ -1046,7 +1057,7 @@
 		fRef = BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */;
 		name = "TeamsSpecificViewController.m: 81";
 		rLen = 0;
-		rLoc = 2291;
+		rLoc = 2290;
 		rType = 0;
 		vrLen = 965;
 		vrLoc = 1586;
@@ -1256,7 +1267,7 @@
 		fRef = BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */;
 		name = "TeamsSpecificViewController.m: 107";
 		rLen = 0;
-		rLoc = 2957;
+		rLoc = 2944;
 		rType = 0;
 		vrLen = 1115;
 		vrLoc = 2049;
@@ -1356,7 +1367,7 @@
 		fRef = BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */;
 		name = "TeamsSpecificViewController.m: 107";
 		rLen = 0;
-		rLoc = 2957;
+		rLoc = 2944;
 		rType = 0;
 		vrLen = 1124;
 		vrLoc = 2049;
@@ -1366,7 +1377,7 @@
 		fRef = BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */;
 		name = "TeamsSpecificViewController.m: 107";
 		rLen = 0;
-		rLoc = 3040;
+		rLoc = 3027;
 		rType = 0;
 		vrLen = 1131;
 		vrLoc = 2049;
@@ -1406,7 +1417,7 @@
 		fRef = BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */;
 		name = "TeamsSpecificViewController.m: 107";
 		rLen = 0;
-		rLoc = 3040;
+		rLoc = 3027;
 		rType = 0;
 		vrLen = 1131;
 		vrLoc = 2049;
@@ -1416,7 +1427,7 @@
 		fRef = BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */;
 		name = "TeamsSpecificViewController.m: 108";
 		rLen = 0;
-		rLoc = 3040;
+		rLoc = 3027;
 		rType = 0;
 		vrLen = 1050;
 		vrLoc = 2049;
@@ -1476,7 +1487,7 @@
 		fRef = BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */;
 		name = "TeamsSpecificViewController.m: 108";
 		rLen = 0;
-		rLoc = 3040;
+		rLoc = 3027;
 		rType = 0;
 		vrLen = 1035;
 		vrLoc = 2009;
@@ -1590,6 +1601,110 @@
 		rType = 0;
 		vrLen = 1252;
 		vrLoc = 3249;
+	};
+	BE60726B134AA4410037AC10 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE81C89013497BC400CF8784 /* TeamsDivisionViewController.m */;
+		name = "TeamsDivisionViewController.m: 131";
+		rLen = 0;
+		rLoc = 4144;
+		rType = 0;
+		vrLen = 1252;
+		vrLoc = 3249;
+	};
+	BE60726C134AA4410037AC10 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BE64D49B13466B4D009C9073 /* masc4.png */;
+	};
+	BE60726D134AA4410037AC10 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */;
+		name = "TeamsSpecificViewController.m: 94";
+		rLen = 0;
+		rLoc = 2290;
+		rType = 0;
+		vrLen = 1042;
+		vrLoc = 1864;
+	};
+	BE607272134AA4670037AC10 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */;
+		name = "TeamsSpecificViewController.m: 113";
+		rLen = 0;
+		rLoc = 2888;
+		rType = 0;
+		vrLen = 937;
+		vrLoc = 2115;
+	};
+	BE607277134AA50F0037AC10 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEBE14981346900400258DFE /* AboutViewController.m */;
+		name = "AboutViewController.m: 192";
+		rLen = 58;
+		rLoc = 5121;
+		rType = 0;
+		vrLen = 911;
+		vrLoc = 4742;
+	};
+	BE607278134AA50F0037AC10 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEEC23901348D808001669CC /* AboutContactDetailViewController.m */;
+		name = "AboutContactDetailViewController.m: 252";
+		rLen = 0;
+		rLoc = 6468;
+		rType = 0;
+		vrLen = 1006;
+		vrLoc = 2157;
+	};
+	BE607279134AA50F0037AC10 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE6071A8134A85A20037AC10 /* TeamsSpecificViewController.h */;
+		name = "TeamsSpecificViewController.h: 22";
+		rLen = 0;
+		rLoc = 577;
+		rType = 0;
+		vrLen = 585;
+		vrLoc = 0;
+	};
+	BE60727A134AA50F0037AC10 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */;
+		name = "TeamsSpecificViewController.m: 113";
+		rLen = 0;
+		rLoc = 2888;
+		rType = 0;
+		vrLen = 966;
+		vrLoc = 2084;
+	};
+	BE60727B134AA50F0037AC10 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */;
+		name = "TeamsSpecificViewController.m: 173";
+		rLen = 0;
+		rLoc = 5015;
+		rType = 0;
+		vrLen = 1131;
+		vrLoc = 4308;
+	};
+	BE607280134AA5940037AC10 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */;
+		name = "TeamsSpecificViewController.m: 173";
+		rLen = 0;
+		rLoc = 5015;
+		rType = 0;
+		vrLen = 834;
+		vrLoc = 1482;
+	};
+	BE607281134AA6350037AC10 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */;
+		name = "TeamsSpecificViewController.m: 173";
+		rLen = 0;
+		rLoc = 5015;
+		rType = 0;
+		vrLen = 834;
+		vrLoc = 1482;
 	};
 	BE64D4A313466CA6009C9073 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -1934,9 +2049,9 @@
 	};
 	BEBE14981346900400258DFE /* AboutViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1055, 2782}}";
-			sepNavSelRange = "{2534, 65}";
-			sepNavVisRange = "{1156, 867}";
+			sepNavIntBoundsRect = "{{0, 0}, {1055, 2834}}";
+			sepNavSelRange = "{5121, 58}";
+			sepNavVisRange = "{4742, 911}";
 		};
 	};
 	BEDDC8EF1347E15000B00EA3 /* AboutRulesViewController.h */ = {
@@ -2092,9 +2207,9 @@
 	BEEC23901348D808001669CC /* AboutContactDetailViewController.m */ = {
 		uiCtxt = {
 			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{5876, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{5927, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{5977, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 6834}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {929, 3666}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 3575}}";
 			sepNavSelRange = "{6411, 0}";
-			sepNavVisRange = "{6147, 629}";
+			sepNavVisRange = "{2157, 1006}";
 			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
 		};
 	};

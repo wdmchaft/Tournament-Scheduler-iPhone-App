@@ -91,7 +91,7 @@
 {	
 	if (indexPath.section + indexPath.row == 0)
 	{
-		return 140;		
+		return 90;		
 	}
     return 44; 
 }
@@ -106,12 +106,11 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
 	
-	if (indexPath.section == 0){
-		if (indexPath.row == 0)
+	if (indexPath.section + indexPath.row == 0)
 			return teamRecordCell;		
     
     // Configure the cell...
-    }else{
+    else{
 		cell.textLabel.text = [optionList objectAtIndex:indexPath.row];
 		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 	}
@@ -171,6 +170,7 @@
     [self.navigationController pushViewController:detailViewController animated:YES];
     [detailViewController release];
     */
+	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 
