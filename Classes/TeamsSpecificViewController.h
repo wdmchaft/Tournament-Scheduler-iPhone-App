@@ -21,4 +21,10 @@
 @property (nonatomic, retain) IBOutlet UITableViewCell *teamRecordCell;
 @property (nonatomic, retain) NSArray *optionList;
 
+@property (nonatomic, retain) NSString *teamName;
+@property (nonatomic, retain) NSString *teamId;
+@property (nonatomic, retain) NSString *teamWins;
+@property (nonatomic, retain) NSString *teamLosses;
+@property (nonatomic, retain) NSString *teamGoals;
+
 @end

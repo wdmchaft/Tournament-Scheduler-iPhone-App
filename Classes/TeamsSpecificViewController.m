@@ -7,7 +7,7 @@
 //
 
 #import "TeamsSpecificViewController.h"
-
+#import "TeamsSpecific.h"
 
 @implementation TeamsSpecificViewController
 
@@ -15,6 +15,12 @@
 @synthesize teamRecordCell;
 
 @synthesize optionList;
+
+@synthesize teamName;
+@synthesize teamId;
+@synthesize teamWins;
+@synthesize teamLosses;
+@synthesize teamGoals;
 
 #pragma mark -
 #pragma mark View lifecycle
@@ -26,6 +32,12 @@
 	NSArray *options = [[NSArray alloc] initWithObjects: @"Contact", @"Games", @"Updates", @"Standings", @"Discipline", nil];
 	self.optionList = options;
 	[options release];
+	
+	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
+	TeamsSpecific *teamsSpecific = [[TeamsSpecific alloc] init];
+	[teamsSpecific queryServiceWithParent:self];
+	
+	
 	
 	
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
@@ -106,9 +118,27 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
 	
-	if (indexPath.section + indexPath.row == 0)
+	if (indexPath.section + indexPath.row == 0){
+		
+		NSLog(@"TEAMWINS : %@", teamWins);
+		
+		UILabel *winsLabel = (UILabel *)[teamRecordCell viewWithTag:1];
+		winsLabel.text  = [NSString stringWithFormat:@"%@", teamWins];
+		
+		UILabel *lossesLabel = (UILabel *)[teamRecordCell viewWithTag:2];
+		lossesLabel.text  = [NSString stringWithFormat:@"%@", teamLosses];
+		
+		UILabel *goalsLabel = (UILabel *)[teamRecordCell viewWithTag:3];
+		goalsLabel.text  = [NSString stringWithFormat:@"%@", teamGoals];
+		
+		//UILabel *lossesLabel = (UILabel *)[teamRecordCell viewWithTag:2];
+//		lossesLabel.text  = teamLosses;
+//		
+//		UILabel *goalsLabel = (UILabel *)[teamRecordCell viewWithTag:3];
+//		goalsLabel.text  = teamGoals;
+		
 			return teamRecordCell;		
-    
+    }
     // Configure the cell...
     else{
 		cell.textLabel.text = [optionList objectAtIndex:indexPath.row];

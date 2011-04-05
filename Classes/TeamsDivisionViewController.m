@@ -45,6 +45,7 @@
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
 	TeamsDivision *teamsDivision = [[TeamsDivision alloc] init];
 	[teamsDivision queryServiceWithParent:self];
+
 	
 	copyOfTeamNames = [[NSMutableArray alloc] init];
 	
@@ -119,10 +120,9 @@
 //	[alert show];
 //	[alert autorelease];
 //	
-//	TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
-//	
-//	delegate.tempIdHolder= divId;
-//	//delegate.currentPage = title;
+	
+	TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
+	delegate.tempIdHolder= [teamIds objectAtIndex:indexPath.row];
 //	
 //	
 //	
