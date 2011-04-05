@@ -10,6 +10,7 @@
 #import "TeamsDivision.h"
 #import "TournamentSchedulerAppDelegate.h"
 #import "OverlayViewController.h"
+#import "TeamsSpecificViewController.h"
 
 
 @implementation TeamsDivisionViewController
@@ -114,9 +115,9 @@
 //	
 //	NSLog(@"Title is %@ with ID %@", divName, divId);
 //	
-	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:teamName message:@"HELLO" delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
-	[alert show];
-	[alert autorelease];
+//	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:teamName message:@"HELLO" delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+//	[alert show];
+//	[alert autorelease];
 //	
 //	TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
 //	
@@ -125,10 +126,11 @@
 //	
 //	
 //	
-//	StandingsDivisionViewController *divisionStandingsView = [[StandingsDivisionViewController alloc] init];
-//	divisionStandingsView.navigationItem.title = (@"%@", divName);
-//	[delegate.standingsNavigationController pushViewController:divisionStandingsView animated:YES];
-//	[divisionStandingsView release];
+	TeamsSpecificViewController *teamsSpecificView = [[TeamsSpecificViewController alloc] init];
+	teamsSpecificView.navigationItem.title = (@"%@", teamName);
+	self.navigationItem.backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:nil action:nil] autorelease];
+	[self.navigationController pushViewController:teamsSpecificView animated:YES];
+	[teamsSpecificView release];
 //	
 //	
 //	

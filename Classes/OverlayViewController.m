@@ -27,3 +27,5 @@
 	[rvController release];
 	[super dealloc];
 }
+
+@end
