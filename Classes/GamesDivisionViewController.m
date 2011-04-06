@@ -2,11 +2,14 @@
 //  GamesDivisionViewController.m
 //  TournamentScheduler
 //
+//  Displays all games in a division
+//
 //  Created by Philip Dudley on 4/5/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import "GamesDivisionViewController.h"
+#import "GamesDivisions.h"
 
 
 @implementation GamesDivisionViewController
@@ -16,19 +19,34 @@
 @synthesize gameIds;
 @synthesize gameHomeIds;
 @synthesize gameAwayIds;
+@synthesize gameHomeMaps;
+@synthesize gameAwayMaps;
+
 
 
 #pragma mark -
 #pragma mark View lifecycle
 
-/*
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+	
+	gameIds = [[NSMutableArray alloc] init];
+	gameHomeIds = [[NSMutableArray alloc] init];
+	gameAwayIds = [[NSMutableArray alloc] init];
+	gameHomeMaps = [[NSMutableArray alloc] init];
+	gameAwayMaps = [[NSMutableArray alloc] init];
+	
+	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
+	GamesDivisions *gamesDivisions = [[GamesDivisions alloc] init];
+	[gamesDivisions queryServiceWithParent:self];
+	
+	
 
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
-*/
+
 
 /*
 - (void)viewWillAppear:(BOOL)animated {
@@ -64,29 +82,27 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
-    return 3;
+    return 1;
 }
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return 2;
+    return gameIds.count;
 }
 
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    static NSString *CellIdentifier = @"Cell";
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-    }
-    
-    // Configure the cell...
-    
-    return cell;
+	NSLog(@"Hello");
+	static NSString *CellIdentifier = @"Cell";
+	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+	if (cell == nil){
+		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
+	}
+	cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeIds objectAtIndex:indexPath.row], [gameAwayIds objectAtIndex:indexPath.row]];
+	return cell;
 }
 
 

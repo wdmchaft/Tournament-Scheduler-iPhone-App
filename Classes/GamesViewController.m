@@ -114,9 +114,8 @@
 	//[alert show];
 	//[alert autorelease];
 	//	
-	//TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
-//	//	
-//	delegate.tempIdHolder= divId;
+	TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
+	delegate.tempIdHolder= divId;
 //	delegate.currentPage = divName;
 //	//	
 //	//	

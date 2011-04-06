@@ -272,7 +272,10 @@
 								<string>BEDDCAD2134807F700B00EA3</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>BE18EF91134A516C00BFB985</string>
+								<string>BE18EF7D134A4CF500BFB985</string>
+								<string>BE81C8501349776A00CF8784</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
+								<string>BE81C84D1349770E00CF8784</string>
 								<string>BE81C84C1349770600CF8784</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
@@ -286,7 +289,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {275, 760}}</string>
+							<string>{{0, 53}, {275, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -335,7 +338,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BE676E7E134BFD3E00FBA68A</string>
+										<string>BE676F0D134C05EA00FBA68A</string>
 										<key>history</key>
 										<array>
 											<string>BE09E9381335D2AE00BDF656</string>
@@ -363,46 +366,48 @@
 											<string>BEE8675C1349B4770019B0C7</string>
 											<string>BEE8675D1349B4770019B0C7</string>
 											<string>BEE8675E1349B4770019B0C7</string>
-											<string>BE18EFA3134A51FE00BFB985</string>
-											<string>BE18EFA7134A51FE00BFB985</string>
 											<string>BE18EFB7134A524F00BFB985</string>
 											<string>BE18EFDA134A540200BFB985</string>
 											<string>BE6071E0134A926E0037AC10</string>
-											<string>BE6071E2134A926E0037AC10</string>
 											<string>BE6071FD134A94CE0037AC10</string>
 											<string>BE607215134A9A530037AC10</string>
 											<string>BE60726C134AA4410037AC10</string>
 											<string>BE60728C134AA8750037AC10</string>
-											<string>BE607298134AA9C30037AC10</string>
 											<string>BE60729D134AA9C30037AC10</string>
-											<string>BE6072AB134AAA340037AC10</string>
 											<string>BEDE20AD134AC61800F2D83B</string>
-											<string>BEDE20AE134AC61800F2D83B</string>
-											<string>BEDE20E5134ACB4300F2D83B</string>
 											<string>BEDE20E8134ACB4300F2D83B</string>
 											<string>BEDE20E9134ACB4300F2D83B</string>
 											<string>BEDE20F5134ACBB000F2D83B</string>
 											<string>BEDE20F7134ACBB000F2D83B</string>
 											<string>BEDE212B134AD06800F2D83B</string>
-											<string>BEDE212D134AD06800F2D83B</string>
 											<string>BEDE212E134AD06800F2D83B</string>
 											<string>BEDE212F134AD06800F2D83B</string>
-											<string>BEDE2130134AD06800F2D83B</string>
-											<string>BEDE2131134AD06800F2D83B</string>
-											<string>BEDE2134134AD06800F2D83B</string>
-											<string>BEDE2143134AD19C00F2D83B</string>
-											<string>BEDE2144134AD19C00F2D83B</string>
-											<string>BE676E58134BFC0000FBA68A</string>
-											<string>BE676E5B134BFC0000FBA68A</string>
-											<string>BE676E5C134BFC0000FBA68A</string>
-											<string>BE676E6C134BFCEF00FBA68A</string>
 											<string>BE676E6D134BFCEF00FBA68A</string>
-											<string>BE676E6E134BFCEF00FBA68A</string>
-											<string>BE676E6F134BFCEF00FBA68A</string>
-											<string>BE676E70134BFCEF00FBA68A</string>
-											<string>BE676E7A134BFD2F00FBA68A</string>
-											<string>BE676E7B134BFD2F00FBA68A</string>
-											<string>BE676E7C134BFD2F00FBA68A</string>
+											<string>BE676E90134C009900FBA68A</string>
+											<string>BE676E95134C009900FBA68A</string>
+											<string>BE676E98134C009900FBA68A</string>
+											<string>BE676E99134C009900FBA68A</string>
+											<string>BE676E9D134C009900FBA68A</string>
+											<string>BE676EA6134C011800FBA68A</string>
+											<string>BE676EA7134C011800FBA68A</string>
+											<string>BE676EA8134C011800FBA68A</string>
+											<string>BE676EA9134C011800FBA68A</string>
+											<string>BE676EAA134C011800FBA68A</string>
+											<string>BE676EB0134C013400FBA68A</string>
+											<string>BE676EB1134C013400FBA68A</string>
+											<string>BE676EB2134C013400FBA68A</string>
+											<string>BE676EC5134C029100FBA68A</string>
+											<string>BE676EDA134C033A00FBA68A</string>
+											<string>BE676EEB134C042800FBA68A</string>
+											<string>BE676EEC134C042800FBA68A</string>
+											<string>BE676EF2134C04D400FBA68A</string>
+											<string>BE676EF4134C04D400FBA68A</string>
+											<string>BE676EF5134C04D400FBA68A</string>
+											<string>BE676EFA134C051100FBA68A</string>
+											<string>BE676EFB134C051100FBA68A</string>
+											<string>BE676F00134C056B00FBA68A</string>
+											<string>BE676F0A134C05D900FBA68A</string>
+											<string>BE676F0B134C05D900FBA68A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -600,9 +605,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>BEABD05E13359F3A0009CA1F</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TournamentScheduler.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -940,6 +945,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -952,7 +959,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {650, 209}}</string>
 								<key>RubberWindowFrame</key>
-								<string>72 116 650 250 0 0 1440 878 </string>
+								<string>74 116 650 250 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -981,11 +988,11 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>72 116 650 250 0 0 1440 878 </string>
+			<string>74 116 650 250 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
