@@ -75,10 +75,21 @@
 			
 			//NSLog(@"trend = %@", trend);
 			// Get game id/ home team id / away id 
-			//NSLog(@"id = %@", [trend objectForKey:@"id"]);
+			//NSLog(@"z = %@", [trend objectForKey:@"home_id"]);
 			[viewController.gameIds addObject:[trend objectForKey:@"id"]];
-			[viewController.gameHomeIds addObject:[trend objectForKey:@"home_id"]];
-			[viewController.gameAwayIds addObject:[trend objectForKey:@"away_id"]];
+			if ([trend objectForKey:@"home_id"] != [NSNull null]) {
+				[viewController.gameHomeIds addObject:[trend objectForKey:@"home_id"]];
+				[viewController.gameAwayIds addObject:[trend objectForKey:@"away_id"]];
+			}
+			else {
+				[viewController.gameHomeIds addObject:@"none"];
+				[viewController.gameAwayIds addObject:@"none"];
+			}
+
+			
+			[viewController.gameHomeMaps addObject:[trend objectForKey:@"home_map"]];
+			[viewController.gameAwayMaps addObject:[trend objectForKey:@"away_map"]];
+			[viewController.gameFields addObject:[trend objectForKey:@"field_id"]];
 		}
 		
 	}

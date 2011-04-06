@@ -21,6 +21,10 @@
 @synthesize gameAwayIds;
 @synthesize gameHomeMaps;
 @synthesize gameAwayMaps;
+@synthesize gameFields;
+
+@synthesize gameHomeNames;
+@synthesize gameAwayNames;
 
 
 
@@ -36,6 +40,10 @@
 	gameAwayIds = [[NSMutableArray alloc] init];
 	gameHomeMaps = [[NSMutableArray alloc] init];
 	gameAwayMaps = [[NSMutableArray alloc] init];
+	gameFields = [[NSMutableArray alloc] init];
+	
+	gameHomeNames = [[NSMutableArray alloc] init];
+	gameAwayNames = [[NSMutableArray alloc] init];
 	
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
 	GamesDivisions *gamesDivisions = [[GamesDivisions alloc] init];
@@ -99,9 +107,15 @@
 	static NSString *CellIdentifier = @"Cell";
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
 	if (cell == nil){
-		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
+		cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
 	}
-	cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeIds objectAtIndex:indexPath.row], [gameAwayIds objectAtIndex:indexPath.row]];
+	if ([gameHomeIds objectAtIndex:indexPath.row ] == @"none")
+		cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeMaps objectAtIndex:indexPath.row], [gameAwayMaps objectAtIndex:indexPath.row]];
+	else
+		cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeIds objectAtIndex:indexPath.row], [gameAwayIds objectAtIndex:indexPath.row]];
+	
+	cell.detailTextLabel.text = [NSString stringWithFormat:@"Game %@ - Field %@", [gameIds objectAtIndex:indexPath.row], [gameFields objectAtIndex:indexPath.row]];
+	
 	return cell;
 }
 
