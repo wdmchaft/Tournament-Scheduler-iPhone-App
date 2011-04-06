@@ -9,6 +9,7 @@
 #import "GamesViewController.h"
 #import "Games.h"
 #import "TournamentSchedulerAppDelegate.h"
+#import "GamesDivisionViewController.h"
 
 
 @implementation GamesViewController
@@ -109,9 +110,9 @@
 		
 		NSLog(@"Title is %@ with ID %@", divName, divId);
 
-	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:divName message:@"HELLO" delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
-	[alert show];
-	[alert autorelease];
+	//UIAlertView *alert = [[UIAlertView alloc] initWithTitle:divName message:@"HELLO" delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+	//[alert show];
+	//[alert autorelease];
 	//	
 	//TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
 //	//	
@@ -120,10 +121,10 @@
 //	//	
 //	//	
 //	//	
-//	TeamsDivisionViewController *teamsDivisionView = [[TeamsDivisionViewController alloc] init];
-//	teamsDivisionView.navigationItem.title = (@"%@", divName);
-//	[self.navigationController pushViewController:teamsDivisionView animated:YES];
-//	[teamsDivisionView release];
+	GamesDivisionViewController *gamesDivisionView = [[GamesDivisionViewController alloc] init];
+	gamesDivisionView.navigationItem.title = (@"%@", divName);
+	[self.navigationController pushViewController:gamesDivisionView animated:YES];
+	[gamesDivisionView release];
 	
 	
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];

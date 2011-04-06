@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -269,12 +267,11 @@
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>BEDDCAD1134807EB00B00EA3</string>
 								<string>BEDDCAD0134807E200B00EA3</string>
+								<string>BEDDCACF134807D800B00EA3</string>
 								<string>BEDDCAC8134807C200B00EA3</string>
 								<string>BEDDCAD2134807F700B00EA3</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>BE18EF91134A516C00BFB985</string>
-								<string>BEDDCB0113480A2200B00EA3</string>
-								<string>BE81C8501349776A00CF8784</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>BE81C84C1349770600CF8784</string>
 								<string>1C37FABC05509CD000000102</string>
@@ -282,9 +279,9 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>51</integer>
-									<integer>45</integer>
-									<integer>33</integer>
+									<integer>19</integer>
+									<integer>15</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -319,12 +316,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TeamsSpecific.m</string>
+								<string>GamesDivisionViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -332,11 +331,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TeamsSpecific.m</string>
+										<string>GamesDivisionViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BEDE2145134AD19C00F2D83B</string>
+										<string>BE676E7E134BFD3E00FBA68A</string>
 										<key>history</key>
 										<array>
 											<string>BE09E9381335D2AE00BDF656</string>
@@ -364,13 +363,10 @@
 											<string>BEE8675C1349B4770019B0C7</string>
 											<string>BEE8675D1349B4770019B0C7</string>
 											<string>BEE8675E1349B4770019B0C7</string>
-											<string>BE18EFA2134A51FE00BFB985</string>
 											<string>BE18EFA3134A51FE00BFB985</string>
 											<string>BE18EFA7134A51FE00BFB985</string>
 											<string>BE18EFB7134A524F00BFB985</string>
 											<string>BE18EFDA134A540200BFB985</string>
-											<string>BE18EFDB134A540200BFB985</string>
-											<string>BE18EFDC134A540200BFB985</string>
 											<string>BE6071E0134A926E0037AC10</string>
 											<string>BE6071E2134A926E0037AC10</string>
 											<string>BE6071FD134A94CE0037AC10</string>
@@ -383,25 +379,30 @@
 											<string>BEDE20AD134AC61800F2D83B</string>
 											<string>BEDE20AE134AC61800F2D83B</string>
 											<string>BEDE20E5134ACB4300F2D83B</string>
-											<string>BEDE20E7134ACB4300F2D83B</string>
 											<string>BEDE20E8134ACB4300F2D83B</string>
 											<string>BEDE20E9134ACB4300F2D83B</string>
-											<string>BEDE20EC134ACB4300F2D83B</string>
 											<string>BEDE20F5134ACBB000F2D83B</string>
 											<string>BEDE20F7134ACBB000F2D83B</string>
 											<string>BEDE212B134AD06800F2D83B</string>
-											<string>BEDE212C134AD06800F2D83B</string>
 											<string>BEDE212D134AD06800F2D83B</string>
 											<string>BEDE212E134AD06800F2D83B</string>
 											<string>BEDE212F134AD06800F2D83B</string>
 											<string>BEDE2130134AD06800F2D83B</string>
 											<string>BEDE2131134AD06800F2D83B</string>
-											<string>BEDE2132134AD06800F2D83B</string>
-											<string>BEDE2133134AD06800F2D83B</string>
 											<string>BEDE2134134AD06800F2D83B</string>
 											<string>BEDE2143134AD19C00F2D83B</string>
 											<string>BEDE2144134AD19C00F2D83B</string>
-											<string>BEDE20E4134ACB4300F2D83B</string>
+											<string>BE676E58134BFC0000FBA68A</string>
+											<string>BE676E5B134BFC0000FBA68A</string>
+											<string>BE676E5C134BFC0000FBA68A</string>
+											<string>BE676E6C134BFCEF00FBA68A</string>
+											<string>BE676E6D134BFCEF00FBA68A</string>
+											<string>BE676E6E134BFCEF00FBA68A</string>
+											<string>BE676E6F134BFCEF00FBA68A</string>
+											<string>BE676E70134BFCEF00FBA68A</string>
+											<string>BE676E7A134BFD2F00FBA68A</string>
+											<string>BE676E7B134BFD2F00FBA68A</string>
+											<string>BE676E7C134BFD2F00FBA68A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -413,14 +414,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {731, 496}}</string>
+								<string>{{0, 0}, {731, 488}}</string>
 								<key>RubberWindowFrame</key>
 								<string>249 59 1028 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>496pt</string>
+							<string>488pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -433,14 +434,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 501}, {731, 277}}</string>
+								<string>{{0, 493}, {731, 285}}</string>
 								<key>RubberWindowFrame</key>
 								<string>249 59 1028 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>277pt</string>
+							<string>285pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -459,9 +460,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>BEDE20B6134AC61800F2D83B</string>
+				<string>BE676E4D134BFBA100FBA68A</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>BEDE20B7134AC61800F2D83B</string>
+				<string>BE676E4E134BFBA100FBA68A</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -626,7 +627,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TeamsSpecific.m</string>
+								<string>GamesDivisionViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -684,7 +685,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>BEABD05E13359F3A0009CA1F</string>
-				<string>BEDE20A3134AC60C00F2D83B</string>
+				<string>BE676E4F134BFBA100FBA68A</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -697,7 +698,7 @@
 			<key>WindowToolGUID</key>
 			<string>BEABD05E13359F3A0009CA1F</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -806,13 +807,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>BEDE20A4134AC60C00F2D83B</string>
+				<string>BE676E60134BFC0000FBA68A</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>BEDE20A5134AC60C00F2D83B</string>
-				<string>BEDE20A6134AC60C00F2D83B</string>
-				<string>BEDE20A7134AC60C00F2D83B</string>
-				<string>BEDE20A8134AC60C00F2D83B</string>
-				<string>BEDE20A9134AC60C00F2D83B</string>
+				<string>BE676E61134BFC0000FBA68A</string>
+				<string>BE676E62134BFC0000FBA68A</string>
+				<string>BE676E63134BFC0000FBA68A</string>
+				<string>BE676E64134BFC0000FBA68A</string>
+				<string>BE676E65134BFC0000FBA68A</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -939,8 +940,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -976,7 +975,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>BEDE20AA134AC60C00F2D83B</string>
+				<string>BE676E66134BFC0000FBA68A</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

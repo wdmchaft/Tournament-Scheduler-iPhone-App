@@ -49,6 +49,8 @@
 		BE64D498134668C5009C9073 /* MASC2.png in Resources */ = {isa = PBXBuildFile; fileRef = BE64D496134668C5009C9073 /* MASC2.png */; };
 		BE64D49D13466B4D009C9073 /* masc4.png in Resources */ = {isa = PBXBuildFile; fileRef = BE64D49B13466B4D009C9073 /* masc4.png */; };
 		BE64D49E13466B4D009C9073 /* masc5.png in Resources */ = {isa = PBXBuildFile; fileRef = BE64D49C13466B4D009C9073 /* masc5.png */; };
+		BE676E56134BFBDE00FBA68A /* GamesDivisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE676E54134BFBDE00FBA68A /* GamesDivisionViewController.m */; };
+		BE676E57134BFBDE00FBA68A /* GamesDivisionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE676E55134BFBDE00FBA68A /* GamesDivisionView.xib */; };
 		BE81C8531349778200CF8784 /* Teams.m in Sources */ = {isa = PBXBuildFile; fileRef = BE81C8521349778200CF8784 /* Teams.m */; };
 		BE81C89213497BC400CF8784 /* TeamsDivisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE81C89013497BC400CF8784 /* TeamsDivisionViewController.m */; };
 		BE81C89313497BC400CF8784 /* TeamsDivisionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE81C89113497BC400CF8784 /* TeamsDivisionView.xib */; };
@@ -140,6 +142,9 @@
 		BE64D496134668C5009C9073 /* MASC2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MASC2.png; sourceTree = "<group>"; };
 		BE64D49B13466B4D009C9073 /* masc4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = masc4.png; sourceTree = "<group>"; };
 		BE64D49C13466B4D009C9073 /* masc5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = masc5.png; sourceTree = "<group>"; };
+		BE676E53134BFBDE00FBA68A /* GamesDivisionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamesDivisionViewController.h; sourceTree = "<group>"; };
+		BE676E54134BFBDE00FBA68A /* GamesDivisionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamesDivisionViewController.m; sourceTree = "<group>"; };
+		BE676E55134BFBDE00FBA68A /* GamesDivisionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GamesDivisionView.xib; path = Classes/GamesDivisionView.xib; sourceTree = "<group>"; };
 		BE81C8511349778200CF8784 /* Teams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teams.h; sourceTree = "<group>"; };
 		BE81C8521349778200CF8784 /* Teams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teams.m; sourceTree = "<group>"; };
 		BE81C88F13497BC400CF8784 /* TeamsDivisionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamsDivisionViewController.h; sourceTree = "<group>"; };
@@ -329,6 +334,7 @@
 		BE81C84D1349770E00CF8784 /* Games */ = {
 			isa = PBXGroup;
 			children = (
+				BE676E55134BFBDE00FBA68A /* GamesDivisionView.xib */,
 				BEBE147813468CF900258DFE /* GamesView.xib */,
 			);
 			name = Games;
@@ -397,6 +403,8 @@
 			children = (
 				BEBE147613468CF900258DFE /* GamesViewController.h */,
 				BEBE147713468CF900258DFE /* GamesViewController.m */,
+				BE676E53134BFBDE00FBA68A /* GamesDivisionViewController.h */,
+				BE676E54134BFBDE00FBA68A /* GamesDivisionViewController.m */,
 			);
 			name = Games;
 			sourceTree = "<group>";
@@ -616,6 +624,7 @@
 				BE81C89313497BC400CF8784 /* TeamsDivisionView.xib in Resources */,
 				BEE866F31349AFCD0019B0C7 /* OverlayView.xib in Resources */,
 				BE6071AC134A85A20037AC10 /* TeamsSpecificView.xib in Resources */,
+				BE676E57134BFBDE00FBA68A /* GamesDivisionView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,6 +662,7 @@
 				BE18EF94134A517300BFB985 /* Fields.m in Sources */,
 				BE6071AB134A85A20037AC10 /* TeamsSpecificViewController.m in Sources */,
 				BE607287134AA8410037AC10 /* TeamsSpecific.m in Sources */,
+				BE676E56134BFBDE00FBA68A /* GamesDivisionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
