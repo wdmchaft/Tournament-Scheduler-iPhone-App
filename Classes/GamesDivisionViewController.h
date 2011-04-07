@@ -21,6 +21,7 @@
 @property (nonatomic, retain) NSMutableArray *gameHomeMaps;
 @property (nonatomic, retain) NSMutableArray *gameAwayMaps;
 @property (nonatomic, retain) NSMutableArray *gameFields;
+@property (nonatomic, retain) NSMutableArray *gameTimes;
 
 @property (nonatomic, retain) NSMutableArray *gameHomeNames;
 @property (nonatomic, retain) NSMutableArray *gameAwayNames;

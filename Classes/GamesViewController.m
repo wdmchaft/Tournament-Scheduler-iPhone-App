@@ -39,6 +39,10 @@
 	Games *games = [[Games alloc] init];
 	[games queryServiceWithParent:self];
 	
+	UIColor *aColor = [UIColor colorWithHue:0.964 saturation:0.443 brightness:0.867 alpha:1.000];
+	
+	self.navigationController.navigationBar.tintColor = aColor; 
+	
     [super viewDidLoad];
 	
 	

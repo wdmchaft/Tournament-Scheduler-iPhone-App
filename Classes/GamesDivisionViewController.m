@@ -22,6 +22,7 @@
 @synthesize gameHomeMaps;
 @synthesize gameAwayMaps;
 @synthesize gameFields;
+@synthesize gameTimes;
 
 @synthesize gameHomeNames;
 @synthesize gameAwayNames;
@@ -41,6 +42,7 @@
 	gameHomeMaps = [[NSMutableArray alloc] init];
 	gameAwayMaps = [[NSMutableArray alloc] init];
 	gameFields = [[NSMutableArray alloc] init];
+	gameTimes = [[NSMutableArray alloc] init];
 	
 	gameHomeNames = [[NSMutableArray alloc] init];
 	gameAwayNames = [[NSMutableArray alloc] init];
@@ -48,6 +50,12 @@
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
 	GamesDivisions *gamesDivisions = [[GamesDivisions alloc] init];
 	[gamesDivisions queryServiceWithParent:self];
+	
+	
+		
+		
+	//GamesDivisions *gamesDivisions = [[GamesDivisions alloc] init];
+//	[gamesDivisions queryServiceWithParent:self];
 	
 	
 
@@ -102,19 +110,41 @@
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-	NSLog(@"Hello");
+
 	static NSString *CellIdentifier = @"Cell";
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
 	if (cell == nil){
 		cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
 	}
+
 	if ([gameHomeIds objectAtIndex:indexPath.row ] == @"none")
 		cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeMaps objectAtIndex:indexPath.row], [gameAwayMaps objectAtIndex:indexPath.row]];
 	else
-		cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeIds objectAtIndex:indexPath.row], [gameAwayIds objectAtIndex:indexPath.row]];
+		cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeNames objectAtIndex:indexPath.row], [gameAwayIds objectAtIndex:indexPath.row]];
+
 	
-	cell.detailTextLabel.text = [NSString stringWithFormat:@"Game %@ - Field %@", [gameIds objectAtIndex:indexPath.row], [gameFields objectAtIndex:indexPath.row]];
+	NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+	[dateFormat setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'+00:00'"];
+	NSDate *date = [dateFormat dateFromString:[gameTimes objectAtIndex:indexPath.row]];
+	
+	[dateFormat setDateFormat:@"hh:mm a"];
+	
+	//Optionally for time zone converstions
+	[dateFormat setTimeZone:[NSTimeZone timeZoneWithName:@"EST"]];
+	
+	NSString *stringFromDate = [dateFormat stringFromDate:date];
+	
+	//NSLog(@"time before %@", [gameTimes objectAtIndex:indexPath.row]);
+	
+	//NSLog(@"date %@", date);
+	
+	// Convert date object to desired output format
+	//[dateFormat setDateFormat:@"EEEE MMMM d, YYYY"];
+//	dateStr = [dateFormat stringFromDate:date];  
+//	[dateFormat release];
+	
+	
+	cell.detailTextLabel.text = [NSString stringWithFormat:@"Game %@ - %@", [gameIds objectAtIndex:indexPath.row], stringFromDate];
 	
 	return cell;
 }

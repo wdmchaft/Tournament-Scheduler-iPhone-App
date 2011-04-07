@@ -10,6 +10,7 @@
 #import "GamesDivisions.h"
 #import "GamesDivisionViewController.h"
 #import "TournamentSchedulerAppDelegate.h"
+#import "GamesTeamName.h"
 
 
 @implementation GamesDivisions
@@ -31,7 +32,7 @@
 -(NSURLRequest *)connection:(NSURLConnection *)connection willSendRequest:(NSURLRequest *)request redirectResponse:(NSURLResponse *)redirectResponse {
 	[theURL autorelease];
 	theURL = [[request URL] retain];
-	NSLog(@"URL = %@", theURL);
+	//NSLog(@"URL = %@", theURL);
 	return request;
 }
 
@@ -80,6 +81,8 @@
 			if ([trend objectForKey:@"home_id"] != [NSNull null]) {
 				[viewController.gameHomeIds addObject:[trend objectForKey:@"home_id"]];
 				[viewController.gameAwayIds addObject:[trend objectForKey:@"away_id"]];
+				
+				
 			}
 			else {
 				[viewController.gameHomeIds addObject:@"none"];
@@ -90,13 +93,53 @@
 			[viewController.gameHomeMaps addObject:[trend objectForKey:@"home_map"]];
 			[viewController.gameAwayMaps addObject:[trend objectForKey:@"away_map"]];
 			[viewController.gameFields addObject:[trend objectForKey:@"field_id"]];
+			[viewController.gameTimes addObject:[trend objectForKey:@"time"]];
 		}
 		
 	}
-	//NSLog(@"viewController.gameHomeIds = %@", viewController.gameHomeIds);
+	
+	
+	// QUERY HOME TEAMS
+	for (int i =0; i <  [viewController.gameHomeIds count]; i++){
+		//NSLog(@"we have a home team");
+		
+		//NSLog(@"Team %@", [viewController.gameHomeIds objectAtIndex:i ]);
+		if ([viewController.gameHomeIds objectAtIndex:i ] != @"none"){
+			//NSLog(@"Team has an id");
+			TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
+			delegate.tempIdHolder= [viewController.gameHomeIds objectAtIndex:i];
+			
+			
+			GamesTeamName *gamesTeamNames = [[GamesTeamName alloc] init];
+			[gamesTeamNames queryServiceWithParent:viewController];
+		}
+		else{
+			break;
+		}
+	}
+	
+	for (int i =0; i <  [viewController.gameAwayIds count]; i++){
+		//NSLog(@"we have an away team");
+		
+		//NSLog(@"Team %@", [viewController.gameAwayIds objectAtIndex:i ]);
+		if ([viewController.gameAwayIds objectAtIndex:i ] != @"none"){
+			//NSLog(@"Team has an id");
+			TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
+			delegate.tempIdHolder= [viewController.gameAwayIds objectAtIndex:i];
+			
+			
+			GamesTeamName *gamesTeamNames = [[GamesTeamName alloc] init];
+			[gamesTeamNames queryServiceWithParent:viewController]; 
+		}
+		else{
+			
+			break;
+		}
+		
+	}
 	[parser release];
-	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
-	[viewController.gamesDivisionTableView reloadData];
+	//[viewController.gamesDivisionTableView reloadData];
+
 }
 
 -(void)dealloc{
