@@ -125,17 +125,17 @@
 
 
 	
-	int test = (indexPath.section * (gameIds.count/4)) + indexPath.row;
+	int currentPosition = (indexPath.section * (gameIds.count/4)) + indexPath.row;
 	
-	if ([gameHomeIds objectAtIndex:test ] == @"none")
-		cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeMaps objectAtIndex:test], [gameAwayMaps objectAtIndex:test]];
+	if ([gameHomeIds objectAtIndex:currentPosition ] == @"none")
+		cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeMaps objectAtIndex:currentPosition], [gameAwayMaps objectAtIndex:currentPosition]];
 	else
-		cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeNames objectAtIndex:test],[gameAwayNames objectAtIndex:test]];
+		cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeNames objectAtIndex:currentPosition],[gameAwayNames objectAtIndex:currentPosition]];
 	
 	[cell.textLabel setFont:[UIFont boldSystemFontOfSize:12]];
 	NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
 	[dateFormat setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'+00:00'"];
-	NSDate *date = [dateFormat dateFromString:[gameTimes objectAtIndex:test]];
+	NSDate *date = [dateFormat dateFromString:[gameTimes objectAtIndex:currentPosition]];
 	
 	[dateFormat setDateFormat:@"hh:mm a"];
 	
@@ -154,7 +154,7 @@
 //	[dateFormat release];
 	
 	
-	cell.detailTextLabel.text = [NSString stringWithFormat:@"Game %@ - %@", [gameIds objectAtIndex:test], stringFromDate];
+	cell.detailTextLabel.text = [NSString stringWithFormat:@"Game %@ - %@", [gameIds objectAtIndex:currentPosition], stringFromDate];
 	
 	return cell;
 }

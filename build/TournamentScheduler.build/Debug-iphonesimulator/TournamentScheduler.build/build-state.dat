@@ -1,7 +1,7 @@
 TTournamentScheduler
 v7
 r0
-t323993020.506552
+t323993263.697553
 cCheck dependencies
 cProcessInfoPlistFile /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphonesimulator/TournamentScheduler.app/Info.plist TournamentScheduler-Info.plist
 cCompileXIB /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/MainWindow.xib
@@ -2510,7 +2510,7 @@ s963
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies323993020#323993020#0(0"0(0#1#0"8613984864#0"0#
+lSLF07#2@18"Check dependencies323993263#323993263#0(0"0(0#1#0"8615310912#0"0#
 
 CCompileC build/TournamentScheduler.build/Debug-iphonesimulator/TournamentScheduler.build/Objects-normal/i386/AboutContactDetailView.o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/AboutContactDetailView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
