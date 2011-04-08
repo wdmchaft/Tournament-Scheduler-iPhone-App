@@ -25,8 +25,10 @@
 	
 		NSString *url = [NSString stringWithFormat:@"http://localhost:4567/api/teams/%@", tempId];
 	theURL = [[NSURL URLWithString:url] retain];
+	
 	NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
 	[[NSURLConnection alloc] initWithRequest:request delegate:self];
+	[NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
 }
 
 -(NSURLRequest *)connection:(NSURLConnection *)connection willSendRequest:(NSURLRequest *)request redirectResponse:(NSURLResponse *)redirectResponse {

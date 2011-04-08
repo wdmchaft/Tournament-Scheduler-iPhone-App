@@ -27,6 +27,7 @@
 	theURL = [[NSURL URLWithString:url] retain];
 	NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
 	[[NSURLConnection alloc] initWithRequest:request delegate:self];
+	[NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
 }
 
 -(NSURLRequest *)connection:(NSURLConnection *)connection willSendRequest:(NSURLRequest *)request redirectResponse:(NSURLResponse *)redirectResponse {
@@ -79,7 +80,18 @@
 		
 		
 		NSLog(@"Name = %@", [trend objectForKey:@"name"]);
+		
+		
 		[viewController.gameAwayNames addObject:[trend objectForKey:@"name"]];
+		
+		
+		// If the trend id is the current delegate key id done :)
+		TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
+		NSString *tempId= delegate.tempIdHolder;
+		if (tempId == [trend objectForKey:@"id"]) {
+			NSLog(@"LastOne");
+			[viewController.gamesDivisionTableView reloadData];
+		}
 	}
 	//NSLog(@"viewController.gameHomeIds = %@", viewController.gameHomeIds);
 	[parser release];
@@ -87,7 +99,7 @@
 	
 	
 	
-	[viewController.gamesDivisionTableView reloadData];
+	
 }
 
 -(void)dealloc{
