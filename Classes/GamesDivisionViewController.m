@@ -98,13 +98,19 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
-    return 1;
+    return 4;
 }
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return gameIds.count;
+    return (gameIds.count/4);
+}
+
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+	
+	return [NSString stringWithFormat:@"Round %d", section+1];
 }
 
 
@@ -117,16 +123,19 @@
 		cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
 	}
 
-	if ([gameHomeIds objectAtIndex:indexPath.row ] == @"none")
-		cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeMaps objectAtIndex:indexPath.row], [gameAwayMaps objectAtIndex:indexPath.row]];
+
+	
+	int test = (indexPath.section * (gameIds.count/4)) + indexPath.row;
+	
+	if ([gameHomeIds objectAtIndex:test ] == @"none")
+		cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeMaps objectAtIndex:test], [gameAwayMaps objectAtIndex:test]];
 	else
-		cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeNames objectAtIndex:indexPath.row],[gameAwayNames objectAtIndex:indexPath.row]];
+		cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeNames objectAtIndex:test],[gameAwayNames objectAtIndex:test]];
 	
 	[cell.textLabel setFont:[UIFont boldSystemFontOfSize:12]];
-	
 	NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
 	[dateFormat setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'+00:00'"];
-	NSDate *date = [dateFormat dateFromString:[gameTimes objectAtIndex:indexPath.row]];
+	NSDate *date = [dateFormat dateFromString:[gameTimes objectAtIndex:test]];
 	
 	[dateFormat setDateFormat:@"hh:mm a"];
 	
@@ -145,7 +154,7 @@
 //	[dateFormat release];
 	
 	
-	cell.detailTextLabel.text = [NSString stringWithFormat:@"Game %@ - %@", [gameIds objectAtIndex:indexPath.row], stringFromDate];
+	cell.detailTextLabel.text = [NSString stringWithFormat:@"Game %@ - %@", [gameIds objectAtIndex:test], stringFromDate];
 	
 	return cell;
 }
