@@ -114,8 +114,23 @@
 			delegate.tempIdHolder= [viewController.gameHomeIds objectAtIndex:i];
 			
 			
-			GamesHomeName *gamesHomeNames = [[GamesHomeName alloc] init];
-			[gamesHomeNames queryServiceWithParent:viewController];
+			responseData = [[NSMutableData data] retain];
+			
+			NSString *url = [NSString stringWithFormat:@"http://localhost:4567/api/teams/%@", delegate.tempIdHolder];
+			theURL = [[NSURL URLWithString:url] retain];
+			
+			NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
+			NSURLResponse *response = nil;
+			NSError *error = nil;
+			//getting the data
+			NSData *newData = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+			//json parse
+			NSString *responseString = [[NSString alloc] initWithData:newData encoding:NSUTF8StringEncoding];
+			NSDictionary *jsonObject = [responseString JSONValue];
+			//Accessing JSON content
+			NSLog(@"Home name :  %@", [jsonObject objectForKey:@"name"] );
+			
+			[viewController.gameHomeNames addObject:[jsonObject objectForKey:@"name"]];
 		}
 		else{
 			break;
@@ -123,26 +138,35 @@
 	}
 	
 	for (int i =0; i <  [viewController.gameAwayIds count]; i++){
-		//NSLog(@"we have an away team");
-		
-		//NSLog(@"Team %@", [viewController.gameAwayIds objectAtIndex:i ]);
-		if ([viewController.gameAwayIds objectAtIndex:i ] != @"none"){
-			//NSLog(@"Team has an id");
+		if ([viewController.gameHomeIds objectAtIndex:i ] != @"none"){
 			TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
 			delegate.tempIdHolder= [viewController.gameAwayIds objectAtIndex:i];
 			
+			responseData = [[NSMutableData data] retain];
 			
-			GamesAwayName *gamesAwayNames = [[GamesAwayName alloc] init];
-			[gamesAwayNames queryServiceWithParent:viewController];
+			NSString *url = [NSString stringWithFormat:@"http://localhost:4567/api/teams/%@", delegate.tempIdHolder];
+			theURL = [[NSURL URLWithString:url] retain];
+			
+			NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
+			NSURLResponse *response = nil;
+			NSError *error = nil;
+			//getting the data
+			NSData *newData = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+			//json parse
+			NSString *responseString = [[NSString alloc] initWithData:newData encoding:NSUTF8StringEncoding];
+			NSDictionary *jsonObject = [responseString JSONValue];
+			//Accessing JSON content
+			NSLog(@"Away name :  %@", [jsonObject objectForKey:@"name"] );
+			
+			[viewController.gameAwayNames addObject:[jsonObject objectForKey:@"name"]];
 		}
 		else{
-			
 			break;
 		}
-		
 	}
 	[parser release];
-	//[viewController.gamesDivisionTableView reloadData];
+	[viewController.gamesDivisionTableView reloadData];
+	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
 
 }
 

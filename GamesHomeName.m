@@ -27,7 +27,6 @@
 	theURL = [[NSURL URLWithString:url] retain];
 	
 	NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
-	[[NSURLConnection alloc] initWithRequest:request delegate:self];
 	[NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
 }
 
