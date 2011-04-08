@@ -10,7 +10,8 @@
 #import "GamesDivisions.h"
 #import "GamesDivisionViewController.h"
 #import "TournamentSchedulerAppDelegate.h"
-#import "GamesTeamName.h"
+#import "GamesHomeName.h"
+#import "GamesAwayName.h"
 
 
 @implementation GamesDivisions
@@ -110,8 +111,8 @@
 			delegate.tempIdHolder= [viewController.gameHomeIds objectAtIndex:i];
 			
 			
-			GamesTeamName *gamesTeamNames = [[GamesTeamName alloc] init];
-			[gamesTeamNames queryServiceWithParent:viewController];
+			GamesHomeName *gamesHomeNames = [[GamesHomeName alloc] init];
+			[gamesHomeNames queryServiceWithParent:viewController];
 		}
 		else{
 			break;
@@ -128,8 +129,8 @@
 			delegate.tempIdHolder= [viewController.gameAwayIds objectAtIndex:i];
 			
 			
-			GamesTeamName *gamesTeamNames = [[GamesTeamName alloc] init];
-			[gamesTeamNames queryServiceWithParent:viewController]; 
+			GamesAwayName *gamesAwayNames = [[GamesAwayName alloc] init];
+			[gamesAwayNames queryServiceWithParent:viewController];
 		}
 		else{
 			
