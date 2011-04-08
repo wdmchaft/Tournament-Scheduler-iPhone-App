@@ -28,6 +28,10 @@
     // Add the tab bar controller's view to the window and display.
     [self.window addSubview:tabBarController.view];
     [self.window makeKeyAndVisible];
+	
+	UIColor *aColor = [UIColor colorWithHue:0.964 saturation:0.443 brightness:0.867 alpha:1.000];
+	//navigationController.navigationBar.tintColor = [UIColor aColor];
+	tabBarController.moreNavigationController.navigationBar.tintColor = aColor;
 
     return YES;
 }

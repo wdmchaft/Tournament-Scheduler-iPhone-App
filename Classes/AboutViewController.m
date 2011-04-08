@@ -28,14 +28,17 @@
 #pragma mark -
 #pragma mark View lifecycle
 
-/*
+
  - (void)viewDidLoad {
  [super viewDidLoad];
+	 
+	 UIColor *aColor = [UIColor colorWithHue:0.964 saturation:0.443 brightness:0.867 alpha:1.000];
+	 
+	 self.navigationController.navigationBar.tintColor = aColor; 
  
  // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
  // self.navigationItem.rightBarButtonItem = self.editButtonItem;
  }
- */
 
 /*
  - (void)viewWillAppear:(BOOL)animated {

@@ -29,12 +29,15 @@
 }
 */
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
+	UIColor *aColor = [UIColor colorWithHue:0.964 saturation:0.443 brightness:0.867 alpha:1.000];
+	self.navigationController.navigationBar.tintColor = aColor; 
+	
     [super viewDidLoad];
 }
-*/
+
 
 /*
 // Override to allow orientations other than the default portrait orientation.
