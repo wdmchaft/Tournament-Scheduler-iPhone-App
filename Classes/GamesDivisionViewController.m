@@ -120,8 +120,9 @@
 	if ([gameHomeIds objectAtIndex:indexPath.row ] == @"none")
 		cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeMaps objectAtIndex:indexPath.row], [gameAwayMaps objectAtIndex:indexPath.row]];
 	else
-		cell.textLabel.text = [NSString stringWithFormat:@"(%@)%@ vs (%@)%@", [gameHomeIds objectAtIndex:indexPath.row], [gameHomeNames objectAtIndex:indexPath.row],[gameAwayIds objectAtIndex:indexPath.row], [gameAwayNames objectAtIndex:indexPath.row]];
-
+		cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeNames objectAtIndex:indexPath.row],[gameAwayNames objectAtIndex:indexPath.row]];
+	
+	[cell.textLabel setFont:[UIFont boldSystemFontOfSize:12]];
 	
 	NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
 	[dateFormat setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'+00:00'"];
