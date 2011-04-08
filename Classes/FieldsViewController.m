@@ -8,6 +8,7 @@
 
 
 #import "FieldsViewController.h"
+#import "FieldsGamesViewController.h"
 #import "Fields.h"
 #import "TournamentSchedulerAppDelegate.h"
 
@@ -102,21 +103,18 @@
 	
 	NSLog(@"Title is %@ with ID %@", divName, divId);
 	
-	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:divName message:@"HELLO" delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
-	[alert show];
-	[alert autorelease];
-	//	
-	//TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
-	//	//	
-	//	delegate.tempIdHolder= divId;
-	//	delegate.currentPage = divName;
-	//	//	
-	//	//	
-	//	//	
-	//	TeamsDivisionViewController *teamsDivisionView = [[TeamsDivisionViewController alloc] init];
-	//	teamsDivisionView.navigationItem.title = (@"%@", divName);
-	//	[self.navigationController pushViewController:teamsDivisionView animated:YES];
-	//	[teamsDivisionView release];
+	//UIAlertView *alert = [[UIAlertView alloc] initWithTitle:divName message:@"HELLO" delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+//	[alert show];
+//	[alert autorelease];
+		
+	TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
+	delegate.tempIdHolder= divId;
+	delegate.currentPage = divName;
+	
+	FieldsGamesViewController *fieldsGamesView = [[FieldsGamesViewController alloc] init];
+	fieldsGamesView.navigationItem.title = (@"%@", divName);
+	[self.navigationController pushViewController:fieldsGamesView animated:YES];
+	[fieldsGamesView release];
 	
 	
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];

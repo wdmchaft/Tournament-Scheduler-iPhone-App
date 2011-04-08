@@ -58,6 +58,9 @@
 		BE81C89313497BC400CF8784 /* TeamsDivisionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE81C89113497BC400CF8784 /* TeamsDivisionView.xib */; };
 		BE81C8C713497F6100CF8784 /* TeamsDivision.m in Sources */ = {isa = PBXBuildFile; fileRef = BE81C8C613497F6100CF8784 /* TeamsDivision.m */; };
 		BE906B191337DA3700523831 /* StandingsDivision.m in Sources */ = {isa = PBXBuildFile; fileRef = BE906B181337DA3700523831 /* StandingsDivision.m */; };
+		BE984B9A134FC10200F6F0E7 /* FieldsGamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE984B98134FC10200F6F0E7 /* FieldsGamesViewController.m */; };
+		BE984B9B134FC10200F6F0E7 /* FieldsGamesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE984B99134FC10200F6F0E7 /* FieldsGamesView.xib */; };
+		BE984BAE134FC42500F6F0E7 /* FieldsGames.m in Sources */ = {isa = PBXBuildFile; fileRef = BE984BAD134FC42500F6F0E7 /* FieldsGames.m */; };
 		BEABD06E1335A5C60009CA1F /* TeamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEABD06D1335A5C60009CA1F /* TeamsViewController.m */; };
 		BEABD0771335A73C0009CA1F /* StandingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEABD0751335A73C0009CA1F /* StandingsViewController.m */; };
 		BEABD0781335A73C0009CA1F /* StandingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEABD0761335A73C0009CA1F /* StandingsView.xib */; };
@@ -161,6 +164,11 @@
 		BE81C8C613497F6100CF8784 /* TeamsDivision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamsDivision.m; sourceTree = "<group>"; };
 		BE906B171337DA3700523831 /* StandingsDivision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandingsDivision.h; sourceTree = "<group>"; };
 		BE906B181337DA3700523831 /* StandingsDivision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandingsDivision.m; sourceTree = "<group>"; };
+		BE984B97134FC10200F6F0E7 /* FieldsGamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldsGamesViewController.h; sourceTree = "<group>"; };
+		BE984B98134FC10200F6F0E7 /* FieldsGamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldsGamesViewController.m; sourceTree = "<group>"; };
+		BE984B99134FC10200F6F0E7 /* FieldsGamesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FieldsGamesView.xib; path = Classes/FieldsGamesView.xib; sourceTree = "<group>"; };
+		BE984BAC134FC42500F6F0E7 /* FieldsGames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldsGames.h; sourceTree = "<group>"; };
+		BE984BAD134FC42500F6F0E7 /* FieldsGames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldsGames.m; sourceTree = "<group>"; };
 		BEABD06C1335A5C60009CA1F /* TeamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamsViewController.h; sourceTree = "<group>"; };
 		BEABD06D1335A5C60009CA1F /* TeamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamsViewController.m; sourceTree = "<group>"; };
 		BEABD0741335A73C0009CA1F /* StandingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StandingsViewController.h; path = ../StandingsViewController.h; sourceTree = "<group>"; };
@@ -321,6 +329,8 @@
 			children = (
 				BE18EF92134A517300BFB985 /* Fields.h */,
 				BE18EF93134A517300BFB985 /* Fields.m */,
+				BE984BAC134FC42500F6F0E7 /* FieldsGames.h */,
+				BE984BAD134FC42500F6F0E7 /* FieldsGames.m */,
 			);
 			name = Fields;
 			sourceTree = "<group>";
@@ -358,6 +368,7 @@
 		BE81C84E1349771800CF8784 /* Fields */ = {
 			isa = PBXGroup;
 			children = (
+				BE984B99134FC10200F6F0E7 /* FieldsGamesView.xib */,
 				BEBE148B13468E1700258DFE /* FieldsView.xib */,
 			);
 			name = Fields;
@@ -429,6 +440,8 @@
 			children = (
 				BEBE148913468E1700258DFE /* FieldsViewController.h */,
 				BEBE148A13468E1700258DFE /* FieldsViewController.m */,
+				BE984B97134FC10200F6F0E7 /* FieldsGamesViewController.h */,
+				BE984B98134FC10200F6F0E7 /* FieldsGamesViewController.m */,
 			);
 			name = Fields;
 			sourceTree = "<group>";
@@ -640,6 +653,7 @@
 				BEE866F31349AFCD0019B0C7 /* OverlayView.xib in Resources */,
 				BE6071AC134A85A20037AC10 /* TeamsSpecificView.xib in Resources */,
 				BE676E57134BFBDE00FBA68A /* GamesDivisionView.xib in Resources */,
+				BE984B9B134FC10200F6F0E7 /* FieldsGamesView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -681,6 +695,8 @@
 				BE676E89134BFE7000FBA68A /* GamesDivisions.m in Sources */,
 				BE4D64C1134E0117003FCA60 /* GamesHomeName.m in Sources */,
 				BEC8790B134EA91B005B5EB7 /* GamesAwayName.m in Sources */,
+				BE984B9A134FC10200F6F0E7 /* FieldsGamesViewController.m in Sources */,
+				BE984BAE134FC42500F6F0E7 /* FieldsGames.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
