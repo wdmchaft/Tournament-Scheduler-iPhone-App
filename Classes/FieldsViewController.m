@@ -112,7 +112,7 @@
 	delegate.currentPage = divName;
 	
 	FieldsGamesViewController *fieldsGamesView = [[FieldsGamesViewController alloc] init];
-	fieldsGamesView.navigationItem.title = (@"%@", divName);
+	fieldsGamesView.navigationItem.title = [NSString stringWithFormat:@"Field %@", divId];
 	[self.navigationController pushViewController:fieldsGamesView animated:YES];
 	[fieldsGamesView release];
 	

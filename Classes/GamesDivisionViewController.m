@@ -10,7 +10,8 @@
 
 #import "GamesDivisionViewController.h"
 #import "GamesDivisions.h"
-
+#import "GamesSpecificViewController.h"
+#import "TournamentSchedulerAppDelegate.h"
 
 @implementation GamesDivisionViewController
 
@@ -204,14 +205,31 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-    // ...
-    // Pass the selected object to the new view controller.
-    [self.navigationController pushViewController:detailViewController animated:YES];
-    [detailViewController release];
-    */
+	
+	NSString *divId = [gameIds objectAtIndex:indexPath.row];
+
+	
+	NSLog(@"ID %@", divId);
+	
+	//UIAlertView *alert = [[UIAlertView alloc] initWithTitle:divName message:@"HELLO" delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+	//[alert show];
+	//[alert autorelease];
+	//	
+	TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
+	delegate.tempIdHolder= divId;
+	//	delegate.currentPage = divName;
+	//	//	
+	//	//	
+	//	//	
+	
+	GamesSpecificViewController *gamesSpecificView = [[GamesSpecificViewController alloc] init];
+	
+	//self.navigationItem.backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:nil action:nil] autorelease];
+	[self.navigationController pushViewController:gamesSpecificView animated:YES];
+	[gamesSpecificView release];
+	
+	
+	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 
