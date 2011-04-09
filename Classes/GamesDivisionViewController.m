@@ -219,34 +219,37 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	
+	if (gameIds.count != 0) {
+		
 	
-	int currentPosition = (indexPath.section * (gameIds.count/4)) + indexPath.row;
-	if ([gameHomeIds objectAtIndex:currentPosition ] != @"none"){
+		int currentPosition = (indexPath.section * (gameIds.count/4)) + indexPath.row;
+		if ([gameHomeIds objectAtIndex:currentPosition ] != @"none"){
+		
+		NSString *divId = [gameIds objectAtIndex:currentPosition];
+		
+		
+		NSLog(@"ID %@", divId);
+		
+		//UIAlertView *alert = [[UIAlertView alloc] initWithTitle:divName message:@"HELLO" delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+		//[alert show];
+		//[alert autorelease];
+		//	
+		TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
+		delegate.tempIdHolder= divId;
+		//	delegate.currentPage = divName;
+		//	//	
+		//	//	
+		//	//	
+		
+		GamesSpecificViewController *gamesSpecificView = [[GamesSpecificViewController alloc] init];
+		
+		gamesSpecificView.navigationItem.title = [NSString stringWithFormat:@"Game %@", divId];
+		//self.navigationItem.backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:nil action:nil] autorelease];
+		[self.navigationController pushViewController:gamesSpecificView animated:YES];
+		[gamesSpecificView release];
+		}
 	
-	NSString *divId = [gameIds objectAtIndex:currentPosition];
-	
-	
-	NSLog(@"ID %@", divId);
-	
-	//UIAlertView *alert = [[UIAlertView alloc] initWithTitle:divName message:@"HELLO" delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
-	//[alert show];
-	//[alert autorelease];
-	//	
-	TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
-	delegate.tempIdHolder= divId;
-	//	delegate.currentPage = divName;
-	//	//	
-	//	//	
-	//	//	
-	
-	GamesSpecificViewController *gamesSpecificView = [[GamesSpecificViewController alloc] init];
-	
-	gamesSpecificView.navigationItem.title = [NSString stringWithFormat:@"Game %@", divId];
-	//self.navigationItem.backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:nil action:nil] autorelease];
-	[self.navigationController pushViewController:gamesSpecificView animated:YES];
-	[gamesSpecificView release];
 	}
-	
 	
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
