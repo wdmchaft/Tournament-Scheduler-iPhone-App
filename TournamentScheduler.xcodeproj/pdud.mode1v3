@@ -281,14 +281,14 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>23</integer>
+									<integer>21</integer>
 									<integer>17</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 99}, {275, 760}}</string>
+							<string>{{0, 0}, {275, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -325,7 +325,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>GamesSpecificViewController.m</string>
+								<string>GamesDivisionViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -333,11 +333,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>GamesSpecificViewController.m</string>
+										<string>GamesDivisionViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BE984DAA134FFD0C00F6F0E7</string>
+										<string>BE984DEB1350006C00F6F0E7</string>
 										<key>history</key>
 										<array>
 											<string>BE09E9381335D2AE00BDF656</string>
@@ -390,15 +390,12 @@
 											<string>BE984B55134FB95900F6F0E7</string>
 											<string>BE984BC9134FC6E200F6F0E7</string>
 											<string>BE984BD7134FC8A800F6F0E7</string>
-											<string>BE984BDF134FC98900F6F0E7</string>
 											<string>BE984BE0134FC98900F6F0E7</string>
-											<string>BE984C21134FDFAC00F6F0E7</string>
 											<string>BE984C22134FDFAC00F6F0E7</string>
 											<string>BE984C35134FE10700F6F0E7</string>
 											<string>BE984C79134FE4A500F6F0E7</string>
 											<string>BE984CD0134FE8B600F6F0E7</string>
 											<string>BE984CE7134FEAA700F6F0E7</string>
-											<string>BE984D16134FEDB200F6F0E7</string>
 											<string>BE984D28134FF0A400F6F0E7</string>
 											<string>BE984D49134FF38D00F6F0E7</string>
 											<string>BE984D4B134FF38D00F6F0E7</string>
@@ -416,9 +413,12 @@
 											<string>BE984D9E134FFCA800F6F0E7</string>
 											<string>BE984D9F134FFCA800F6F0E7</string>
 											<string>BE984DA0134FFCA800F6F0E7</string>
-											<string>BE984DA5134FFCC000F6F0E7</string>
 											<string>BE984DA6134FFCC000F6F0E7</string>
-											<string>BE984DA7134FFCC000F6F0E7</string>
+											<string>BE984DBE134FFF1C00F6F0E7</string>
+											<string>BE984DBF134FFF1C00F6F0E7</string>
+											<string>BE984DC0134FFF1C00F6F0E7</string>
+											<string>BE984DC1134FFF1C00F6F0E7</string>
+											<string>BE984DC2134FFF1C00F6F0E7</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -618,9 +618,9 @@
 	<array>
 		<string>BE984D2D134FF0A400F6F0E7</string>
 		<string>BE984D2E134FF0A400F6F0E7</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>BEABD05E13359F3A0009CA1F</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TournamentScheduler.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -1005,7 +1005,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
