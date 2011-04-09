@@ -9,10 +9,12 @@
 #import "StandingsDivisionViewController.h"
 #import "TournamentSchedulerAppDelegate.h"
 #import "StandingsDivision.h"
+#import "TeamsSpecificViewController.h"
 
 @implementation StandingsDivisionViewController
 
 // Syntehsize Names, points, wins, draws, and losses
+@synthesize teamIds;
 @synthesize names;
 @synthesize pts;
 @synthesize wins;
@@ -46,6 +48,7 @@
 	
 	//self.navigationItem.title = @"CLICKED DIVISION";
 	
+	teamIds = [[NSMutableArray alloc] init];
 	names = [[NSMutableArray alloc] init];
 	pts = [[NSMutableArray alloc] init];
 	wins = [[NSMutableArray alloc] init];
@@ -145,16 +148,21 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 	//Add code to handle selection here
-	NSString *title = [names objectAtIndex:indexPath.row];
-	
-	NSLog(@"Title is %@", title);
-	
-	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:@"HELLO" delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
-	[alert show];
-	[alert autorelease];
+//	NSString *title = [names objectAtIndex:indexPath.row];
+//	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:@"HELLO" delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+//	[alert show];
+//	[alert autorelease];
 	
 	
+	TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
+	delegate.tempIdHolder= [teamIds objectAtIndex:indexPath.row];
+	//NSLog(@"TEams ID %@",  [teamIds objectAtIndex:indexPath.row]);
 	
+	TeamsSpecificViewController *teamsSpecificView = [[TeamsSpecificViewController alloc] init];
+	teamsSpecificView.navigationItem.title = (@"%@", [names objectAtIndex:indexPath.row]);
+	self.navigationItem.backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:nil action:nil] autorelease];
+	[self.navigationController pushViewController:teamsSpecificView animated:YES];
+	[teamsSpecificView release];
 	
 	
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];

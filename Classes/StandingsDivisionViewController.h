@@ -14,6 +14,7 @@
 }
 
 // Create Arrays for Team Names, Points, Wins, Draws, and Losses
+@property (nonatomic, retain) NSMutableArray *teamIds;
 @property (nonatomic, retain) NSMutableArray *names;
 @property (nonatomic, retain) NSMutableArray *pts;
 @property (nonatomic, retain) NSMutableArray *wins;

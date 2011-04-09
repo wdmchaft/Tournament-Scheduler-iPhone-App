@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -281,14 +283,14 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>21</integer>
-									<integer>17</integer>
-									<integer>1</integer>
+									<integer>45</integer>
+									<integer>41</integer>
+									<integer>37</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {275, 760}}</string>
+							<string>{{0, 22}, {275, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -318,14 +320,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>GamesDivisionViewController.m</string>
+								<string>GamesDivisions.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -333,11 +333,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>GamesDivisionViewController.m</string>
-										<key>_historyCapacity</key>
-										<integer>0</integer>
-										<key>bookmark</key>
-										<string>BE984DEB1350006C00F6F0E7</string>
+										<string>GamesDivisions.m</string>
 										<key>history</key>
 										<array>
 											<string>BE09E9381335D2AE00BDF656</string>
@@ -377,7 +373,6 @@
 											<string>BE1273CD134E670E000C9821</string>
 											<string>BE1273CE134E670E000C9821</string>
 											<string>BE1273D0134E670E000C9821</string>
-											<string>BEE29F5B134EDBAA009685E2</string>
 											<string>BEE29F9F134EE084009685E2</string>
 											<string>BEE29FA1134EE084009685E2</string>
 											<string>BEE29FA3134EE084009685E2</string>
@@ -397,28 +392,18 @@
 											<string>BE984CD0134FE8B600F6F0E7</string>
 											<string>BE984CE7134FEAA700F6F0E7</string>
 											<string>BE984D28134FF0A400F6F0E7</string>
-											<string>BE984D49134FF38D00F6F0E7</string>
-											<string>BE984D4B134FF38D00F6F0E7</string>
 											<string>BE984D7A134FFA4000F6F0E7</string>
-											<string>BE984D8A134FFB8200F6F0E7</string>
 											<string>BE984D8B134FFB8200F6F0E7</string>
 											<string>BE984D8C134FFB8200F6F0E7</string>
-											<string>BE984D8D134FFB8200F6F0E7</string>
-											<string>BE984D8E134FFB8200F6F0E7</string>
-											<string>BE984D99134FFCA800F6F0E7</string>
-											<string>BE984D9A134FFCA800F6F0E7</string>
-											<string>BE984D9B134FFCA800F6F0E7</string>
 											<string>BE984D9C134FFCA800F6F0E7</string>
 											<string>BE984D9D134FFCA800F6F0E7</string>
 											<string>BE984D9E134FFCA800F6F0E7</string>
 											<string>BE984D9F134FFCA800F6F0E7</string>
 											<string>BE984DA0134FFCA800F6F0E7</string>
 											<string>BE984DA6134FFCC000F6F0E7</string>
-											<string>BE984DBE134FFF1C00F6F0E7</string>
 											<string>BE984DBF134FFF1C00F6F0E7</string>
 											<string>BE984DC0134FFF1C00F6F0E7</string>
 											<string>BE984DC1134FFF1C00F6F0E7</string>
-											<string>BE984DC2134FFF1C00F6F0E7</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -430,14 +415,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {602, 668}}</string>
+								<string>{{0, 0}, {602, 662}}</string>
 								<key>RubberWindowFrame</key>
 								<string>17 59 899 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>668pt</string>
+							<string>662pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -450,14 +435,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 673}, {602, 105}}</string>
+								<string>{{0, 667}, {602, 111}}</string>
 								<key>RubberWindowFrame</key>
 								<string>17 59 899 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>105pt</string>
+							<string>111pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -476,9 +461,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>BE984BEF134FDBD400F6F0E7</string>
+				<string>BE60B5531351148A00CDF1F6</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>BE984BF0134FDBD400F6F0E7</string>
+				<string>BE60B5541351148A00CDF1F6</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -616,11 +601,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>BE984D2D134FF0A400F6F0E7</string>
-		<string>BE984D2E134FF0A400F6F0E7</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>BEABD05E13359F3A0009CA1F</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TournamentScheduler.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -645,7 +626,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>GamesSpecific.m</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -662,8 +643,6 @@
 							<string>143pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -703,7 +682,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>BEABD05E13359F3A0009CA1F</string>
-				<string>BE984BF1134FDBD400F6F0E7</string>
+				<string>BE60B5551351148A00CDF1F6</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

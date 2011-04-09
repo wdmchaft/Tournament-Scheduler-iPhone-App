@@ -73,6 +73,7 @@
 		for (NSDictionary *trend in trends) {
 			NSLog(@"Name = %@", [trend objectForKey:@"name"]);
 			NSLog(@"Points = %@", [trend objectForKey:@"points"]);
+			[viewController.teamIds addObject:[trend objectForKey:@"id"]];
 			[viewController.names addObject:[trend objectForKey:@"name"]];
 			[viewController.pts addObject:[trend objectForKey:@"points"]];
 			[viewController.wins addObject:[trend objectForKey:@"wins"]];
