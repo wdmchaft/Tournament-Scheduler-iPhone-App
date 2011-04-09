@@ -16,6 +16,8 @@
 @synthesize gameDetailsCell;
 @synthesize fieldDetailsCell;
 
+@synthesize optionList;
+
 @synthesize gameId;
 @synthesize awayId;
 @synthesize homeId;
@@ -47,6 +49,9 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
  
  // Create dummy category array, save, remove dummy
+	NSArray *options = [[NSArray alloc] initWithObjects: @"Updates", @"Discipline", nil];
+	self.optionList = options;
+	[options release];
  
  [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
  GamesSpecific *gamesSpecific = [[GamesSpecific alloc] init];
@@ -115,7 +120,11 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return 1;
+    if (section == 2) {
+		return 2;
+	}
+	
+	return 1;
 }
 
 
@@ -153,7 +162,7 @@
 		return gameDetailsCell;		
     }
 	
-	if (indexPath.section + indexPath.row == 1){
+	else if (indexPath.section + indexPath.row == 1){
 		
 		UILabel *fieldLabel = (UILabel *)[fieldDetailsCell viewWithTag:7];
 		fieldLabel.text  = [NSString stringWithFormat:@"Field %@", field];
@@ -177,6 +186,10 @@
 		
 		return fieldDetailsCell;		
 		
+	}
+	else{
+		cell.textLabel.text = [optionList objectAtIndex:indexPath.row];
+		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 	}
 	
     
@@ -236,6 +249,7 @@
     [self.navigationController pushViewController:detailViewController animated:YES];
     [detailViewController release];
     */
+	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 

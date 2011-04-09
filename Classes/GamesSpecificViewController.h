@@ -13,11 +13,15 @@
 	UITableView *gameTableView;
 	UITableViewCell *gameDetailsCell;
 	UITableViewCell *fieldDetailsCell;
+	
+	NSArray *optionList;
 }
 
 @property (nonatomic, retain) IBOutlet UITableView *gameTableView;
 @property (nonatomic, retain) IBOutlet UITableViewCell *gameDetailsCell;
 @property (nonatomic, retain) IBOutlet UITableViewCell *fieldDetailsCell;
+
+@property (nonatomic, retain) NSArray *optionList;
 
 @property (nonatomic, retain) NSString *gameId;
 @property (nonatomic, retain) NSString *awayId;
