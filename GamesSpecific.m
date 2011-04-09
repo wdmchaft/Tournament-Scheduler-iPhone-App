@@ -70,13 +70,16 @@
 		[errorAlert release];
 	}else {
 		
+		viewController.gameId = [trends objectForKey:@"id"];
+		viewController.awayId = [trends objectForKey:@"away_id"];
+		viewController.homeId = [trends objectForKey:@"home_id"];
+		viewController.awayMap = [trends objectForKey:@"away_map"];
+		viewController.homeMap = [trends objectForKey:@"home_map"];
+		viewController.awayScore = [trends objectForKey:@"away_score"];
+		viewController.homeScore = [trends objectForKey:@"home_score"];
+		viewController.round = [trends objectForKey:@"round"];
+		viewController.status = [trends objectForKey:@"status"];
 		
-		//viewController.teamName = [trends objectForKey:@"name"];
-//		viewController.teamId = [trends objectForKey:@"id"];
-//		viewController.teamWins = [trends objectForKey:@"wins"];
-//		viewController.teamLosses = [trends objectForKey:@"losses"];
-//		viewController.teamGoals = [trends objectForKey:@"goals"];
-//		
 //		NSLog(@"Team Name %@", viewController.teamName);
 		
 		[parser release];

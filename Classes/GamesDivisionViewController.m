@@ -206,8 +206,9 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	
-	NSString *divId = [gameIds objectAtIndex:indexPath.row];
-
+	int currentPosition = (indexPath.section * (gameIds.count/4)) + indexPath.row;
+	NSString *divId = [gameIds objectAtIndex:currentPosition];
+	
 	
 	NSLog(@"ID %@", divId);
 	
@@ -224,6 +225,7 @@
 	
 	GamesSpecificViewController *gamesSpecificView = [[GamesSpecificViewController alloc] init];
 	
+	gamesSpecificView.navigationItem.title = [NSString stringWithFormat:@"Game %@", divId];
 	//self.navigationItem.backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:nil action:nil] autorelease];
 	[self.navigationController pushViewController:gamesSpecificView animated:YES];
 	[gamesSpecificView release];

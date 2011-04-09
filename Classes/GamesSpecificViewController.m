@@ -7,23 +7,52 @@
 //
 
 #import "GamesSpecificViewController.h"
+#import "GamesSpecific.h"
 
 
 @implementation GamesSpecificViewController
 
 @synthesize gameTableView;
+@synthesize gameDetailsCell;
+
+@synthesize gameId;
+@synthesize awayId;
+@synthesize homeId;
+@synthesize awayMap;
+@synthesize homeMap;
+@synthesize awayScore;
+@synthesize homeScore;
+@synthesize round;
+@synthesize time;
+@synthesize status;
+
+@synthesize awayName;
+@synthesize homeName;
+@synthesize awayWins;
+@synthesize homeWins;
+@synthesize awayLosses;
+@synthesize homeLosses;
+
 
 #pragma mark -
 #pragma mark View lifecycle
 
-/*
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+ 
+ // Create dummy category array, save, remove dummy
+ 
+ [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
+ GamesSpecific *gamesSpecific = [[GamesSpecific alloc] init];
+ [gamesSpecific queryServiceWithParent:self];
 }
-*/
+
+
+
 
 /*
 - (void)viewWillAppear:(BOOL)animated {
@@ -57,6 +86,25 @@
 #pragma mark -
 #pragma mark Table view data source
 
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    // The header for the section is the region name -- get this from the region at the section index.
+    if (section == 0)
+		return [NSString stringWithFormat:@"Round %@ - Game %@", round, gameId];
+	else 
+		return @"";
+	
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{	
+	if (indexPath.section + indexPath.row == 0)
+	{
+		return 90;		
+	}
+    return 44; 
+}
+
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
     return 3;
@@ -65,7 +113,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return 2;
+    return 1;
 }
 
 
@@ -80,6 +128,29 @@
     }
     
     // Configure the cell...
+	
+	if (indexPath.section + indexPath.row == 0){
+		//UILabel *homeLabel = (UILabel *)[gameDetailsCell viewWithTag:1];
+		//homeLabel.text  = [NSString stringWithFormat:@"%@", homeName];
+	
+		//UILabel *homeRecord = (UILabel *)[gameDetailsCell viewWithTag:2];
+		//homeRecord.text  = [NSString stringWithFormat:@"%@ - %@", homeWins, homeLosses];
+		
+		UILabel *homeGoals = (UILabel *)[gameDetailsCell viewWithTag:3];
+		homeGoals.text  = [NSString stringWithFormat:@"%@", homeScore];
+		
+		//UILabel *awayLabel = (UILabel *)[gameDetailsCell viewWithTag:4];
+		//awayLabel.text  = [NSString stringWithFormat:@"%@", homeName];
+		
+		//UILabel *awayRecord = (UILabel *)[gameDetailsCell viewWithTag:5];
+		//awayRecord.text  = [NSString stringWithFormat:@"%@ - %@", awayWins, awayLosses];
+		
+		UILabel *awayGoals = (UILabel *)[gameDetailsCell viewWithTag:6];
+		awayGoals.text  = [NSString stringWithFormat:@"%@", awayScore];
+				
+		return gameDetailsCell;		
+    }
+	
     
     return cell;
 }
