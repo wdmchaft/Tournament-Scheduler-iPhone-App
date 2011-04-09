@@ -412,6 +412,8 @@
 			BE984DA6134FFCC000F6F0E7 /* PBXTextBookmark */ = BE984DA6134FFCC000F6F0E7 /* PBXTextBookmark */;
 			BE984DA7134FFCC000F6F0E7 /* PBXTextBookmark */ = BE984DA7134FFCC000F6F0E7 /* PBXTextBookmark */;
 			BE984DA8134FFCC000F6F0E7 /* PBXTextBookmark */ = BE984DA8134FFCC000F6F0E7 /* PBXTextBookmark */;
+			BE984DA9134FFD0B00F6F0E7 /* PBXTextBookmark */ = BE984DA9134FFD0B00F6F0E7 /* PBXTextBookmark */;
+			BE984DAA134FFD0C00F6F0E7 /* PBXTextBookmark */ = BE984DAA134FFD0C00F6F0E7 /* PBXTextBookmark */;
 			BEDDCAC5134807B600B00EA3 = BEDDCAC5134807B600B00EA3 /* PBXTextBookmark */;
 			BEDDCACB134807CD00B00EA3 = BEDDCACB134807CD00B00EA3 /* PBXTextBookmark */;
 			BEDE20AD134AC61800F2D83B = BEDE20AD134AC61800F2D83B /* PBXTextBookmark */;
@@ -1364,9 +1366,9 @@
 	};
 	BE984C2B134FDFE400F6F0E7 /* GamesSpecific.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1279, 2093}}";
-			sepNavSelRange = "{3096, 0}";
-			sepNavVisRange = "{2281, 2158}";
+			sepNavIntBoundsRect = "{{0, 0}, {1279, 2535}}";
+			sepNavSelRange = "{5623, 0}";
+			sepNavVisRange = "{2045, 292}";
 		};
 	};
 	BE984C35134FE10700F6F0E7 /* PBXTextBookmark */ = {
@@ -3429,6 +3431,26 @@
 		vrLoc = 6533;
 	};
 	BE984DA8134FFCC000F6F0E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE984BF4134FDC8F00F6F0E7 /* GamesSpecificViewController.m */;
+		name = "GamesSpecificViewController.m: 252";
+		rLen = 0;
+		rLoc = 7402;
+		rType = 0;
+		vrLen = 1488;
+		vrLoc = 6336;
+	};
+	BE984DA9134FFD0B00F6F0E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE984C2B134FDFE400F6F0E7 /* GamesSpecific.m */;
+		name = "GamesSpecific.m: 150";
+		rLen = 0;
+		rLoc = 5623;
+		rType = 0;
+		vrLen = 292;
+		vrLoc = 2045;
+	};
+	BE984DAA134FFD0C00F6F0E7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = BE984BF4134FDC8F00F6F0E7 /* GamesSpecificViewController.m */;
 		name = "GamesSpecificViewController.m: 252";
