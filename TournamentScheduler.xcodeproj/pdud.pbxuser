@@ -795,9 +795,9 @@
 	};
 	BE676E54134BFBDE00FBA68A /* GamesDivisionViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1153, 3445}}";
-			sepNavSelRange = "{7261, 58}";
-			sepNavVisRange = "{6384, 1410}";
+			sepNavIntBoundsRect = "{{0, 0}, {1153, 3328}}";
+			sepNavSelRange = "{6149, 1170}";
+			sepNavVisRange = "{5978, 1484}";
 			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
 		};
 	};
@@ -968,7 +968,7 @@
 	};
 	BE984B97134FC10200F6F0E7 /* FieldsGamesViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1065, 613}}";
+			sepNavIntBoundsRect = "{{0, 0}, {719, 613}}";
 			sepNavSelRange = "{226, 0}";
 			sepNavVisRange = "{0, 951}";
 		};
@@ -1125,9 +1125,9 @@
 	BE984BF4134FDC8F00F6F0E7 /* GamesSpecificViewController.m */ = {
 		uiCtxt = {
 			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{7015, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{7066, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{7116, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 7877}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1048, 3432}}";
-			sepNavSelRange = "{7345, 0}";
-			sepNavVisRange = "{6336, 1431}";
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 3497}}";
+			sepNavSelRange = "{6831, 0}";
+			sepNavVisRange = "{6533, 1287}";
 		};
 	};
 	BE984BF9134FDCB400F6F0E7 /* PBXTextBookmark */ = {
