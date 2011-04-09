@@ -88,6 +88,7 @@
 		viewController.awayScore = [trends objectForKey:@"away_score"];
 		viewController.homeScore = [trends objectForKey:@"home_score"];
 		viewController.round = [trends objectForKey:@"round"];
+		viewController.time = [trends objectForKey:@"time"];
 		viewController.status = [trends objectForKey:@"status"];
 		
 		if (viewController.homeId != @"none"){

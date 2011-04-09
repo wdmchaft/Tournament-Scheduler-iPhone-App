@@ -288,7 +288,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 294}, {275, 760}}</string>
+							<string>{{0, 258}, {275, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -337,7 +337,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BE984D64134FF64000F6F0E7</string>
+										<string>BE984D86134FFB2700F6F0E7</string>
 										<key>history</key>
 										<array>
 											<string>BE09E9381335D2AE00BDF656</string>
@@ -404,7 +404,6 @@
 											<string>BE984C95134FE60E00F6F0E7</string>
 											<string>BE984CD0134FE8B600F6F0E7</string>
 											<string>BE984CE7134FEAA700F6F0E7</string>
-											<string>BE984CE8134FEAA700F6F0E7</string>
 											<string>BE984CF9134FEC3300F6F0E7</string>
 											<string>BE984CFA134FEC3300F6F0E7</string>
 											<string>BE984D05134FEC9800F6F0E7</string>
@@ -415,10 +414,11 @@
 											<string>BE984D49134FF38D00F6F0E7</string>
 											<string>BE984D4A134FF38D00F6F0E7</string>
 											<string>BE984D4B134FF38D00F6F0E7</string>
-											<string>BE984D59134FF44700F6F0E7</string>
-											<string>BE984D5A134FF44700F6F0E7</string>
-											<string>BE984D5F134FF62F00F6F0E7</string>
-											<string>BE984D60134FF62F00F6F0E7</string>
+											<string>BE984D69134FF82100F6F0E7</string>
+											<string>BE984D7A134FFA4000F6F0E7</string>
+											<string>BE984D82134FFB0E00F6F0E7</string>
+											<string>BE984D83134FFB0E00F6F0E7</string>
+											<string>BE984D84134FFB0E00F6F0E7</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -618,9 +618,9 @@
 	<array>
 		<string>BE984D2D134FF0A400F6F0E7</string>
 		<string>BE984D2E134FF0A400F6F0E7</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>BEABD05E13359F3A0009CA1F</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TournamentScheduler.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -1005,7 +1005,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

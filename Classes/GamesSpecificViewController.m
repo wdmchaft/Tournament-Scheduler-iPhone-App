@@ -14,6 +14,7 @@
 
 @synthesize gameTableView;
 @synthesize gameDetailsCell;
+@synthesize fieldDetailsCell;
 
 @synthesize gameId;
 @synthesize awayId;
@@ -150,6 +151,32 @@
 				
 		return gameDetailsCell;		
     }
+	
+	if (indexPath.section + indexPath.row == 1){
+		
+		//UILabel *fieldLabel = (UILabel *)[fieldDetailsCell viewWithTag:7];
+		//fieldLabel.text  = [NSString stringWithFormat:@"Field %@", homeName];
+		
+		NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+		[dateFormat setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'+00:00'"];
+		NSDate *date = [dateFormat dateFromString:time];
+		
+		[dateFormat setDateFormat:@"hh:mm a"];
+		
+		//Optionally for time zone converstions
+		[dateFormat setTimeZone:[NSTimeZone timeZoneWithName:@"EST"]];
+		
+		NSString *stringFromDate = [dateFormat stringFromDate:date];
+		
+		UILabel *timeLabel = (UILabel *)[fieldDetailsCell viewWithTag:8];
+		timeLabel.text  = [NSString stringWithFormat:@"%@", stringFromDate];
+		
+		UILabel *statusLabel = (UILabel *)[fieldDetailsCell viewWithTag:9];
+		statusLabel.text  = [NSString stringWithFormat:@"%@", status];
+		
+		return fieldDetailsCell;		
+		
+	}
 	
     
     return cell;
