@@ -26,6 +26,7 @@
 @synthesize round;
 @synthesize time;
 @synthesize status;
+@synthesize field;
 
 @synthesize awayName;
 @synthesize homeName;
@@ -154,8 +155,8 @@
 	
 	if (indexPath.section + indexPath.row == 1){
 		
-		//UILabel *fieldLabel = (UILabel *)[fieldDetailsCell viewWithTag:7];
-		//fieldLabel.text  = [NSString stringWithFormat:@"Field %@", homeName];
+		UILabel *fieldLabel = (UILabel *)[fieldDetailsCell viewWithTag:7];
+		fieldLabel.text  = [NSString stringWithFormat:@"Field %@", field];
 		
 		NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
 		[dateFormat setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'+00:00'"];

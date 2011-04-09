@@ -29,6 +29,8 @@
 @property (nonatomic, retain) NSString *round;
 @property (nonatomic, retain) NSString *time;
 @property (nonatomic, retain) NSString *status;
+@property (nonatomic, retain) NSString *field;
+
 
 @property (nonatomic, retain) NSString *awayName;
 @property (nonatomic, retain) NSString *homeName;

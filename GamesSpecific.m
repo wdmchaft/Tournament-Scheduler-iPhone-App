@@ -90,6 +90,7 @@
 		viewController.round = [trends objectForKey:@"round"];
 		viewController.time = [trends objectForKey:@"time"];
 		viewController.status = [trends objectForKey:@"status"];
+		viewController.field = [trends objectForKey:@"field_id"];
 		
 		if (viewController.homeId != @"none"){
 			TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
