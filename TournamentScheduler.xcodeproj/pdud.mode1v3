@@ -281,14 +281,14 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>67</integer>
-									<integer>65</integer>
-									<integer>60</integer>
+									<integer>23</integer>
+									<integer>17</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 750}, {275, 760}}</string>
+							<string>{{0, 294}, {275, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -337,7 +337,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BE984D33134FF0DD00F6F0E7</string>
+										<string>BE984D64134FF64000F6F0E7</string>
 										<key>history</key>
 										<array>
 											<string>BE09E9381335D2AE00BDF656</string>
@@ -379,7 +379,6 @@
 											<string>BE1273CE134E670E000C9821</string>
 											<string>BE1273D0134E670E000C9821</string>
 											<string>BEE29F5B134EDBAA009685E2</string>
-											<string>BEE29F7E134EDD7C009685E2</string>
 											<string>BEE29F9B134EE084009685E2</string>
 											<string>BEE29F9F134EE084009685E2</string>
 											<string>BEE29FA1134EE084009685E2</string>
@@ -412,13 +411,14 @@
 											<string>BE984D06134FEC9800F6F0E7</string>
 											<string>BE984D15134FEDB200F6F0E7</string>
 											<string>BE984D16134FEDB200F6F0E7</string>
-											<string>BE984D1D134FEF9500F6F0E7</string>
-											<string>BE984D25134FF0A400F6F0E7</string>
-											<string>BE984D26134FF0A400F6F0E7</string>
-											<string>BE984D27134FF0A400F6F0E7</string>
 											<string>BE984D28134FF0A400F6F0E7</string>
-											<string>BE984D29134FF0A400F6F0E7</string>
-											<string>BE984D2A134FF0A400F6F0E7</string>
+											<string>BE984D49134FF38D00F6F0E7</string>
+											<string>BE984D4A134FF38D00F6F0E7</string>
+											<string>BE984D4B134FF38D00F6F0E7</string>
+											<string>BE984D59134FF44700F6F0E7</string>
+											<string>BE984D5A134FF44700F6F0E7</string>
+											<string>BE984D5F134FF62F00F6F0E7</string>
+											<string>BE984D60134FF62F00F6F0E7</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

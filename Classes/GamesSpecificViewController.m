@@ -130,20 +130,20 @@
     // Configure the cell...
 	
 	if (indexPath.section + indexPath.row == 0){
-		//UILabel *homeLabel = (UILabel *)[gameDetailsCell viewWithTag:1];
-		//homeLabel.text  = [NSString stringWithFormat:@"%@", homeName];
+		UILabel *homeLabel = (UILabel *)[gameDetailsCell viewWithTag:1];
+		homeLabel.text  = [NSString stringWithFormat:@"%@", homeName];
 	
-		//UILabel *homeRecord = (UILabel *)[gameDetailsCell viewWithTag:2];
-		//homeRecord.text  = [NSString stringWithFormat:@"%@ - %@", homeWins, homeLosses];
+		UILabel *homeRecord = (UILabel *)[gameDetailsCell viewWithTag:2];
+		homeRecord.text  = [NSString stringWithFormat:@"%@ - %@", homeWins, homeLosses];
 		
 		UILabel *homeGoals = (UILabel *)[gameDetailsCell viewWithTag:3];
 		homeGoals.text  = [NSString stringWithFormat:@"%@", homeScore];
 		
-		//UILabel *awayLabel = (UILabel *)[gameDetailsCell viewWithTag:4];
-		//awayLabel.text  = [NSString stringWithFormat:@"%@", homeName];
+		UILabel *awayLabel = (UILabel *)[gameDetailsCell viewWithTag:4];
+		awayLabel.text  = [NSString stringWithFormat:@"%@", awayName];
 		
-		//UILabel *awayRecord = (UILabel *)[gameDetailsCell viewWithTag:5];
-		//awayRecord.text  = [NSString stringWithFormat:@"%@ - %@", awayWins, awayLosses];
+		UILabel *awayRecord = (UILabel *)[gameDetailsCell viewWithTag:5];
+		awayRecord.text  = [NSString stringWithFormat:@"%@ - %@", awayWins, awayLosses];
 		
 		UILabel *awayGoals = (UILabel *)[gameDetailsCell viewWithTag:6];
 		awayGoals.text  = [NSString stringWithFormat:@"%@", awayScore];

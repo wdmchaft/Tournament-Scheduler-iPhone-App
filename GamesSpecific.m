@@ -70,15 +70,75 @@
 		[errorAlert release];
 	}else {
 		
+		
 		viewController.gameId = [trends objectForKey:@"id"];
-		viewController.awayId = [trends objectForKey:@"away_id"];
-		viewController.homeId = [trends objectForKey:@"home_id"];
+
+		if ([trends objectForKey:@"home_id"] != [NSNull null]) {
+			viewController.homeId = [trends objectForKey:@"home_id"];
+			viewController.awayId = [trends objectForKey:@"away_id"];
+		}
+		else {
+			viewController.homeId = @"none";
+			viewController.awayId = @"none";
+		}
+		
+		
 		viewController.awayMap = [trends objectForKey:@"away_map"];
 		viewController.homeMap = [trends objectForKey:@"home_map"];
 		viewController.awayScore = [trends objectForKey:@"away_score"];
 		viewController.homeScore = [trends objectForKey:@"home_score"];
 		viewController.round = [trends objectForKey:@"round"];
 		viewController.status = [trends objectForKey:@"status"];
+		
+		if (viewController.homeId != @"none"){
+			TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
+			delegate.tempIdHolder = viewController.homeId;
+			
+			responseData = [[NSMutableData data] retain];
+			
+			NSString *url = [NSString stringWithFormat:@"http://localhost:4567/api/teams/%@", delegate.tempIdHolder];
+			theURL = [[NSURL URLWithString:url] retain];
+			
+			NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
+			NSURLResponse *response = nil;
+			NSError *error = nil;
+			//getting the data
+			NSData *newData = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+			//json parse
+			NSString *responseString = [[NSString alloc] initWithData:newData encoding:NSUTF8StringEncoding];
+			NSDictionary *jsonObject = [responseString JSONValue];
+			//Accessing JSON content
+			NSLog(@"Home name :  %@", [jsonObject objectForKey:@"name"] );
+			
+			viewController.homeName = [jsonObject objectForKey:@"name"];
+			viewController.homeWins = [jsonObject objectForKey:@"wins"];
+			viewController.homeLosses = [jsonObject objectForKey:@"losses"];
+		}
+		
+		if (viewController.awayId != @"none"){
+			TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
+			delegate.tempIdHolder = viewController.awayId;
+			
+			responseData = [[NSMutableData data] retain];
+			
+			NSString *url = [NSString stringWithFormat:@"http://localhost:4567/api/teams/%@", delegate.tempIdHolder];
+			theURL = [[NSURL URLWithString:url] retain];
+			
+			NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
+			NSURLResponse *response = nil;
+			NSError *error = nil;
+			//getting the data
+			NSData *newData = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+			//json parse
+			NSString *responseString = [[NSString alloc] initWithData:newData encoding:NSUTF8StringEncoding];
+			NSDictionary *jsonObject = [responseString JSONValue];
+			//Accessing JSON content
+			NSLog(@"Away name :  %@", [jsonObject objectForKey:@"name"] );
+			
+			viewController.awayName = [jsonObject objectForKey:@"name"];
+			viewController.awayWins = [jsonObject objectForKey:@"wins"];
+			viewController.awayLosses = [jsonObject objectForKey:@"losses"];
+		}
 		
 //		NSLog(@"Team Name %@", viewController.teamName);
 		

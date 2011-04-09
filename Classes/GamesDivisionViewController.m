@@ -206,7 +206,10 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	
+	
 	int currentPosition = (indexPath.section * (gameIds.count/4)) + indexPath.row;
+	if ([gameHomeIds objectAtIndex:currentPosition ] != @"none"){
+	
 	NSString *divId = [gameIds objectAtIndex:currentPosition];
 	
 	
@@ -229,6 +232,7 @@
 	//self.navigationItem.backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:nil action:nil] autorelease];
 	[self.navigationController pushViewController:gamesSpecificView animated:YES];
 	[gamesSpecificView release];
+	}
 	
 	
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
