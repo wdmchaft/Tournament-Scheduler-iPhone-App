@@ -283,14 +283,14 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>71</integer>
-									<integer>63</integer>
-									<integer>43</integer>
+									<integer>40</integer>
+									<integer>30</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 579}, {275, 760}}</string>
+							<string>{{0, 0}, {275, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -327,7 +327,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TeamsSpecificGames.m</string>
+								<string>TeamsSpecificGamesViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -335,11 +335,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TeamsSpecificGames.m</string>
+										<string>TeamsSpecificGamesViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BE60B5D913512E8F00CDF1F6</string>
+										<string>BE60B5FB1351308900CDF1F6</string>
 										<key>history</key>
 										<array>
 											<string>BE09E9381335D2AE00BDF656</string>
@@ -404,12 +404,9 @@
 											<string>BE60B59E13512B4E00CDF1F6</string>
 											<string>BE60B59F13512B4E00CDF1F6</string>
 											<string>BE60B5A013512B4E00CDF1F6</string>
-											<string>BE60B5A213512B4E00CDF1F6</string>
 											<string>BE60B5A913512C5100CDF1F6</string>
 											<string>BE60B5AB13512C5100CDF1F6</string>
 											<string>BE60B5AC13512C5100CDF1F6</string>
-											<string>BE60B5C013512E0300CDF1F6</string>
-											<string>BE60B5C113512E0300CDF1F6</string>
 											<string>BE60B5C213512E0300CDF1F6</string>
 											<string>BE60B5C313512E0300CDF1F6</string>
 											<string>BE60B5C413512E0300CDF1F6</string>
@@ -418,12 +415,15 @@
 											<string>BE60B5C713512E0300CDF1F6</string>
 											<string>BE60B5C813512E0300CDF1F6</string>
 											<string>BE60B5C913512E0300CDF1F6</string>
-											<string>BE60B5CA13512E0300CDF1F6</string>
 											<string>BE60B5CB13512E0300CDF1F6</string>
-											<string>BE60B5D213512E3700CDF1F6</string>
 											<string>BE60B5D313512E3700CDF1F6</string>
 											<string>BE60B5D413512E3700CDF1F6</string>
-											<string>BE60B5CD13512E0300CDF1F6</string>
+											<string>BE60B5DE13512F4400CDF1F6</string>
+											<string>BE60B5DF13512F4400CDF1F6</string>
+											<string>BE60B5E013512F4400CDF1F6</string>
+											<string>BE60B5E113512F4400CDF1F6</string>
+											<string>BE60B5E213512F4400CDF1F6</string>
+											<string>BE60B5D213512E3700CDF1F6</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
