@@ -7,6 +7,7 @@
 //
 
 #import "TeamsSpecificGamesViewController.h"
+#import "TeamsSpecificGames.h"
 
 
 @implementation TeamsSpecificGamesViewController
@@ -28,14 +29,30 @@
 #pragma mark -
 #pragma mark View lifecycle
 
-/*
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+	gameIds = [[NSMutableArray alloc] init];
+	gameHomeIds = [[NSMutableArray alloc] init];
+	gameAwayIds = [[NSMutableArray alloc] init];
+	gameHomeMaps = [[NSMutableArray alloc] init];
+	gameAwayMaps = [[NSMutableArray alloc] init];
+	gameFields = [[NSMutableArray alloc] init];
+	gameTimes = [[NSMutableArray alloc] init];
+	
+	gameHomeNames = [[NSMutableArray alloc] init];
+	gameAwayNames = [[NSMutableArray alloc] init];
+	
+	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
+	TeamsSpecificGames *teamSpecificGames = [[TeamsSpecificGames alloc] init];
+	[teamSpecificGames queryServiceWithParent:self];
+	
+	
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
-*/
+
 
 /*
 - (void)viewWillAppear:(BOOL)animated {

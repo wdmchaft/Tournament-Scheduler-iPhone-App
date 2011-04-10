@@ -1,0 +1,22 @@
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamSpecificGames.m:19: warning: cannot find interface declaration for 'T'
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamSpecificGames.m: In function '-[T queryServiceWithParent:]':
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamSpecificGames.m:20: error: 'viewController' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamSpecificGames.m:20: error: (Each undeclared identifier is reported only once
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamSpecificGames.m:20: error: for each function it appears in.)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamSpecificGames.m:21: error: 'responseData' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamSpecificGames.m:28: error: 'theURL' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamSpecificGames.m: In function '-[T connection:willSendRequest:redirectResponse:]':
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamSpecificGames.m:37: error: 'theURL' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamSpecificGames.m: In function '-[T connection:didRecieveResponse:]':
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamSpecificGames.m:44: error: 'responseData' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamSpecificGames.m: In function '-[T connection:didReceiveData:]':
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamSpecificGames.m:48: error: 'responseData' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamSpecificGames.m: In function '-[T connectionDidFinishLoading:]':
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamSpecificGames.m:62: error: 'responseData' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamSpecificGames.m:84: error: 'viewController' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamSpecificGames.m:120: error: 'theURL' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamSpecificGames.m: In function '-[T dealloc]':
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamSpecificGames.m:174: error: 'viewController' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamSpecificGames.m:175: error: 'responseData' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamSpecificGames.m:176: error: 'theURL' undeclared (first use in this function)
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamSpecificGames.m:177: error: no super class declared in @interface for 'T'
