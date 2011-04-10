@@ -154,15 +154,75 @@
 			//json parse
 			NSString *responseString = [[NSString alloc] initWithData:newData encoding:NSUTF8StringEncoding];
 			NSDictionary *jsonObject = [responseString JSONValue];
-			//Accessing JSON content
+			
 			NSLog(@"Away name :  %@", [jsonObject objectForKey:@"name"] );
+			
 			
 			[viewController.gameAwayNames addObject:[jsonObject objectForKey:@"name"]];
 		}
 		else{
-			break;
+			// There is no away-id - away-map will be there
+			
+			
+			
+			
+			
+			// API MAP Game - Find team name given away map
+			// http://localhost:4567/api/teams/map/3W
+
 		}
 	}
+	
+	// Search two games back for IF WIN
+	
+	// If the home map is of the game id of 1 then search the away map of, if not search the home map
+	if ([[viewController.gameHomeMaps objectAtIndex:[viewController.gameAwayMaps count] - 2] rangeOfString:[NSString stringWithFormat:@"%@",[viewController.gameIds objectAtIndex:0]]].location == NSNotFound) {
+		NSLog(@"gameHomeMaps");
+		responseData = [[NSMutableData data] retain];
+		
+		NSString *url = [NSString stringWithFormat:@"http://localhost:4567/api/teams/map/%@", [viewController.gameHomeMaps objectAtIndex:[viewController.gameAwayMaps count] - 2]];
+		theURL = [[NSURL URLWithString:url] retain];
+						 NSLog(@"THE URL %@", url);
+		NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
+		NSURLResponse *response = nil;
+		NSError *error = nil;
+		//getting the data
+		NSData *newData = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+		//json parse
+		NSString *responseString = [[NSString alloc] initWithData:newData encoding:NSUTF8StringEncoding];
+		NSDictionary *jsonObjects = [responseString JSONValue];
+		NSLog(@"JSONOBJECT: %@", jsonObjects);
+		//Accessing JSON content
+		for (NSDictionary *jsonObject in jsonObjects) {
+			NSLog(@"Away name :  %@", [jsonObject objectForKey:@"name"] );
+			[viewController.winningNames addObject:[jsonObject objectForKey:@"name"]];
+		}
+	} else {
+		NSLog(@"gameAwayMaps");
+		responseData = [[NSMutableData data] retain];
+		
+		NSString *url = [NSString stringWithFormat:@"http://localhost:4567/api/teams/map/%@", [viewController.gameAwayMaps objectAtIndex:[viewController.gameAwayMaps count] - 2]];
+		theURL = [[NSURL URLWithString:url] retain];
+		NSLog(@"THE URL %@", url);
+		NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
+		NSURLResponse *response = nil;
+		NSError *error = nil;
+		//getting the data
+		NSData *newData = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+		//json parse
+		NSString *responseString = [[NSString alloc] initWithData:newData encoding:NSUTF8StringEncoding];
+		NSDictionary *jsonObjects = [responseString JSONValue];
+		NSLog(@"JSONOBJECT: %@", jsonObjects);
+		//Accessing JSON content
+		for (NSDictionary *jsonObject in jsonObjects) {
+			NSLog(@"Away name :  %@", [jsonObject objectForKey:@"name"] );
+			[viewController.winningNames addObject:[jsonObject objectForKey:@"name"]];
+		}
+		
+	}
+	
+	// Seach one game back for IF LOSE
+	
 	[parser release];
 	[viewController.teamGamesView reloadData];
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;

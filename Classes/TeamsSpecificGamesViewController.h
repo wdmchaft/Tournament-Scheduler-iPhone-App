@@ -27,6 +27,9 @@
 @property (nonatomic, retain) NSMutableArray *gameHomeNames;
 @property (nonatomic, retain) NSMutableArray *gameAwayNames;
 
+@property (nonatomic, retain) NSMutableArray *winningNames;
+@property (nonatomic, retain) NSMutableArray *losingNames;
+
 
 @end
 

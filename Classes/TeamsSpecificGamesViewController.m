@@ -9,7 +9,6 @@
 #import "TeamsSpecificGamesViewController.h"
 #import "TeamsSpecificGames.h"
 
-
 @implementation TeamsSpecificGamesViewController
 
 @synthesize teamGamesView;
@@ -24,6 +23,9 @@
 
 @synthesize gameHomeNames;
 @synthesize gameAwayNames;
+
+@synthesize winningNames;
+@synthesize losingNames;
 
 
 #pragma mark -
@@ -43,6 +45,9 @@
 	
 	gameHomeNames = [[NSMutableArray alloc] init];
 	gameAwayNames = [[NSMutableArray alloc] init];
+	
+	winningNames = [[NSMutableArray alloc] init];
+	losingNames = [[NSMutableArray alloc] init];
 	
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
 	TeamsSpecificGames *teamSpecificGames = [[TeamsSpecificGames alloc] init];
@@ -104,7 +109,7 @@
 		return @"Scheduled";
 	}
 	if (section == 1) {
-		return @"If Win'";
+		return @"If Win";
 	}
 	if (section == 2) {
 		return @"If Lose";
@@ -131,6 +136,7 @@
 				cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeMaps objectAtIndex: indexPath.row], [gameAwayMaps objectAtIndex: indexPath.row]];
 			else
 				cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeNames objectAtIndex: indexPath.row],[gameAwayNames objectAtIndex: indexPath.row]];
+			
 			
 			[cell.textLabel setFont:[UIFont boldSystemFontOfSize:12]];
 			NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
@@ -165,10 +171,11 @@
 			
 			int currentPosition = indexPath.section + indexPath.row;
 			
-			if ([gameHomeIds objectAtIndex:currentPosition ] == @"none")
-				cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeMaps objectAtIndex: currentPosition], [gameAwayMaps objectAtIndex: currentPosition]];
-			else
-				cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeNames objectAtIndex: currentPosition],[gameAwayNames objectAtIndex: currentPosition]];
+			if ([[gameHomeMaps objectAtIndex: currentPosition] rangeOfString:[NSString stringWithFormat:@"%@",[gameIds objectAtIndex:0]]].location == NSNotFound) {
+				cell.textLabel.text = [NSString stringWithFormat:@"at (%@) %@ or %@", [gameHomeMaps objectAtIndex: currentPosition],  [winningNames objectAtIndex:0], [winningNames objectAtIndex:1]];
+			} else {
+				cell.textLabel.text = [NSString stringWithFormat:@"vs (%@) %@ or %@", [gameAwayMaps objectAtIndex: currentPosition],  [winningNames objectAtIndex:0], [winningNames objectAtIndex:1]];
+			}
 			
 			[cell.textLabel setFont:[UIFont boldSystemFontOfSize:12]];
 			NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
@@ -203,10 +210,11 @@
 			
 			int currentPosition = indexPath.section + indexPath.row;
 			
-			if ([gameHomeIds objectAtIndex:currentPosition ] == @"none")
-				cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeMaps objectAtIndex: currentPosition], [gameAwayMaps objectAtIndex: currentPosition]];
-			else
-				cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeNames objectAtIndex: currentPosition],[gameAwayNames objectAtIndex: currentPosition]];
+			if ([[gameHomeMaps objectAtIndex: currentPosition] rangeOfString:[NSString stringWithFormat:@"%@",[gameIds objectAtIndex:0]]].location == NSNotFound) {
+				cell.textLabel.text = [NSString stringWithFormat:@"at (%@) %@ or %@", [gameHomeMaps objectAtIndex: currentPosition],  [winningNames objectAtIndex:0], [winningNames objectAtIndex:1]];
+			} else {
+				cell.textLabel.text = [NSString stringWithFormat:@"vs (%@) %@ or %@", [gameAwayMaps objectAtIndex: currentPosition],  [winningNames objectAtIndex:0], [winningNames objectAtIndex:1]];
+			}
 			
 			[cell.textLabel setFont:[UIFont boldSystemFontOfSize:12]];
 			NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];

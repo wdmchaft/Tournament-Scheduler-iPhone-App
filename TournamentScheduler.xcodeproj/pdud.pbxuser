@@ -88,7 +88,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					363,
+					492,
 					20,
 					48,
 					43,
@@ -240,6 +240,75 @@
 			BE60B6081351311800CDF1F6 /* PBXTextBookmark */ = BE60B6081351311800CDF1F6 /* PBXTextBookmark */;
 			BE60B60D1351330300CDF1F6 /* PBXTextBookmark */ = BE60B60D1351330300CDF1F6 /* PBXTextBookmark */;
 			BE60B6101351333E00CDF1F6 /* PBXTextBookmark */ = BE60B6101351333E00CDF1F6 /* PBXTextBookmark */;
+			BE60B615135134BE00CDF1F6 /* PBXTextBookmark */ = BE60B615135134BE00CDF1F6 /* PBXTextBookmark */;
+			BE60B61A135135F700CDF1F6 /* PBXTextBookmark */ = BE60B61A135135F700CDF1F6 /* PBXTextBookmark */;
+			BE60B61B135135F700CDF1F6 /* PBXTextBookmark */ = BE60B61B135135F700CDF1F6 /* PBXTextBookmark */;
+			BE60B620135136EE00CDF1F6 /* PBXTextBookmark */ = BE60B620135136EE00CDF1F6 /* PBXTextBookmark */;
+			BE60B621135136EE00CDF1F6 /* PBXTextBookmark */ = BE60B621135136EE00CDF1F6 /* PBXTextBookmark */;
+			BE60B622135136EE00CDF1F6 /* PBXTextBookmark */ = BE60B622135136EE00CDF1F6 /* PBXTextBookmark */;
+			BE60B623135136EE00CDF1F6 /* PBXTextBookmark */ = BE60B623135136EE00CDF1F6 /* PBXTextBookmark */;
+			BE60B624135136EE00CDF1F6 /* PBXTextBookmark */ = BE60B624135136EE00CDF1F6 /* PBXTextBookmark */;
+			BE60B625135136EE00CDF1F6 /* PBXTextBookmark */ = BE60B625135136EE00CDF1F6 /* PBXTextBookmark */;
+			BE60B626135136EE00CDF1F6 /* PBXTextBookmark */ = BE60B626135136EE00CDF1F6 /* PBXTextBookmark */;
+			BE60B627135136EE00CDF1F6 /* PBXTextBookmark */ = BE60B627135136EE00CDF1F6 /* PBXTextBookmark */;
+			BE60B628135136EE00CDF1F6 /* PBXTextBookmark */ = BE60B628135136EE00CDF1F6 /* PBXTextBookmark */;
+			BE60B629135136EE00CDF1F6 /* PBXTextBookmark */ = BE60B629135136EE00CDF1F6 /* PBXTextBookmark */;
+			BE60B62A135136EE00CDF1F6 /* PBXTextBookmark */ = BE60B62A135136EE00CDF1F6 /* PBXTextBookmark */;
+			BE60B62B135136EE00CDF1F6 /* PBXTextBookmark */ = BE60B62B135136EE00CDF1F6 /* PBXTextBookmark */;
+			BE60B62C135136EE00CDF1F6 /* PBXTextBookmark */ = BE60B62C135136EE00CDF1F6 /* PBXTextBookmark */;
+			BE60B6331351372400CDF1F6 /* PBXTextBookmark */ = BE60B6331351372400CDF1F6 /* PBXTextBookmark */;
+			BE60B63C1351378900CDF1F6 /* PBXTextBookmark */ = BE60B63C1351378900CDF1F6 /* PBXTextBookmark */;
+			BE60B63F135137EC00CDF1F6 /* PBXTextBookmark */ = BE60B63F135137EC00CDF1F6 /* PBXTextBookmark */;
+			BE60B6421351380900CDF1F6 /* PBXTextBookmark */ = BE60B6421351380900CDF1F6 /* PBXTextBookmark */;
+			BE60B649135139D900CDF1F6 /* PBXTextBookmark */ = BE60B649135139D900CDF1F6 /* PBXTextBookmark */;
+			BE60B64A135139D900CDF1F6 /* PBXTextBookmark */ = BE60B64A135139D900CDF1F6 /* PBXTextBookmark */;
+			BE60B64B135139D900CDF1F6 /* PBXTextBookmark */ = BE60B64B135139D900CDF1F6 /* PBXTextBookmark */;
+			BE60B64C135139D900CDF1F6 /* PBXTextBookmark */ = BE60B64C135139D900CDF1F6 /* PBXTextBookmark */;
+			BE60B64D135139D900CDF1F6 /* PBXTextBookmark */ = BE60B64D135139D900CDF1F6 /* PBXTextBookmark */;
+			BE60B64E135139D900CDF1F6 /* PBXTextBookmark */ = BE60B64E135139D900CDF1F6 /* PBXTextBookmark */;
+			BE60B64F135139D900CDF1F6 /* PBXTextBookmark */ = BE60B64F135139D900CDF1F6 /* PBXTextBookmark */;
+			BE60B650135139D900CDF1F6 /* PBXTextBookmark */ = BE60B650135139D900CDF1F6 /* PBXTextBookmark */;
+			BE60B65113513E8400CDF1F6 /* PBXTextBookmark */ = BE60B65113513E8400CDF1F6 /* PBXTextBookmark */;
+			BE60B65213513E8400CDF1F6 /* PBXTextBookmark */ = BE60B65213513E8400CDF1F6 /* PBXTextBookmark */;
+			BE60B65313513E8400CDF1F6 /* PBXTextBookmark */ = BE60B65313513E8400CDF1F6 /* PBXTextBookmark */;
+			BE60B65413513E8400CDF1F6 /* PBXTextBookmark */ = BE60B65413513E8400CDF1F6 /* PBXTextBookmark */;
+			BE60B655135140A700CDF1F6 /* PBXTextBookmark */ = BE60B655135140A700CDF1F6 /* PBXTextBookmark */;
+			BE60B656135140B100CDF1F6 /* PBXTextBookmark */ = BE60B656135140B100CDF1F6 /* PBXTextBookmark */;
+			BE60B657135144DD00CDF1F6 /* PBXTextBookmark */ = BE60B657135144DD00CDF1F6 /* PBXTextBookmark */;
+			BE60B658135145C000CDF1F6 /* PBXTextBookmark */ = BE60B658135145C000CDF1F6 /* PBXTextBookmark */;
+			BE60B659135145C000CDF1F6 /* PBXTextBookmark */ = BE60B659135145C000CDF1F6 /* PBXTextBookmark */;
+			BE60B65A135145C000CDF1F6 /* PBXTextBookmark */ = BE60B65A135145C000CDF1F6 /* PBXTextBookmark */;
+			BE60B65B135145C000CDF1F6 /* PBXTextBookmark */ = BE60B65B135145C000CDF1F6 /* PBXTextBookmark */;
+			BE60B65E1351466C00CDF1F6 /* PBXTextBookmark */ = BE60B65E1351466C00CDF1F6 /* PBXTextBookmark */;
+			BE60B6611351469D00CDF1F6 /* PBXTextBookmark */ = BE60B6611351469D00CDF1F6 /* PBXTextBookmark */;
+			BE60B664135146BB00CDF1F6 /* PBXTextBookmark */ = BE60B664135146BB00CDF1F6 /* PBXTextBookmark */;
+			BE60B667135146D000CDF1F6 /* PBXTextBookmark */ = BE60B667135146D000CDF1F6 /* PBXTextBookmark */;
+			BE60B6701351477800CDF1F6 /* PBXTextBookmark */ = BE60B6701351477800CDF1F6 /* PBXTextBookmark */;
+			BE60B6731351479500CDF1F6 /* PBXTextBookmark */ = BE60B6731351479500CDF1F6 /* PBXTextBookmark */;
+			BE60B678135148FE00CDF1F6 /* PBXTextBookmark */ = BE60B678135148FE00CDF1F6 /* PBXTextBookmark */;
+			BE60B6791351491700CDF1F6 /* PBXTextBookmark */ = BE60B6791351491700CDF1F6 /* PBXTextBookmark */;
+			BE60B67C135149A600CDF1F6 /* PBXTextBookmark */ = BE60B67C135149A600CDF1F6 /* PBXTextBookmark */;
+			BE60B67F135149FE00CDF1F6 /* PBXTextBookmark */ = BE60B67F135149FE00CDF1F6 /* PBXTextBookmark */;
+			BE60B68413514A5D00CDF1F6 /* PBXTextBookmark */ = BE60B68413514A5D00CDF1F6 /* PBXTextBookmark */;
+			BE60B68713514ABF00CDF1F6 /* PBXTextBookmark */ = BE60B68713514ABF00CDF1F6 /* PBXTextBookmark */;
+			BE60B68A13514B2A00CDF1F6 /* PBXTextBookmark */ = BE60B68A13514B2A00CDF1F6 /* PBXTextBookmark */;
+			BE60B68B13514B2A00CDF1F6 /* PBXTextBookmark */ = BE60B68B13514B2A00CDF1F6 /* PBXTextBookmark */;
+			BE60B68C13514B2A00CDF1F6 /* PBXTextBookmark */ = BE60B68C13514B2A00CDF1F6 /* PBXTextBookmark */;
+			BE60B68F13514B6B00CDF1F6 /* PBXTextBookmark */ = BE60B68F13514B6B00CDF1F6 /* PBXTextBookmark */;
+			BE60B69013514B6B00CDF1F6 /* PBXTextBookmark */ = BE60B69013514B6B00CDF1F6 /* PBXTextBookmark */;
+			BE60B69113514B6B00CDF1F6 /* PBXTextBookmark */ = BE60B69113514B6B00CDF1F6 /* PBXTextBookmark */;
+			BE60B69413514BB400CDF1F6 /* PBXTextBookmark */ = BE60B69413514BB400CDF1F6 /* PBXTextBookmark */;
+			BE60B69513514BB400CDF1F6 /* PBXTextBookmark */ = BE60B69513514BB400CDF1F6 /* PBXTextBookmark */;
+			BE60B69613514BB400CDF1F6 /* PBXTextBookmark */ = BE60B69613514BB400CDF1F6 /* PBXTextBookmark */;
+			BE60B69913514C4B00CDF1F6 /* PBXTextBookmark */ = BE60B69913514C4B00CDF1F6 /* PBXTextBookmark */;
+			BE60B69A13514C4B00CDF1F6 /* PBXTextBookmark */ = BE60B69A13514C4B00CDF1F6 /* PBXTextBookmark */;
+			BE60B69B13514C4B00CDF1F6 /* PBXTextBookmark */ = BE60B69B13514C4B00CDF1F6 /* PBXTextBookmark */;
+			BE60B69E13514C6500CDF1F6 /* PBXTextBookmark */ = BE60B69E13514C6500CDF1F6 /* PBXTextBookmark */;
+			BE60B6A113514CA900CDF1F6 /* PBXTextBookmark */ = BE60B6A113514CA900CDF1F6 /* PBXTextBookmark */;
+			BE60B6A213514CA900CDF1F6 /* PBXTextBookmark */ = BE60B6A213514CA900CDF1F6 /* PBXTextBookmark */;
+			BE60B6A313514CA900CDF1F6 /* PBXTextBookmark */ = BE60B6A313514CA900CDF1F6 /* PBXTextBookmark */;
+			BE60B6A613514CAF00CDF1F6 /* PBXTextBookmark */ = BE60B6A613514CAF00CDF1F6 /* PBXTextBookmark */;
+			BE60B6A913514D1200CDF1F6 /* PBXTextBookmark */ = BE60B6A913514D1200CDF1F6 /* PBXTextBookmark */;
 			BE64D4A313466CA6009C9073 = BE64D4A313466CA6009C9073 /* PBXBookmark */;
 			BE64D4A413466CA6009C9073 = BE64D4A413466CA6009C9073 /* PBXBookmark */;
 			BE64D4A513466CA6009C9073 = BE64D4A513466CA6009C9073 /* PBXBookmark */;
@@ -415,9 +484,9 @@
 	};
 	BE15C0A413366F7100B2170C /* StandingsDivisionViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1139, 2236}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 2249}}";
 			sepNavSelRange = "{4889, 0}";
-			sepNavVisRange = "{3412, 2064}";
+			sepNavVisRange = "{3416, 2060}";
 		};
 	};
 	BE18EF7E134A4D1000BFB985 /* Games.h */ = {
@@ -535,7 +604,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1048, 2964}}";
 			sepNavSelRange = "{6001, 0}";
-			sepNavVisRange = "{0, 1206}";
+			sepNavVisRange = "{5437, 1115}";
 		};
 	};
 	BE6071FD134A94CE0037AC10 /* PBXTextBookmark */ = {
@@ -569,16 +638,16 @@
 	BE60B5711351268300CDF1F6 /* TeamsSpecificGamesViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {768, 607}}";
-			sepNavSelRange = "{409, 0}";
-			sepNavVisRange = "{0, 948}";
+			sepNavSelRange = "{1058, 0}";
+			sepNavVisRange = "{0, 1068}";
 		};
 	};
 	BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{9422, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{9473, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{9523, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 10224}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1223, 4277}}";
-			sepNavSelRange = "{6229, 0}";
-			sepNavVisRange = "{4753, 2056}";
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{9873, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{9924, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{9974, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 10675}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1398, 4004}}";
+			sepNavSelRange = "{8268, 0}";
+			sepNavVisRange = "{6585, 1712}";
 		};
 	};
 	BE60B5771351269200CDF1F6 /* PBXTextBookmark */ = {
@@ -766,7 +835,7 @@
 		fRef = BE60B5711351268300CDF1F6 /* TeamsSpecificGamesViewController.h */;
 		name = "TeamsSpecificGamesViewController.h: 17";
 		rLen = 0;
-		rLoc = 948;
+		rLoc = 1068;
 		rType = 0;
 		vrLen = 277;
 		vrLoc = 0;
@@ -786,7 +855,7 @@
 		fRef = BE60B5711351268300CDF1F6 /* TeamsSpecificGamesViewController.h */;
 		name = "TeamsSpecificGamesViewController.h: 23";
 		rLen = 0;
-		rLoc = 948;
+		rLoc = 1068;
 		rType = 0;
 		vrLen = 520;
 		vrLoc = 0;
@@ -896,7 +965,7 @@
 		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
 		name = "TeamsSpecificGamesViewController.m: 14";
 		rLen = 0;
-		rLoc = 325;
+		rLoc = 324;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 0;
@@ -906,7 +975,7 @@
 		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
 		name = "TeamsSpecificGamesViewController.m: 80";
 		rLen = 0;
-		rLoc = 2473;
+		rLoc = 2619;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 0;
@@ -916,7 +985,7 @@
 		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
 		name = "TeamsSpecificGamesViewController.m: 80";
 		rLen = 0;
-		rLoc = 2473;
+		rLoc = 2619;
 		rType = 0;
 		vrLen = 1602;
 		vrLoc = 2867;
@@ -1020,9 +1089,9 @@
 	};
 	BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1251, 2379}}";
-			sepNavSelRange = "{764, 0}";
-			sepNavVisRange = "{55, 1623}";
+			sepNavIntBoundsRect = "{{0, 0}, {1468, 3185}}";
+			sepNavSelRange = "{7869, 0}";
+			sepNavVisRange = "{6293, 2402}";
 			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
 		};
 	};
@@ -1161,7 +1230,7 @@
 		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
 		name = "TeamsSpecificGames.m: 166";
 		rLen = 0;
-		rLoc = 6207;
+		rLoc = 8790;
 		rType = 0;
 		vrLen = 1884;
 		vrLoc = 4432;
@@ -1171,7 +1240,7 @@
 		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
 		name = "TeamsSpecificGamesViewController.m: 48";
 		rLen = 0;
-		rLoc = 1234;
+		rLoc = 1380;
 		rType = 0;
 		vrLen = 1307;
 		vrLoc = 368;
@@ -1301,7 +1370,7 @@
 		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
 		name = "TeamsSpecificGamesViewController.m: 149";
 		rLen = 0;
-		rLoc = 7840;
+		rLoc = 8291;
 		rType = 0;
 		vrLen = 1532;
 		vrLoc = 3744;
@@ -1311,7 +1380,7 @@
 		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
 		name = "TeamsSpecificGamesViewController.m: 98";
 		rLen = 0;
-		rLoc = 2460;
+		rLoc = 2606;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1451;
@@ -1321,7 +1390,7 @@
 		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
 		name = "TeamsSpecificGamesViewController.m: 98";
 		rLen = 0;
-		rLoc = 2459;
+		rLoc = 2605;
 		rType = 0;
 		vrLen = 1075;
 		vrLoc = 1451;
@@ -1331,7 +1400,7 @@
 		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
 		name = "TeamsSpecificGamesViewController.m: 98";
 		rLen = 0;
-		rLoc = 2459;
+		rLoc = 2605;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1451;
@@ -1341,7 +1410,7 @@
 		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
 		name = "TeamsSpecificGamesViewController.m: 98";
 		rLen = 0;
-		rLoc = 2459;
+		rLoc = 2605;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 1451;
@@ -1351,7 +1420,7 @@
 		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
 		name = "TeamsSpecificGamesViewController.m: 144";
 		rLen = 0;
-		rLoc = 3245;
+		rLoc = 3390;
 		rType = 0;
 		vrLen = 1765;
 		vrLoc = 1976;
@@ -1361,7 +1430,7 @@
 		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
 		name = "TeamsSpecificGamesViewController.m: 98";
 		rLen = 0;
-		rLoc = 2459;
+		rLoc = 2605;
 		rType = 0;
 		vrLen = 1765;
 		vrLoc = 1976;
@@ -1371,7 +1440,7 @@
 		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
 		name = "TeamsSpecificGamesViewController.m: 112";
 		rLen = 0;
-		rLoc = 3229;
+		rLoc = 3374;
 		rType = 0;
 		vrLen = 1847;
 		vrLoc = 2633;
@@ -1381,7 +1450,7 @@
 		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
 		name = "TeamsSpecificGamesViewController.m: 142";
 		rLen = 0;
-		rLoc = 4561;
+		rLoc = 4710;
 		rType = 0;
 		vrLen = 1997;
 		vrLoc = 2479;
@@ -1421,7 +1490,7 @@
 		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
 		name = "TeamsSpecificGamesViewController.m: 142";
 		rLen = 0;
-		rLoc = 4561;
+		rLoc = 4710;
 		rType = 0;
 		vrLen = 1786;
 		vrLoc = 1800;
@@ -1431,7 +1500,7 @@
 		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
 		name = "TeamsSpecificGamesViewController.m: 103";
 		rLen = 0;
-		rLoc = 2584;
+		rLoc = 2730;
 		rType = 0;
 		vrLen = 1463;
 		vrLoc = 1800;
@@ -1441,7 +1510,7 @@
 		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
 		name = "TeamsSpecificGamesViewController.m: 110";
 		rLen = 0;
-		rLoc = 2703;
+		rLoc = 2848;
 		rType = 0;
 		vrLen = 1411;
 		vrLoc = 1800;
@@ -1451,7 +1520,7 @@
 		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
 		name = "TeamsSpecificGamesViewController.m: 107";
 		rLen = 0;
-		rLoc = 2658;
+		rLoc = 2803;
 		rType = 0;
 		vrLen = 1411;
 		vrLoc = 1800;
@@ -1461,7 +1530,7 @@
 		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
 		name = "TeamsSpecificGamesViewController.m: 233";
 		rLen = 0;
-		rLoc = 7742;
+		rLoc = 8193;
 		rType = 0;
 		vrLen = 1564;
 		vrLoc = 6295;
@@ -1471,10 +1540,700 @@
 		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
 		name = "TeamsSpecificGamesViewController.m: 195";
 		rLen = 0;
-		rLoc = 6229;
+		rLoc = 6529;
 		rType = 0;
 		vrLen = 2056;
 		vrLoc = 4753;
+	};
+	BE60B615135134BE00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 107";
+		rLen = 0;
+		rLoc = 2803;
+		rType = 0;
+		vrLen = 1351;
+		vrLoc = 1714;
+	};
+	BE60B61A135135F700CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 107";
+		rLen = 0;
+		rLoc = 2803;
+		rType = 0;
+		vrLen = 1881;
+		vrLoc = 2684;
+	};
+	BE60B61B135135F700CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 170";
+		rLen = 0;
+		rLoc = 5576;
+		rType = 0;
+		vrLen = 1746;
+		vrLoc = 4372;
+	};
+	BE60B620135136EE00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE984BF3134FDC8F00F6F0E7 /* GamesSpecificViewController.h */;
+		name = "GamesSpecificViewController.h: 17";
+		rLen = 0;
+		rLoc = 415;
+		rType = 0;
+		vrLen = 1535;
+		vrLoc = 0;
+	};
+	BE60B621135136EE00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE676E54134BFBDE00FBA68A /* GamesDivisionViewController.m */;
+		name = "GamesDivisionViewController.m: 117";
+		rLen = 200;
+		rLoc = 2758;
+		rType = 0;
+		vrLen = 1621;
+		vrLoc = 2340;
+	};
+	BE60B622135136EE00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */;
+		name = "TeamsSpecificViewController.m: 203";
+		rLen = 0;
+		rLoc = 6001;
+		rType = 0;
+		vrLen = 1115;
+		vrLoc = 5437;
+	};
+	BE60B623135136EE00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEABD0751335A73C0009CA1F /* StandingsViewController.m */;
+		name = "StandingsViewController.m: 106";
+		rLen = 155;
+		rLoc = 3310;
+		rType = 0;
+		vrLen = 1649;
+		vrLoc = 2219;
+	};
+	BE60B624135136EE00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE15C0A413366F7100B2170C /* StandingsDivisionViewController.m */;
+		name = "StandingsDivisionViewController.m: 159";
+		rLen = 0;
+		rLoc = 4889;
+		rType = 0;
+		vrLen = 2060;
+		vrLoc = 3416;
+	};
+	BE60B625135136EE00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEABD06D1335A5C60009CA1F /* TeamsViewController.m */;
+		name = "TeamsViewController.m: 37";
+		rLen = 0;
+		rLoc = 982;
+		rType = 0;
+		vrLen = 1360;
+		vrLoc = 1839;
+	};
+	BE60B626135136EE00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE906B171337DA3700523831 /* StandingsDivision.h */;
+		name = "StandingsDivision.h: 9";
+		rLen = 285;
+		rLoc = 158;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 0;
+	};
+	BE60B627135136EE00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE906B181337DA3700523831 /* StandingsDivision.m */;
+		name = "StandingsDivision.m: 25";
+		rLen = 165;
+		rLoc = 512;
+		rType = 0;
+		vrLen = 1518;
+		vrLoc = 27;
+	};
+	BE60B628135136EE00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEC8790A134EA91B005B5EB7 /* GamesAwayName.m */;
+		name = "GamesAwayName.m: 97";
+		rLen = 71;
+		rLoc = 3249;
+		rType = 0;
+		vrLen = 1329;
+		vrLoc = 2046;
+	};
+	BE60B629135136EE00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE984C2B134FDFE400F6F0E7 /* GamesSpecific.m */;
+		name = "GamesSpecific.m: 150";
+		rLen = 0;
+		rLoc = 5623;
+		rType = 0;
+		vrLen = 1595;
+		vrLoc = 1508;
+	};
+	BE60B62A135136EE00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5711351268300CDF1F6 /* TeamsSpecificGamesViewController.h */;
+		name = "TeamsSpecificGamesViewController.h: 19";
+		rLen = 0;
+		rLoc = 409;
+		rType = 0;
+		vrLen = 948;
+		vrLoc = 0;
+	};
+	BE60B62B135136EE00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 169";
+		rLen = 0;
+		rLoc = 5157;
+		rType = 0;
+		vrLen = 1794;
+		vrLoc = 3357;
+	};
+	BE60B62C135136EE00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 172";
+		rLen = 0;
+		rLoc = 5159;
+		rType = 0;
+		vrLen = 1755;
+		vrLoc = 4414;
+	};
+	BE60B6331351372400CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 172";
+		rLen = 0;
+		rLoc = 5159;
+		rType = 0;
+		vrLen = 1781;
+		vrLoc = 4414;
+	};
+	BE60B63C1351378900CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 172";
+		rLen = 0;
+		rLoc = 5157;
+		rType = 0;
+		vrLen = 1796;
+		vrLoc = 4469;
+	};
+	BE60B63F135137EC00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 173";
+		rLen = 0;
+		rLoc = 5248;
+		rType = 0;
+		vrLen = 1751;
+		vrLoc = 4575;
+	};
+	BE60B6421351380900CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 10";
+		rLen = 0;
+		rLoc = 247;
+		rType = 0;
+		vrLen = 1214;
+		vrLoc = 0;
+	};
+	BE60B649135139D900CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B613512D6E00CDF1F6 /* TeamsSpecificGames.h */;
+		name = "TeamsSpecificGames.h: 15";
+		rLen = 0;
+		rLoc = 312;
+		rType = 0;
+		vrLen = 447;
+		vrLoc = 0;
+	};
+	BE60B64A135139D900CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5711351268300CDF1F6 /* TeamsSpecificGamesViewController.h */;
+		name = "TeamsSpecificGamesViewController.h: 31";
+		rLen = 0;
+		rLoc = 1058;
+		rType = 0;
+		vrLen = 1068;
+		vrLoc = 0;
+	};
+	BE60B64B135139D900CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 50";
+		rLen = 0;
+		rLoc = 1175;
+		rType = 0;
+		vrLen = 1270;
+		vrLoc = 1854;
+	};
+	BE60B64C135139D900CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEC8790A134EA91B005B5EB7 /* GamesAwayName.m */;
+		name = "GamesAwayName.m: 97";
+		rLen = 71;
+		rLoc = 3249;
+		rType = 0;
+		vrLen = 1489;
+		vrLoc = 1911;
+	};
+	BE60B64D135139D900CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE984C2A134FDFE400F6F0E7 /* GamesSpecific.h */;
+		name = "GamesSpecific.h: 14";
+		rLen = 0;
+		rLoc = 269;
+		rType = 0;
+		vrLen = 426;
+		vrLoc = 0;
+	};
+	BE60B64E135139D900CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE984C2B134FDFE400F6F0E7 /* GamesSpecific.m */;
+		name = "GamesSpecific.m: 150";
+		rLen = 0;
+		rLoc = 5623;
+		rType = 0;
+		vrLen = 1719;
+		vrLoc = 1425;
+	};
+	BE60B64F135139D900CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 25";
+		rLen = 0;
+		rLoc = 764;
+		rType = 0;
+		vrLen = 1575;
+		vrLoc = 3;
+	};
+	BE60B650135139D900CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 25";
+		rLen = 0;
+		rLoc = 764;
+		rType = 0;
+		vrLen = 1732;
+		vrLoc = 2388;
+	};
+	BE60B65113513E8400CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 174";
+		rLen = 542;
+		rLoc = 5034;
+		rType = 0;
+		vrLen = 1890;
+		vrLoc = 4488;
+	};
+	BE60B65213513E8400CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B613512D6E00CDF1F6 /* TeamsSpecificGames.h */;
+		name = "TeamsSpecificGames.h: 15";
+		rLen = 0;
+		rLoc = 312;
+		rType = 0;
+		vrLen = 447;
+		vrLoc = 0;
+	};
+	BE60B65313513E8400CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 164";
+		rLen = 0;
+		rLoc = 6288;
+		rType = 0;
+		vrLen = 1461;
+		vrLoc = 4975;
+	};
+	BE60B65413513E8400CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 166";
+		rLen = 0;
+		rLoc = 6287;
+		rType = 0;
+		vrLen = 1916;
+		vrLoc = 4966;
+	};
+	BE60B655135140A700CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 180";
+		rLen = 0;
+		rLoc = 6179;
+		rType = 0;
+		vrLen = 1716;
+		vrLoc = 5618;
+	};
+	BE60B656135140B100CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 170";
+		rLen = 0;
+		rLoc = 6288;
+		rType = 0;
+		vrLen = 1224;
+		vrLoc = 5305;
+	};
+	BE60B657135144DD00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 177";
+		rLen = 0;
+		rLoc = 8702;
+		rType = 0;
+		vrLen = 1012;
+		vrLoc = 5643;
+	};
+	BE60B658135145C000CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 174";
+		rLen = 542;
+		rLoc = 5034;
+		rType = 0;
+		vrLen = 1756;
+		vrLoc = 4488;
+	};
+	BE60B659135145C000CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B613512D6E00CDF1F6 /* TeamsSpecificGames.h */;
+		name = "TeamsSpecificGames.h: 15";
+		rLen = 0;
+		rLoc = 312;
+		rType = 0;
+		vrLen = 447;
+		vrLoc = 0;
+	};
+	BE60B65A135145C000CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 176";
+		rLen = 0;
+		rLoc = 8700;
+		rType = 0;
+		vrLen = 1478;
+		vrLoc = 5103;
+	};
+	BE60B65B135145C000CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 176";
+		rLen = 0;
+		rLoc = 6524;
+		rType = 0;
+		vrLen = 1817;
+		vrLoc = 5103;
+	};
+	BE60B65E1351466C00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 179";
+		rLen = 0;
+		rLoc = 7698;
+		rType = 0;
+		vrLen = 1719;
+		vrLoc = 5038;
+	};
+	BE60B6611351469D00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 182";
+		rLen = 0;
+		rLoc = 8721;
+		rType = 0;
+		vrLen = 1324;
+		vrLoc = 5584;
+	};
+	BE60B664135146BB00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 176";
+		rLen = 0;
+		rLoc = 6466;
+		rType = 0;
+		vrLen = 1324;
+		vrLoc = 5584;
+	};
+	BE60B667135146D000CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 177";
+		rLen = 0;
+		rLoc = 6664;
+		rType = 0;
+		vrLen = 1332;
+		vrLoc = 5584;
+	};
+	BE60B6701351477800CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 177";
+		rLen = 0;
+		rLoc = 6664;
+		rType = 0;
+		vrLen = 1147;
+		vrLoc = 5777;
+	};
+	BE60B6731351479500CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 176";
+		rLen = 0;
+		rLoc = 6612;
+		rType = 0;
+		vrLen = 1146;
+		vrLoc = 5777;
+	};
+	BE60B678135148FE00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 182";
+		rLen = 0;
+		rLoc = 6891;
+		rType = 0;
+		vrLen = 1767;
+		vrLoc = 6141;
+	};
+	BE60B6791351491700CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 182";
+		rLen = 0;
+		rLoc = 6891;
+		rType = 0;
+		vrLen = 1819;
+		vrLoc = 6141;
+	};
+	BE60B67C135149A600CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 157";
+		rLen = 0;
+		rLoc = 5955;
+		rType = 0;
+		vrLen = 2007;
+		vrLoc = 4970;
+	};
+	BE60B67F135149FE00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 194";
+		rLen = 0;
+		rLoc = 7440;
+		rType = 0;
+		vrLen = 1798;
+		vrLoc = 6113;
+	};
+	BE60B68413514A5D00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 197";
+		rLen = 0;
+		rLoc = 7521;
+		rType = 0;
+		vrLen = 1843;
+		vrLoc = 6121;
+	};
+	BE60B68713514ABF00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 197";
+		rLen = 0;
+		rLoc = 7521;
+		rType = 0;
+		vrLen = 1843;
+		vrLoc = 6121;
+	};
+	BE60B68A13514B2A00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 197";
+		rLen = 0;
+		rLoc = 7521;
+		rType = 0;
+		vrLen = 1967;
+		vrLoc = 4973;
+	};
+	BE60B68B13514B2A00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5711351268300CDF1F6 /* TeamsSpecificGamesViewController.h */;
+		name = "TeamsSpecificGamesViewController.h: 31";
+		rLen = 0;
+		rLoc = 1058;
+		rType = 0;
+		vrLen = 1068;
+		vrLoc = 0;
+	};
+	BE60B68C13514B2A00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 175";
+		rLen = 0;
+		rLoc = 5337;
+		rType = 0;
+		vrLen = 1778;
+		vrLoc = 4711;
+	};
+	BE60B68F13514B6B00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 175";
+		rLen = 0;
+		rLoc = 5337;
+		rType = 0;
+		vrLen = 1778;
+		vrLoc = 4711;
+	};
+	BE60B69013514B6B00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 197";
+		rLen = 0;
+		rLoc = 7521;
+		rType = 0;
+		vrLen = 1967;
+		vrLoc = 4973;
+	};
+	BE60B69113514B6B00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 197";
+		rLen = 0;
+		rLoc = 7583;
+		rType = 0;
+		vrLen = 1803;
+		vrLoc = 6188;
+	};
+	BE60B69413514BB400CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 197";
+		rLen = 0;
+		rLoc = 7583;
+		rType = 0;
+		vrLen = 1803;
+		vrLoc = 6188;
+	};
+	BE60B69513514BB400CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5711351268300CDF1F6 /* TeamsSpecificGamesViewController.h */;
+		name = "TeamsSpecificGamesViewController.h: 31";
+		rLen = 0;
+		rLoc = 1058;
+		rType = 0;
+		vrLen = 1068;
+		vrLoc = 0;
+	};
+	BE60B69613514BB400CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 175";
+		rLen = 0;
+		rLoc = 5273;
+		rType = 0;
+		vrLen = 1835;
+		vrLoc = 4707;
+	};
+	BE60B69913514C4B00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 175";
+		rLen = 0;
+		rLoc = 5273;
+		rType = 0;
+		vrLen = 1904;
+		vrLoc = 4408;
+	};
+	BE60B69A13514C4B00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 197";
+		rLen = 0;
+		rLoc = 7583;
+		rType = 0;
+		vrLen = 1799;
+		vrLoc = 6192;
+	};
+	BE60B69B13514C4B00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 183";
+		rLen = 0;
+		rLoc = 6831;
+		rType = 0;
+		vrLen = 2370;
+		vrLoc = 6243;
+	};
+	BE60B69E13514C6500CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 204";
+		rLen = 0;
+		rLoc = 7869;
+		rType = 0;
+		vrLen = 2370;
+		vrLoc = 6243;
+	};
+	BE60B6A113514CA900CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */;
+		name = "TeamsSpecificGames.m: 204";
+		rLen = 0;
+		rLoc = 7869;
+		rType = 0;
+		vrLen = 2402;
+		vrLoc = 6293;
+	};
+	BE60B6A213514CA900CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 175";
+		rLen = 0;
+		rLoc = 5273;
+		rType = 0;
+		vrLen = 1876;
+		vrLoc = 4408;
+	};
+	BE60B6A313514CA900CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 177";
+		rLen = 0;
+		rLoc = 5468;
+		rType = 0;
+		vrLen = 1976;
+		vrLoc = 4412;
+	};
+	BE60B6A613514CAF00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 177";
+		rLen = 0;
+		rLoc = 5442;
+		rType = 0;
+		vrLen = 1976;
+		vrLoc = 4412;
+	};
+	BE60B6A913514D1200CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 246";
+		rLen = 0;
+		rLoc = 8268;
+		rType = 0;
+		vrLen = 1712;
+		vrLoc = 6585;
 	};
 	BE64D4A313466CA6009C9073 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -1501,9 +2260,9 @@
 	};
 	BE676E54134BFBDE00FBA68A /* GamesDivisionViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1181, 3770}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1181, 3653}}";
 			sepNavSelRange = "{2758, 200}";
-			sepNavVisRange = "{2318, 1255}";
+			sepNavVisRange = "{2340, 1621}";
 			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
 		};
 	};
@@ -1617,8 +2376,8 @@
 	BE906B181337DA3700523831 /* StandingsDivision.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1279, 1300}}";
-			sepNavSelRange = "{2486, 0}";
-			sepNavVisRange = "{1344, 1711}";
+			sepNavSelRange = "{512, 165}";
+			sepNavVisRange = "{27, 1518}";
 			sepNavWindowFrame = "{{38, 294}, {750, 558}}";
 		};
 	};
@@ -1702,7 +2461,7 @@
 	};
 	BE984BF3134FDC8F00F6F0E7 /* GamesSpecificViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {733, 630}}";
+			sepNavIntBoundsRect = "{{0, 0}, {733, 611}}";
 			sepNavSelRange = "{415, 0}";
 			sepNavVisRange = "{0, 1535}";
 		};
@@ -1727,7 +2486,7 @@
 	};
 	BE984C2A134FDFE400F6F0E7 /* GamesSpecific.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {541, 607}}";
+			sepNavIntBoundsRect = "{{0, 0}, {541, 630}}";
 			sepNavSelRange = "{269, 0}";
 			sepNavVisRange = "{0, 426}";
 		};
@@ -1736,7 +2495,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1279, 2132}}";
 			sepNavSelRange = "{5623, 0}";
-			sepNavVisRange = "{1508, 1595}";
+			sepNavVisRange = "{1425, 1719}";
 		};
 	};
 	BE984C35134FE10700F6F0E7 /* PBXTextBookmark */ = {
@@ -1990,9 +2749,9 @@
 	};
 	BEABD06D1335A5C60009CA1F /* TeamsViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1139, 1781}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1833}}";
 			sepNavSelRange = "{982, 0}";
-			sepNavVisRange = "{1839, 1363}";
+			sepNavVisRange = "{1839, 1360}";
 			sepNavWindowFrame = "{{153, 189}, {750, 558}}";
 		};
 	};
@@ -2006,9 +2765,9 @@
 	};
 	BEABD0751335A73C0009CA1F /* StandingsViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1139, 1703}}";
-			sepNavSelRange = "{1362, 0}";
-			sepNavVisRange = "{749, 1316}";
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1625}}";
+			sepNavSelRange = "{3310, 155}";
+			sepNavVisRange = "{2219, 1649}";
 			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
 		};
 	};
@@ -2123,7 +2882,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1279, 1495}}";
 			sepNavSelRange = "{3249, 71}";
-			sepNavVisRange = "{2046, 1329}";
+			sepNavVisRange = "{1911, 1489}";
 		};
 	};
 	BEDDC8EF1347E15000B00EA3 /* AboutRulesViewController.h */ = {
