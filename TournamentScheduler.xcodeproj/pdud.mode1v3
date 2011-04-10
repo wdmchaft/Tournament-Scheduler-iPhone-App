@@ -283,9 +283,9 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>40</integer>
-									<integer>30</integer>
-									<integer>1</integer>
+									<integer>71</integer>
+									<integer>63</integer>
+									<integer>43</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -327,7 +327,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TeamsSpecificGamesViewController.m</string>
+								<string>TeamsSpecificGames.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -335,11 +335,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TeamsSpecificGamesViewController.m</string>
+										<string>TeamsSpecificGames.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BE60B6A913514D1200CDF1F6</string>
+										<string>BE60B6D71351508300CDF1F6</string>
 										<key>history</key>
 										<array>
 											<string>BE09E9381335D2AE00BDF656</string>
@@ -411,7 +411,6 @@
 											<string>BE60B5FF135130EB00CDF1F6</string>
 											<string>BE60B620135136EE00CDF1F6</string>
 											<string>BE60B621135136EE00CDF1F6</string>
-											<string>BE60B622135136EE00CDF1F6</string>
 											<string>BE60B623135136EE00CDF1F6</string>
 											<string>BE60B624135136EE00CDF1F6</string>
 											<string>BE60B625135136EE00CDF1F6</string>
@@ -421,9 +420,10 @@
 											<string>BE60B64D135139D900CDF1F6</string>
 											<string>BE60B64E135139D900CDF1F6</string>
 											<string>BE60B659135145C000CDF1F6</string>
-											<string>BE60B69513514BB400CDF1F6</string>
-											<string>BE60B6A113514CA900CDF1F6</string>
-											<string>BE60B6A213514CA900CDF1F6</string>
+											<string>BE60B6CA13514F4B00CDF1F6</string>
+											<string>BE60B6CB13514F4B00CDF1F6</string>
+											<string>BE60B6CF13514FC100CDF1F6</string>
+											<string>BE60B6D013514FC100CDF1F6</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

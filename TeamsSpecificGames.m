@@ -222,6 +222,51 @@
 	}
 	
 	// Seach one game back for IF LOSE
+	if ([[viewController.gameHomeMaps objectAtIndex:[viewController.gameAwayMaps count] - 1] rangeOfString:[NSString stringWithFormat:@"%@",[viewController.gameIds objectAtIndex:0]]].location == NSNotFound) {
+		NSLog(@"gameHomeMaps");
+		responseData = [[NSMutableData data] retain];
+		
+		NSString *url = [NSString stringWithFormat:@"http://localhost:4567/api/teams/map/%@", [viewController.gameHomeMaps objectAtIndex:[viewController.gameAwayMaps count] - 1]];
+		theURL = [[NSURL URLWithString:url] retain];
+		NSLog(@"THE URL %@", url);
+		NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
+		NSURLResponse *response = nil;
+		NSError *error = nil;
+		//getting the data
+		NSData *newData = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+		//json parse
+		NSString *responseString = [[NSString alloc] initWithData:newData encoding:NSUTF8StringEncoding];
+		NSDictionary *jsonObjects2 = [responseString JSONValue];
+		NSLog(@"JSONOBJECT2: %@", jsonObjects2);
+		//Accessing JSON content
+		for (NSDictionary *jsonObject2 in jsonObjects2) {
+			NSLog(@"Away name :  %@", [jsonObject2 objectForKey:@"name"] );
+			[viewController.losingNames addObject:[jsonObject2 objectForKey:@"name"]];
+		}
+	} else {
+		NSLog(@"gameAwayMaps");
+		responseData = [[NSMutableData data] retain];
+		
+		NSString *url = [NSString stringWithFormat:@"http://localhost:4567/api/teams/map/%@", [viewController.gameAwayMaps objectAtIndex:[viewController.gameAwayMaps count] - 1]];
+		theURL = [[NSURL URLWithString:url] retain];
+		NSLog(@"THE URL %@", url);
+		NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
+		NSURLResponse *response = nil;
+		NSError *error = nil;
+		//getting the data
+		NSData *newData = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+		//json parse
+		NSString *responseString = [[NSString alloc] initWithData:newData encoding:NSUTF8StringEncoding];
+		NSDictionary *jsonObjects2 = [responseString JSONValue];
+		NSLog(@"JSONOBJECT2: %@", jsonObjects2);
+		//Accessing JSON content
+		for (NSDictionary *jsonObject2 in jsonObjects2) {
+			NSLog(@"Away name :  %@", [jsonObject2 objectForKey:@"name"] );
+			[viewController.losingNames addObject:[jsonObject2 objectForKey:@"name"]];
+		}
+		
+	}
+	
 	
 	[parser release];
 	[viewController.teamGamesView reloadData];

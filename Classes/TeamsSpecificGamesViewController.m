@@ -211,9 +211,9 @@
 			int currentPosition = indexPath.section + indexPath.row;
 			
 			if ([[gameHomeMaps objectAtIndex: currentPosition] rangeOfString:[NSString stringWithFormat:@"%@",[gameIds objectAtIndex:0]]].location == NSNotFound) {
-				cell.textLabel.text = [NSString stringWithFormat:@"at (%@) %@ or %@", [gameHomeMaps objectAtIndex: currentPosition],  [winningNames objectAtIndex:0], [winningNames objectAtIndex:1]];
+				cell.textLabel.text = [NSString stringWithFormat:@"at (%@) %@ or %@", [gameHomeMaps objectAtIndex: currentPosition],  [losingNames objectAtIndex:0], [losingNames objectAtIndex:1]];
 			} else {
-				cell.textLabel.text = [NSString stringWithFormat:@"vs (%@) %@ or %@", [gameAwayMaps objectAtIndex: currentPosition],  [winningNames objectAtIndex:0], [winningNames objectAtIndex:1]];
+				cell.textLabel.text = [NSString stringWithFormat:@"vs (%@) %@ or %@", [gameAwayMaps objectAtIndex: currentPosition],  [losingNames objectAtIndex:0], [losingNames objectAtIndex:1]];
 			}
 			
 			[cell.textLabel setFont:[UIFont boldSystemFontOfSize:12]];
