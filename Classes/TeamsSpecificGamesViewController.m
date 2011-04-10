@@ -169,7 +169,7 @@
 	if (indexPath.section == 1){
 		if (gameIds.count != 0) {
 			
-			int currentPosition = indexPath.section + indexPath.row;
+			int currentPosition = gameIds.count-2;
 			
 			if ([[gameHomeMaps objectAtIndex: currentPosition] rangeOfString:[NSString stringWithFormat:@"%@",[gameIds objectAtIndex:0]]].location == NSNotFound) {
 				cell.textLabel.text = [NSString stringWithFormat:@"at (%@) %@ or %@", [gameHomeMaps objectAtIndex: currentPosition],  [winningNames objectAtIndex:0], [winningNames objectAtIndex:1]];
@@ -208,7 +208,7 @@
 	if (indexPath.section == 2){
 		if (gameIds.count != 0) {
 			
-			int currentPosition = indexPath.section + indexPath.row;
+			int currentPosition = gameIds.count-1;
 			
 			if ([[gameHomeMaps objectAtIndex: currentPosition] rangeOfString:[NSString stringWithFormat:@"%@",[gameIds objectAtIndex:0]]].location == NSNotFound) {
 				cell.textLabel.text = [NSString stringWithFormat:@"at (%@) %@ or %@", [gameHomeMaps objectAtIndex: currentPosition],  [losingNames objectAtIndex:0], [losingNames objectAtIndex:1]];
