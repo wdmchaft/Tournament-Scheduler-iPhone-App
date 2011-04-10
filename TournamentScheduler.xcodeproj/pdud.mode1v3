@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -270,9 +268,11 @@
 								<string>BEDDCAD1134807EB00B00EA3</string>
 								<string>BEDDCAD0134807E200B00EA3</string>
 								<string>BEDDCACF134807D800B00EA3</string>
+								<string>BEDDCAC8134807C200B00EA3</string>
 								<string>BEDDCAD2134807F700B00EA3</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>BE18EF7D134A4CF500BFB985</string>
+								<string>BEDDCB0113480A2200B00EA3</string>
 								<string>BE81C8501349776A00CF8784</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>BE81C84E1349771800CF8784</string>
@@ -283,14 +283,14 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>45</integer>
-									<integer>41</integer>
-									<integer>37</integer>
+									<integer>38</integer>
+									<integer>30</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 22}, {275, 760}}</string>
+							<string>{{0, 118}, {275, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -320,12 +320,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>GamesDivisions.m</string>
+								<string>TeamsSpecificViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -333,7 +335,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>GamesDivisions.m</string>
+										<string>TeamsSpecificViewController.m</string>
+										<key>_historyCapacity</key>
+										<integer>0</integer>
+										<key>bookmark</key>
+										<string>BE60B5B313512C6600CDF1F6</string>
 										<key>history</key>
 										<array>
 											<string>BE09E9381335D2AE00BDF656</string>
@@ -357,10 +363,8 @@
 											<string>BE81C8C91349807400CF8784</string>
 											<string>BEE8675C1349B4770019B0C7</string>
 											<string>BEE8675D1349B4770019B0C7</string>
-											<string>BEE8675E1349B4770019B0C7</string>
 											<string>BE6071FD134A94CE0037AC10</string>
 											<string>BE60726C134AA4410037AC10</string>
-											<string>BEDE20AD134AC61800F2D83B</string>
 											<string>BEDE20E8134ACB4300F2D83B</string>
 											<string>BEDE212F134AD06800F2D83B</string>
 											<string>BE676E98134C009900FBA68A</string>
@@ -375,14 +379,10 @@
 											<string>BE1273D0134E670E000C9821</string>
 											<string>BEE29F9F134EE084009685E2</string>
 											<string>BEE29FA1134EE084009685E2</string>
-											<string>BEE29FA3134EE084009685E2</string>
-											<string>BEE29FA4134EE084009685E2</string>
 											<string>BEE29FA5134EE084009685E2</string>
 											<string>BEE29FA7134EE084009685E2</string>
 											<string>BEE29FA9134EE084009685E2</string>
 											<string>BEE29FB2134EE285009685E2</string>
-											<string>BE984B54134FB95900F6F0E7</string>
-											<string>BE984B55134FB95900F6F0E7</string>
 											<string>BE984BC9134FC6E200F6F0E7</string>
 											<string>BE984BD7134FC8A800F6F0E7</string>
 											<string>BE984BE0134FC98900F6F0E7</string>
@@ -393,17 +393,31 @@
 											<string>BE984CE7134FEAA700F6F0E7</string>
 											<string>BE984D28134FF0A400F6F0E7</string>
 											<string>BE984D7A134FFA4000F6F0E7</string>
-											<string>BE984D8B134FFB8200F6F0E7</string>
-											<string>BE984D8C134FFB8200F6F0E7</string>
 											<string>BE984D9C134FFCA800F6F0E7</string>
 											<string>BE984D9D134FFCA800F6F0E7</string>
-											<string>BE984D9E134FFCA800F6F0E7</string>
 											<string>BE984D9F134FFCA800F6F0E7</string>
 											<string>BE984DA0134FFCA800F6F0E7</string>
-											<string>BE984DA6134FFCC000F6F0E7</string>
 											<string>BE984DBF134FFF1C00F6F0E7</string>
 											<string>BE984DC0134FFF1C00F6F0E7</string>
-											<string>BE984DC1134FFF1C00F6F0E7</string>
+											<string>BE60B5771351269200CDF1F6</string>
+											<string>BE60B5781351269200CDF1F6</string>
+											<string>BE60B57A1351269200CDF1F6</string>
+											<string>BE60B57D1351269200CDF1F6</string>
+											<string>BE60B57E1351269200CDF1F6</string>
+											<string>BE60B5801351269200CDF1F6</string>
+											<string>BE60B590135126EE00CDF1F6</string>
+											<string>BE60B591135126EE00CDF1F6</string>
+											<string>BE60B59E13512B4E00CDF1F6</string>
+											<string>BE60B59F13512B4E00CDF1F6</string>
+											<string>BE60B5A013512B4E00CDF1F6</string>
+											<string>BE60B5A213512B4E00CDF1F6</string>
+											<string>BE60B5A813512C5100CDF1F6</string>
+											<string>BE60B5A913512C5100CDF1F6</string>
+											<string>BE60B5AA13512C5100CDF1F6</string>
+											<string>BE60B5AB13512C5100CDF1F6</string>
+											<string>BE60B5AC13512C5100CDF1F6</string>
+											<string>BE60B5AD13512C5100CDF1F6</string>
+											<string>BE60B5AE13512C5100CDF1F6</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -601,6 +615,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>BEABD05E13359F3A0009CA1F</string>
 		<string>/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TournamentScheduler.xcodeproj</string>
 	</array>
@@ -804,13 +820,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>BE984C05134FDE6A00F6F0E7</string>
+				<string>BE60B5871351269200CDF1F6</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>BE984C06134FDE6A00F6F0E7</string>
-				<string>BE984C07134FDE6A00F6F0E7</string>
-				<string>BE984C08134FDE6A00F6F0E7</string>
-				<string>BE984C09134FDE6A00F6F0E7</string>
-				<string>BE984C0A134FDE6A00F6F0E7</string>
+				<string>BE60B5881351269200CDF1F6</string>
+				<string>BE60B5891351269200CDF1F6</string>
+				<string>BE60B58A1351269200CDF1F6</string>
+				<string>BE60B58B1351269200CDF1F6</string>
+				<string>BE60B58C1351269200CDF1F6</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -974,7 +990,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>BE984C0B134FDE6A00F6F0E7</string>
+				<string>BE60B58D1351269200CDF1F6</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -984,7 +1000,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

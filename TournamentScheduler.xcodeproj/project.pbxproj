@@ -45,6 +45,8 @@
 		BE6071AB134A85A20037AC10 /* TeamsSpecificViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */; };
 		BE6071AC134A85A20037AC10 /* TeamsSpecificView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE6071AA134A85A20037AC10 /* TeamsSpecificView.xib */; };
 		BE607287134AA8410037AC10 /* TeamsSpecific.m in Sources */ = {isa = PBXBuildFile; fileRef = BE607286134AA8410037AC10 /* TeamsSpecific.m */; };
+		BE60B5741351268300CDF1F6 /* TeamsSpecificGamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */; };
+		BE60B5751351268300CDF1F6 /* TeamsSpecificGamesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE60B5731351268300CDF1F6 /* TeamsSpecificGamesViewController.xib */; };
 		BE64D492134667BE009C9073 /* MASC.png in Resources */ = {isa = PBXBuildFile; fileRef = BE64D491134667BE009C9073 /* MASC.png */; };
 		BE64D497134668C5009C9073 /* MASC3.png in Resources */ = {isa = PBXBuildFile; fileRef = BE64D495134668C5009C9073 /* MASC3.png */; };
 		BE64D498134668C5009C9073 /* MASC2.png in Resources */ = {isa = PBXBuildFile; fileRef = BE64D496134668C5009C9073 /* MASC2.png */; };
@@ -148,6 +150,9 @@
 		BE6071AA134A85A20037AC10 /* TeamsSpecificView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TeamsSpecificView.xib; path = Classes/TeamsSpecificView.xib; sourceTree = "<group>"; };
 		BE607285134AA8410037AC10 /* TeamsSpecific.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamsSpecific.h; sourceTree = "<group>"; };
 		BE607286134AA8410037AC10 /* TeamsSpecific.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamsSpecific.m; sourceTree = "<group>"; };
+		BE60B5711351268300CDF1F6 /* TeamsSpecificGamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamsSpecificGamesViewController.h; sourceTree = "<group>"; };
+		BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamsSpecificGamesViewController.m; sourceTree = "<group>"; };
+		BE60B5731351268300CDF1F6 /* TeamsSpecificGamesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TeamsSpecificGamesViewController.xib; path = Classes/TeamsSpecificGamesViewController.xib; sourceTree = "<group>"; };
 		BE64D491134667BE009C9073 /* MASC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MASC.png; sourceTree = "<group>"; };
 		BE64D495134668C5009C9073 /* MASC3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MASC3.png; sourceTree = "<group>"; };
 		BE64D496134668C5009C9073 /* MASC2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MASC2.png; sourceTree = "<group>"; };
@@ -358,6 +363,7 @@
 		BE81C84C1349770600CF8784 /* Teams */ = {
 			isa = PBXGroup;
 			children = (
+				BE60B5731351268300CDF1F6 /* TeamsSpecificGamesViewController.xib */,
 				282CCBFD0DB6C98000C4EA27 /* TeamsView.xib */,
 				BE81C89113497BC400CF8784 /* TeamsDivisionView.xib */,
 				BE6071AA134A85A20037AC10 /* TeamsSpecificView.xib */,
@@ -485,6 +491,8 @@
 				BEE866F01349AFCD0019B0C7 /* OverlayViewController.m */,
 				BE6071A8134A85A20037AC10 /* TeamsSpecificViewController.h */,
 				BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */,
+				BE60B5711351268300CDF1F6 /* TeamsSpecificGamesViewController.h */,
+				BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */,
 			);
 			name = Teams;
 			sourceTree = "<group>";
@@ -668,6 +676,7 @@
 				BE676E57134BFBDE00FBA68A /* GamesDivisionView.xib in Resources */,
 				BE984B9B134FC10200F6F0E7 /* FieldsGamesView.xib in Resources */,
 				BE984BF7134FDC8F00F6F0E7 /* GamesSpecificView.xib in Resources */,
+				BE60B5751351268300CDF1F6 /* TeamsSpecificGamesViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,6 +722,7 @@
 				BE984BAE134FC42500F6F0E7 /* FieldsGames.m in Sources */,
 				BE984BF6134FDC8F00F6F0E7 /* GamesSpecificViewController.m in Sources */,
 				BE984C2C134FDFE400F6F0E7 /* GamesSpecific.m in Sources */,
+				BE60B5741351268300CDF1F6 /* TeamsSpecificGamesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

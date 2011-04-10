@@ -1,49 +1,41 @@
 //
-//  TeamsSpecificViewController.m
+//  TeamsSpecificGamesViewController.m
 //  TournamentScheduler
 //
-//  Created by Philip Dudley on 4/4/11.
+//  Created by Philip Dudley on 4/9/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "TeamsSpecificViewController.h"
-#import "TeamsSpecific.h"
 #import "TeamsSpecificGamesViewController.h"
 
-@implementation TeamsSpecificViewController
 
-@synthesize teamTableView;
-@synthesize teamRecordCell;
+@implementation TeamsSpecificGamesViewController
 
-@synthesize optionList;
+@synthesize teamGamesView;
 
-@synthesize teamName;
-@synthesize teamId;
-@synthesize teamWins;
-@synthesize teamLosses;
-@synthesize teamGoals;
+@synthesize gameIds;
+@synthesize gameHomeIds;
+@synthesize gameAwayIds;
+@synthesize gameHomeMaps;
+@synthesize gameAwayMaps;
+@synthesize gameFields;
+@synthesize gameTimes;
+
+@synthesize gameHomeNames;
+@synthesize gameAwayNames;
+
 
 #pragma mark -
 #pragma mark View lifecycle
 
+/*
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-	// Create dummy category array, save, remove dummy
-	NSArray *options = [[NSArray alloc] initWithObjects: @"Contact", @"Games", @"Updates", @"Standings", @"Discipline", nil];
-	self.optionList = options;
-	[options release];
-	
-	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
-	TeamsSpecific *teamsSpecific = [[TeamsSpecific alloc] init];
-	[teamsSpecific queryServiceWithParent:self];
-	
-	
-	
-	
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
+*/
 
 /*
 - (void)viewWillAppear:(BOOL)animated {
@@ -79,35 +71,15 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
-	
-    return 2;
+    return 3;
 }
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-	if (section == 0)
-		return 1;
-    return [optionList count];
+    return 2;
 }
 
-- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-    // The header for the section is the region name -- get this from the region at the section index.
-    if (section == 0)
-		return @"Position 1";
-	else 
-		return @"";
-
-}
-
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{	
-	if (indexPath.section + indexPath.row == 0)
-	{
-		return 90;		
-	}
-    return 44; 
-}
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -118,33 +90,9 @@
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
-	
-	if (indexPath.section + indexPath.row == 0){
-		
-		NSLog(@"TEAMWINS : %@", teamWins);
-		
-		UILabel *winsLabel = (UILabel *)[teamRecordCell viewWithTag:1];
-		winsLabel.text  = [NSString stringWithFormat:@"%@", teamWins];
-		
-		UILabel *lossesLabel = (UILabel *)[teamRecordCell viewWithTag:2];
-		lossesLabel.text  = [NSString stringWithFormat:@"%@", teamLosses];
-		
-		UILabel *goalsLabel = (UILabel *)[teamRecordCell viewWithTag:3];
-		goalsLabel.text  = [NSString stringWithFormat:@"%@", teamGoals];
-		
-		//UILabel *lossesLabel = (UILabel *)[teamRecordCell viewWithTag:2];
-//		lossesLabel.text  = teamLosses;
-//		
-//		UILabel *goalsLabel = (UILabel *)[teamRecordCell viewWithTag:3];
-//		goalsLabel.text  = teamGoals;
-		
-			return teamRecordCell;		
-    }
+    
     // Configure the cell...
-    else{
-		cell.textLabel.text = [optionList objectAtIndex:indexPath.row];
-		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-	}
+    
     return cell;
 }
 
@@ -194,19 +142,13 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
-	if (indexPath.section + indexPath.row != 0){ 
-		
-		if (indexPath.row == 1) {
-			TeamsSpecificGamesViewController *teamsGamesView = [[TeamsSpecificGamesViewController alloc] init];
-			teamsGamesView.navigationItem.title = (@"Games");
-			[self.navigationController pushViewController:teamsGamesView animated:YES];
-			[teamsGamesView release];
-		}
-	 
-		
-		
-	}
-	[tableView deselectRowAtIndexPath:indexPath animated:YES];
+    /*
+    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+    // ...
+    // Pass the selected object to the new view controller.
+    [self.navigationController pushViewController:detailViewController animated:YES];
+    [detailViewController release];
+    */
 }
 
 
