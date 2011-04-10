@@ -231,6 +231,15 @@
 			BE60B5F51351301400CDF1F6 /* PBXTextBookmark */ = BE60B5F51351301400CDF1F6 /* PBXTextBookmark */;
 			BE60B5FA1351307000CDF1F6 /* PBXTextBookmark */ = BE60B5FA1351307000CDF1F6 /* PBXTextBookmark */;
 			BE60B5FB1351308900CDF1F6 /* PBXTextBookmark */ = BE60B5FB1351308900CDF1F6 /* PBXTextBookmark */;
+			BE60B5FE135130EB00CDF1F6 /* PBXTextBookmark */ = BE60B5FE135130EB00CDF1F6 /* PBXTextBookmark */;
+			BE60B5FF135130EB00CDF1F6 /* PBXTextBookmark */ = BE60B5FF135130EB00CDF1F6 /* PBXTextBookmark */;
+			BE60B600135130EB00CDF1F6 /* PBXTextBookmark */ = BE60B600135130EB00CDF1F6 /* PBXTextBookmark */;
+			BE60B601135130EB00CDF1F6 /* PBXTextBookmark */ = BE60B601135130EB00CDF1F6 /* PBXTextBookmark */;
+			BE60B602135130EB00CDF1F6 /* PBXTextBookmark */ = BE60B602135130EB00CDF1F6 /* PBXTextBookmark */;
+			BE60B6051351310400CDF1F6 /* PBXTextBookmark */ = BE60B6051351310400CDF1F6 /* PBXTextBookmark */;
+			BE60B6081351311800CDF1F6 /* PBXTextBookmark */ = BE60B6081351311800CDF1F6 /* PBXTextBookmark */;
+			BE60B60D1351330300CDF1F6 /* PBXTextBookmark */ = BE60B60D1351330300CDF1F6 /* PBXTextBookmark */;
+			BE60B6101351333E00CDF1F6 /* PBXTextBookmark */ = BE60B6101351333E00CDF1F6 /* PBXTextBookmark */;
 			BE64D4A313466CA6009C9073 = BE64D4A313466CA6009C9073 /* PBXBookmark */;
 			BE64D4A413466CA6009C9073 = BE64D4A413466CA6009C9073 /* PBXBookmark */;
 			BE64D4A513466CA6009C9073 = BE64D4A513466CA6009C9073 /* PBXBookmark */;
@@ -566,10 +575,10 @@
 	};
 	BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{6058, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{6109, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{6159, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 6860}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1195, 3042}}";
-			sepNavSelRange = "{4267, 0}";
-			sepNavVisRange = "{2479, 1997}";
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{9422, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{9473, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{9523, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 10224}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1223, 4277}}";
+			sepNavSelRange = "{6229, 0}";
+			sepNavVisRange = "{4753, 2056}";
 		};
 	};
 	BE60B5771351269200CDF1F6 /* PBXTextBookmark */ = {
@@ -1292,7 +1301,7 @@
 		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
 		name = "TeamsSpecificGamesViewController.m: 149";
 		rLen = 0;
-		rLoc = 4476;
+		rLoc = 7840;
 		rType = 0;
 		vrLen = 1532;
 		vrLoc = 3744;
@@ -1342,7 +1351,7 @@
 		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
 		name = "TeamsSpecificGamesViewController.m: 144";
 		rLen = 0;
-		rLoc = 2951;
+		rLoc = 3245;
 		rType = 0;
 		vrLen = 1765;
 		vrLoc = 1976;
@@ -1362,7 +1371,7 @@
 		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
 		name = "TeamsSpecificGamesViewController.m: 112";
 		rLen = 0;
-		rLoc = 2935;
+		rLoc = 3229;
 		rType = 0;
 		vrLen = 1847;
 		vrLoc = 2633;
@@ -1372,10 +1381,100 @@
 		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
 		name = "TeamsSpecificGamesViewController.m: 142";
 		rLen = 0;
-		rLoc = 4267;
+		rLoc = 4561;
 		rType = 0;
 		vrLen = 1997;
 		vrLoc = 2479;
+	};
+	BE60B5FE135130EB00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE676E54134BFBDE00FBA68A /* GamesDivisionViewController.m */;
+		name = "GamesDivisionViewController.m: 117";
+		rLen = 200;
+		rLoc = 2758;
+		rType = 0;
+		vrLen = 1255;
+		vrLoc = 2318;
+	};
+	BE60B5FF135130EB00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE984BF4134FDC8F00F6F0E7 /* GamesSpecificViewController.m */;
+		name = "GamesSpecificViewController.m: 242";
+		rLen = 0;
+		rLoc = 6831;
+		rType = 0;
+		vrLen = 1486;
+		vrLoc = 6340;
+	};
+	BE60B600135130EB00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5711351268300CDF1F6 /* TeamsSpecificGamesViewController.h */;
+		name = "TeamsSpecificGamesViewController.h: 19";
+		rLen = 0;
+		rLoc = 409;
+		rType = 0;
+		vrLen = 948;
+		vrLoc = 0;
+	};
+	BE60B601135130EB00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 142";
+		rLen = 0;
+		rLoc = 4561;
+		rType = 0;
+		vrLen = 1786;
+		vrLoc = 1800;
+	};
+	BE60B602135130EB00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 103";
+		rLen = 0;
+		rLoc = 2584;
+		rType = 0;
+		vrLen = 1463;
+		vrLoc = 1800;
+	};
+	BE60B6051351310400CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 110";
+		rLen = 0;
+		rLoc = 2703;
+		rType = 0;
+		vrLen = 1411;
+		vrLoc = 1800;
+	};
+	BE60B6081351311800CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 107";
+		rLen = 0;
+		rLoc = 2658;
+		rType = 0;
+		vrLen = 1411;
+		vrLoc = 1800;
+	};
+	BE60B60D1351330300CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 233";
+		rLen = 0;
+		rLoc = 7742;
+		rType = 0;
+		vrLen = 1564;
+		vrLoc = 6295;
+	};
+	BE60B6101351333E00CDF1F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 195";
+		rLen = 0;
+		rLoc = 6229;
+		rType = 0;
+		vrLen = 2056;
+		vrLoc = 4753;
 	};
 	BE64D4A313466CA6009C9073 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -1402,9 +1501,9 @@
 	};
 	BE676E54134BFBDE00FBA68A /* GamesDivisionViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1181, 3627}}";
-			sepNavSelRange = "{3117, 1771}";
-			sepNavVisRange = "{3393, 1743}";
+			sepNavIntBoundsRect = "{{0, 0}, {1181, 3770}}";
+			sepNavSelRange = "{2758, 200}";
+			sepNavVisRange = "{2318, 1255}";
 			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
 		};
 	};

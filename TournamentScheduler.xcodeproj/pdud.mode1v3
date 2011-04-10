@@ -290,7 +290,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {275, 760}}</string>
+							<string>{{0, 43}, {275, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -339,7 +339,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BE60B5FB1351308900CDF1F6</string>
+										<string>BE60B6101351333E00CDF1F6</string>
 										<key>history</key>
 										<array>
 											<string>BE09E9381335D2AE00BDF656</string>
@@ -406,8 +406,6 @@
 											<string>BE60B5A013512B4E00CDF1F6</string>
 											<string>BE60B5A913512C5100CDF1F6</string>
 											<string>BE60B5AB13512C5100CDF1F6</string>
-											<string>BE60B5AC13512C5100CDF1F6</string>
-											<string>BE60B5C213512E0300CDF1F6</string>
 											<string>BE60B5C313512E0300CDF1F6</string>
 											<string>BE60B5C413512E0300CDF1F6</string>
 											<string>BE60B5C513512E0300CDF1F6</string>
@@ -421,9 +419,11 @@
 											<string>BE60B5DE13512F4400CDF1F6</string>
 											<string>BE60B5DF13512F4400CDF1F6</string>
 											<string>BE60B5E013512F4400CDF1F6</string>
-											<string>BE60B5E113512F4400CDF1F6</string>
 											<string>BE60B5E213512F4400CDF1F6</string>
-											<string>BE60B5D213512E3700CDF1F6</string>
+											<string>BE60B5FE135130EB00CDF1F6</string>
+											<string>BE60B5FF135130EB00CDF1F6</string>
+											<string>BE60B600135130EB00CDF1F6</string>
+											<string>BE60B601135130EB00CDF1F6</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
