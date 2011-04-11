@@ -67,13 +67,6 @@
 //    // e.g. self.myOutlet = nil;
 //}
 
-
-- (void)dealloc {
-	//[names dealloc];
-//	[urls dealloc];
-    [super dealloc];
-}
-
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
 	
 	NSLog(@"Table View - namescount = %d", names.count);
@@ -119,6 +112,14 @@
 	
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
+
+- (void)dealloc {
+	[serviceView release];
+	[names release];
+	[urls release];
+    [super dealloc];
+}
+
 
 
 @end

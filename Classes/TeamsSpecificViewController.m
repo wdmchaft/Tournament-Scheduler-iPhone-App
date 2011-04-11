@@ -227,6 +227,17 @@
 
 
 - (void)dealloc {
+	 [teamTableView release];
+	 [teamRecordCell release];
+	
+	 [optionList release];
+	
+	 [teamName release];
+	 [teamId release];
+	 [teamWins release];
+	 [teamLosses release];
+	 [teamGoals release];
+	
     [super dealloc];
 }
 

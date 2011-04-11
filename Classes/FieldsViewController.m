@@ -70,12 +70,6 @@
 //}
 
 
-- (void)dealloc {
-	[names dealloc];
-	[ids dealloc];
-    [super dealloc];
-}
-
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
 	
 	//	NSLog(@"Table View - namescount = %d", names.count);
@@ -118,6 +112,15 @@
 	
 	
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
+
+
+- (void)dealloc {
+	[fieldsTableView release];
+	[names release];
+	[ids release];
+    [super dealloc];
 }
 
 

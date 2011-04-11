@@ -213,6 +213,8 @@
 
 
 - (void)dealloc {
+	[aboutTableView release];
+	[aboutContentCell release];
     [super dealloc];
 }
 

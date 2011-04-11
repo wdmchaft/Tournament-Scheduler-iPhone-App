@@ -272,6 +272,18 @@
 
 
 - (void)dealloc {
+	 [gamesDivisionTableView release];
+	
+	 [gameIds release];
+	 [gameHomeIds release];
+	 [gameAwayIds release];
+	 [gameHomeMaps release];
+	 [gameAwayMaps release];
+	 [gameFields release];
+	 [gameTimes release];
+	
+	 [gameHomeNames release];
+	 [gameAwayNames release];
     [super dealloc];
 }
 

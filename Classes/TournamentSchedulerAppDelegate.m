@@ -104,6 +104,10 @@
 - (void)dealloc {
     [tabBarController release];
     [window release];
+	[standingsNavigationController release];
+	[tempIdHolder release];
+	[currentPage release];
+	
     [super dealloc];
 }
 

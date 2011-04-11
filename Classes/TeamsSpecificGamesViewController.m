@@ -130,7 +130,7 @@
 	if (indexPath.section == 0){
 		if (gameIds.count != 0) {
 			
-			int currentPosition = (indexPath.section * (gameIds.count/4)) + indexPath.row;
+			int currentPosition = indexPath.row;
 			
 			if ([gameHomeIds objectAtIndex:currentPosition ] == @"none")
 				cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeMaps objectAtIndex: indexPath.row], [gameAwayMaps objectAtIndex: indexPath.row]];
@@ -324,6 +324,22 @@
 
 
 - (void)dealloc {
+	
+	 [teamGamesView release];
+	
+	 [gameIds release];
+	 [gameHomeIds release];
+	 [gameAwayIds release];
+	 [gameHomeMaps release];
+	 [gameAwayMaps release];
+	 [gameFields release];
+	 [gameTimes release];
+	
+	 [gameHomeNames release];
+	 [gameAwayNames release];
+	
+	 [winningNames release];
+	 [losingNames release];
     [super dealloc];
 }
 

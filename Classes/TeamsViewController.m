@@ -69,11 +69,6 @@
 //}
 
 
-- (void)dealloc {
-	[names dealloc];
-	[ids dealloc];
-    [super dealloc];
-}
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
 	
@@ -131,6 +126,13 @@
 
 
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
+- (void)dealloc {
+	[teamsView release];
+	[names release];
+	[ids release];
+    [super dealloc];
 }
 
 

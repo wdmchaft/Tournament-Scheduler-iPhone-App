@@ -310,6 +310,15 @@
 
 
 - (void)dealloc {
+	 [categoryList release];
+	 [categoryCountList release];
+	 [nameList release];
+	 [imageList release];
+	
+	 [mobileList release];
+	 [emailList release];
+	 [titleList release];
+	 [contactImages release];
     [super dealloc];
 }
 

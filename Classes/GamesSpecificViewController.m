@@ -270,6 +270,30 @@
 
 
 - (void)dealloc {
+	 [gameTableView release];
+	 [gameDetailsCell release];
+	 [fieldDetailsCell release];
+	
+	 [optionList release];
+	
+	 [gameId release];
+	 [awayId release];
+	 [homeId release];
+	 [awayMap release];
+	 [homeMap release];
+	 [awayScore release];
+	 [homeScore release];
+	 [round release];
+	 [time release];
+	 [status release];
+	 [field release];
+	
+	 [awayName release];
+	 [homeName release];
+	 [awayWins release];
+	 [homeWins release];
+	 [awayLosses release];
+	 [homeLosses release];
     [super dealloc];
 }
 

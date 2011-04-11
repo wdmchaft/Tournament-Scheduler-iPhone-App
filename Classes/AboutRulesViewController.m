@@ -159,6 +159,7 @@
 
 
 - (void)dealloc {
+	[aboutRulesTableView release];
     [super dealloc];
 }
 
