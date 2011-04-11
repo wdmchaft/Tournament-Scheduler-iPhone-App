@@ -93,6 +93,9 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
+	if ([gameIds count] == 2)
+		return 1;
+	
     return 3;
 }
 
@@ -105,6 +108,8 @@
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+	if ([gameIds count] == 2)
+		return @"No Games Scheduled";
 	if (section == 0) {
 		return @"Scheduled";
 	}
@@ -126,7 +131,6 @@
 	if (cell == nil){
 		cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
 	}
-	
 	if (indexPath.section == 0){
 		if (gameIds.count != 0) {
 			
