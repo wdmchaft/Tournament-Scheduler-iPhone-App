@@ -144,7 +144,7 @@
 			
 			[cell.textLabel setFont:[UIFont boldSystemFontOfSize:12]];
 			NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
-			[dateFormat setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'+00:00'"];
+			[dateFormat setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'-07:00'+00:00'"];
 			NSDate *date = [dateFormat dateFromString:[gameTimes objectAtIndex: indexPath.row]];
 			
 			[dateFormat setDateFormat:@"hh:mm a"];
@@ -183,7 +183,7 @@
 			
 			[cell.textLabel setFont:[UIFont boldSystemFontOfSize:12]];
 			NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
-			[dateFormat setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'+00:00'"];
+			[dateFormat setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'-07:00'+00:00'"];
 			NSDate *date = [dateFormat dateFromString:[gameTimes objectAtIndex: currentPosition]];
 			
 			[dateFormat setDateFormat:@"hh:mm a"];
@@ -222,7 +222,7 @@
 			
 			[cell.textLabel setFont:[UIFont boldSystemFontOfSize:12]];
 			NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
-			[dateFormat setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'+00:00'"];
+			[dateFormat setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'-07:00'+00:00'"];
 			NSDate *date = [dateFormat dateFromString:[gameTimes objectAtIndex: currentPosition]];
 			
 			[dateFormat setDateFormat:@"hh:mm a"];

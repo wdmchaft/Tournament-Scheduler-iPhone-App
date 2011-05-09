@@ -144,7 +144,7 @@
 		
 		[cell.textLabel setFont:[UIFont boldSystemFontOfSize:12]];
 		NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
-		[dateFormat setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'+00:00'"];
+		[dateFormat setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'-07:00'-07:00'"];
 		NSDate *date = [dateFormat dateFromString:[gameTimes objectAtIndex:currentPosition]];
 		
 		[dateFormat setDateFormat:@"hh:mm a"];
@@ -154,9 +154,7 @@
 		
 		NSString *stringFromDate = [dateFormat stringFromDate:date];
 		
-		//NSLog(@"time before %@", [gameTimes objectAtIndex:indexPath.row]);
-		
-		//NSLog(@"date %@", date);
+		NSLog(@"time before %@", [gameTimes objectAtIndex:indexPath.row]);
 		
 		// Convert date object to desired output format
 		//[dateFormat setDateFormat:@"EEEE MMMM d, YYYY"];
