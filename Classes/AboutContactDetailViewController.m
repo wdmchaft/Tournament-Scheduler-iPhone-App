@@ -159,6 +159,7 @@
 {	
 	NSString *prefix = @"sms://";
 	NSString *theUrl =[prefix stringByAppendingString:mobile];
+	NSLog(@"URL %@", theUrl);
 	[[UIApplication sharedApplication] openURL:[NSURL URLWithString: theUrl]];
 }
 

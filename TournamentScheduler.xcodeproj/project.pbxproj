@@ -99,6 +99,7 @@
 		BEEC24101348DE94001669CC /* robertThomasLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = BEEC240C1348DE94001669CC /* robertThomasLarge.png */; };
 		BEEC24111348DE94001669CC /* brianDudleyLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = BEEC240D1348DE94001669CC /* brianDudleyLarge.png */; };
 		BEEC24121348DE94001669CC /* philDudleyLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = BEEC240E1348DE94001669CC /* philDudleyLarge.png */; };
+		BEFEB972137875660053B7FA /* masc-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFEB971137875660053B7FA /* masc-iphone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -234,6 +235,7 @@
 		BEEC240C1348DE94001669CC /* robertThomasLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robertThomasLarge.png; sourceTree = "<group>"; };
 		BEEC240D1348DE94001669CC /* brianDudleyLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brianDudleyLarge.png; sourceTree = "<group>"; };
 		BEEC240E1348DE94001669CC /* philDudleyLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = philDudleyLarge.png; sourceTree = "<group>"; };
+		BEFEB971137875660053B7FA /* masc-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "masc-iphone.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -542,6 +544,7 @@
 			children = (
 				BE64D49B13466B4D009C9073 /* masc4.png */,
 				BE64D49C13466B4D009C9073 /* masc5.png */,
+				BEFEB971137875660053B7FA /* masc-iphone.png */,
 				BE3EA73C13479ADF0075A2E5 /* masc-logo.png */,
 				BE64D495134668C5009C9073 /* MASC3.png */,
 				BE64D496134668C5009C9073 /* MASC2.png */,
@@ -682,6 +685,7 @@
 				BE984B9B134FC10200F6F0E7 /* FieldsGamesView.xib in Resources */,
 				BE984BF7134FDC8F00F6F0E7 /* GamesSpecificView.xib in Resources */,
 				BE60B5751351268300CDF1F6 /* TeamsSpecificGamesViewController.xib in Resources */,
+				BEFEB972137875660053B7FA /* masc-iphone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

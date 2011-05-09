@@ -265,27 +265,22 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
-								<string>BEDDCACF134807D800B00EA3</string>
-								<string>BEDDCAD2134807F700B00EA3</string>
-								<string>29B97315FDCFA39411CA2CEA</string>
-								<string>BE18EF91134A516C00BFB985</string>
-								<string>BE18EF7D134A4CF500BFB985</string>
-								<string>BEDDCB0113480A2200B00EA3</string>
-								<string>BE81C8501349776A00CF8784</string>
+								<string>BEDDCAD1134807EB00B00EA3</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
+								<string>BEEC23941348D81D001669CC</string>
+								<string>BEE7C69D1336BE770062373D</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>9</integer>
-									<integer>5</integer>
-									<integer>1</integer>
+									<integer>60</integer>
+									<integer>20</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 12}, {275, 760}}</string>
+							<string>{{0, 448}, {275, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -304,7 +299,7 @@
 							<real>275</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>17 58 1028 819 0 0 1440 878 </string>
+						<string>17 59 1028 819 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -315,14 +310,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>GamesDivisionViewController.m</string>
+								<string>TournamentScheduler-Info.plist</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -330,11 +323,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>GamesDivisionViewController.m</string>
+										<string>TournamentScheduler-Info.plist</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BEFEB957137867460053B7FA</string>
+										<string>BEFEB995137875DD0053B7FA</string>
 										<key>history</key>
 										<array>
 											<string>BE09E9381335D2AE00BDF656</string>
@@ -342,25 +335,13 @@
 											<string>BE26208E13372B4C00BCE641</string>
 											<string>BE2621031337328200BCE641</string>
 											<string>BE126D521337BE7A0083CAA1</string>
-											<string>BE49DDAB1346418D009CDA15</string>
-											<string>BE49DDAC1346418D009CDA15</string>
-											<string>BE49DDAD1346418D009CDA15</string>
-											<string>BE49DDAE1346418D009CDA15</string>
-											<string>BE49DDB01346418D009CDA15</string>
-											<string>BE64D4A313466CA6009C9073</string>
-											<string>BE64D4A413466CA6009C9073</string>
-											<string>BE64D4A513466CA6009C9073</string>
-											<string>BE64D4A613466CA6009C9073</string>
-											<string>BE3EA7401347AB550075A2E5</string>
 											<string>BEDDCAC5134807B600B00EA3</string>
 											<string>BEDDCACB134807CD00B00EA3</string>
-											<string>BE81C861134978CC00CF8784</string>
 											<string>BE81C8C91349807400CF8784</string>
 											<string>BE60726C134AA4410037AC10</string>
 											<string>BEDE20E8134ACB4300F2D83B</string>
 											<string>BEDE212F134AD06800F2D83B</string>
 											<string>BE676E98134C009900FBA68A</string>
-											<string>BE1273CD134E670E000C9821</string>
 											<string>BE984C35134FE10700F6F0E7</string>
 											<string>BE60B57A1351269200CDF1F6</string>
 											<string>BE60B5801351269200CDF1F6</string>
@@ -370,10 +351,8 @@
 											<string>BE60B5CB13512E0300CDF1F6</string>
 											<string>BE60B659135145C000CDF1F6</string>
 											<string>BED67BAE1352844D0097E2F1</string>
-											<string>BED67BAF1352844D0097E2F1</string>
 											<string>BED67BB01352844D0097E2F1</string>
 											<string>BED67BB11352844D0097E2F1</string>
-											<string>BED67BB21352844D0097E2F1</string>
 											<string>BED67BB31352844D0097E2F1</string>
 											<string>BED67BB41352844D0097E2F1</string>
 											<string>BED67BB51352844D0097E2F1</string>
@@ -419,7 +398,36 @@
 											<string>BEFEB8E9137851540053B7FA</string>
 											<string>BEFEB949137865790053B7FA</string>
 											<string>BEFEB94A137865790053B7FA</string>
-											<string>BEFEB94B137865790053B7FA</string>
+											<string>BEFEB977137875DD0053B7FA</string>
+											<string>BEFEB978137875DD0053B7FA</string>
+											<string>BEFEB979137875DD0053B7FA</string>
+											<string>BEFEB97A137875DD0053B7FA</string>
+											<string>BEFEB97B137875DD0053B7FA</string>
+											<string>BEFEB97C137875DD0053B7FA</string>
+											<string>BEFEB97D137875DD0053B7FA</string>
+											<string>BEFEB97E137875DD0053B7FA</string>
+											<string>BEFEB97F137875DD0053B7FA</string>
+											<string>BEFEB980137875DD0053B7FA</string>
+											<string>BEFEB981137875DD0053B7FA</string>
+											<string>BEFEB982137875DD0053B7FA</string>
+											<string>BEFEB983137875DD0053B7FA</string>
+											<string>BEFEB984137875DD0053B7FA</string>
+											<string>BEFEB985137875DD0053B7FA</string>
+											<string>BEFEB986137875DD0053B7FA</string>
+											<string>BEFEB987137875DD0053B7FA</string>
+											<string>BEFEB988137875DD0053B7FA</string>
+											<string>BEFEB989137875DD0053B7FA</string>
+											<string>BEFEB98A137875DD0053B7FA</string>
+											<string>BEFEB98B137875DD0053B7FA</string>
+											<string>BEFEB98C137875DD0053B7FA</string>
+											<string>BEFEB98D137875DD0053B7FA</string>
+											<string>BEFEB98E137875DD0053B7FA</string>
+											<string>BEFEB98F137875DD0053B7FA</string>
+											<string>BEFEB990137875DD0053B7FA</string>
+											<string>BEFEB991137875DD0053B7FA</string>
+											<string>BEFEB992137875DD0053B7FA</string>
+											<string>BEFEB993137875DD0053B7FA</string>
+											<string>BEFEB994137875DD0053B7FA</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -433,7 +441,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {731, 644}}</string>
 								<key>RubberWindowFrame</key>
-								<string>17 58 1028 819 0 0 1440 878 </string>
+								<string>17 59 1028 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -453,7 +461,7 @@
 								<key>Frame</key>
 								<string>{{0, 649}, {731, 129}}</string>
 								<key>RubberWindowFrame</key>
-								<string>17 58 1028 819 0 0 1440 878 </string>
+								<string>17 59 1028 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -620,13 +628,13 @@
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>BEFEB8C313784E870053B7FA</string>
 		<string>BEFEB8C413784E870053B7FA</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>BEABD05E13359F3A0009CA1F</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TournamentScheduler.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>17 58 1028 819 0 0 1440 878 </string>
+	<string>17 59 1028 819 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -997,7 +1005,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
