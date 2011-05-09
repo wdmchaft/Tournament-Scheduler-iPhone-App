@@ -108,9 +108,16 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
+	
 	if (gameIds.count == 0) {
 		return 1;
 	}
+	else {
+		NSLog(@"Number of Rows %d", gameIds.count);
+		NSLog(@"Number of Rows/4 %d", (gameIds.count/4));
+	}
+
+	
     return (gameIds.count/4);
 }
 
@@ -136,8 +143,10 @@
 	if (gameIds.count != 0) {
 			
 		int currentPosition = (indexPath.section * (gameIds.count/4)) + indexPath.row;
-		
-		if ([gameHomeIds objectAtIndex:currentPosition ] == @"none")
+		NSLog(@"Homeid %@", [gameHomeIds objectAtIndex:currentPosition ]);
+		NSLog(@"gameHomeNames %d", [gameHomeNames count]);
+		NSLog(@"gameAwayNames %d", [gameAwayNames count]);
+		if ([gameHomeIds objectAtIndex:currentPosition] == @"none")
 			cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeMaps objectAtIndex:currentPosition], [gameAwayMaps objectAtIndex:currentPosition]];
 		else
 			cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeNames objectAtIndex:currentPosition],[gameAwayNames objectAtIndex:currentPosition]];

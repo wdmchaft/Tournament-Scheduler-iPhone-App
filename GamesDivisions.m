@@ -85,8 +85,6 @@
 			if ([trend objectForKey:@"home_id"] != [NSNull null]) {
 				[viewController.gameHomeIds addObject:[trend objectForKey:@"home_id"]];
 				[viewController.gameAwayIds addObject:[trend objectForKey:@"away_id"]];
-				
-				
 			}
 			else {
 				[viewController.gameHomeIds addObject:@"none"];
@@ -107,7 +105,7 @@
 	for (int i =0; i <  [viewController.gameHomeIds count]; i++){
 		//NSLog(@"we have a home team");
 		
-		//NSLog(@"Team %@", [viewController.gameHomeIds objectAtIndex:i ]);
+		NSLog(@"Team %@", [viewController.gameHomeIds objectAtIndex:i ]);
 		if ([viewController.gameHomeIds objectAtIndex:i ] != @"none"){
 			//NSLog(@"Team has an id");
 			TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
