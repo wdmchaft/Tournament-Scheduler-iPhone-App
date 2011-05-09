@@ -21,10 +21,10 @@
 	
 	TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
 	NSString *tempId= delegate.tempIdHolder;
-	NSString *url = [NSString stringWithFormat:@"http://localhost:4567/api/teams/"];
+	NSString *url = [NSString stringWithFormat:@"http://tournament-scheduler.heroku.com/api/teams/"];
 	
 	if (tempId != @"0")
-		url = [NSString stringWithFormat:@"http://localhost:4567/api/teams/division/%@",tempId];
+		url = [NSString stringWithFormat:@"http://tournament-scheduler.heroku.com/api/teams/division/%@",tempId];
 	theURL = [[NSURL URLWithString:url] retain];
 	NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
 	[[NSURLConnection alloc] initWithRequest:request delegate:self];

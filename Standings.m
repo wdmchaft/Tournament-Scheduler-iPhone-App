@@ -17,7 +17,7 @@
 		viewController = (StandingsViewController *)controller;
 		responseData = [[NSMutableData data] retain];
 		
-		NSString *url = [NSString stringWithFormat:@"http://localhost:4567/api/divisions/"];
+		NSString *url = [NSString stringWithFormat:@"http://tournament-scheduler.heroku.com/api/divisions/"];
 		theURL = [[NSURL URLWithString:url] retain];
 		NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
 		[[NSURLConnection alloc] initWithRequest:request delegate:self];

@@ -22,7 +22,7 @@
 	TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
 	NSString *tempId= delegate.tempIdHolder;
 	
-	NSString *url = [NSString stringWithFormat:@"http://localhost:4567/api/games/teams/%@", tempId];
+	NSString *url = [NSString stringWithFormat:@"http://tournament-scheduler.heroku.com/api/games/teams/%@", tempId];
 	NSLog(@"THE URL IS %@", url);
 	theURL = [[NSURL URLWithString:url] retain];
 	NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
@@ -115,7 +115,7 @@
 			
 			responseData = [[NSMutableData data] retain];
 			
-			NSString *url = [NSString stringWithFormat:@"http://localhost:4567/api/teams/%@", delegate.tempIdHolder];
+			NSString *url = [NSString stringWithFormat:@"http://tournament-scheduler.heroku.com/api/teams/%@", delegate.tempIdHolder];
 			theURL = [[NSURL URLWithString:url] retain];
 			
 			NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
@@ -143,7 +143,7 @@
 			
 			responseData = [[NSMutableData data] retain];
 			
-			NSString *url = [NSString stringWithFormat:@"http://localhost:4567/api/teams/%@", delegate.tempIdHolder];
+			NSString *url = [NSString stringWithFormat:@"http://tournament-scheduler.heroku.com/api/teams/%@", delegate.tempIdHolder];
 			theURL = [[NSURL URLWithString:url] retain];
 			
 			NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
@@ -168,7 +168,7 @@
 			
 			
 			// API MAP Game - Find team name given away map
-			// http://localhost:4567/api/teams/map/3W
+			// http://tournament-scheduler.heroku.com/api/teams/map/3W
 
 		}
 	}
@@ -180,7 +180,7 @@
 		NSLog(@"gameHomeMaps");
 		responseData = [[NSMutableData data] retain];
 		
-		NSString *url = [NSString stringWithFormat:@"http://localhost:4567/api/teams/map/%@", [viewController.gameHomeMaps objectAtIndex:[viewController.gameAwayMaps count] - 2]];
+		NSString *url = [NSString stringWithFormat:@"http://tournament-scheduler.heroku.com/api/teams/map/%@", [viewController.gameHomeMaps objectAtIndex:[viewController.gameAwayMaps count] - 2]];
 		theURL = [[NSURL URLWithString:url] retain];
 						 NSLog(@"THE URL %@", url);
 		NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
@@ -201,7 +201,7 @@
 		NSLog(@"gameAwayMaps");
 		responseData = [[NSMutableData data] retain];
 		
-		NSString *url = [NSString stringWithFormat:@"http://localhost:4567/api/teams/map/%@", [viewController.gameAwayMaps objectAtIndex:[viewController.gameAwayMaps count] - 2]];
+		NSString *url = [NSString stringWithFormat:@"http://tournament-scheduler.heroku.com/api/teams/map/%@", [viewController.gameAwayMaps objectAtIndex:[viewController.gameAwayMaps count] - 2]];
 		theURL = [[NSURL URLWithString:url] retain];
 		NSLog(@"THE URL %@", url);
 		NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
@@ -226,7 +226,7 @@
 		NSLog(@"gameHomeMaps");
 		responseData = [[NSMutableData data] retain];
 		
-		NSString *url = [NSString stringWithFormat:@"http://localhost:4567/api/teams/map/%@", [viewController.gameHomeMaps objectAtIndex:[viewController.gameAwayMaps count] - 1]];
+		NSString *url = [NSString stringWithFormat:@"http://tournament-scheduler.heroku.com/api/teams/map/%@", [viewController.gameHomeMaps objectAtIndex:[viewController.gameAwayMaps count] - 1]];
 		theURL = [[NSURL URLWithString:url] retain];
 		NSLog(@"THE URL %@", url);
 		NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
@@ -247,7 +247,7 @@
 		NSLog(@"gameAwayMaps");
 		responseData = [[NSMutableData data] retain];
 		
-		NSString *url = [NSString stringWithFormat:@"http://localhost:4567/api/teams/map/%@", [viewController.gameAwayMaps objectAtIndex:[viewController.gameAwayMaps count] - 1]];
+		NSString *url = [NSString stringWithFormat:@"http://tournament-scheduler.heroku.com/api/teams/map/%@", [viewController.gameAwayMaps objectAtIndex:[viewController.gameAwayMaps count] - 1]];
 		theURL = [[NSURL URLWithString:url] retain];
 		NSLog(@"THE URL %@", url);
 		NSURLRequest *request = [NSURLRequest requestWithURL:theURL];

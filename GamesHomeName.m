@@ -23,7 +23,7 @@
 	NSString *tempId= delegate.tempIdHolder;
 	
 	
-		NSString *url = [NSString stringWithFormat:@"http://localhost:4567/api/teams/%@", tempId];
+		NSString *url = [NSString stringWithFormat:@"http://tournament-scheduler.heroku.com/api/teams/%@", tempId];
 	theURL = [[NSURL URLWithString:url] retain];
 	
 	NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
