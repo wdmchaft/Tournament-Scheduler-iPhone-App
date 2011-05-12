@@ -69,15 +69,15 @@
 		[errorAlert show];
 		[errorAlert release];
 	}else {
-		
-			
+		NSLog(@"GOALS AGAINST");
 		viewController.teamName = [trends objectForKey:@"name"];
 		viewController.teamId = [trends objectForKey:@"id"];
 		viewController.teamWins = [trends objectForKey:@"wins"];
 		viewController.teamLosses = [trends objectForKey:@"losses"];
 		viewController.teamGoals = [trends objectForKey:@"goals"];
+		viewController.teamGoalsAgainst = [trends objectForKey:@"goals_against"];
 		
-		NSLog(@"Team Name %@", viewController.teamName);
+		NSLog(@"Teaaaaam Name %@", viewController.teamName);
 			
 		[parser release];
 	}

@@ -22,6 +22,7 @@
 @synthesize teamWins;
 @synthesize teamLosses;
 @synthesize teamGoals;
+@synthesize teamGoalsAgainst;
 
 #pragma mark -
 #pragma mark View lifecycle
@@ -132,8 +133,8 @@
 		UILabel *goalsLabel = (UILabel *)[teamRecordCell viewWithTag:3];
 		goalsLabel.text  = [NSString stringWithFormat:@"%@", teamGoals];
 		
-		//UILabel *lossesLabel = (UILabel *)[teamRecordCell viewWithTag:2];
-//		lossesLabel.text  = teamLosses;
+		UILabel *goalsAgainstLabel = (UILabel *)[teamRecordCell viewWithTag:4];
+		goalsAgainstLabel.text  = [NSString stringWithFormat:@"%@", teamGoalsAgainst];
 //		
 //		UILabel *goalsLabel = (UILabel *)[teamRecordCell viewWithTag:3];
 //		goalsLabel.text  = teamGoals;
@@ -237,6 +238,7 @@
 	 [teamWins release];
 	 [teamLosses release];
 	 [teamGoals release];
+	[teamGoalsAgainst release];
 	
     [super dealloc];
 }

@@ -82,13 +82,21 @@
 			// Get game id/ home team id / away id 
 			//NSLog(@"z = %@", [trend objectForKey:@"home_id"]);
 			[viewController.gameIds addObject:[trend objectForKey:@"id"]];
-			if ([trend objectForKey:@"home_id"] != [NSNull null]) {
+			if ([trend objectForKey:@"away_id"] != [NSNull null]) {
 				[viewController.gameHomeIds addObject:[trend objectForKey:@"home_id"]];
 				[viewController.gameAwayIds addObject:[trend objectForKey:@"away_id"]];
 			}
 			else {
-				[viewController.gameHomeIds addObject:@"none"];
-				[viewController.gameAwayIds addObject:@"none"];
+				if ([trend objectForKey:@"home_id"] != [NSNull null]) {
+					[viewController.gameHomeIds addObject:[trend objectForKey:@"home_id"]];
+					[viewController.gameAwayIds addObject:@"none"];
+				}
+				else {
+					[viewController.gameHomeIds addObject:@"none"];
+					[viewController.gameAwayIds addObject:@"none"];
+				}
+
+				
 			}
 
 			
@@ -136,7 +144,7 @@
 	}
 	
 	for (int i =0; i <  [viewController.gameAwayIds count]; i++){
-		if ([viewController.gameHomeIds objectAtIndex:i ] != @"none"){
+		if ([viewController.gameAwayIds objectAtIndex:i ] != @"none"){
 			TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
 			delegate.tempIdHolder= [viewController.gameAwayIds objectAtIndex:i];
 			
@@ -163,6 +171,7 @@
 		}
 	}
 	[parser release];
+	NSLog(@"SHOW THE DATA");
 	[viewController.gamesDivisionTableView reloadData];
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
 

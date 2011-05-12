@@ -21,6 +21,7 @@
 		BE18EF80134A4D1000BFB985 /* Games.m in Sources */ = {isa = PBXBuildFile; fileRef = BE18EF7F134A4D1000BFB985 /* Games.m */; };
 		BE18EF94134A517300BFB985 /* Fields.m in Sources */ = {isa = PBXBuildFile; fileRef = BE18EF93134A517300BFB985 /* Fields.m */; };
 		BE1B711D1338170E006F64A1 /* StandingsTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1B711C1338170E006F64A1 /* StandingsTableView.xib */; };
+		BE221A42137B9384006F3DED /* masc-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = BE221A41137B9384006F3DED /* masc-iphone.png */; };
 		BE3EA73D13479ADF0075A2E5 /* masc-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BE3EA73C13479ADF0075A2E5 /* masc-logo.png */; };
 		BE49DD7813463F15009CDA15 /* teams3.png in Resources */ = {isa = PBXBuildFile; fileRef = BE49DD7513463F15009CDA15 /* teams3.png */; };
 		BE49DD7913463F15009CDA15 /* teams2.png in Resources */ = {isa = PBXBuildFile; fileRef = BE49DD7613463F15009CDA15 /* teams2.png */; };
@@ -99,7 +100,6 @@
 		BEEC24101348DE94001669CC /* robertThomasLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = BEEC240C1348DE94001669CC /* robertThomasLarge.png */; };
 		BEEC24111348DE94001669CC /* brianDudleyLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = BEEC240D1348DE94001669CC /* brianDudleyLarge.png */; };
 		BEEC24121348DE94001669CC /* philDudleyLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = BEEC240E1348DE94001669CC /* philDudleyLarge.png */; };
-		BEFEB972137875660053B7FA /* masc-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFEB971137875660053B7FA /* masc-iphone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -125,6 +125,7 @@
 		BE18EF92134A517300BFB985 /* Fields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fields.h; sourceTree = "<group>"; };
 		BE18EF93134A517300BFB985 /* Fields.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fields.m; sourceTree = "<group>"; };
 		BE1B711C1338170E006F64A1 /* StandingsTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StandingsTableView.xib; sourceTree = "<group>"; };
+		BE221A41137B9384006F3DED /* masc-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "masc-iphone.png"; sourceTree = "<group>"; };
 		BE3EA73C13479ADF0075A2E5 /* masc-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "masc-logo.png"; sourceTree = "<group>"; };
 		BE49DD7513463F15009CDA15 /* teams3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teams3.png; sourceTree = "<group>"; };
 		BE49DD7613463F15009CDA15 /* teams2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teams2.png; sourceTree = "<group>"; };
@@ -235,7 +236,6 @@
 		BEEC240C1348DE94001669CC /* robertThomasLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robertThomasLarge.png; sourceTree = "<group>"; };
 		BEEC240D1348DE94001669CC /* brianDudleyLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brianDudleyLarge.png; sourceTree = "<group>"; };
 		BEEC240E1348DE94001669CC /* philDudleyLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = philDudleyLarge.png; sourceTree = "<group>"; };
-		BEFEB971137875660053B7FA /* masc-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "masc-iphone.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -544,9 +544,9 @@
 			children = (
 				BE64D49B13466B4D009C9073 /* masc4.png */,
 				BE64D49C13466B4D009C9073 /* masc5.png */,
-				BEFEB971137875660053B7FA /* masc-iphone.png */,
 				BE3EA73C13479ADF0075A2E5 /* masc-logo.png */,
 				BE64D495134668C5009C9073 /* MASC3.png */,
+				BE221A41137B9384006F3DED /* masc-iphone.png */,
 				BE64D496134668C5009C9073 /* MASC2.png */,
 				BE64D491134667BE009C9073 /* MASC.png */,
 				BE49DD9913464108009CDA15 /* standings4.png */,
@@ -685,7 +685,7 @@
 				BE984B9B134FC10200F6F0E7 /* FieldsGamesView.xib in Resources */,
 				BE984BF7134FDC8F00F6F0E7 /* GamesSpecificView.xib in Resources */,
 				BE60B5751351268300CDF1F6 /* TeamsSpecificGamesViewController.xib in Resources */,
-				BEFEB972137875660053B7FA /* masc-iphone.png in Resources */,
+				BE221A42137B9384006F3DED /* masc-iphone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

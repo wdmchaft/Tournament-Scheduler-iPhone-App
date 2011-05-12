@@ -26,5 +26,6 @@
 @property (nonatomic, retain) NSString *teamWins;
 @property (nonatomic, retain) NSString *teamLosses;
 @property (nonatomic, retain) NSString *teamGoals;
+@property (nonatomic, retain) NSString *teamGoalsAgainst;
 
 @end
