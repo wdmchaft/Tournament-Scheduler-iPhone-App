@@ -146,16 +146,15 @@
 		NSLog(@"Homeid %@", [gameHomeIds objectAtIndex:currentPosition ]);
 		NSLog(@"gameHomeNames %d", [gameHomeNames count]);
 		NSLog(@"gameAwayNames %d", [gameAwayNames count]);
-		if ([gameHomeIds objectAtIndex:currentPosition] == @"none")
+		if ([gameHomeIds objectAtIndex:currentPosition] == @"none" && [gameAwayIds objectAtIndex:currentPosition] == @"none")
 			cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeMaps objectAtIndex:currentPosition], [gameAwayMaps objectAtIndex:currentPosition]];
-		else{
-			if([gameAwayIds objectAtIndex:currentPosition] == @"none"){
-				cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeNames objectAtIndex:currentPosition],[gameAwayMaps objectAtIndex:currentPosition]];
-			}
-			else {
-				cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeNames objectAtIndex:currentPosition],[gameAwayNames objectAtIndex:currentPosition]];
-			}
-		}
+		else if([gameHomeIds objectAtIndex:currentPosition] == @"none")
+			cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeMaps objectAtIndex:currentPosition],[gameAwayNames objectAtIndex:currentPosition]];
+		else if([gameAwayIds objectAtIndex:currentPosition] == @"none")
+			cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeNames objectAtIndex:currentPosition],[gameAwayMaps objectAtIndex:currentPosition]];
+		else
+			cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeNames objectAtIndex:currentPosition],[gameAwayNames objectAtIndex:currentPosition]];
+
 		[cell.textLabel setFont:[UIFont boldSystemFontOfSize:12]];
 		NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
 		[dateFormat setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'-07:00'-07:00'"];

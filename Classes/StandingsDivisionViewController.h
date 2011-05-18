@@ -18,8 +18,9 @@
 @property (nonatomic, retain) NSMutableArray *names;
 @property (nonatomic, retain) NSMutableArray *pts;
 @property (nonatomic, retain) NSMutableArray *wins;
-@property (nonatomic, retain) NSMutableArray *draws;
+//@property (nonatomic, retain) NSMutableArray *draws;
 @property (nonatomic, retain) NSMutableArray *losses;
+@property (nonatomic, retain) NSMutableArray *goals;
 
 
 

@@ -77,8 +77,9 @@
 			[viewController.names addObject:[trend objectForKey:@"name"]];
 			[viewController.pts addObject:[trend objectForKey:@"points"]];
 			[viewController.wins addObject:[trend objectForKey:@"wins"]];
-			[viewController.draws addObject:[trend objectForKey:@"ties"]];
+			//[viewController.draws addObject:[trend objectForKey:@"ties"]];
 			[viewController.losses addObject:[trend objectForKey:@"losses"]];
+			[viewController.goals addObject:[trend objectForKey:@"goals"]];
 		}
 		[parser release];
 	}

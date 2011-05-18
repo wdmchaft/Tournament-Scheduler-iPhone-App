@@ -18,8 +18,9 @@
 @synthesize names;
 @synthesize pts;
 @synthesize wins;
-@synthesize draws;
+//@synthesize draws;
 @synthesize losses;
+@synthesize goals;
 
 
 @synthesize serviceView;
@@ -52,8 +53,9 @@
 	names = [[NSMutableArray alloc] init];
 	pts = [[NSMutableArray alloc] init];
 	wins = [[NSMutableArray alloc] init];
-	draws = [[NSMutableArray alloc] init];
+	//draws = [[NSMutableArray alloc] init];
 	losses = [[NSMutableArray alloc] init];
+	goals = [[NSMutableArray alloc] init];
 	NSLog(@"names = %@", names);
 	NSLog(@"points = %@", pts);
 	
@@ -82,7 +84,7 @@
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
 	
-	return @"Team Name                    P  W  D  L";
+	return @"Team Name                    P  W  L  F";
 }
 
 
@@ -129,11 +131,14 @@
 	label = (UILabel *)[cell viewWithTag:3];
 	label.text = [[wins objectAtIndex:indexPath.row] stringValue];
 	
+	//label = (UILabel *)[cell viewWithTag:4];
+	//label.text = [[draws objectAtIndex:indexPath.row] stringValue];
+	
 	label = (UILabel *)[cell viewWithTag:4];
-	label.text = [[draws objectAtIndex:indexPath.row] stringValue];
+	label.text = [[losses objectAtIndex:indexPath.row] stringValue];
 	
 	label = (UILabel *)[cell viewWithTag:5];
-	label.text = [[losses objectAtIndex:indexPath.row] stringValue];
+	label.text = [[goals objectAtIndex:indexPath.row] stringValue];
 	
 	
 	cell.textLabel.font = [UIFont systemFontOfSize:12]; //Change this value to adjust size
@@ -170,8 +175,9 @@
 	 [names release];
 	 [pts release];
 	 [wins release];
-	 [draws release];
+	 //[draws release];
 	 [losses release];
+	[goals release];
 	
 	
 	[serviceView release];
