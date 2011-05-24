@@ -84,7 +84,7 @@
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
 	
-	return @"Team Name                    P  W  L  F";
+	return @"     Name                          P  W  L  F";
 }
 
 
@@ -122,6 +122,10 @@
 	
 	
 	UILabel *label;
+	
+	label = (UILabel *)[cell viewWithTag:11];
+	label.text = [NSString stringWithFormat:@"%d", indexPath.row + 1];
+	
 	label = (UILabel *)[cell viewWithTag:1];
 	label.text = [names objectAtIndex:indexPath.row];
 	
