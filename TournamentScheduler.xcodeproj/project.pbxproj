@@ -84,6 +84,11 @@
 		BEBE149A1346900400258DFE /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE14981346900400258DFE /* AboutViewController.m */; };
 		BEBE149B1346900400258DFE /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEBE14991346900400258DFE /* AboutView.xib */; };
 		BEC8790B134EA91B005B5EB7 /* GamesAwayName.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC8790A134EA91B005B5EB7 /* GamesAwayName.m */; };
+		BECAC90E1396174E00F3B717 /* SiteMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BECAC90D1396174E00F3B717 /* SiteMapViewController.m */; };
+		BECAC9111396178D00F3B717 /* DisplayMap.m in Sources */ = {isa = PBXBuildFile; fileRef = BECAC9101396178D00F3B717 /* DisplayMap.m */; };
+		BECAC9141396180500F3B717 /* SiteMap.xib in Resources */ = {isa = PBXBuildFile; fileRef = BECAC9131396180500F3B717 /* SiteMap.xib */; };
+		BECAC9261396191F00F3B717 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECAC9251396191F00F3B717 /* CoreLocation.framework */; };
+		BECAC9281396191F00F3B717 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECAC9271396191F00F3B717 /* MapKit.framework */; };
 		BEDDC8F21347E15000B00EA3 /* AboutRulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDDC8F01347E15000B00EA3 /* AboutRulesViewController.m */; };
 		BEDDC8F31347E15000B00EA3 /* AboutRulesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEDDC8F11347E15000B00EA3 /* AboutRulesView.xib */; };
 		BEDDC9891347EC5B00B00EA3 /* AboutContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDDC9871347EC5B00B00EA3 /* AboutContactViewController.m */; };
@@ -216,6 +221,13 @@
 		BEBE14991346900400258DFE /* AboutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutView.xib; path = Classes/AboutView.xib; sourceTree = "<group>"; };
 		BEC87909134EA91B005B5EB7 /* GamesAwayName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamesAwayName.h; sourceTree = "<group>"; };
 		BEC8790A134EA91B005B5EB7 /* GamesAwayName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamesAwayName.m; sourceTree = "<group>"; };
+		BECAC90C1396174E00F3B717 /* SiteMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiteMapViewController.h; sourceTree = "<group>"; };
+		BECAC90D1396174E00F3B717 /* SiteMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteMapViewController.m; sourceTree = "<group>"; };
+		BECAC90F1396178D00F3B717 /* DisplayMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayMap.h; sourceTree = "<group>"; };
+		BECAC9101396178D00F3B717 /* DisplayMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayMap.m; sourceTree = "<group>"; };
+		BECAC9131396180500F3B717 /* SiteMap.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SiteMap.xib; sourceTree = "<group>"; };
+		BECAC9251396191F00F3B717 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BECAC9271396191F00F3B717 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		BEDDC8EF1347E15000B00EA3 /* AboutRulesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutRulesViewController.h; sourceTree = "<group>"; };
 		BEDDC8F01347E15000B00EA3 /* AboutRulesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutRulesViewController.m; sourceTree = "<group>"; };
 		BEDDC8F11347E15000B00EA3 /* AboutRulesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutRulesView.xib; path = Classes/AboutRulesView.xib; sourceTree = "<group>"; };
@@ -246,6 +258,8 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				BECAC9261396191F00F3B717 /* CoreLocation.framework in Frameworks */,
+				BECAC9281396191F00F3B717 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +276,7 @@
 				BEDDCAD31348080200B00EA3 /* Home */,
 				BEDDCAC8134807C200B00EA3 /* Standings */,
 				BEDDCAD2134807F700B00EA3 /* Teams */,
+				BECAC901139616FC00F3B717 /* Site Map */,
 				1D3623240D0F684500981E51 /* TournamentSchedulerAppDelegate.h */,
 				1D3623250D0F684500981E51 /* TournamentSchedulerAppDelegate.m */,
 			);
@@ -323,6 +338,8 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				BECAC9251396191F00F3B717 /* CoreLocation.framework */,
+				BECAC9271396191F00F3B717 /* MapKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -417,6 +434,18 @@
 				BE60B5B713512D6E00CDF1F6 /* TeamsSpecificGames.m */,
 			);
 			name = Teams;
+			sourceTree = "<group>";
+		};
+		BECAC901139616FC00F3B717 /* Site Map */ = {
+			isa = PBXGroup;
+			children = (
+				BECAC9131396180500F3B717 /* SiteMap.xib */,
+				BECAC90C1396174E00F3B717 /* SiteMapViewController.h */,
+				BECAC90D1396174E00F3B717 /* SiteMapViewController.m */,
+				BECAC90F1396178D00F3B717 /* DisplayMap.h */,
+				BECAC9101396178D00F3B717 /* DisplayMap.m */,
+			);
+			name = "Site Map";
 			sourceTree = "<group>";
 		};
 		BEDDCAB7134807A600B00EA3 /* JSON */ = {
@@ -686,6 +715,7 @@
 				BE984BF7134FDC8F00F6F0E7 /* GamesSpecificView.xib in Resources */,
 				BE60B5751351268300CDF1F6 /* TeamsSpecificGamesViewController.xib in Resources */,
 				BE221A42137B9384006F3DED /* masc-iphone.png in Resources */,
+				BECAC9141396180500F3B717 /* SiteMap.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -733,6 +763,8 @@
 				BE984C2C134FDFE400F6F0E7 /* GamesSpecific.m in Sources */,
 				BE60B5741351268300CDF1F6 /* TeamsSpecificGamesViewController.m in Sources */,
 				BE60B5B813512D6E00CDF1F6 /* TeamsSpecificGames.m in Sources */,
+				BECAC90E1396174E00F3B717 /* SiteMapViewController.m in Sources */,
+				BECAC9111396178D00F3B717 /* DisplayMap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

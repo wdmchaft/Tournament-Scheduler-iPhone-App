@@ -1,0 +1,11 @@
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/DisplayMap.m:12: error: no type or storage class may be specified here before 'implementation'
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/DisplayMap.m:16: error: expected ';' before '{' token
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/DisplayMap.m:21: warning: '@end' missing in implementation context
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/DisplayMap.m:21: warning: property 'coordinate' requires method '-coordinate' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/DisplayMap.m:21: warning: property 'coordinate' requires the method 'setCoordinate:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/DisplayMap.m:21: warning: property 'title' requires method '-title' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/DisplayMap.m:21: warning: property 'title' requires the method 'setTitle:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/DisplayMap.m:21: warning: property 'subtitle' requires method '-subtitle' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/DisplayMap.m:21: warning: property 'subtitle' requires the method 'setSubtitle:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/DisplayMap.m:21: warning: incomplete implementation of class 'DisplayMap'
+/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/DisplayMap.m:21: warning: method definition for '-dealloc' not found
