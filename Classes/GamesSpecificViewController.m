@@ -174,7 +174,7 @@
 		[dateFormat setDateFormat:@"hh:mm a"];
 		
 		//Optionally for time zone converstions
-		[dateFormat setTimeZone:[NSTimeZone timeZoneWithName:@"EST"]];
+		[dateFormat setTimeZone:[NSTimeZone timeZoneWithName:@"America/New_York"]];
 		
 		NSString *stringFromDate = [dateFormat stringFromDate:date];
 		

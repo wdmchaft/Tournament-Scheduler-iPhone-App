@@ -163,7 +163,8 @@
 		[dateFormat setDateFormat:@"hh:mm a"];
 		
 		//Optionally for time zone converstions
-		[dateFormat setTimeZone:[NSTimeZone timeZoneWithName:@"EST"]];
+		// http://stackoverflow.com/questions/5684205/in-ios-is-daylight-saving-in-nstimezone-broken
+		[dateFormat setTimeZone:[NSTimeZone timeZoneWithName:@"America/New_York"]];
 		
 		NSString *stringFromDate = [dateFormat stringFromDate:date];
 		

@@ -31,7 +31,7 @@
     [super viewDidLoad];
 
 	// Create dummy category array, save, remove dummy
-	NSArray *options = [[NSArray alloc] initWithObjects: @"Contact", @"Games", @"Updates", @"Standings", @"Discipline", nil];
+	NSArray *options = [[NSArray alloc] initWithObjects: @"Games", nil];
 	self.optionList = options;
 	[options release];
 	
@@ -94,8 +94,10 @@
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
     // The header for the section is the region name -- get this from the region at the section index.
-    if (section == 0)
-		return @"Position 1";
+    if (section == 0){
+		//return @"Position 1";
+		return @"";
+	}
 	else 
 		return @"";
 
@@ -197,7 +199,7 @@
     // Navigation logic may go here. Create and push another view controller.
 	if (indexPath.section + indexPath.row != 0){ 
 		
-		if (indexPath.row == 1) {
+		if (indexPath.row == 0) {
 			TeamsSpecificGamesViewController *teamsGamesView = [[TeamsSpecificGamesViewController alloc] init];
 			teamsGamesView.navigationItem.title = (@"Games");
 			[self.navigationController pushViewController:teamsGamesView animated:YES];
