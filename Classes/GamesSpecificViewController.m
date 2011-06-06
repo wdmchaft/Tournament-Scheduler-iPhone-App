@@ -49,9 +49,9 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
  
  // Create dummy category array, save, remove dummy
-	NSArray *options = [[NSArray alloc] initWithObjects: @"Updates", @"Discipline", nil];
-	self.optionList = options;
-	[options release];
+	//NSArray *options = [[NSArray alloc] initWithObjects: @"Updates", @"Discipline", nil];
+	//self.optionList = options;
+	//[options release];
  
  [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
  GamesSpecific *gamesSpecific = [[GamesSpecific alloc] init];
@@ -114,7 +114,7 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
-    return 3;
+    return 2;
 }
 
 
@@ -165,7 +165,7 @@
 	else if (indexPath.section + indexPath.row == 1){
 		
 		UILabel *fieldLabel = (UILabel *)[fieldDetailsCell viewWithTag:7];
-		fieldLabel.text  = [NSString stringWithFormat:@"Field %@", field];
+		fieldLabel.text  = [NSString stringWithFormat:@"%@", field];
 		
 		NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
 		[dateFormat setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'-07:00'+00:00'"];
@@ -187,10 +187,10 @@
 		return fieldDetailsCell;		
 		
 	}
-	else{
-		cell.textLabel.text = [optionList objectAtIndex:indexPath.row];
-		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-	}
+	//else{
+	//	cell.textLabel.text = [optionList objectAtIndex:indexPath.row];
+	//	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+	//}
 	
     
     return cell;
@@ -274,7 +274,7 @@
 	 [gameDetailsCell release];
 	 [fieldDetailsCell release];
 	
-	 [optionList release];
+	 //[optionList release];
 	
 	 [gameId release];
 	 [awayId release];

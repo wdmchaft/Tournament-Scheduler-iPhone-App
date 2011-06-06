@@ -90,7 +90,25 @@
 		viewController.round = [trends objectForKey:@"round"];
 		viewController.time = [trends objectForKey:@"time"];
 		viewController.status = [trends objectForKey:@"status"];
-		viewController.field = [trends objectForKey:@"field_id"];
+		
+		// QUERY Field for field name
+		
+		responseData = [[NSMutableData data] retain];
+		
+		NSString *url = [NSString stringWithFormat:@"http://tournament-scheduler.heroku.com/api/fields/%@", [trends objectForKey:@"field_id"]];
+		theURL = [[NSURL URLWithString:url] retain];
+		
+		NSURLRequest *request = [NSURLRequest requestWithURL:theURL];
+		NSURLResponse *response = nil;
+		NSError *error = nil;
+		//getting the data
+		NSData *newData = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+		//json parse
+		NSString *responseString = [[NSString alloc] initWithData:newData encoding:NSUTF8StringEncoding];
+		NSDictionary *jsonObject = [responseString JSONValue];
+		//Accessing JSON content
+		viewController.field = [jsonObject objectForKey:@"name"];
+		
 		
 		if (viewController.homeId != @"none"){
 			TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
