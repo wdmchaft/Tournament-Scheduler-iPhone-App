@@ -48,7 +48,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = BEABD05113359F260009CA1F /* TournamentScheduler */;
-		activeSDKPreference = iphoneos4.2;
+		activeSDKPreference = iphonesimulator4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* TournamentScheduler */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* TournamentScheduler */,
@@ -208,6 +208,17 @@
 			BEDE20E8134ACB4300F2D83B = BEDE20E8134ACB4300F2D83B /* PBXTextBookmark */;
 			BEDE5BFC139C7BC000C05304 /* PBXTextBookmark */ = BEDE5BFC139C7BC000C05304 /* PBXTextBookmark */;
 			BEDE5C0A139C7BE400C05304 /* PBXTextBookmark */ = BEDE5C0A139C7BE400C05304 /* PBXTextBookmark */;
+			BEDE5C33139C85E000C05304 /* PBXTextBookmark */ = BEDE5C33139C85E000C05304 /* PBXTextBookmark */;
+			BEDE5C34139C85E000C05304 /* PBXTextBookmark */ = BEDE5C34139C85E000C05304 /* PBXTextBookmark */;
+			BEDE5C35139C85E000C05304 /* PBXTextBookmark */ = BEDE5C35139C85E000C05304 /* PBXTextBookmark */;
+			BEDE5C36139C85E000C05304 /* PBXTextBookmark */ = BEDE5C36139C85E000C05304 /* PBXTextBookmark */;
+			BEDE5C37139C85E000C05304 /* PBXTextBookmark */ = BEDE5C37139C85E000C05304 /* PBXTextBookmark */;
+			BEDE5C38139C85E000C05304 /* PBXTextBookmark */ = BEDE5C38139C85E000C05304 /* PBXTextBookmark */;
+			BEDE5C39139C85E000C05304 /* PBXTextBookmark */ = BEDE5C39139C85E000C05304 /* PBXTextBookmark */;
+			BEDE5C3A139C85E000C05304 /* PBXTextBookmark */ = BEDE5C3A139C85E000C05304 /* PBXTextBookmark */;
+			BEDE5C3B139C85E000C05304 /* PBXTextBookmark */ = BEDE5C3B139C85E000C05304 /* PBXTextBookmark */;
+			BEDE5C3C139C85E000C05304 /* PBXTextBookmark */ = BEDE5C3C139C85E000C05304 /* PBXTextBookmark */;
+			BEDE5C3D139C85E000C05304 /* PBXTextBookmark */ = BEDE5C3D139C85E000C05304 /* PBXTextBookmark */;
 			BEFEB8A9137842610053B7FA = BEFEB8A9137842610053B7FA /* PBXTextBookmark */;
 			BEFEB97B137875DD0053B7FA = BEFEB97B137875DD0053B7FA /* PBXBookmark */;
 			BEFEB97C137875DD0053B7FA = BEFEB97C137875DD0053B7FA /* PBXBookmark */;
@@ -473,9 +484,9 @@
 	};
 	BE18EF93134A517300BFB985 /* Fields.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1251, 1118}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1279, 1144}}";
 			sepNavSelRange = "{461, 31}";
-			sepNavVisRange = "{3, 1600}";
+			sepNavVisRange = "{1310, 1412}";
 		};
 	};
 	BE221A47137B93D8006F3DED /* PBXTextBookmark */ = {
@@ -562,9 +573,9 @@
 	};
 	BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {908, 3406}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 3263}}";
 			sepNavSelRange = "{2471, 0}";
-			sepNavVisRange = "{1526, 1135}";
+			sepNavVisRange = "{5484, 1166}";
 		};
 	};
 	BE60726C134AA4410037AC10 /* PBXBookmark */ = {
@@ -594,10 +605,11 @@
 	};
 	BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{9889, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{9940, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{9990, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 11001}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1195, 4771}}";
-			sepNavSelRange = "{3456, 0}";
-			sepNavVisRange = "{1946, 1278}";
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{9923, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{9974, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{10024, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 11035}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1195, 4576}}";
+			sepNavSelRange = "{4411, 0}";
+			sepNavVisRange = "{3519, 1408}";
+			sepNavWindowFrame = "{{61, 273}, {750, 558}}";
 		};
 	};
 	BE60B57A1351269200CDF1F6 /* PBXTextBookmark */ = {
@@ -737,16 +749,16 @@
 	};
 	BE676E53134BFBDE00FBA68A /* GamesDivisionViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {733, 577}}";
+			sepNavIntBoundsRect = "{{0, 0}, {733, 561}}";
 			sepNavSelRange = "{416, 530}";
 			sepNavVisRange = "{0, 955}";
 		};
 	};
 	BE676E54134BFBDE00FBA68A /* GamesDivisionViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1181, 3952}}";
-			sepNavSelRange = "{2850, 0}";
-			sepNavVisRange = "{8032, 1082}";
+			sepNavIntBoundsRect = "{{0, 0}, {1181, 3796}}";
+			sepNavSelRange = "{5213, 16}";
+			sepNavVisRange = "{3075, 2479}";
 			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
 		};
 	};
@@ -760,8 +772,8 @@
 	BE676E88134BFE7000FBA68A /* GamesDivisions.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1279, 2574}}";
-			sepNavSelRange = "{6190, 0}";
-			sepNavVisRange = "{5633, 1534}";
+			sepNavSelRange = "{4101, 1530}";
+			sepNavVisRange = "{4093, 1871}";
 			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
 		};
 	};
@@ -972,9 +984,10 @@
 	};
 	BE984B98134FC10200F6F0E7 /* FieldsGamesViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1174, 3497}}";
-			sepNavSelRange = "{7482, 250}";
-			sepNavVisRange = "{6606, 1160}";
+			sepNavIntBoundsRect = "{{0, 0}, {1125, 3341}}";
+			sepNavSelRange = "{3900, 0}";
+			sepNavVisRange = "{3310, 1159}";
+			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
 		};
 	};
 	BE984BAC134FC42500F6F0E7 /* FieldsGames.h */ = {
@@ -995,29 +1008,31 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {733, 611}}";
 			sepNavSelRange = "{415, 0}";
-			sepNavVisRange = "{0, 1530}";
+			sepNavVisRange = "{397, 1138}";
+			sepNavWindowFrame = "{{84, 252}, {750, 558}}";
 		};
 	};
 	BE984BF4134FDC8F00F6F0E7 /* GamesSpecificViewController.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{7015, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{7066, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{7116, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 8353}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1048, 4069}}";
-			sepNavSelRange = "{8263, 0}";
-			sepNavVisRange = "{7350, 946}";
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{7043, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{7094, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{7144, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 8383}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {908, 4017}}";
+			sepNavSelRange = "{2732, 0}";
+			sepNavVisRange = "{2430, 1330}";
+			sepNavWindowFrame = "{{38, 294}, {750, 558}}";
 		};
 	};
 	BE984C2A134FDFE400F6F0E7 /* GamesSpecific.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {670, 600}}";
+			sepNavIntBoundsRect = "{{0, 0}, {670, 561}}";
 			sepNavSelRange = "{269, 0}";
 			sepNavVisRange = "{0, 426}";
 		};
 	};
 	BE984C2B134FDFE400F6F0E7 /* GamesSpecific.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1062, 2249}}";
-			sepNavSelRange = "{768, 0}";
-			sepNavVisRange = "{0, 1542}";
+			sepNavIntBoundsRect = "{{0, 0}, {1279, 2366}}";
+			sepNavSelRange = "{3242, 0}";
+			sepNavVisRange = "{4252, 2025}";
 		};
 	};
 	BE984C35134FE10700F6F0E7 /* PBXTextBookmark */ = {
@@ -1214,8 +1229,8 @@
 	BEBE148A13468E1700258DFE /* FieldsViewController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1139, 1664}}";
-			sepNavSelRange = "{3858, 0}";
-			sepNavVisRange = "{2304, 1585}";
+			sepNavSelRange = "{2690, 0}";
+			sepNavVisRange = "{0, 1327}";
 			sepNavWindowFrame = "{{38, 294}, {750, 558}}";
 		};
 	};
@@ -1244,7 +1259,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1279, 1495}}";
 			sepNavSelRange = "{2743, 0}";
-			sepNavVisRange = "{1928, 1464}";
+			sepNavVisRange = "{90, 1456}";
 		};
 	};
 	BED0A10E13528B4B00453180 /* PBXTextBookmark */ = {
@@ -1262,7 +1277,7 @@
 		fRef = BE984BF4134FDC8F00F6F0E7 /* GamesSpecificViewController.m */;
 		name = "GamesSpecificViewController.m: 296";
 		rLen = 0;
-		rLoc = 8327;
+		rLoc = 8350;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 7407;
@@ -1312,7 +1327,7 @@
 		fRef = BEBE148A13468E1700258DFE /* FieldsViewController.m */;
 		name = "FieldsViewController.m: 122";
 		rLen = 0;
-		rLoc = 3858;
+		rLoc = 3850;
 		rType = 0;
 		vrLen = 1585;
 		vrLoc = 2304;
@@ -1332,7 +1347,7 @@
 		fRef = BE984B98134FC10200F6F0E7 /* FieldsGamesViewController.m */;
 		name = "FieldsGamesViewController.m: 253";
 		rLen = 250;
-		rLoc = 7489;
+		rLoc = 7502;
 		rType = 0;
 		vrLen = 1160;
 		vrLoc = 6606;
@@ -1515,6 +1530,116 @@
 		rType = 0;
 		vrLen = 1135;
 		vrLoc = 1526;
+	};
+	BEDE5C33139C85E000C05304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE6071A9134A85A20037AC10 /* TeamsSpecificViewController.m */;
+		name = "TeamsSpecificViewController.m: 99";
+		rLen = 0;
+		rLoc = 2471;
+		rType = 0;
+		vrLen = 1166;
+		vrLoc = 5484;
+	};
+	BEDE5C34139C85E000C05304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE676E53134BFBDE00FBA68A /* GamesDivisionViewController.h */;
+		name = "GamesDivisionViewController.h: 18";
+		rLen = 530;
+		rLoc = 416;
+		rType = 0;
+		vrLen = 955;
+		vrLoc = 0;
+	};
+	BEDE5C35139C85E000C05304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE676E54134BFBDE00FBA68A /* GamesDivisionViewController.m */;
+		name = "GamesDivisionViewController.m: 167";
+		rLen = 16;
+		rLoc = 5213;
+		rType = 0;
+		vrLen = 2479;
+		vrLoc = 3075;
+	};
+	BEDE5C36139C85E000C05304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE676E88134BFE7000FBA68A /* GamesDivisions.m */;
+		name = "GamesDivisions.m: 118";
+		rLen = 1530;
+		rLoc = 4101;
+		rType = 0;
+		vrLen = 1871;
+		vrLoc = 4093;
+	};
+	BEDE5C37139C85E000C05304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEC8790A134EA91B005B5EB7 /* GamesAwayName.m */;
+		name = "GamesAwayName.m: 84";
+		rLen = 0;
+		rLoc = 2743;
+		rType = 0;
+		vrLen = 1456;
+		vrLoc = 90;
+	};
+	BEDE5C38139C85E000C05304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE984C2A134FDFE400F6F0E7 /* GamesSpecific.h */;
+		name = "GamesSpecific.h: 14";
+		rLen = 0;
+		rLoc = 269;
+		rType = 0;
+		vrLen = 426;
+		vrLoc = 0;
+	};
+	BEDE5C39139C85E000C05304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE984C2B134FDFE400F6F0E7 /* GamesSpecific.m */;
+		name = "GamesSpecific.m: 98";
+		rLen = 0;
+		rLoc = 3242;
+		rType = 0;
+		vrLen = 2025;
+		vrLoc = 4252;
+	};
+	BEDE5C3A139C85E000C05304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE984BF4134FDC8F00F6F0E7 /* GamesSpecificViewController.m */;
+		name = "GamesSpecificViewController.m: 117";
+		rLen = 0;
+		rLoc = 2732;
+		rType = 0;
+		vrLen = 1330;
+		vrLoc = 2430;
+	};
+	BEDE5C3B139C85E000C05304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE18EF93134A517300BFB985 /* Fields.m */;
+		name = "Fields.m: 20";
+		rLen = 31;
+		rLoc = 461;
+		rType = 0;
+		vrLen = 1412;
+		vrLoc = 1310;
+	};
+	BEDE5C3C139C85E000C05304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEBE148A13468E1700258DFE /* FieldsViewController.m */;
+		name = "FieldsViewController.m: 87";
+		rLen = 0;
+		rLoc = 2690;
+		rType = 0;
+		vrLen = 1325;
+		vrLoc = 0;
+	};
+	BEDE5C3D139C85E000C05304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEBE148A13468E1700258DFE /* FieldsViewController.m */;
+		name = "FieldsViewController.m: 87";
+		rLen = 0;
+		rLoc = 2690;
+		rType = 0;
+		vrLen = 1327;
+		vrLoc = 0;
 	};
 	BEE866EF1349AFCD0019B0C7 /* OverlayViewController.h */ = {
 		uiCtxt = {

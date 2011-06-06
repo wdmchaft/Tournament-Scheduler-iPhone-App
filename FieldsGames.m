@@ -80,16 +80,25 @@
 			// Get game id/ home team id / away id 
 			//NSLog(@"z = %@", [trend objectForKey:@"home_id"]);
 			[viewController.gameIds addObject:[trend objectForKey:@"id"]];
-			if ([trend objectForKey:@"home_id"] != [NSNull null]) {
-				[viewController.gameHomeIds addObject:[trend objectForKey:@"home_id"]];
-				[viewController.gameAwayIds addObject:[trend objectForKey:@"away_id"]];
-				
-				
-			}
-			else {
+			
+			if ([trend objectForKey:@"home_id"] == [NSNull null] && [trend objectForKey:@"away_id"] == [NSNull null]) {
 				[viewController.gameHomeIds addObject:@"none"];
 				[viewController.gameAwayIds addObject:@"none"];
 			}
+			else if ([trend objectForKey:@"home_id"] == [NSNull null]){
+				[viewController.gameHomeIds addObject:@"none"];
+				[viewController.gameAwayIds addObject:[trend objectForKey:@"away_id"]];
+				
+			}
+			else if ([trend objectForKey:@"away_id"] == [NSNull null]){
+				[viewController.gameHomeIds addObject:[trend objectForKey:@"home_id"]];
+				[viewController.gameAwayIds addObject:@"none"];
+			}
+			else {
+				[viewController.gameHomeIds addObject:[trend objectForKey:@"home_id"]];
+				[viewController.gameAwayIds addObject:[trend objectForKey:@"away_id"]];
+			}
+			
 			
 			
 			[viewController.gameHomeMaps addObject:[trend objectForKey:@"home_map"]];
@@ -102,12 +111,12 @@
 	
 	
 	// QUERY HOME TEAMS
-	for (int i =0; i <  [viewController.gameHomeIds count]; i++){
+	for (int i =0; i <  [viewController.gameHomeMaps count]; i++){
 		//NSLog(@"we have a home team");
 		
-		//NSLog(@"Team %@", [viewController.gameHomeIds objectAtIndex:i ]);
+		NSLog(@"Team %@", [viewController.gameHomeIds objectAtIndex:i ]);
 		if ([viewController.gameHomeIds objectAtIndex:i ] != @"none"){
-			//NSLog(@"Team has an id");
+			NSLog(@"Team has an id");
 			TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
 			delegate.tempIdHolder= [viewController.gameHomeIds objectAtIndex:i];
 			
@@ -127,16 +136,18 @@
 			NSDictionary *jsonObject = [responseString JSONValue];
 			//Accessing JSON content
 			NSLog(@"Home name :  %@", [jsonObject objectForKey:@"name"] );
-			
-			[viewController.gameHomeNames addObject:[jsonObject objectForKey:@"name"]];
+			if ([jsonObject objectForKey:@"home_id"] == [NSNull null])
+				[viewController.gameHomeNames addObject:@"NOTHING"];
+			else
+				[viewController.gameHomeNames addObject:[jsonObject objectForKey:@"name"]];
 		}
 		else{
-			break;
+			[viewController.gameHomeNames addObject:@"NOTHING"];
 		}
 	}
 	
-	for (int i =0; i <  [viewController.gameAwayIds count]; i++){
-		if ([viewController.gameHomeIds objectAtIndex:i ] != @"none"){
+	for (int i =0; i <  [viewController.gameAwayMaps count]; i++){
+		if ([viewController.gameAwayIds objectAtIndex:i ] != @"none"){
 			TournamentSchedulerAppDelegate *delegate = (TournamentSchedulerAppDelegate *)[[UIApplication sharedApplication] delegate];
 			delegate.tempIdHolder= [viewController.gameAwayIds objectAtIndex:i];
 			
@@ -155,11 +166,10 @@
 			NSDictionary *jsonObject = [responseString JSONValue];
 			//Accessing JSON content
 			NSLog(@"Away name :  %@", [jsonObject objectForKey:@"name"] );
-			
 			[viewController.gameAwayNames addObject:[jsonObject objectForKey:@"name"]];
 		}
 		else{
-			break;
+			[viewController.gameAwayNames addObject:@"NOTHING"];
 		}
 	}
 	[parser release];

@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -265,28 +267,25 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
-								<string>BEDDCAD1134807EB00B00EA3</string>
-								<string>BEDDCAC8134807C200B00EA3</string>
-								<string>BEDDCAD2134807F700B00EA3</string>
+								<string>BEDDCAD0134807E200B00EA3</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
-								<string>BE18EF7D134A4CF500BFB985</string>
-								<string>BEDDCB0113480A2200B00EA3</string>
-								<string>BE81C8501349776A00CF8784</string>
+								<string>BE18EF91134A516C00BFB985</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
+								<string>BE81C84D1349770E00CF8784</string>
 								<string>BE81C845134976E500CF8784</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>28</integer>
-									<integer>20</integer>
+									<integer>6</integer>
+									<integer>4</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 21}, {275, 760}}</string>
+							<string>{{0, 33}, {275, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -316,14 +315,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TeamsSpecificViewController.m</string>
+								<string>FieldsViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -331,11 +328,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TeamsSpecificViewController.m</string>
+										<string>FieldsViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BEDE5C0A139C7BE400C05304</string>
+										<string>BEDE5C3D139C85E000C05304</string>
 										<key>history</key>
 										<array>
 											<string>BE09E9381335D2AE00BDF656</string>
@@ -355,7 +352,6 @@
 											<string>BE60B659135145C000CDF1F6</string>
 											<string>BED67BAE1352844D0097E2F1</string>
 											<string>BED67BB31352844D0097E2F1</string>
-											<string>BED67BB41352844D0097E2F1</string>
 											<string>BED67BB51352844D0097E2F1</string>
 											<string>BED67BB61352844D0097E2F1</string>
 											<string>BED67BB91352844D0097E2F1</string>
@@ -369,19 +365,15 @@
 											<string>BED67BD11352844D0097E2F1</string>
 											<string>BED67BE4135287AF0097E2F1</string>
 											<string>BED0A10E13528B4B00453180</string>
-											<string>BED0A11113528B4B00453180</string>
 											<string>BED0A11213528B4B00453180</string>
 											<string>BED0A11413528B4B00453180</string>
 											<string>BE8AF64313783BD100E596C1</string>
 											<string>BE8AF64413783BD100E596C1</string>
 											<string>BE8AF64513783BD100E596C1</string>
 											<string>BE8AF64613783BD100E596C1</string>
-											<string>BE8AF64813783BD100E596C1</string>
 											<string>BE8AF64913783BD100E596C1</string>
 											<string>BE8AF64A13783BD100E596C1</string>
 											<string>BE8AF64B13783BD100E596C1</string>
-											<string>BE8AF64E13783BD100E596C1</string>
-											<string>BE8AF64F13783BD100E596C1</string>
 											<string>BE8AF65013783BD100E596C1</string>
 											<string>BE8AF65113783BD100E596C1</string>
 											<string>BEFEB8A9137842610053B7FA</string>
@@ -415,12 +407,8 @@
 											<string>BE62C89513825B9A00D8581C</string>
 											<string>BE62C89613825B9A00D8581C</string>
 											<string>BE62C89713825B9A00D8581C</string>
-											<string>BE62C89813825B9A00D8581C</string>
 											<string>BE62C89913825B9A00D8581C</string>
 											<string>BE62C89A13825B9A00D8581C</string>
-											<string>BE62C89B13825B9A00D8581C</string>
-											<string>BE62C89C13825B9A00D8581C</string>
-											<string>BE62C89D13825B9A00D8581C</string>
 											<string>BE06730A13836513005E2994</string>
 											<string>BE06730B13836513005E2994</string>
 											<string>BE0673201383660A005E2994</string>
@@ -435,7 +423,16 @@
 											<string>BE148725138C11DE00051C5B</string>
 											<string>BE148726138C11DE00051C5B</string>
 											<string>BE148727138C11DE00051C5B</string>
-											<string>BE148728138C11DE00051C5B</string>
+											<string>BEDE5C33139C85E000C05304</string>
+											<string>BEDE5C34139C85E000C05304</string>
+											<string>BEDE5C35139C85E000C05304</string>
+											<string>BEDE5C36139C85E000C05304</string>
+											<string>BEDE5C37139C85E000C05304</string>
+											<string>BEDE5C38139C85E000C05304</string>
+											<string>BEDE5C39139C85E000C05304</string>
+											<string>BEDE5C3A139C85E000C05304</string>
+											<string>BEDE5C3B139C85E000C05304</string>
+											<string>BEDE5C3C139C85E000C05304</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -634,7 +631,6 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>BEDE5C0B139C7BE400C05304</string>
-		<string>BEDE5C0C139C7BE400C05304</string>
 		<string>BEDE5C0D139C7BE400C05304</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>

@@ -84,7 +84,7 @@
 		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
 	}
 	NSLog(@"Create Cell = %@", [ids objectAtIndex:indexPath.row]);
-	cell.textLabel.text = [NSString stringWithFormat:@"Field %@", [ids objectAtIndex:indexPath.row]];
+	cell.textLabel.text = [NSString stringWithFormat:@"%@", [names objectAtIndex:indexPath.row]];
 	return cell;
 }
 
@@ -106,7 +106,7 @@
 	delegate.currentPage = divName;
 	
 	FieldsGamesViewController *fieldsGamesView = [[FieldsGamesViewController alloc] init];
-	fieldsGamesView.navigationItem.title = [NSString stringWithFormat:@"Field %@", divId];
+	fieldsGamesView.navigationItem.title = [NSString stringWithFormat:@"%@", divName];
 	[self.navigationController pushViewController:fieldsGamesView animated:YES];
 	[fieldsGamesView release];
 	

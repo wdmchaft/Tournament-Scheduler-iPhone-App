@@ -123,10 +123,15 @@
 	
 	
 	
-	if ([gameHomeIds objectAtIndex:indexPath.row ] == @"none")
+	if ([gameHomeIds objectAtIndex:indexPath.row] == @"none" && [gameAwayIds objectAtIndex:indexPath.row] == @"none")
 		cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeMaps objectAtIndex:indexPath.row], [gameAwayMaps objectAtIndex:indexPath.row]];
+	else if([gameHomeIds objectAtIndex:indexPath.row] == @"none")
+		cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeMaps objectAtIndex:indexPath.row],[gameAwayNames objectAtIndex:indexPath.row]];
+	else if([gameAwayIds objectAtIndex:indexPath.row] == @"none")
+		cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeNames objectAtIndex:indexPath.row],[gameAwayMaps objectAtIndex:indexPath.row]];
 	else
 		cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeNames objectAtIndex:indexPath.row],[gameAwayNames objectAtIndex:indexPath.row]];
+	
 	
 	[cell.textLabel setFont:[UIFont boldSystemFontOfSize:12]];
 	NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
@@ -201,7 +206,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     int currentPosition = (indexPath.section * (gameIds.count/4)) + indexPath.row;
-	if ([gameHomeIds objectAtIndex:currentPosition ] != @"none"){
+	if ([gameHomeIds objectAtIndex:currentPosition ] != @"none" && [gameAwayIds objectAtIndex:currentPosition ] != @"none"){
 		
 		NSString *divId = [gameIds objectAtIndex:currentPosition];
 		

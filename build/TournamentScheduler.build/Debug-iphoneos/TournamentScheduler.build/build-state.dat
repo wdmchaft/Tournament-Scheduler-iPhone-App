@@ -1,7 +1,7 @@
 TTournamentScheduler
 v7
 r0
-t329024071.162985
+t329024906.196233
 cCheck dependencies
 cCpResource build/Debug-iphoneos/TournamentScheduler.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
 cProcessInfoPlistFile /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app/Info.plist TournamentScheduler-Info.plist
@@ -97,6 +97,7 @@ cCompileC build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.bui
 cCompileC build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/GamesSpecific.o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/GamesSpecific.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/TeamsSpecificGamesViewController.o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/TeamsSpecificGamesViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/TeamsSpecificGames.o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamsSpecificGames.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/TournamentScheduler normal armv6
 cCompileC build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/main.o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/TournamentSchedulerAppDelegate.o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/TournamentSchedulerAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/HomeViewController.o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/HomeViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
@@ -135,7 +136,6 @@ cCompileC build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.bui
 cCompileC build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/TeamsSpecificGamesViewController.o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/TeamsSpecificGamesViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/TeamsSpecificGames.o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/TeamsSpecificGames.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/TournamentScheduler normal armv7
-cLd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/TournamentScheduler normal armv6
 cCreateUniversalBinary /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app/TournamentScheduler normal "armv6 armv7"
 cGenerateDSYMFile /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app.dSYM /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app/TournamentScheduler
 cProcessProductPackaging "/Users/pdud/Library/MobileDevice/Provisioning Profiles/A0166670-4AC2-499D-9FFC-6BEDDC6D5E98.mobileprovision" /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app/embedded.mobileprovision
@@ -295,9 +295,9 @@ s497
 i<UIKit/UIKit.h>
 
 N/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/FieldsViewController.m
-c000000004DA249E60000000000000F31
-t1302481382
-s3889
+c000000004DEC4B9F0000000000000F29
+t1307331487
+s3881
 i"FieldsViewController.h"
 i"FieldsGamesViewController.h"
 i"Fields.h"
@@ -830,11 +830,11 @@ t1301849814
 s10945
 
 N/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app
-t1307331271
+t1307331491
 s2108
 
 N/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app.dSYM
-t1307331270
+t1307331491
 s102
 
 N/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app/AboutContactDetailView.nib
@@ -938,8 +938,8 @@ t1304955605
 s1150
 
 N/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app/TournamentScheduler
-t1307331270
-s572740
+t1307331491
+s588128
 
 N/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app/brianDudley.png
 t1304955608
@@ -1098,8 +1098,8 @@ t1307329999
 s74436
 
 N/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/FieldsViewController.o
-t1304955612
-s62028
+t1307331491
+s62020
 
 N/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/Games.o
 t1304955612
@@ -1210,7 +1210,7 @@ t1304955611
 s61776
 
 N/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/TournamentScheduler
-t1307331270
+t1307331491
 s290188
 
 N/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/TournamentScheduler.LinkFileList
@@ -1255,8 +1255,8 @@ t1307330000
 s73932
 
 N/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/FieldsViewController.o
-t1304955614
-s61752
+t1307331491
+s61744
 
 N/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/Games.o
 t1304955615
@@ -1367,7 +1367,7 @@ t1304955614
 s61508
 
 N/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/TournamentScheduler
-t1307331270
+t1307331491
 s277828
 
 N/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/TournamentScheduler.LinkFileList
@@ -1568,15 +1568,15 @@ s958
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies329024070#329024070#0(0"0(0#1#0"8634718176#0"0#
+lSLF07#2@18"Check dependencies329024906#329024906#0(0"0(0#1#0"8642722336#0"0#
 
 CCodeSign /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app
-s329024070.872171
-e329024071.162941
+s329024291.379764
+e329024291.672093
 r1
 xCodeSign
 x/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app
-lSLF07#2@53"CodeSign build/Debug-iphoneos/TournamentScheduler.app329024070#329024071#0(0"0(0#0#116"/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app8633714560#841"    cd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Philip Dudley (YK4CQCU42Z)" --resource-rules=/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app/ResourceRules.plist --entitlements /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler.xcent /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app0#
+lSLF07#2@53"CodeSign build/Debug-iphoneos/TournamentScheduler.app329024291#329024291#0(0"0(0#0#116"/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app8635583776#841"    cd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Philip Dudley (YK4CQCU42Z)" --resource-rules=/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app/ResourceRules.plist --entitlements /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler.xcent /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app0#
 
 CCompileC build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/AboutContactDetailViewController.o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/AboutContactDetailViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s327884696.163735
@@ -1670,8 +1670,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@115"Compile /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/FieldsGamesViewController.m329022799#329022799#0(0"0(0#0#107"/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/FieldsGamesViewController.m8615966304#2377"    cd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-generated-files.hmap -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-own-target-headers.hmap -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-all-target-headers.hmap -iquote /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-project-headers.hmap -F/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/include -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/DerivedSources/armv6 -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/DerivedSources -include /var/folders/s7/s76rVrmiEyeFY0jmzKN4yk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TournamentScheduler_Prefix-glifiiixqwkzvrdsfjbrruucidpq/TournamentScheduler_Prefix.pch -c /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/FieldsGamesViewController.m -o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/FieldsGamesViewController.o0#
 
 CCompileC build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/FieldsViewController.o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/FieldsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s326648412.354244
-e326648412.476172
+s329024290.818933
+e329024291.039426
 r1
 xCompileC
 xbuild/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/FieldsViewController.o
@@ -1680,7 +1680,7 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@110"Compile /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/FieldsViewController.m326648412#326648412#0(0"0(0#0#102"/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/FieldsViewController.m8607965952#2367"    cd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-generated-files.hmap -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-own-target-headers.hmap -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-all-target-headers.hmap -iquote /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-project-headers.hmap -F/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/include -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/DerivedSources/armv6 -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/DerivedSources -include /var/folders/s7/s76rVrmiEyeFY0jmzKN4yk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TournamentScheduler_Prefix-glifiiixqwkzvrdsfjbrruucidpq/TournamentScheduler_Prefix.pch -c /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/FieldsViewController.m -o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/FieldsViewController.o0#
+lSLF07#2@110"Compile /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/FieldsViewController.m329024290#329024291#0(0"0(0#0#102"/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/FieldsViewController.m8642465664#2367"    cd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-generated-files.hmap -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-own-target-headers.hmap -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-all-target-headers.hmap -iquote /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-project-headers.hmap -F/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/include -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/DerivedSources/armv6 -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/DerivedSources -include /var/folders/s7/s76rVrmiEyeFY0jmzKN4yk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TournamentScheduler_Prefix-glifiiixqwkzvrdsfjbrruucidpq/TournamentScheduler_Prefix.pch -c /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/FieldsViewController.m -o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/FieldsViewController.o0#
 
 CCompileC build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/Games.o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Games.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s326648412.893475
@@ -2151,8 +2151,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@115"Compile /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/FieldsGamesViewController.m329022800#329022800#0(0"0(0#0#107"/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/FieldsGamesViewController.m8616340128#2377"    cd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-generated-files.hmap -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-own-target-headers.hmap -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-all-target-headers.hmap -iquote /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-project-headers.hmap -F/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/include -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/DerivedSources/armv7 -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/DerivedSources -include /var/folders/s7/s76rVrmiEyeFY0jmzKN4yk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TournamentScheduler_Prefix-dntlopukvviltaajsqtnbqkbqayx/TournamentScheduler_Prefix.pch -c /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/FieldsGamesViewController.m -o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/FieldsGamesViewController.o0#
 
 CCompileC build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/FieldsViewController.o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/FieldsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s326648414.801800
-e326648414.909554
+s329024290.883917
+e329024291.013083
 r1
 xCompileC
 xbuild/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/FieldsViewController.o
@@ -2161,7 +2161,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@110"Compile /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/FieldsViewController.m326648414#326648414#0(0"0(0#0#102"/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/FieldsViewController.m8608275072#2367"    cd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-generated-files.hmap -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-own-target-headers.hmap -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-all-target-headers.hmap -iquote /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-project-headers.hmap -F/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/include -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/DerivedSources/armv7 -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/DerivedSources -include /var/folders/s7/s76rVrmiEyeFY0jmzKN4yk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TournamentScheduler_Prefix-dntlopukvviltaajsqtnbqkbqayx/TournamentScheduler_Prefix.pch -c /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/FieldsViewController.m -o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/FieldsViewController.o0#
+lSLF07#2@110"Compile /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/FieldsViewController.m329024290#329024291#0(0"0(0#0#102"/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/FieldsViewController.m8641235040#2367"    cd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-generated-files.hmap -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-own-target-headers.hmap -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-all-target-headers.hmap -iquote /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler-project-headers.hmap -F/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/include -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/DerivedSources/armv7 -I/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/DerivedSources -include /var/folders/s7/s76rVrmiEyeFY0jmzKN4yk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TournamentScheduler_Prefix-dntlopukvviltaajsqtnbqkbqayx/TournamentScheduler_Prefix.pch -c /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Classes/FieldsViewController.m -o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/FieldsViewController.o0#
 
 CCompileC build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/Games.o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/Games.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s326648415.305311
@@ -3010,43 +3010,43 @@ x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceR
 lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist326648405#326648405#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist7957693761158345728#572"    cd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app0#
 
 CCreateUniversalBinary /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app/TournamentScheduler normal "armv6 armv7"
-s329024070.631427
-e329024070.635994
+s329024291.130555
+e329024291.145270
 r1
 xCreateUniversalBinary
 x/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app/TournamentScheduler
 xnormal
 xarmv6 armv7
-lSLF07#2@107"CreateUniversalBinary build/Debug-iphoneos/TournamentScheduler.app/TournamentScheduler normal "armv6 armv7"329024070#329024070#0(0"0(0#0#83"/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/armv6 armv78634997504#746"    cd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/TournamentScheduler /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/TournamentScheduler -output /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app/TournamentScheduler0#
+lSLF07#2@107"CreateUniversalBinary build/Debug-iphoneos/TournamentScheduler.app/TournamentScheduler normal "armv6 armv7"329024291#329024291#0(0"0(0#0#83"/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/armv6 armv78643079008#746"    cd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/TournamentScheduler /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/TournamentScheduler -output /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app/TournamentScheduler0#
 
 CGenerateDSYMFile /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app.dSYM /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app/TournamentScheduler
-s329024070.636096
-e329024070.868407
+s329024291.145412
+e329024291.375536
 r1
 xGenerateDSYMFile
 x/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app.dSYM
 x/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app/TournamentScheduler
-lSLF07#2@131"GenerateDSYMFile build/Debug-iphoneos/TournamentScheduler.app.dSYM build/Debug-iphoneos/TournamentScheduler.app/TournamentScheduler329024070#329024070#0(0"0(0#0#136"/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app/TournamentScheduler8631995104#497"    cd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app/TournamentScheduler -o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app.dSYM0#
+lSLF07#2@131"GenerateDSYMFile build/Debug-iphoneos/TournamentScheduler.app.dSYM build/Debug-iphoneos/TournamentScheduler.app/TournamentScheduler329024291#329024291#0(0"0(0#0#136"/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app/TournamentScheduler8642696928#497"    cd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app/TournamentScheduler -o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app.dSYM0#
 
 CLd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/TournamentScheduler normal armv6
-s329024070.561054
-e329024070.631321
+s329024291.039513
+e329024291.130443
 r1
 xLd
 x/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/TournamentScheduler
 xnormal
 xarmv6
-lSLF07#2@190"Link /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/TournamentScheduler329024070#329024070#0(0"0(0#0#0"8631811008#1096"    cd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos -F/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos -filelist /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/TournamentScheduler.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/TournamentScheduler0#
+lSLF07#2@190"Link /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/TournamentScheduler329024291#329024291#0(0"0(0#0#0"8636224544#1096"    cd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos -F/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos -filelist /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/TournamentScheduler.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv6/TournamentScheduler0#
 
 CLd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/TournamentScheduler normal armv7
-s329024070.524330
-e329024070.600092
+s329024291.015007
+e329024291.118339
 r1
 xLd
 x/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/TournamentScheduler
 xnormal
 xarmv7
-lSLF07#2@190"Link /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/TournamentScheduler329024070#329024070#0(0"0(0#0#0"8633562048#1096"    cd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos -F/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos -filelist /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/TournamentScheduler.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/TournamentScheduler0#
+lSLF07#2@190"Link /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/TournamentScheduler329024291#329024291#0(0"0(0#0#0"8633704768#1096"    cd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos -F/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos -filelist /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/TournamentScheduler.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/Objects-normal/armv7/TournamentScheduler0#
 
 CProcessInfoPlistFile /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app/Info.plist TournamentScheduler-Info.plist
 s326661562.651159
@@ -3120,10 +3120,10 @@ x/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/T
 lSLF07#2@211"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler.xcent326661562#326661562#0(0"0(0#0#170"/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler.xcent8646084512#534"    cd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/TournamentScheduler.build/Debug-iphoneos/TournamentScheduler.build/TournamentScheduler.xcent0#
 
 CTouch /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app
-s329024070.868679
-e329024070.871988
+s329024291.375801
+e329024291.379570
 r1
 xTouch
 x/Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app
-lSLF07#2@122"Touch /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app329024070#329024070#0(0"0(0#0#0"8633844736#342"    cd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app0#
+lSLF07#2@122"Touch /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app329024291#329024291#0(0"0(0#0#0"8635852960#342"    cd /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/pdud/Documents/School/CSC491/iPhone/TournamentScheduleriPhoneApp/build/Debug-iphoneos/TournamentScheduler.app0#
 
