@@ -93,10 +93,10 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
-	if ([gameIds count] == 2)
-		return 1;
+	//if ([gameIds count] == 2)
+	//		return 1;
 	
-    return 3;
+    return 1;
 }
 
 
@@ -108,17 +108,17 @@
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-	if ([gameIds count] == 2)
+	if ([gameIds count] == 0)
 		return @"No Games Scheduled";
 	if (section == 0) {
-		return @"Scheduled";
+		return @"";
 	}
-	if (section == 1) {
-		return @"If Win";
-	}
-	if (section == 2) {
-		return @"If Lose";
-	}
+	//if (section == 1) {
+//		return @"If Win";
+//	}
+//	if (section == 2) {
+//		return @"If Lose";
+//	}
 	return [NSString stringWithFormat:@"Round %d", section+1];
 }
 
@@ -136,10 +136,14 @@
 			
 			int currentPosition = indexPath.row;
 			
-			if ([gameHomeIds objectAtIndex:currentPosition ] == @"none")
-				cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeMaps objectAtIndex: indexPath.row], [gameAwayMaps objectAtIndex: indexPath.row]];
+			if ([gameHomeIds objectAtIndex:currentPosition] == @"none" && [gameAwayIds objectAtIndex:currentPosition] == @"none")
+				cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeMaps objectAtIndex:currentPosition], [gameAwayMaps objectAtIndex:currentPosition]];
+			else if([gameHomeIds objectAtIndex:currentPosition] == @"none")
+				cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeMaps objectAtIndex:currentPosition],[gameAwayNames objectAtIndex:currentPosition]];
+			else if([gameAwayIds objectAtIndex:currentPosition] == @"none")
+				cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeNames objectAtIndex:currentPosition],[gameAwayMaps objectAtIndex:currentPosition]];
 			else
-				cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeNames objectAtIndex: indexPath.row],[gameAwayNames objectAtIndex: indexPath.row]];
+				cell.textLabel.text = [NSString stringWithFormat:@"%@ vs %@", [gameHomeNames objectAtIndex:currentPosition],[gameAwayNames objectAtIndex:currentPosition]];
 			
 			
 			[cell.textLabel setFont:[UIFont boldSystemFontOfSize:12]];
@@ -170,84 +174,84 @@
 			cell.textLabel.text = @"No Games";
 		}
 	}
-	if (indexPath.section == 1){
-		if (gameIds.count != 0) {
-			
-			int currentPosition = gameIds.count-2;
-			
-			if ([[gameHomeMaps objectAtIndex: currentPosition] rangeOfString:[NSString stringWithFormat:@"%@",[gameIds objectAtIndex:0]]].location == NSNotFound) {
-				cell.textLabel.text = [NSString stringWithFormat:@"at (%@) %@ or %@", [gameHomeMaps objectAtIndex: currentPosition],  [winningNames objectAtIndex:0], [winningNames objectAtIndex:1]];
-			} else {
-				cell.textLabel.text = [NSString stringWithFormat:@"vs (%@) %@ or %@", [gameAwayMaps objectAtIndex: currentPosition],  [winningNames objectAtIndex:0], [winningNames objectAtIndex:1]];
-			}
-			
-			[cell.textLabel setFont:[UIFont boldSystemFontOfSize:12]];
-			NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
-			[dateFormat setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'-07:00'+00:00'"];
-			NSDate *date = [dateFormat dateFromString:[gameTimes objectAtIndex: currentPosition]];
-			
-			[dateFormat setDateFormat:@"hh:mm a"];
-			
-			//Optionally for time zone converstions
-			[dateFormat setTimeZone:[NSTimeZone timeZoneWithName:@"EST"]];
-			
-			NSString *stringFromDate = [dateFormat stringFromDate:date];
-			
-			//NSLog(@"time before %@", [gameTimes objectAtIndex:indexPath.row]);
-			
-			//NSLog(@"date %@", date);
-			
-			// Convert date object to desired output format
-			//[dateFormat setDateFormat:@"EEEE MMMM d, YYYY"];
-			//	dateStr = [dateFormat stringFromDate:date];  
-			//	[dateFormat release];
-			
-			
-			cell.detailTextLabel.text = [NSString stringWithFormat:@"Game %@ - %@", [gameIds objectAtIndex: currentPosition], stringFromDate];
-		}
-		else {
-			cell.textLabel.text = @"No Games";
-		}
-	}
-	if (indexPath.section == 2){
-		if (gameIds.count != 0) {
-			
-			int currentPosition = gameIds.count-1;
-			
-			if ([[gameHomeMaps objectAtIndex: currentPosition] rangeOfString:[NSString stringWithFormat:@"%@",[gameIds objectAtIndex:0]]].location == NSNotFound) {
-				cell.textLabel.text = [NSString stringWithFormat:@"at (%@) %@ or %@", [gameHomeMaps objectAtIndex: currentPosition],  [losingNames objectAtIndex:0], [losingNames objectAtIndex:1]];
-			} else {
-				cell.textLabel.text = [NSString stringWithFormat:@"vs (%@) %@ or %@", [gameAwayMaps objectAtIndex: currentPosition],  [losingNames objectAtIndex:0], [losingNames objectAtIndex:1]];
-			}
-			
-			[cell.textLabel setFont:[UIFont boldSystemFontOfSize:12]];
-			NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
-			[dateFormat setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'-07:00'+00:00'"];
-			NSDate *date = [dateFormat dateFromString:[gameTimes objectAtIndex: currentPosition]];
-			
-			[dateFormat setDateFormat:@"hh:mm a"];
-			
-			//Optionally for time zone converstions
-			[dateFormat setTimeZone:[NSTimeZone timeZoneWithName:@"EST"]];
-			
-			NSString *stringFromDate = [dateFormat stringFromDate:date];
-			
-			//NSLog(@"time before %@", [gameTimes objectAtIndex:indexPath.row]);
-			
-			//NSLog(@"date %@", date);
-			
-			// Convert date object to desired output format
-			//[dateFormat setDateFormat:@"EEEE MMMM d, YYYY"];
-			//	dateStr = [dateFormat stringFromDate:date];  
-			//	[dateFormat release];
-			
-			
-			cell.detailTextLabel.text = [NSString stringWithFormat:@"Game %@ - %@", [gameIds objectAtIndex: currentPosition], stringFromDate];
-		}
-		else {
-			cell.textLabel.text = @"No Games";
-		}
-	}
+	//if (indexPath.section == 1){
+//		if (gameIds.count != 0) {
+//			
+//			int currentPosition = gameIds.count-2;
+//			
+//			if ([[gameHomeMaps objectAtIndex: currentPosition] rangeOfString:[NSString stringWithFormat:@"%@",[gameIds objectAtIndex:0]]].location == NSNotFound) {
+//				cell.textLabel.text = [NSString stringWithFormat:@"at (%@) %@ or %@", [gameHomeMaps objectAtIndex: currentPosition],  [winningNames objectAtIndex:0], [winningNames objectAtIndex:1]];
+//			} else {
+//				cell.textLabel.text = [NSString stringWithFormat:@"vs (%@) %@ or %@", [gameAwayMaps objectAtIndex: currentPosition],  [winningNames objectAtIndex:0], [winningNames objectAtIndex:1]];
+//			}
+//			
+//			[cell.textLabel setFont:[UIFont boldSystemFontOfSize:12]];
+//			NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+//			[dateFormat setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'-07:00'+00:00'"];
+//			NSDate *date = [dateFormat dateFromString:[gameTimes objectAtIndex: currentPosition]];
+//			
+//			[dateFormat setDateFormat:@"hh:mm a"];
+//			
+//			//Optionally for time zone converstions
+//			[dateFormat setTimeZone:[NSTimeZone timeZoneWithName:@"EST"]];
+//			
+//			NSString *stringFromDate = [dateFormat stringFromDate:date];
+//			
+//			//NSLog(@"time before %@", [gameTimes objectAtIndex:indexPath.row]);
+//			
+//			//NSLog(@"date %@", date);
+//			
+//			// Convert date object to desired output format
+//			//[dateFormat setDateFormat:@"EEEE MMMM d, YYYY"];
+//			//	dateStr = [dateFormat stringFromDate:date];  
+//			//	[dateFormat release];
+//			
+//			
+//			cell.detailTextLabel.text = [NSString stringWithFormat:@"Game %@ - %@", [gameIds objectAtIndex: currentPosition], stringFromDate];
+//		}
+//		else {
+//			cell.textLabel.text = @"No Games";
+//		}
+//	}
+//	if (indexPath.section == 2){
+//		if (gameIds.count != 0) {
+//			
+//			int currentPosition = gameIds.count-1;
+//			
+//			if ([[gameHomeMaps objectAtIndex: currentPosition] rangeOfString:[NSString stringWithFormat:@"%@",[gameIds objectAtIndex:0]]].location == NSNotFound) {
+//				cell.textLabel.text = [NSString stringWithFormat:@"at (%@) %@ or %@", [gameHomeMaps objectAtIndex: currentPosition],  [losingNames objectAtIndex:0], [losingNames objectAtIndex:1]];
+//			} else {
+//				cell.textLabel.text = [NSString stringWithFormat:@"vs (%@) %@ or %@", [gameAwayMaps objectAtIndex: currentPosition],  [losingNames objectAtIndex:0], [losingNames objectAtIndex:1]];
+//			}
+//			
+//			[cell.textLabel setFont:[UIFont boldSystemFontOfSize:12]];
+//			NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+//			[dateFormat setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'-07:00'+00:00'"];
+//			NSDate *date = [dateFormat dateFromString:[gameTimes objectAtIndex: currentPosition]];
+//			
+//			[dateFormat setDateFormat:@"hh:mm a"];
+//			
+//			//Optionally for time zone converstions
+//			[dateFormat setTimeZone:[NSTimeZone timeZoneWithName:@"EST"]];
+//			
+//			NSString *stringFromDate = [dateFormat stringFromDate:date];
+//			
+//			//NSLog(@"time before %@", [gameTimes objectAtIndex:indexPath.row]);
+//			
+//			//NSLog(@"date %@", date);
+//			
+//			// Convert date object to desired output format
+//			//[dateFormat setDateFormat:@"EEEE MMMM d, YYYY"];
+//			//	dateStr = [dateFormat stringFromDate:date];  
+//			//	[dateFormat release];
+//			
+//			
+//			cell.detailTextLabel.text = [NSString stringWithFormat:@"Game %@ - %@", [gameIds objectAtIndex: currentPosition], stringFromDate];
+//		}
+//		else {
+//			cell.textLabel.text = @"No Games";
+//		}
+//	}
 	
 	
 	
@@ -308,6 +312,7 @@
     [self.navigationController pushViewController:detailViewController animated:YES];
     [detailViewController release];
     */
+	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 

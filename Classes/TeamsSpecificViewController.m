@@ -202,6 +202,7 @@
 		if (indexPath.row == 0) {
 			TeamsSpecificGamesViewController *teamsGamesView = [[TeamsSpecificGamesViewController alloc] init];
 			teamsGamesView.navigationItem.title = (@"Games");
+			self.navigationItem.backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:nil action:nil] autorelease];
 			[self.navigationController pushViewController:teamsGamesView animated:YES];
 			[teamsGamesView release];
 		}
