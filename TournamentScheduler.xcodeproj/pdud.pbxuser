@@ -48,7 +48,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = BEABD05113359F260009CA1F /* TournamentScheduler */;
-		activeSDKPreference = iphonesimulator4.2;
+		activeSDKPreference = iphoneos4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* TournamentScheduler */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* TournamentScheduler */,
@@ -242,6 +242,14 @@
 			BEDE5C7C139C8D1200C05304 /* PBXTextBookmark */ = BEDE5C7C139C8D1200C05304 /* PBXTextBookmark */;
 			BEDE5C81139C8D4400C05304 /* PBXTextBookmark */ = BEDE5C81139C8D4400C05304 /* PBXTextBookmark */;
 			BEDE5C82139C8D4400C05304 /* PBXTextBookmark */ = BEDE5C82139C8D4400C05304 /* PBXTextBookmark */;
+			BEDE5C8C139C8E9A00C05304 /* XCBuildMessageTextBookmark */ = BEDE5C8C139C8E9A00C05304 /* XCBuildMessageTextBookmark */;
+			BEDE5C8D139C8E9A00C05304 /* PBXTextBookmark */ = BEDE5C8D139C8E9A00C05304 /* PBXTextBookmark */;
+			BEDE5C8E139C8E9F00C05304 /* PBXTextBookmark */ = BEDE5C8E139C8E9F00C05304 /* PBXTextBookmark */;
+			BEDE5C8F139C8E9F00C05304 /* PBXTextBookmark */ = BEDE5C8F139C8E9F00C05304 /* PBXTextBookmark */;
+			BEDE5C90139C8E9F00C05304 /* PBXTextBookmark */ = BEDE5C90139C8E9F00C05304 /* PBXTextBookmark */;
+			BEDE5C91139C8E9F00C05304 /* PBXTextBookmark */ = BEDE5C91139C8E9F00C05304 /* PBXTextBookmark */;
+			BEDE5C92139C8E9F00C05304 /* PBXTextBookmark */ = BEDE5C92139C8E9F00C05304 /* PBXTextBookmark */;
+			BEDE5C93139C8E9F00C05304 /* PBXTextBookmark */ = BEDE5C93139C8E9F00C05304 /* PBXTextBookmark */;
 			BEFEB8A9137842610053B7FA = BEFEB8A9137842610053B7FA /* PBXTextBookmark */;
 			BEFEB97B137875DD0053B7FA = BEFEB97B137875DD0053B7FA /* PBXBookmark */;
 			BEFEB97C137875DD0053B7FA = BEFEB97C137875DD0053B7FA /* PBXBookmark */;
@@ -300,7 +308,7 @@
 		fRef = BE15C0A313366F7100B2170C /* StandingsDivisionViewController.h */;
 		name = "StandingsDivisionViewController.h: 23";
 		rLen = 0;
-		rLoc = 728;
+		rLoc = 772;
 		rType = 0;
 		vrLen = 867;
 		vrLoc = 0;
@@ -469,16 +477,16 @@
 	};
 	BE15C0A313366F7100B2170C /* StandingsDivisionViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {670, 548}}";
-			sepNavSelRange = "{728, 0}";
-			sepNavVisRange = "{0, 867}";
+			sepNavIntBoundsRect = "{{0, 0}, {761, 559}}";
+			sepNavSelRange = "{304, 0}";
+			sepNavVisRange = "{0, 911}";
 			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
 		};
 	};
 	BE15C0A413366F7100B2170C /* StandingsDivisionViewController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1139, 2522}}";
-			sepNavSelRange = "{5393, 156}";
+			sepNavSelRange = "{4950, 0}";
 			sepNavVisRange = "{4557, 1401}";
 			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
 		};
@@ -629,9 +637,9 @@
 	BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */ = {
 		uiCtxt = {
 			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{10600, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{10651, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{10701, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 11772}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1209, 4706}}";
-			sepNavSelRange = "{2789, 0}";
-			sepNavVisRange = "{2295, 1200}";
+			sepNavIntBoundsRect = "{{0, 0}, {1384, 4667}}";
+			sepNavSelRange = "{9004, 0}";
+			sepNavVisRange = "{8471, 281}";
 			sepNavWindowFrame = "{{61, 273}, {750, 558}}";
 		};
 	};
@@ -1030,8 +1038,8 @@
 	BE984BF3134FDC8F00F6F0E7 /* GamesSpecificViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {733, 611}}";
-			sepNavSelRange = "{415, 0}";
-			sepNavVisRange = "{397, 1138}";
+			sepNavSelRange = "{251, 44}";
+			sepNavVisRange = "{37, 1498}";
 			sepNavWindowFrame = "{{84, 252}, {750, 558}}";
 		};
 	};
@@ -1165,9 +1173,9 @@
 	};
 	BEABD0751335A73C0009CA1F /* StandingsViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1139, 1534}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1638}}";
 			sepNavSelRange = "{2045, 0}";
-			sepNavVisRange = "{1920, 1791}";
+			sepNavVisRange = "{0, 1365}";
 			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
 		};
 	};
@@ -1893,6 +1901,85 @@
 		rType = 0;
 		vrLen = 1200;
 		vrLoc = 2295;
+	};
+	BEDE5C8C139C8E9A00C05304 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected identifier or '(' before 'return'";
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 257;
+		rType = 1;
+	};
+	BEDE5C8D139C8E9A00C05304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 258";
+		rLen = 0;
+		rLoc = 9004;
+		rType = 0;
+		vrLen = 281;
+		vrLoc = 8471;
+	};
+	BEDE5C8E139C8E9F00C05304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE60B5721351268300CDF1F6 /* TeamsSpecificGamesViewController.m */;
+		name = "TeamsSpecificGamesViewController.m: 111";
+		rLen = 0;
+		rLoc = 2789;
+		rType = 0;
+		vrLen = 927;
+		vrLoc = 0;
+	};
+	BEDE5C8F139C8E9F00C05304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE984BF3134FDC8F00F6F0E7 /* GamesSpecificViewController.h */;
+		name = "GamesSpecificViewController.h: 12";
+		rLen = 44;
+		rLoc = 251;
+		rType = 0;
+		vrLen = 1498;
+		vrLoc = 37;
+	};
+	BEDE5C90139C8E9F00C05304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE15C0A313366F7100B2170C /* StandingsDivisionViewController.h */;
+		name = "StandingsDivisionViewController.h: 12";
+		rLen = 0;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 911;
+		vrLoc = 0;
+	};
+	BEDE5C91139C8E9F00C05304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEABD0751335A73C0009CA1F /* StandingsViewController.m */;
+		name = "StandingsViewController.m: 69";
+		rLen = 0;
+		rLoc = 2045;
+		rType = 0;
+		vrLen = 1365;
+		vrLoc = 0;
+	};
+	BEDE5C92139C8E9F00C05304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE15C0A413366F7100B2170C /* StandingsDivisionViewController.m */;
+		name = "StandingsDivisionViewController.m: 169";
+		rLen = 156;
+		rLoc = 5393;
+		rType = 0;
+		vrLen = 1131;
+		vrLoc = 0;
+	};
+	BEDE5C93139C8E9F00C05304 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE15C0A413366F7100B2170C /* StandingsDivisionViewController.m */;
+		name = "StandingsDivisionViewController.m: 160";
+		rLen = 0;
+		rLoc = 4950;
+		rType = 0;
+		vrLen = 1401;
+		vrLoc = 4557;
 	};
 	BEE866EF1349AFCD0019B0C7 /* OverlayViewController.h */ = {
 		uiCtxt = {

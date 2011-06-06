@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface StandingsDivisionViewController : UIViewController {
+@interface StandingsDivisionViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>{
 	UITableView *serviceView;
 }
 
